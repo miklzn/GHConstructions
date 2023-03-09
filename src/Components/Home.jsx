@@ -3,7 +3,7 @@ import drop from "../utils/icons/Drop.svg";
 const Home = () => {
   return (
     <>
-      <section className="h-screen w-screen">
+      <section className="h-full w-full">
         <div
           className="h-screen w-screen bg-cover bg-center bg-fixed"
           style={{
@@ -43,7 +43,7 @@ const Home = () => {
           </header>
         </div>
       </section>
-      <section className="h-screen w-screen">
+      <section className="h-full w-full">
         <div className=" py-20 items-center flex flex-column w-full max-w-7xl mx-auto">
           <div className="w-1/2 font-catamaran text-5xl font-bold ">
             <div>
