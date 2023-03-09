@@ -1,5 +1,18 @@
-function App() {
-  return <h1 className="bg-red-500">Hola</h1>;
-}
+import { React } from "react";
+
+import { Route, Routes } from "react-router-dom";
+import Header from "./Components/Header";
+import Home from "./Components/Home";
+
+const App = () => {
+  return (
+    <div>
+      {/* <Header /> */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </div>
+  );
+};
 
 export default App;
