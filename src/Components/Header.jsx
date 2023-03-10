@@ -2,7 +2,7 @@ import drop from "../utils/icons/Drop.svg";
 
 const Header = () => {
   return (
-    <header className="bg-emerald-900 w-full h-auto flex flex-col">
+    <header className=" bg-emerald-900 w-full h-auto flex flex-col">
       <div className="container flex flex-wrap items-center justify-between mx-auto px-5">
         <div className="text-white my-5">LOGO</div>
         <button
@@ -48,7 +48,10 @@ const Header = () => {
             </g>
           </svg>
         </button>
-        <div className="w-full md:block md:w-auto" id="navbar-solid-bg">
+        <div
+          className=" absolute top-10 z-40 w-4/5 bg-emerald-900 md:block md:w-auto"
+          id="navbar-solid-bg"
+        >
           <ul className="flex flex-col my-3 text-lg font-catamaran text-gray-300">
             <li className="my-1.5">
               <a href="" className="flex items-center">

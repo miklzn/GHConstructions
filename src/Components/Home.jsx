@@ -1,5 +1,3 @@
-//import drop from "../utils/icons/Drop.svg";
-
 const Home = () => {
   return (
     <>
@@ -103,8 +101,7 @@ export default Home;
 //       </section>
 // }
 
-{
-  /* <section className="h-full w-full">
+/* <section className="h-full w-full">
 <div className=" py-20 items-center flex flex-column w-full max-w-7xl mx-auto">
   <div className="w-1/2 font-catamaran text-5xl font-bold ">
     <div>
@@ -131,4 +128,3 @@ export default Home;
   />
 </div>
 </section> */
-}
