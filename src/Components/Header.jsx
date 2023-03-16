@@ -2,81 +2,99 @@ import drop from "../utils/icons/Drop.svg";
 
 const Header = () => {
   return (
-    <header className=" bg-emerald-900 w-full h-auto flex flex-col">
-      <div className="container flex flex-wrap items-center justify-between mx-auto px-5">
-        <div className="text-white my-5">LOGO</div>
+    <nav class="bg-emerald-900 px-2 py-2 sm:px-5 sm:py-7 md:px-2 md:py-1 ">
+      <div class="container flex flex-wrap items-center justify-between mx-auto md:px-5">
+        <a href="https://flowbite.com/" class="flex items-center">
+          <img
+            src="https://flowbite.com/docs/images/logo.svg"
+            class="h-6 mr-3 sm:h-9"
+            alt="Flowbite Logo"
+          />
+          <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
+            Flowbite
+          </span>
+        </a>
         <button
-          data-collapse-toggle="navbar-solid-bg"
+          data-collapse-toggle="navbar-default"
           type="button"
-          className="inline-flex items-center text-sm text-white rounded-lg md:hidden"
-          aria-controls="navbar-solid-bg"
+          class="inline-flex items-center py-2 ml-3 text-sm text-white md:hidden"
+          aria-controls="navbar-default"
           aria-expanded="false"
         >
-          <span className="sr-only">Open main menu</span>
+          <span class="sr-only">Open main menu</span>
           <svg
-            height="40px"
-            width="40px"
-            version="1.1"
-            viewBox="0 0 64 64"
+            width="32px"
+            height="35px"
+            viewBox="0 0 24 24"
+            fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            xlink="http://www.w3.org/1999/xlink"
           >
-            <title />
-            <desc />
+            <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
             <g
-              fill="none"
-              fill-rule="evenodd"
-              id="Menu-4"
-              stroke="none"
-              stroke-width="1"
-            >
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+
+            <g id="SVGRepo_iconCarrier">
               <path
-                d="M15.5,19 L47.5,19 C48.8807119,19 50,20.1192881 50,21.5 C50,22.8807119 48.8807119,24 47.5,24 L15.5,24 C14.1192881,24 13,22.8807119 13,21.5 C13,20.1192881 14.1192881,19 15.5,19 Z"
-                fill="white"
-                id="Rectangle"
-              />
-              <path
-                d="M14.8243243,29 L38.1756757,29 C39.1832222,29 40,30.1192881 40,31.5 C40,32.8807119 39.1832222,34 38.1756757,34 L14.8243243,34 C13.8167778,34 13,32.8807119 13,31.5 C13,30.1192881 13.8167778,29 14.8243243,29 Z"
-                fill="white"
-                id="Rectangle"
-              />
-              <path
-                d="M15.5,39 L47.5,39 C48.8807119,39 50,40.1192881 50,41.5 C50,42.8807119 48.8807119,44 47.5,44 L15.5,44 C14.1192881,44 13,42.8807119 13,41.5 C13,40.1192881 14.1192881,39 15.5,39 Z"
-                fill="white"
-                id="Rectangle"
+                d="M4 17H8M12 17H20M4 12H20M4 7H12M16 7H20"
+                stroke="#ffffff"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
               />
             </g>
           </svg>
         </button>
-        <div
-          className=" absolute top-10 z-40 w-4/5 bg-emerald-900 md:block md:w-auto"
-          id="navbar-solid-bg"
-        >
-          <ul className="flex flex-col my-3 text-lg font-catamaran text-gray-300">
-            <li className="my-1.5">
-              <a href="" className="flex items-center">
+        <div class=" hidden w-full md:block md:w-auto" id="navbar-default">
+          <ul class="absolute z-40 flex flex-col bg-white bg-opacity-[0.005] backdrop-blur-xl p-4 mt-2 w-full -left-[0.02rem] text-lg font-catamaran text-gray-300 sm:w-full sm:mt-7 sm:text-[2.125rem] sm:space-y-8 md:w-full md:static md:flex-row md:space-x-8 md:space-y-0 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-emerald-900 md:text-white">
+            <li>
+              <a
+                href="#"
+                class="block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0 "
+                aria-current="page"
+              >
                 Home
               </a>
             </li>
-            <li className="my-1.5">
-              <a href="" className="flex items-center ">
-                Company
+            <li>
+              <a
+                href="#"
+                class="block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0"
+              >
+                About
               </a>
             </li>
-            <li className="my-1.5">
-              <a href="" className="flex items-center">
+            <li>
+              <a
+                href="#"
+                class="block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0"
+              >
                 Services
               </a>
             </li>
-            <li className="my-1.5">
-              <a href="" className="flex items-center">
+            <li>
+              <a
+                href="#"
+                class="block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0"
+              >
+                Pricing
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0"
+              >
                 Contact
               </a>
             </li>
           </ul>
         </div>
       </div>
-    </header>
+    </nav>
   );
 };
 

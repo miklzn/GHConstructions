@@ -3,31 +3,32 @@ const Home = () => {
     <>
       <section className="h-full w-full">
         <div
-          className="h-screen w-screen bg-cover bg-center bg-fixed"
+          className="h-[157vh] w-screen bg-cover bg-center bg-fixed sm:h-[203vh]"
           style={{
             backgroundImage: `url(https://www.arquitecturaydiseno.es/medio/2021/05/28/casa-moderna-de-madera-en-mitad-de-una-roca-en-ontario-vista-aerea_96f21db1_2000x1333.jpg)`,
           }}
         >
-          <div className="flex flex-col justify-center font-bold text-white w-full h-auto text-3xl bg-emerald-900 px-5 py-16 text-center absolute">
+          <div className="flex flex-col justify-center font-almarai text-white w-full h-auto text-[2.025rem] bg-emerald-900 px-5 py-10 text-center absolute sm:text-[4.057rem] sm:px-6">
             <div className="w-full">
               <h1 className="">
-                <span className="text-teal-700">LOREM</span> IPSUM DOLOR AWARD
+                <span className="text-teal-700">ARCITECT </span>
+                AWARD-WINNING
               </h1>
             </div>
             <div className="">
-              <h1 className="">AMET AMET CONSECTETUR</h1>
+              <h1 className="">DESIGNERS OF HOMES AND</h1>
             </div>
             <div className="">
               <h1 className="">
-                ADIPISICING ELIT <span className="text-teal-700">MINUS</span>
+                GARDENS OF <span className="text-teal-700">DISTINCTION.</span>
               </h1>
             </div>
           </div>
         </div>
       </section>
       <section className="h-full w-full">
-        <div className="flex flex-col px-4 py-12 w-full">
-          <div className=" font-catamaran text-2xl font-bold">
+        <div className="flex flex-col px-4 py-12 w-full sm:py-16">
+          <div className=" font-catamaran text-2xl font-bold sm:text-5xl">
             <div>
               <h1>Modernism &</h1>
             </div>
@@ -35,7 +36,7 @@ const Home = () => {
               <h1>Modernity</h1>
             </div>
           </div>
-          <div className="mt-5 font-catamaran text-xs">
+          <div className="mt-5 font-catamaran text-xs sm:text-2xl sm:mt-12">
             Arsitect is a hybrid creative agency and architectural studio that
             infuses innovative branding and strategic marketing concepts early
             on in the architectural process. Our team of diverse and experienced
@@ -46,7 +47,7 @@ const Home = () => {
         </div>
         <div className="flex justify-center px-4">
           <img
-            className="object-cover h-full w-full max-h-[540px] max-w-7xl"
+            className="object-cover pb-16 h-full w-full max-h-[540px] max-w-7xl"
             src="https://www.arquitecturaydiseno.es/medio/2021/05/28/casa-moderna-de-madera-en-mitad-de-una-roca-en-ontario-exterior_93687f5c_2000x1500.jpg"
             alt=""
           />

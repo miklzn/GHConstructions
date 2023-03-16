@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         catamaran: ["Catamaran", "sans-serif"],
+        almarai: ["Almarai", "sans-serif"],
       },
     },
   },
