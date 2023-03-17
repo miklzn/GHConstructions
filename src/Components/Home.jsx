@@ -1,6 +1,8 @@
 import leftArrow from "../utils/icons/ArrowLeft.svg";
 import rightArrow from "../utils/icons/ArrowRight.svg";
 import instagram from "../utils/icons/Instagram.svg";
+import facebook from "../utils/icons/Facebook.svg";
+import whatsapp from "../utils/icons/Whatsapp.svg";
 
 const Home = () => {
   return (
@@ -158,9 +160,9 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="h-screen">
+      <section className="h-auto">
         <header class="relative flex items-center justify-center h-80 overflow-hidden">
-          <div class="relative w-full h-full z-30 py-14 px-8 text-center text-2xl text-white bg-black bg-opacity-60">
+          <div class="relative w-full h-full z-30 py-14 px-8 text-center justify-center text-2xl text-white bg-black bg-opacity-60">
             <h1 className="text-4xl font-catamaran font-bold">
               Let’s Discuss Your Project
             </h1>
@@ -186,17 +188,32 @@ const Home = () => {
             Your browser does not support the video tag.
           </video>
         </header>
-        <div className="bg-emerald-900 h-screen">
+        <div className="bg-emerald-900 h-auto">
           <div
             className="text-2xl text-center
          font-catamaran text-white font-bold py-10 px-12 "
           >
             We would love to hear from you so don't hesitate to say hi!
           </div>
-          <div className=" w-full px-12">
+          <div className=" w-full px-14">
             <button className="w-full justify-center bg-emerald-500 py-2.5 text-black text-sm font-catamaran font-semibold">
               Contact
             </button>
+          </div>
+          <hr className="border-1 border-gray-500 mx-10 my-10" />
+          <div className="w-full">
+            <h2 className="text-lg font-bold font-catamaran text-center text-white">
+              G&H Constructions
+            </h2>
+            <p className="text-sm font catamaran text-center px-12 mt-4 text-white">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              perferendis ullam tempore modi
+            </p>
+            <div className="w-full flex items-center justify-center space-x-2 py-7">
+              <img src={facebook} alt="" />
+              <img src={instagram} alt="" />
+              <img src={whatsapp} alt="" />
+            </div>
           </div>
         </div>
       </section>
