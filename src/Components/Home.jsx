@@ -60,43 +60,45 @@ const Home = () => {
         </div>
       </section>
       <section className="h-auto bg-gray-100">
-        <div className="flex flex-row justify-between items-center px-4 py-10 font-catamaran text-2xl font-bold">
+        <div className="flex flex-row justify-between items-center px-4 py-10 font-catamaran text-2xl font-bold sm:text-5xl sm:py-20">
           <h1>Selected Project</h1>
           <div className="flex">
-            <img src={leftArrow} alt="" />
-            <img src={rightArrow} alt="" />
+            <img className="sm:h-14" src={leftArrow} alt="" />
+            <img className="sm:h-14" src={rightArrow} alt="" />
           </div>
         </div>
-        <div className="flex flex-col px-4 space-y-8 pb-5">
-          <div className="font-catamaran text-xs">
+        <div className="flex flex-col px-4">
+          <div className="font-catamaran text-xs sm:text-2xl sm:mb-5">
             <img
-              className="h-48 w-full object-cover"
+              className="h-48 w-full object-cover sm:h-[25.313rem]"
               src="https://www.maperi.com/wp-content/uploads/2022/07/tendencia-lavabo-2023-maperi.jpg"
               alt=""
             />
-            <p className="my-2">Title project 1</p>
+            <p className="my-2 sm:my-6">Title project 1</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
             <p>Lorem, ipsum.</p>
             <p>2023</p>
           </div>
-          <div className="font-catamaran text-xs">
+          <div className="font-catamaran text-xs mt-8 sm:text-2xl sm:mb-5">
             <img
-              className="h-48 w-full object-cover"
+              className="h-48 w-full object-cover sm:h-[25.313rem]"
               src="https://www.glogevi.com/wp-content/uploads/2022/07/Tienda-de-muebles-de-cocina-a-medida-en-Toledo.-Glogevi-Cocinas.jpg"
               alt=""
             />
-            <p className="my-2">Title project 2</p>
+            <p className="my-2 sm:my-6">Title project 2</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
             <p>Lorem, ipsum.</p>
             <p>2022</p>
           </div>
-          <hr className="border-[0.094rem] border-gray-300 my-8" />
+          <hr className="border-[0.094rem] border-gray-300 my-6 sm:my-10" />
         </div>
       </section>
       <section className="h-auto">
-        <div className="px-4 mt-5 mb-10 font-catamaran text-xs">
-          <h1 className="text-2xl font-bold sm:text-5xl py-6">Our People</h1>
-          <p>
+        <div className="px-4 mt-5 mb-10 font-catamaran text-xs sm:mt-10">
+          <h1 className="text-2xl font-bold py-6 sm:text-5xl sm:py-10 ">
+            Our People
+          </h1>
+          <p className="sm:text-2xl">
             Our heart and soul are more than our expertise and resources. Our
             team – our community – is what makes Shildan extraordinary.
             <br />
@@ -113,22 +115,22 @@ const Home = () => {
             neighborhoods and building a better tomorrow
           </p>
           <div className="mt-10 flex h-auto">
-            <div className="w-1/2 flex">
+            <div className="w-1/2">
               <img
-                className="object-cover my-10 pr-5"
+                className="object-cover w-full h-full py-5 pr-5 sm:pr-14 sm:py-10"
                 src="https://www.cgmiami.org/wp-content/uploads/2022/07/1658379943_22_construction-company-names.jpg"
                 alt=""
               />
             </div>
-            <div className="w-1/2 ">
-              <div className="flex flex-wrap">
+            <div className="w-1/2">
+              <div className="flex flex-col h-full">
                 <img
-                  className="pr-3 pb-7 object-cover "
+                  className="h-full w-full pr-4 pb-9 object-cover sm:pr-8 sm:pb-14 "
                   src="https://www.cgmiami.org/wp-content/uploads/2022/07/1658379943_construction-company-names.jpg"
                   alt=""
                 />
                 <img
-                  className="h-40 w-full object-cover"
+                  className="h-full w-full object-cover"
                   src="http://www.obcipol.com/wp-content/uploads/2015/07/EMPRESA_DE_CONSTRUCCION_DE_EDIFICIOS_COLOMBIA-941x599.jpg"
                   alt=""
                 />
@@ -139,8 +141,10 @@ const Home = () => {
       </section>
       <section className="h-auto">
         <div className="px-4 pt-10 mb-8 font-catamaran text-xs">
-          <h1 className="text-2xl font-bold sm:text-5xl py-6">Our Services</h1>
-          <p>
+          <h1 className="text-2xl font-bold sm:text-5xl py-6 sm:py-12">
+            Our Services
+          </h1>
+          <p className="sm:text-2xl">
             The Company Arcitect has engaged fundamentally new approach to the
             designing. There are personal and reliability approach to Wide range
             of Engineering and Construction Company Services.
@@ -154,19 +158,25 @@ const Home = () => {
             historic districts with projects that are imbued with a distinct
             sense of place and purpose.
           </p>
-          <p className="mt-5 font-semibold text-sm">You Can See More Here:</p>
-          <div className="flex items-center text-sm pt-4 font-semibold text-emerald-500">
-            <img className="" src={instagram} alt="" /> <p>Instagram</p>
+          <p className="mt-5 font-semibold text-sm sm:text-2xl sm:mt-10">
+            You Can See More Here:
+          </p>
+          <div className="flex items-center text-sm pt-4 font-semibold text-emerald-500 sm:text-[1.75rem]">
+            <img className="sm:h-11 sm:w-11 sm:my-7" src={instagram} alt="" />{" "}
+            <p>Instagram</p>
           </div>
         </div>
       </section>
       <section className="h-auto">
-        <header class="relative flex items-center justify-center h-80 overflow-hidden">
-          <div class="relative w-full h-full z-30 py-14 px-8 text-center justify-center text-2xl text-white bg-black bg-opacity-60">
-            <h1 className="text-4xl font-catamaran font-bold">
+        <header class="relative flex items-center justify-center h-80 overflow-hidden sm:h-96">
+          <div class="relative w-full h-full z-30 py-14 px-8 text-center justify-center text-2xl text-white bg-black bg-opacity-60 sm:py-32">
+            <h1
+              className="text-4xl font-catamaran font-bold sm:text-5xl
+            "
+            >
               Let’s Discuss Your Project
             </h1>
-            <p className="text-sm mt-7 font-catamaran">
+            <p className="text-sm mt-7 font-catamaran sm:text-lg">
               We would love to share ideas, suggest options and answer your
               question.
               <br />
@@ -179,7 +189,7 @@ const Home = () => {
             muted
             loop
             playsinline
-            className="absolute object-cover z-10 h-80"
+            className="absolute object-cover z-10 h-full"
           >
             <source
               src="https://st2.depositphotos.com/1007980/49070/v/600/depositphotos_490704012-stock-video-motion-video-waverly-surfside-beach.mp4"
@@ -191,28 +201,28 @@ const Home = () => {
         <div className="bg-emerald-900 h-auto">
           <div
             className="text-2xl text-center
-         font-catamaran text-white font-bold py-10 px-12 "
+         font-catamaran text-white font-bold py-10 px-12 sm:text-4xl"
           >
             We would love to hear from you so don't hesitate to say hi!
           </div>
-          <div className=" w-full px-14">
-            <button className="w-full justify-center bg-emerald-500 py-2.5 text-black text-sm font-catamaran font-semibold">
+          <div className=" w-full px-14 sm:px-32">
+            <button className="w-full justify-center bg-emerald-500 py-2.5 text-black text-sm font-catamaran font-semibold sm:py-4 sm:text-lg">
               Contact
             </button>
           </div>
           <hr className="border-1 border-gray-500 mx-10 my-10" />
           <div className="w-full">
-            <h2 className="text-lg font-bold font-catamaran text-center text-white">
+            <h2 className="text-lg font-bold font-catamaran text-center text-white sm:text-3xl">
               G&H Constructions
             </h2>
-            <p className="text-sm font catamaran text-center px-12 mt-4 text-white">
+            <p className="text-sm font catamaran text-center px-12 mt-4 text-white sm:text-lg">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
               perferendis ullam tempore modi
             </p>
             <div className="w-full flex items-center justify-center space-x-2 py-7">
-              <img src={facebook} alt="" />
-              <img src={instagram} alt="" />
-              <img src={whatsapp} alt="" />
+              <img className="sm:h-9 sm:w-9" src={facebook} alt="" />
+              <img className="sm:h-9 sm:w-9" src={instagram} alt="" />
+              <img className="sm:h-9 sm:w-9" src={whatsapp} alt="" />
             </div>
           </div>
         </div>
