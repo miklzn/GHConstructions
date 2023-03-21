@@ -2,7 +2,7 @@ import drop from "../utils/icons/Drop.svg";
 
 const Header = () => {
   return (
-    <nav class="bg-emerald-900 px-2 py-2 sm:px-5 sm:py-7 md:px-2 md:py-1 ">
+    <nav class="bg-emerald-900 px-2 py-2 border-b-4 border-emerald-900 sm:px-5 sm:py-7 md:px-5 md:py-1 lg:px-44">
       <div class="container flex flex-wrap items-center justify-between mx-auto sm:px-3 md:px-5">
         <a href="https://flowbite.com/" class="flex items-center">
           <img
@@ -49,7 +49,7 @@ const Header = () => {
           </svg>
         </button>
         <div class=" hidden w-full md:block md:w-auto" id="navbar-default">
-          <ul class="absolute z-40 flex flex-col bg-white bg-opacity-[0.005] backdrop-blur-xl p-4 mt-2 w-full -left-[0.02rem] text-lg font-catamaran text-gray-300 sm:w-full sm:mt-7 sm:text-[2.125rem] sm:space-y-8 md:w-full md:static md:flex-row md:space-x-8 md:space-y-0 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-emerald-900 md:text-white">
+          <ul class="absolute z-40 flex flex-col bg-white bg-opacity-[0.005] backdrop-blur-xl p-4 mt-2 w-full -left-[0.02rem] text-[5vw] font-catamaran text-gray-300 sm:w-full sm:mt-7 sm:text-[2.125rem] sm:space-y-8 md:w-full md:static md:flex-row md:space-x-8 md:space-y-0 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-emerald-900 md:text-gray-400 lg:text-lg">
             <li>
               <a
                 href="#"
