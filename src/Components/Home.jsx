@@ -15,7 +15,7 @@ const Home = () => {
             backgroundImage: `url(https://www.arquitecturaydiseno.es/medio/2021/05/28/casa-moderna-de-madera-en-mitad-de-una-roca-en-ontario-vista-aerea_96f21db1_2000x1333.jpg)`,
           }}
         >
-          <div className="flex flex-col justify-center font-almarai text-white w-full h-auto text-[10vw] bg-emerald-900 px-[5vw] py-10 text-center absolute sm:px-8 md:text-[2.5rem] md:px-10 lg:text-6xl lg:px-44 lg:py-24">
+          <div className="flex flex-col justify-center font-almarai text-white w-full h-auto text-[10vw] bg-emerald-900 px-[5vw] py-10 text-center absolute sm:px-[5vw] md:text-[5.3vw] md:px-[4.8vw] lg:text-6xl lg:px-44 lg:py-24">
             <div className="w-full">
               <h1 className="md:text-start">
                 <span className="text-teal-700">ARCITECT </span>
@@ -34,8 +34,8 @@ const Home = () => {
         </div>
       </section>
       <section className="h-full w-full md:px-6 lg:px-40">
-        <div className="flex flex-col px-4 py-12 w-full sm:py-16 md:flex md:flex-row md:py-12 lg:py-16">
-          <div className=" font-catamaran text-[7vw] font-bold sm:text-5xl md:w-2/5 md:my-auto md:text-3xl lg:text-5xl">
+        <div className="flex flex-col px-4 py-12 w-full sm:py-16 md:flex md:flex-row md:py-[7.5vw] lg:py-16">
+          <div className=" font-catamaran text-[7vw] font-bold sm:text-5xl md:w-2/5 md:my-auto md:text-[4vw] lg:text-5xl">
             <div>
               <h1>Modernism &</h1>
             </div>
@@ -43,7 +43,7 @@ const Home = () => {
               <h1>Modernity</h1>
             </div>
           </div>
-          <div className="mt-5 font-catamaran text-[3.5vw] sm:text-2xl sm:mt-12 md:mt-0 md:w-3/5 md:my-auto md:text-xs lg:text-lg">
+          <div className="mt-5 font-catamaran text-[3.5vw] sm:text-[3.5vw] sm:mt-12 md:mt-0 md:w-3/5 md:my-auto md:text-[1.8vw]  lg:text-lg">
             Arsitect is a hybrid creative agency and architectural studio that
             infuses innovative branding and strategic marketing concepts early
             on in the architectural process. Our team of diverse and experienced
@@ -54,7 +54,7 @@ const Home = () => {
         </div>
         <div className="flex justify-center px-4 md:mb-16">
           <img
-            className="object-cover pb-8 h-full w-full max-h-[540px] max-w-7xl md:h-72 md:pb-0 lg:h-[28.75rem]"
+            className="object-cover pb-8 h-full w-full max-h-[540px] max-w-7xl md:h-[37.5vw] md:pb-0 lg:h-[28.75rem]"
             src="https://www.arquitecturaydiseno.es/medio/2021/05/28/casa-moderna-de-madera-en-mitad-de-una-roca-en-ontario-exterior_93687f5c_2000x1500.jpg"
             alt=""
           />
@@ -62,7 +62,7 @@ const Home = () => {
       </section>
       <section className="h-auto w-full bg-gray-100 md:px-6 lg:px-40">
         <div className="pb-3 md:pb-1">
-          <div className="flex flex-row justify-between items-center px-4 py-10 font-catamaran text-[7vw] font-bold sm:text-5xl sm:py-20 md:text-3xl md:py-14 lg:text-5xl lg:py-16">
+          <div className="flex flex-row justify-between items-center px-4 py-10 font-catamaran text-[7vw] font-bold sm:text-5xl sm:py-20 md:text-[4vw] md:py-14 lg:text-5xl lg:py-16">
             <h1>Selected Project</h1>
             <div className="flex">
               <img className="sm:h-14 md:h-9 lg:h-11" src={leftArrow} alt="" />
@@ -70,38 +70,41 @@ const Home = () => {
             </div>
           </div>
           <div className="flex flex-col px-4 md:grid grid-cols-2 md:space-x-8 lg:space-x-0">
-            <div className="font-catamaran text-[3.5vw] sm:text-2xl sm:mb-5 lg:mb-10 lg:pr-4">
+            <div className="font-catamaran text-[3.5vw] sm:text-[3.2vw] sm:mb-5 md:text-[1.6vw] lg:mb-10 lg:pr-4">
               <img
-                className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-56 lg:h-96"
+                className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[29vw] lg:h-96"
                 src="https://www.maperi.com/wp-content/uploads/2022/07/tendencia-lavabo-2023-maperi.jpg"
                 alt=""
               />
               <div className="md:flex flex-row md:mt-4">
                 <div className="md:w-1/3">
-                  <p className="my-2 sm:my-6 md:text-xs md:my-0 lg:text-lg">
+                  <p className="my-2 sm:my-6 md:my-0 lg:text-lg">
                     Title project 1
                   </p>
                 </div>
-                <div className="md:w-2/3 md:text-xs lg:text-lg">
+                <div className="md:w-2/3 lg:text-lg">
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                   <p>Lorem, ipsum.</p>
                   <p>2023</p>
                 </div>
               </div>
             </div>
-            <div className="font-catamaran text-[3.5vw] mt-8 sm:text-2xl sm:mb-5 md:mt-0 lg:pl-4">
+            <div
+              className="font-catamaran text-[3.5vw]
+            mt-8 sm:text-[3.2vw] sm:mb-5 md:text-[1.6vw] md:mt-0 lg:pl-4"
+            >
               <img
-                className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-56 lg:h-96"
+                className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[29vw] lg:h-96"
                 src="https://www.glogevi.com/wp-content/uploads/2022/07/Tienda-de-muebles-de-cocina-a-medida-en-Toledo.-Glogevi-Cocinas.jpg"
                 alt=""
               />
               <div className="md:flex flex-row md:mt-4">
                 <div className="md:w-1/3">
-                  <p className="my-2 sm:my-6 md:text-xs md:my-0 lg:text-lg">
+                  <p className="my-2 sm:my-6 md:my-0 lg:text-lg">
                     Title project 2
                   </p>
                 </div>
-                <div className="md:w-2/3 md:text-xs lg:text-lg">
+                <div className="md:w-2/3 lg:text-lg">
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                   <p>Lorem, ipsum.</p>
                   <p>2022</p>
@@ -114,11 +117,11 @@ const Home = () => {
       </section>
       <section className="h-auto w-full md:px-6 lg:px-40">
         <div className="px-4 mt-5 mb-10 font-catamaran text-[3.5vw] sm:mt-10">
-          <h1 className="text-[7vw] font-bold py-6 sm:text-5xl sm:py-10 md:text-3xl lg:text-5xl">
+          <h1 className="text-[7vw] font-bold py-6 sm:text-5xl sm:py-10 md:text-[4vw] lg:text-5xl">
             Our People
           </h1>
           <div className="md:flex md:flex-row">
-            <p className="sm:text-2xl md:text-xs md:w-1/2 md:pr-16 md:ml-3 lg:text-xl">
+            <p className="sm:text-[3.5vw] md:text-[1.8vw] md:w-[45vw] md:pr-16 md:ml-0 lg:text-xl">
               Our heart and soul are more than our expertise and resources. Our
               team – our community – is what makes Shildan extraordinary.
               <br />
@@ -132,9 +135,9 @@ const Home = () => {
               <br />
               Passion is the driving force in all we do. We are passionate about
               good design, beautiful architecture, sustainability, changing
-              neighborhoods and building a better tomorrow
+              neighborhoods and building a better tomorrow.
             </p>
-            <div className="mt-10 flex h-auto md:w-1/2 md:mt-0">
+            <div className="mt-10 flex h-auto md:w-[45vw] md:mt-0">
               <div className="w-1/2">
                 <img
                   className="object-cover w-full h-full py-5 pr-5 sm:pr-14 sm:py-10 md:pr-8"
@@ -160,21 +163,21 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="h-auto w-full md:bg-gray-100 md:px-6 lg:px-40 lg:py-20">
+      <section className="h-auto w-full md:bg-gray-100 md:px-6 md:pb-8 lg:px-40 lg:py-20">
         <div className="px-4 pt-10 mb-8 font-catamaran text-[3.5vw] md:mb-0 md:pb-10">
           <div className="md:flex md:flex-row md:h-full md:space-x-10">
             <div className=" hidden md:block md:w-1/2 md:h-full">
               <img
-                className="md:h-96 md:object-cover lg:h-[40.625rem] lg:w-[35rem]"
+                className="md:h-[50vw] md:w-[50vw] md:object-cover lg:h-[40.625rem] lg:w-[35rem]"
                 src="https://static2.mansionglobal.com/production/media/article-images/d92c7415002ec3cf75b08329fb479444/large_DSC8488-HIGH1.jpg"
                 alt=""
               />
             </div>
             <div className="md:w-1/2 md:pl-3">
-              <h1 className="text-[7vw] font-bold sm:text-5xl py-6 sm:py-12 md:text-3xl md:pt-1 lg:text-5xl">
+              <h1 className="text-[7vw] font-bold sm:text-5xl py-6 sm:py-12 md:text-[4vw] md:pt-1 lg:text-5xl">
                 Our Services
               </h1>
-              <p className="sm:text-2xl md:text-xs lg:text-lg">
+              <p className="sm:text-[3.5vw] md:text-[1.8vw] lg:text-lg">
                 The Company Arcitect has engaged fundamentally new approach to
                 the designing. There are personal and reliability approach to
                 Wide range of Engineering and Construction Company Services.
@@ -183,37 +186,33 @@ const Home = () => {
                 Each design decision is guided by a deep appreciation for and
                 understanding of the integral architectural, artistic, cultural,
                 civic, environmental, and economic forces that shape a project.
-                This rigorous, research-based approach has helped to establish
-                MA as a leader in the revitalization of post-industrial
-                neighborhoods and historic districts with projects that are
-                imbued with a distinct sense of place and purpose.
               </p>
-              <p className="mt-5 font-semibold text-[4.2vw] sm:text-2xl sm:mt-10 md:text-sm md:mt-4 lg:text-xl lg:mt-8">
+              <p className="mt-5 font-semibold text-[4.2vw] sm:text-2xl sm:mt-10 md:text-[2vw] md:mt-4 lg:text-xl lg:mt-8">
                 You Can See More Here:
               </p>
-              <div className="flex items-center text-[4vw] pt-4 font-semibold text-emerald-500 sm:text-[1.75rem] md:text-sm lg:text-lg">
+              <div className="flex items-center text-[4vw] pt-4 font-semibold text-emerald-500 sm:text-[1.75rem] md:text-[1.8vw] lg:text-lg">
                 <img
                   className="sm:h-11 sm:my-7 md:h-6 md:my-2 lg:h-8"
                   src={igGreen}
                   alt=""
                 />
-                <p>Instagram</p>
+                <p className="md:pt-1">Instagram</p>
               </div>
             </div>
           </div>
         </div>
       </section>
       <section className="h-auto w-full">
-        <header class="relative flex items-center justify-center h-auto overflow-hidden sm:h-96 md:h-72">
+        <header class="relative flex items-center justify-center h-auto overflow-hidden sm:h-[85vw] md:h-[37.5vw]">
           <div class="relative w-full h-full z-30 aligne-items text-center justify-center text-white bg-black bg-opacity-60 sm:py-32 md:py-20">
-            <div className="py-[20vw] px-[6vw]">
+            <div className="py-[20vw] px-[6vw] sm:py-[1.5vh] sm:px-[15vw] md:py-[0vw] md:px-[8vw]">
               <h1
-                className="text-[8.5vw] font-catamaran font-bold sm:text-5xl md:text-[2.25rem]
+                className="text-[8.5vw] font-catamaran font-bold md:text-[4.6vw]
             lg:text-[2.5rem]"
               >
                 Let’s Discuss Your Project
               </h1>
-              <p className="text-[3.8vw] mt-7 font-catamaran sm:text-lg md:text-base lg:text-xl">
+              <p className="text-[3.8vw] mt-7 font-catamaran sm:text-[3vw] md:text-[2.2vw] lg:text-xl">
                 We would love to share ideas, suggest options and answer your
                 question.
                 <br />
@@ -237,25 +236,25 @@ const Home = () => {
           </video>
         </header>
         <div className="bg-emerald-900 h-auto">
-          <div className="md:flex md:flex-row md:pt-8 md:px-10 lg:px-40 lg:items-center lg:pt-16">
+          <div className="md:flex md:flex-row md:pt-[5vw] md:px-10 lg:px-40 lg:items-center lg:pt-16">
             <div
               className="text-[7vw] text-center
-         font-catamaran text-white font-bold py-10 px-12 sm:text-4xl md:py-0 md:text-2xl md:w-2/3 md:px-8 md:text-start"
+         font-catamaran text-white font-bold py-10 px-12 sm:text-4xl md:py-0 md:text-[3vw] md:w-2/3 md:px-8 md:text-start"
             >
               We would love to hear from you so don't hesitate to say hi!
             </div>
-            <div className=" w-full px-14 sm:px-32 md:w-1/3 md:px-12 md:py-2.5">
-              <button className="w-full justify-center bg-emerald-500 py-2.5 text-black text-[4.7vw] font-catamaran font-semibold sm:py-4 sm:text-lg md:py-2">
+            <div className=" w-full px-14 sm:px-32 md:w-1/3 md:px-12 md:py-2.5 md:my-auto">
+              <button className="w-full justify-center bg-emerald-500 py-2.5 text-gray-700 text-[4.7vw] font-catamaran font-semibold sm:py-4 sm:text-lg md:py-2">
                 Contact
               </button>
             </div>
           </div>
-          <hr className="border-1 border-gray-500 mx-10 my-16" />
+          <hr className="border-1 border-gray-500 mx-10 my-16 md:my-[8vw]" />
           <div className="w-full md:px-10">
             <h2 className="text-[6vw] font-bold font-catamaran text-center text-white sm:text-3xl">
               G&H Constructions
             </h2>
-            <p className="text-[4.5vw] font-catamaran text-center px-12 mt-4 text-white sm:text-lg">
+            <p className="text-[4.5vw] font-catamaran text-center px-12 mt-4 text-white sm:text-[2.8vw]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
               perferendis ullam tempore modi
             </p>
