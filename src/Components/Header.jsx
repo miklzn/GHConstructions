@@ -2,7 +2,7 @@ import drop from "../utils/icons/Drop.svg";
 
 const Header = () => {
   return (
-    <nav class="bg-emerald-900 px-2 py-2 border-b-4 border-emerald-900 sm:px-5 sm:py-7 md:px-5 md:py-1 lg:px-44">
+    <nav class="w-full bg-emerald-900 px-2 py-2 border-b-4 border-emerald-900 sm:px-5 sm:py-7 md:px-5 md:py-1 lg:px-44">
       <div class="container flex flex-wrap items-center justify-between mx-auto sm:px-3 md:px-5">
         <a href="https://flowbite.com/" class="flex items-center">
           <img
