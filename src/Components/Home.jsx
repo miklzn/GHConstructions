@@ -4,18 +4,20 @@ import instagram from "../utils/icons/Instagram.svg";
 import facebook from "../utils/icons/Facebook.svg";
 import whatsapp from "../utils/icons/Whatsapp.svg";
 import igGreen from "../utils/icons/InstagramGreen.svg";
+import home from "../utils/icons/Home.svg";
 
 const Home = () => {
   return (
     <>
       <section className="h-full w-full">
         <div
-          className="h-[157vh] w-screen bg-cover bg-center bg-fixed sm:h-[203vh]"
+          className="h-[325vh] w-screen bg-cover bg-center bg-fixed sm:h-[203vh]"
           style={{
-            backgroundImage: `url(https://www.arquitecturaydiseno.es/medio/2021/05/28/casa-moderna-de-madera-en-mitad-de-una-roca-en-ontario-vista-aerea_96f21db1_2000x1333.jpg)`,
+            backgroundImage: `url(https://assets.themodernhouse.com/wp-content/uploads/2019/05/20190519-DJI_0068-Edit-WEB-1600x1068.jpg)`,
+            // backgroundImage: `url(https://fachadascasas.com/wp-content/uploads/2018/10/Arquitectura-moderna-8-1.jpg)`,
           }}
         >
-          <div className="flex flex-col justify-center font-almarai text-white w-full h-auto text-[10vw] bg-emerald-900 px-[5vw] py-10 text-center absolute sm:px-[5vw] md:text-[5.3vw] md:px-[4.8vw] lg:py-[4.8vw] lg:px-[5vw] lg:text-[5vw] lg:leading-tight xl:text-[4vw] xl:px-[11.5vw] xl:py-[4.5vw]">
+          <div className="flex flex-col justify-center font-almarai text-white w-full h-auto text-[10vw] bg-emerald-900 px-[5vw] py-10 text-center sm:px-[5vw] md:text-[5.3vw] md:px-[4.8vw] lg:py-[4.8vw] lg:px-[5vw] lg:text-[5vw] lg:leading-tight xl:text-[4vw] xl:px-[11.5vw] xl:py-[4.5vw]">
             <div className="w-full">
               <h1 className="md:text-start">
                 <span className="text-teal-700">ARCITECT </span>
@@ -29,6 +31,59 @@ const Home = () => {
               <h1 className="">
                 GARDENS OF <span className="text-teal-700">DISTINCTION.</span>
               </h1>
+            </div>
+          </div>
+          <div className="flex flex-col px-5 py-20 space-y-5 ">
+            <div className="h-full w-full bg-gray-700 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 border-t border-l border-gray-400">
+              <div className=" flex w-full justify-center">
+                <img className="my-5" src={home} alt="" />
+              </div>
+              <h2 className="w-full my-2 text-lg text-center font-catamaran font-semibold text-white">
+                DESIGN-BUILD
+              </h2>
+              <p className="w-full text-center font-catamaran text-sm text-white px-3 my-6">
+                Share with us your dreams, ideas, and concepts. Our experienced
+                team will work closely with you to make them a reality.
+              </p>
+              <div className="flex w-full justify-center my-5">
+                <button className="bg-emerald-500 text-white font-catamaran font-roboto py-2 px-4 text-sm">
+                  LEARN MORE
+                </button>
+              </div>
+            </div>
+            <div className="h-full w-full bg-gray-700 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 border-t border-l border-gray-400">
+              <div className=" flex w-full justify-center">
+                <img className="my-5" src={home} alt="" />
+              </div>
+              <h2 className="w-full my-2 text-lg text-center font-catamaran font-semibold text-white">
+                DESIGN-BUILD
+              </h2>
+              <p className="w-full text-center font-catamaran text-sm text-white px-3 my-6">
+                Share with us your dreams, ideas, and concepts. Our experienced
+                team will work closely with you to make them a reality.
+              </p>
+              <div className="flex w-full justify-center my-5">
+                <button className="bg-emerald-500 text-white font-catamaran font-roboto py-2 px-4 text-sm">
+                  LEARN MORE
+                </button>
+              </div>
+            </div>
+            <div className="h-full w-full bg-gray-700 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 border-t border-l border-gray-400">
+              <div className=" flex w-full justify-center">
+                <img className="my-5" src={home} alt="" />
+              </div>
+              <h2 className="w-full my-2 text-lg text-center font-catamaran font-semibold text-white">
+                DESIGN-BUILD
+              </h2>
+              <p className="w-full text-center font-catamaran text-sm text-white px-3 my-6">
+                Share with us your dreams, ideas, and concepts. Our experienced
+                team will work closely with you to make them a reality.
+              </p>
+              <div className="flex w-full justify-center my-5">
+                <button className="bg-emerald-500 text-white font-catamaran font-roboto py-2 px-4 text-sm">
+                  LEARN MORE
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -55,7 +110,7 @@ const Home = () => {
         <div className="flex justify-center px-4 md:mb-16">
           <img
             className="object-cover pb-8 h-full w-full max-h-[540px] max-w-7xl md:h-[37.5vw] md:pb-0 lg:h-[30vw]"
-            src="https://www.arquitecturaydiseno.es/medio/2021/05/28/casa-moderna-de-madera-en-mitad-de-una-roca-en-ontario-exterior_93687f5c_2000x1500.jpg"
+            src="https://www.chiraltarquitectos.com/wp-content/uploads/2020/11/Bueno-Chiralt-Arquitectos-Valencia-54-2.jpg"
             alt=""
           />
         </div>
