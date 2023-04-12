@@ -6,13 +6,14 @@ const Header = () => {
       <div class="container flex flex-wrap items-center justify-between mx-auto sm:px-3 md:px-5">
         <a href="https://flowbite.com/" class="flex items-center">
           <img
-            src="https://flowbite.com/docs/images/logo.svg"
-            class="h-6 mr-3 sm:h-9"
+            // src="https://flowbite.com/docs/images/logo.svg"
+            src="https://r69.cooltext.com/rendered/cooltext433589190293773.png"
+            class="h-8 mr-3 sm:h-9"
             alt="Flowbite Logo"
           />
-          <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
+          {/* <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
             Flowbite
-          </span>
+          </span> */}
         </a>
         <button
           data-collapse-toggle="navbar-default"

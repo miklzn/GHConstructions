@@ -13,19 +13,19 @@ const Home = () => {
         <div
           className="h-[325vh] w-screen bg-cover bg-center bg-fixed sm:h-[203vh]"
           style={{
-            backgroundImage: `url(https://assets.themodernhouse.com/wp-content/uploads/2019/05/20190519-DJI_0068-Edit-WEB-1600x1068.jpg)`,
+            backgroundImage: `url(https://media.revistagq.com/photos/5d7629118643ed00085b75a4/master/pass/La-Finca.jpg)`,
             // backgroundImage: `url(https://fachadascasas.com/wp-content/uploads/2018/10/Arquitectura-moderna-8-1.jpg)`,
           }}
         >
           <div className="flex flex-col justify-center font-almarai text-white w-full h-auto text-[10vw] bg-emerald-900 px-[5vw] py-10 text-center sm:px-[5vw] md:text-[5.3vw] md:px-[4.8vw] lg:py-[4.8vw] lg:px-[5vw] lg:text-[5vw] lg:leading-tight xl:text-[4vw] xl:px-[11.5vw] xl:py-[4.5vw]">
             <div className="w-full">
               <h1 className="md:text-start">
-                <span className="text-teal-700">ARCITECT </span>
-                AWARD-WINNING
+                <span className="text-teal-700">G&H CONST. </span>
+                CONSTRUCTIONS
               </h1>
             </div>
             <div className="md:text-end">
-              <h1 className="">DESIGNERS OF HOMES AND</h1>
+              <h1 className="">SERVICES OF HOMES AND</h1>
             </div>
             <div className="">
               <h1 className="">
@@ -33,7 +33,7 @@ const Home = () => {
               </h1>
             </div>
           </div>
-          <div className="flex flex-col px-5 py-20 space-y-5 ">
+          <div className="flex flex-col px-5 py-20 space-y-5 md:flex md:flex-row md:space-y-0 md:py-40 md:space-x-2 md:absolute ">
             <div className="h-full w-full bg-gray-700 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 border-t border-l border-gray-400">
               <div className=" flex w-full justify-center">
                 <img className="my-5" src={home} alt="" />
@@ -99,12 +99,12 @@ const Home = () => {
             </div>
           </div>
           <div className="mt-5 font-catamaran text-[3.5vw] sm:text-[3.5vw] sm:mt-12 md:mt-0 md:w-3/5 md:my-auto md:text-[1.8vw] lg:text-[1.2vw]">
-            Arsitect is a hybrid creative agency and architectural studio that
-            infuses innovative branding and strategic marketing concepts early
-            on in the architectural process. Our team of diverse and experienced
-            problem solvers utilize our unique approach, which allows us to
-            pinpoint value-add opportunities and ensure that the design of the
-            building or space is aligned to target demographic desires.
+            GH is a hybrid creative agency and architectural studio that infuses
+            innovative branding and strategic marketing concepts early on in the
+            architectural process. Our team of diverse and experienced problem
+            solvers utilize our unique approach, which allows us to pinpoint
+            value-add opportunities and ensure that the design of the building
+            or space is aligned to target demographic desires.
           </div>
         </div>
         <div className="flex justify-center px-4 md:mb-16">
