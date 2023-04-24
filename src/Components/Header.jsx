@@ -1,19 +1,16 @@
-// import drop from "../utils/icons/Drop.svg";
-
 const Header = () => {
   return (
     <nav class="w-full bg-emerald-900 px-[3vw] py-[1.4vw] border-b-4 border-emerald-900 sm:px-[3vw] sm:py-[4.4vw] md:px-[2.4vw] md:py-[1vw] lg:px-[3.5vw] xl:px-[10vw]">
       <div class="container flex flex-wrap items-center justify-between mx-auto sm:px-3 md:px-5">
         <a href="https://flowbite.com/" class="flex items-center">
           <img
-            // src="https://flowbite.com/docs/images/logo.svg"
-            src="https://r69.cooltext.com/rendered/cooltext433589190293773.png"
+            src="https://flowbite.com/docs/images/logo.svg"
             class="h-8 mr-3 sm:h-9"
             alt="Flowbite Logo"
           />
-          {/* <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
+          <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
             Flowbite
-          </span> */}
+          </span>
         </a>
         <button
           data-collapse-toggle="navbar-default"
@@ -77,7 +74,7 @@ const Header = () => {
           </svg>
         </button>
         <div class=" hidden w-full md:block md:w-auto" id="navbar-default">
-          <ul class="absolute z-40 flex flex-col bg-white bg-opacity-[0.005] backdrop-blur-xl p-4 mt-2 w-full -left-[0.02rem] text-[5vw] font-catamaran text-gray-300 sm:w-full sm:mt-7 sm:text-[2.125rem] sm:space-y-8 md:w-full md:static md:flex-row md:space-x-8 md:space-y-0 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-emerald-900 md:text-gray-400 lg:text-lg">
+          <ul class="absolute z-40 flex flex-col bg-emerald-900 bg-opacity-[0.005] backdrop-blur-xl p-4 mt-2 w-full -left-[0.02rem] text-[5vw] text-gray-300 sm:w-full sm:mt-7 sm:text-[2.125rem] sm:space-y-8 md:w-full md:static md:flex-row md:space-x-8 md:space-y-0 md:mt-0 md:text-sm md:font-light md:border-0 md:bg-emerald-900 md:text-gray-400 lg:text-lg">
             <li>
               <a
                 href="#"

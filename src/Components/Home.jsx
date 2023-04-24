@@ -14,10 +14,9 @@ const Home = () => {
           className="h-[325vh] w-screen bg-cover bg-center bg-fixed sm:h-[203vh]"
           style={{
             backgroundImage: `url(https://media.revistagq.com/photos/5d7629118643ed00085b75a4/master/pass/La-Finca.jpg)`,
-            // backgroundImage: `url(https://fachadascasas.com/wp-content/uploads/2018/10/Arquitectura-moderna-8-1.jpg)`,
           }}
         >
-          <div className="flex flex-col justify-center font-almarai text-white w-full h-auto text-[10vw] bg-emerald-900 px-[5vw] py-10 text-center sm:px-[5vw] md:text-[5.3vw] md:px-[4.8vw] lg:py-[4.8vw] lg:px-[5vw] lg:text-[5vw] lg:leading-tight xl:text-[4vw] xl:px-[11.5vw] xl:py-[4.5vw]">
+          <div className="flex flex-col justify-center font-almarai text-white w-full h-auto text-[10vw] bg-emerald-900 px-[5vw] py-10 text-center sm:px-[5vw] md:static md:text-[5.3vw] md:px-[4.8vw] lg:py-[4.8vw] lg:px-[5vw] lg:text-[5vw] lg:leading-tight xl:text-[4vw] xl:px-[11.5vw] xl:py-[4.5vw]">
             <div className="w-full">
               <h1 className="md:text-start">
                 <span className="text-teal-700">G&H CONST. </span>
@@ -99,12 +98,13 @@ const Home = () => {
             </div>
           </div>
           <div className="mt-5 font-catamaran text-[3.5vw] sm:text-[3.5vw] sm:mt-12 md:mt-0 md:w-3/5 md:my-auto md:text-[1.8vw] lg:text-[1.2vw]">
-            GH is a hybrid creative agency and architectural studio that infuses
-            innovative branding and strategic marketing concepts early on in the
-            architectural process. Our team of diverse and experienced problem
-            solvers utilize our unique approach, which allows us to pinpoint
-            value-add opportunities and ensure that the design of the building
-            or space is aligned to target demographic desires.
+            The company is a hybrid creative agency and architectural studio
+            that infuses innovative branding and strategic marketing concepts
+            early on in the architectural process. Our team of diverse and
+            experienced problem solvers utilize our unique approach, which
+            allows us to pinpoint value-add opportunities and ensure that the
+            design of the building or space is aligned to target demographic
+            desires.
           </div>
         </div>
         <div className="flex justify-center px-4 md:mb-16">
@@ -181,18 +181,17 @@ const Home = () => {
               team – our community – is what makes Shildan extraordinary.
               <br />
               <br />
-              The Arcitect team brings together a diverse group of people
-              passionate about architecture, design, materiality, and artistry.
-              Unified by a shared vision, we are a collective of innovators,
-              designers, and engineers, working together to help build a better
-              future.
+              The team brings together a diverse group of people passionate
+              about architecture, design, materiality, and artistry. Unified by
+              a shared vision, we are a collective of innovators, designers, and
+              engineers, working together to help build a better future.
               <br />
               <br />
               Passion is the driving force in all we do. We are passionate about
               good design, beautiful architecture, sustainability, changing
               neighborhoods and building a better tomorrow.
             </p>
-            <div className="mt-10 flex h-auto md:w-[45vw] md:mt-0">
+            <div className="mt-10 flex h-auto md:w-[45vw] md:mt-0 lg:-mt-14 lg:my-14">
               <div className="w-1/2">
                 <img
                   className="object-cover w-full h-full py-5 pr-5 sm:pr-14 sm:py-10 md:pr-8"
@@ -233,9 +232,9 @@ const Home = () => {
                 Our Services
               </h1>
               <p className="sm:text-[3.5vw] md:text-[1.8vw] lg:text-[1.2vw]">
-                The Company Arcitect has engaged fundamentally new approach to
-                the designing. There are personal and reliability approach to
-                Wide range of Engineering and Construction Company Services.
+                The Company has engaged fundamentally new approach to the
+                designing. There are personal and reliability approach to Wide
+                range of Engineering and Construction Company Services.
                 <br />
                 <br />
                 Each design decision is guided by a deep appreciation for and
@@ -243,7 +242,7 @@ const Home = () => {
                 civic, environmental, and economic forces that shape a project.
               </p>
               <p className="mt-5 font-semibold text-[4.2vw] sm:text-2xl sm:mt-10 md:text-[2vw] md:mt-4 lg:mt-8 lg:text-[1.2vw]">
-                You Can See More Here:
+                You can see more here:
               </p>
               <div className="flex items-center text-[4vw] pt-4 font-semibold text-emerald-500 sm:text-[1.75rem] md:text-[1.8vw] lg:text-[1.1vw]">
                 <img
