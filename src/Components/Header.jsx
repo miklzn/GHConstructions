@@ -78,10 +78,7 @@ const Header = () => {
         </button>
         <div class=" hidden w-full md:block md:w-auto" id="navbar-default">
           <ul class="absolute z-40 flex flex-col bg-emerald-900 bg-opacity-[0.005] backdrop-blur-xl p-4 mt-2 w-full -left-[0.02rem] text-[5vw] text-gray-300 sm:w-full sm:mt-7 sm:text-[2.125rem] sm:space-y-8 md:w-full md:static md:flex-row md:space-x-8 md:space-y-0 md:mt-0 md:text-sm md:font-light md:border-0 md:bg-emerald-900 md:text-gray-400 lg:text-lg">
-            <li
-              className="animate-fade-in-up"
-              style={{ transitionDelay: "200ms" }}
-            >
+            <li className="animate-fade-in-up delay-100">
               <a
                 href="#"
                 class="block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0 "
@@ -90,10 +87,7 @@ const Header = () => {
                 Home
               </a>
             </li>
-            <li
-              className="animate-fade-in-up"
-              style={{ transitionDelay: "300ms" }}
-            >
+            <li className="animate-fade-in-up delay-200">
               <a
                 href="#"
                 class="block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0"
@@ -101,10 +95,7 @@ const Header = () => {
                 About
               </a>
             </li>
-            <li
-              className="animate-fade-in-up"
-              style={{ transitionDelay: "400ms" }}
-            >
+            <li className="animate-fade-in-up delay-300">
               <a
                 href="#"
                 class="block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0"
@@ -112,10 +103,7 @@ const Header = () => {
                 Services
               </a>
             </li>
-            <li
-              className="animate-fade-in-up"
-              style={{ transitionDelay: "500ms" }}
-            >
+            <li className="animate-fade-in-up delay-400">
               <a
                 href="#"
                 class="block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0"
@@ -123,10 +111,7 @@ const Header = () => {
                 Pricing
               </a>
             </li>
-            <li
-              className="animate-fade-in-up"
-              style={{ transitionDelay: "600ms" }}
-            >
+            <li className="animate-fade-in-up delay-500">
               <a
                 href="#"
                 class="block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0"

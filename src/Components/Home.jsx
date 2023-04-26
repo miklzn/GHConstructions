@@ -1,8 +1,5 @@
 import leftArrow from "../utils/icons/ArrowLeft.svg";
 import rightArrow from "../utils/icons/ArrowRight.svg";
-import instagram from "../utils/icons/Instagram.svg";
-import facebook from "../utils/icons/Facebook.svg";
-import whatsapp from "../utils/icons/Whatsapp.svg";
 import igGreen from "../utils/icons/InstagramGreen.svg";
 import home from "../utils/icons/Home.svg";
 
@@ -295,36 +292,6 @@ const Home = () => {
             Your browser does not support the video tag.
           </video>
         </header>
-        <div className="bg-emerald-900 h-auto">
-          <div className="md:flex md:flex-row md:pt-[5vw] md:px-10 lg:px-40 lg:items-center lg:pt-[5vw]">
-            <div
-              className="text-[7vw] text-center
-         font-catamaran text-white font-bold py-10 px-[15vw] sm:text-4xl md:py-0 md:text-[3vw] md:w-2/3 md:px-8 md:text-start lg:w-auto lg:text-[2.5vw] lg:pr-[11vw]"
-            >
-              We would love to hear from you so don't hesitate to say hi!
-            </div>
-            <div className=" w-full px-14 sm:px-32 md:w-1/3 md:px-12 md:py-2.5 md:my-auto lg:w-auto">
-              <button className="w-full justify-center bg-emerald-500 py-2.5 text-gray-700 text-[4.7vw] font-catamaran font-semibold sm:py-4 sm:text-[3.2vw] md:py-2 md:text-[2.2vw] lg:px-[4.5vw] lg:py-[1vw] lg:text-[1.6vw] xl:text-[1.3vw]">
-                Contact
-              </button>
-            </div>
-          </div>
-          <hr className="border-1 border-gray-500 mx-10 my-16 md:my-[8vw] lg:my-[6.8vw] lg:mx-40" />
-          <div className="w-full md:px-10">
-            <h2 className="text-[6vw] font-bold font-catamaran text-center text-white sm:text-3xl md:text-[3vw] lg:text-[2vw]">
-              G&H Constructions
-            </h2>
-            <p className="text-[4.5vw] font-catamaran text-center px-12 mt-4 text-white sm:text-[2.8vw] md:text-[2.3vw] lg:text-[1.2vw]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-              perferendis ullam tempore modi
-            </p>
-            <div className="w-full flex items-center justify-center space-x-2 py-7">
-              <img className="sm:h-9 sm:w-9" src={facebook} alt="" />
-              <img className="sm:h-9 sm:w-9" src={instagram} alt="" />
-              <img className="sm:h-9 sm:w-9" src={whatsapp} alt="" />
-            </div>
-          </div>
-        </div>
       </section>
     </>
   );
