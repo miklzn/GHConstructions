@@ -78,7 +78,7 @@ const Header = () => {
             <li className="animate-fade-in-up delay-100">
               <a
                 href="/"
-                class="block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0 "
+                class="block py-2 pl-3 pr-4 hover:text-emerald-500 md:bg-transparent md:p-0 "
                 aria-current="page"
               >
                 Home
@@ -86,8 +86,8 @@ const Header = () => {
             </li>
             <li className="animate-fade-in-up delay-200">
               <a
-                href="#"
-                class="block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0"
+                href="/about"
+                class="block py-2 pl-3 pr-4 hover:text-emerald-500 md:bg-transparent md:p-0"
               >
                 About
               </a>
@@ -95,7 +95,7 @@ const Header = () => {
             <li className="animate-fade-in-up delay-300">
               <a
                 href="#"
-                class="block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0"
+                class="block py-2 pl-3 pr-4 hover:text-emerald-500 md:bg-transparent md:p-0"
               >
                 Services
               </a>
@@ -103,7 +103,7 @@ const Header = () => {
             <li className="animate-fade-in-up delay-400">
               <a
                 href="#"
-                class="block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0"
+                class="block py-2 pl-3 pr-4 hover:text-emerald-500 md:bg-transparent md:p-0"
               >
                 Pricing
               </a>
@@ -111,7 +111,7 @@ const Header = () => {
             <li className="animate-fade-in-up delay-500">
               <a
                 href="/contact"
-                class="block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0"
+                class="block py-2 pl-3 pr-4 hover:text-emerald-500 md:bg-transparent md:p-0"
               >
                 Contact
               </a>

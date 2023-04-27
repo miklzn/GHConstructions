@@ -45,7 +45,7 @@ const Home = () => {
         </div>
       </section>
       <section className="h-full w-full">
-        <div className="mx-[5vw] my-32 grid grid-cols-1 gap-6 font-catamaran md:grid-cols-3 xl:px-[7vw]">
+        <div className="mx-[5vw] my-32 grid grid-cols-1 gap-6 font-catamaran md:grid-cols-3 lg:px-[7vw]">
           <div className="h-auto border border-gray-200 bg-white px-5 py-8 overflow-hidden min-[480px]:py-12 md:py-8 lg:py-12">
             <div className="w-full relative">
               <img className="border p-2 bg-emerald-500 " src={mail} alt="" />

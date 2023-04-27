@@ -13,11 +13,14 @@ const Contact = () => {
     <>
       <section className="h-auto bg-emerald-900 lg:px-[7vw]">
         <div className="md:flex md:items-center md:py-10">
-          <div className="px-[5vw] py-[10vh] font-catamaran md:w-1/2">
-            <h1 className="text-white text-[2.125rem] font-semibold pr-10 sm:text-[2.5rem]">
+          <div className="px-[5vw] py-[10vh] md:w-1/2">
+            <p className="text-emerald-500 text-[1.125rem] font-almarai mb-4">
+              /CONTACT
+            </p>
+            <h1 className="text-white text-[2.125rem] font-almarai font-semibold pr-10 leading-10 sm:text-[2.5rem]">
               Get in touch today!
             </h1>
-            <p className="text-white mt-3 pr-12 min-[480px]:pr-[18vw] md:pr-0">
+            <p className="text-white font-catamaran mt-3 pr-12 min-[480px]:pr-[18vw] md:pr-0">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Molestias quas impedit eius at!
             </p>
