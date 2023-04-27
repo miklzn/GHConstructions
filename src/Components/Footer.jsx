@@ -14,9 +14,11 @@ const Footer = () => {
             We would love to hear from you so don't hesitate to say hi!
           </div>
           <div className=" w-full px-14 sm:px-32 md:w-1/3 md:px-12 md:py-2.5 md:my-auto">
-            <button className="w-full justify-center bg-emerald-500 py-2.5 text-gray-800 text-[4.7vw] font-catamaran font-semibold sm:py-4 sm:text-[3.2vw] md:py-2 md:text-[1.693vw] xl:text-[1.3vw] xl:py-4">
-              Contact
-            </button>
+            <a href="/contact">
+              <button className="w-full justify-center bg-emerald-500 py-2.5 text-gray-800 text-[4.7vw] font-catamaran font-semibold sm:py-4 sm:text-[3.2vw] md:py-2 md:text-[1.693vw] xl:text-[1.3vw] xl:py-4">
+                Contact
+              </button>
+            </a>
           </div>
         </div>
         <hr className="border-1 border-gray-500 mx-10 my-10 md:mb-[4vw] md:mt-0 xl:mx-[10vw]" />
