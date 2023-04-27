@@ -1,6 +1,13 @@
 import leftArrow from "../utils/icons/ArrowLeft.svg";
 import rightArrow from "../utils/icons/ArrowRight.svg";
 import igGreen from "../utils/icons/InstagramGreen.svg";
+import fbGreen from "../utils/icons/FacebookGreen.svg";
+import mail from "../utils/icons/Mail.svg";
+import mailBack from "../utils/icons/MailBack.svg";
+import phone from "../utils/icons/Phone.svg";
+import phoneBack from "../utils/icons/PhoneBack.svg";
+import pin from "../utils/icons/Pin.svg";
+import pinBack from "../utils/icons/PinBack.svg";
 import home from "../utils/icons/Home.svg";
 
 const Home = () => {
@@ -8,7 +15,7 @@ const Home = () => {
     <>
       <section className="h-full w-full">
         <div
-          className="h-[325vh] w-screen bg-cover bg-center bg-fixed sm:h-[203vh]"
+          className="h-[160vh] w-screen bg-cover bg-center bg-fixed sm:h-[320vh] md:h-[140vh] lg:h-[150vh]"
           style={{
             backgroundImage: `url(https://media.revistagq.com/photos/5d7629118643ed00085b75a4/master/pass/La-Finca.jpg)`,
           }}
@@ -35,57 +42,66 @@ const Home = () => {
               </h1>
             </div>
           </div>
-          <div className="flex flex-col px-5 py-20 space-y-5 md:flex md:flex-row md:space-y-0 md:py-40 md:space-x-2 md:absolute ">
-            <div className="h-full w-full bg-gray-700 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 border-t border-l border-gray-400">
-              <div className=" flex w-full justify-center">
-                <img className="my-5" src={home} alt="" />
-              </div>
-              <h2 className="w-full my-2 text-lg text-center font-catamaran font-semibold text-white">
-                DESIGN-BUILD
+        </div>
+      </section>
+      <section className="h-full w-full">
+        <div className="mx-[5vw] my-32 grid grid-cols-1 gap-6 font-catamaran md:grid-cols-3 xl:px-[7vw]">
+          <div className="h-auto border border-gray-200 bg-white px-5 py-8 overflow-hidden min-[480px]:py-12 md:py-8 lg:py-12">
+            <div className="w-full relative">
+              <img className="border p-2 bg-emerald-500 " src={mail} alt="" />
+              <h2 className="pb-3 pt-2 text-[1.375rem] font-semibold">
+                Email us
               </h2>
-              <p className="w-full text-center font-catamaran text-sm text-white px-3 my-6">
-                Share with us your dreams, ideas, and concepts. Our experienced
-                team will work closely with you to make them a reality.
+              <p className="text-gray-500 relative z-10 lg:text-[1.25rem]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit quis
+                eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.
               </p>
-              <div className="flex w-full justify-center my-5">
-                <button className="bg-emerald-500 text-white font-catamaran font-roboto py-2 px-4 text-sm">
-                  LEARN MORE
-                </button>
-              </div>
+
+              <img
+                className="h-40 absolute top-24 -right-20 min-[480px]:top-10 md:top-36 lg:top-32"
+                src={mailBack}
+                alt=""
+              />
             </div>
-            <div className="h-full w-full bg-gray-700 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 border-t border-l border-gray-400">
-              <div className=" flex w-full justify-center">
-                <img className="my-5" src={home} alt="" />
-              </div>
-              <h2 className="w-full my-2 text-lg text-center font-catamaran font-semibold text-white">
-                DESIGN-BUILD
+          </div>
+          <div className="h-auto border border-gray-200 bg-white px-5 py-8 overflow-hidden min-[480px]:py-12 md:py-8 lg:py-12">
+            <div className="w-full relative">
+              <img className="border p-2 bg-emerald-500 " src={mail} alt="" />
+              <h2 className="pb-3 pt-2 text-[1.375rem] font-semibold">
+                Email us
               </h2>
-              <p className="w-full text-center font-catamaran text-sm text-white px-3 my-6">
-                Share with us your dreams, ideas, and concepts. Our experienced
-                team will work closely with you to make them a reality.
+              <p className="text-gray-500 relative z-10 lg:text-[1.25rem]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit quis
+                eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.
               </p>
-              <div className="flex w-full justify-center my-5">
-                <button className="bg-emerald-500 text-white font-catamaran font-roboto py-2 px-4 text-sm">
-                  LEARN MORE
-                </button>
-              </div>
+
+              <img
+                className="h-40 absolute top-24 -right-20 min-[480px]:top-10 md:top-36 lg:top-32"
+                src={mailBack}
+                alt=""
+              />
             </div>
-            <div className="h-full w-full bg-gray-700 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 border-t border-l border-gray-400">
-              <div className=" flex w-full justify-center">
-                <img className="my-5" src={home} alt="" />
-              </div>
-              <h2 className="w-full my-2 text-lg text-center font-catamaran font-semibold text-white">
-                DESIGN-BUILD
+          </div>
+          <div className="h-auto border border-gray-200 bg-emerald-500 px-5 py-8  overflow-hidden min-[480px]:py-12 md:py-8 lg:py-12">
+            <div className="w-full relative">
+              <img
+                className="border-4 border-white p-2 bg-emerald-500 "
+                src={pin}
+                alt=""
+              />
+              <h2 className="pb-3 pt-2 text-[1.375rem] font-semibold text-white">
+                Location
               </h2>
-              <p className="w-full text-center font-catamaran text-sm text-white px-3 my-6">
-                Share with us your dreams, ideas, and concepts. Our experienced
-                team will work closely with you to make them a reality.
+              <p className="text-gray-700 relative z-10 lg:text-[1.25rem]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit quis
+                eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.
               </p>
-              <div className="flex w-full justify-center my-5">
-                <button className="bg-emerald-500 text-white font-catamaran font-roboto py-2 px-4 text-sm">
-                  LEARN MORE
-                </button>
-              </div>
+
+              <img
+                className="h-40 absolute top-24 -right-20 min-[480px]:top-10 md:top-36 lg:top-32"
+                src={pinBack}
+                alt=""
+              />
             </div>
           </div>
         </div>
@@ -247,13 +263,23 @@ const Home = () => {
               <p className="mt-5 font-semibold text-[4.2vw] sm:text-2xl sm:mt-10 md:text-[2vw] md:mt-4 lg:mt-8 lg:text-[1.2vw]">
                 You can see more here:
               </p>
-              <div className="flex items-center text-[4vw] pt-4 font-semibold text-emerald-500 sm:text-[1.75rem] md:text-[1.8vw] lg:text-[1.1vw]">
-                <img
-                  className="sm:h-11 sm:my-7 md:h-6 md:my-2 lg:h-[2vw]"
-                  src={igGreen}
-                  alt=""
-                />
-                <p className="md:pt-1 lg:pt-0">Instagram</p>
+              <div className="flex space-x-4">
+                <div className="flex items-center text-[4vw] pt-4 font-semibold text-emerald-500 sm:text-[1.75rem] md:text-[1.8vw] lg:text-[1.1vw]">
+                  <img
+                    className="sm:h-11 sm:my-7 md:h-6 md:my-2 lg:h-[2vw]"
+                    src={fbGreen}
+                    alt=""
+                  />
+                  <p className="md:pt-1 lg:pt-0">Facebook</p>
+                </div>
+                <div className="flex items-center text-[4vw] pt-4 font-semibold text-emerald-500 sm:text-[1.75rem] md:text-[1.8vw] lg:text-[1.1vw]">
+                  <img
+                    className="sm:h-11 sm:my-7 md:h-6 md:my-2 lg:h-[2vw]"
+                    src={igGreen}
+                    alt=""
+                  />
+                  <p className="md:pt-1 lg:pt-0">Instagram</p>
+                </div>
               </div>
             </div>
           </div>

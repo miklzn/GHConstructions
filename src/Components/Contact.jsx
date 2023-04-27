@@ -147,15 +147,15 @@ const Contact = () => {
           </p>
         </div>
         <div className="px-[5vw] py-[5vh] font-catamaran">
-          <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
             <div className="h-auto border border-gray-200 px-5 pt-8 pb-[24.4vh] overflow-hidden min-[480px]:py-12 lg:pb-[24.4vh]">
               <div className="w-full relative">
                 <img className="border p-2 bg-emerald-500 " src={mail} alt="" />
                 <h2 className="pb-3 pt-2 text-[1.375rem] font-semibold">
                   Email us
                 </h2>
-                <p className="text-gray-500 text-[1.25rem] font-semibold">
-                  ghconstruction@mail.com
+                <p className="text-gray-500 text-[1.25rem] font-semibold relative z-10">
+                  ghconst@mail.com
                 </p>
 
                 <img
@@ -175,7 +175,7 @@ const Contact = () => {
                 <h2 className="pb-3 pt-2 text-[1.375rem] font-semibold">
                   Call us
                 </h2>
-                <p className="text-gray-500 text-[1.25rem] font-semibold">
+                <p className="text-gray-500 text-[1.25rem] font-semibold relative z-10">
                   (323) 238-0682
                 </p>
 
@@ -196,7 +196,7 @@ const Contact = () => {
                 <h2 className="pb-3 pt-2 text-[1.375rem] font-semibold text-white">
                   Location
                 </h2>
-                <p className="text-white text-[1.25rem] font-semibold">
+                <p className="text-white text-[1.25rem] font-semibold relative z-10">
                   Miami, FL
                 </p>
 
