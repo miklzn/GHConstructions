@@ -128,7 +128,7 @@ const Home = () => {
         </div>
         <div className="flex justify-center px-4 md:mb-16">
           <img
-            className="object-cover pb-8 h-full w-full max-h-[540px] max-w-7xl md:h-[37.5vw] md:pb-0 lg:h-[30vw]"
+            className="object-cover pb-8 h-full w-full max-h-[540px] md:h-[37.5vw] md:pb-0 lg:h-[30vw]"
             src="https://www.chiraltarquitectos.com/wp-content/uploads/2020/11/Bueno-Chiralt-Arquitectos-Valencia-54-2.jpg"
             alt=""
           />
