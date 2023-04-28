@@ -20,9 +20,9 @@ const Contact = () => {
             <h1 className="text-white text-[2.125rem] font-almarai font-semibold pr-10 leading-10 sm:text-[2.5rem]">
               Get in touch today!
             </h1>
-            <p className="text-white font-catamaran mt-3 pr-12 min-[480px]:pr-[18vw] md:pr-0">
+            <p className="text-white font-catamaran mt-3 min-[480px]:pr-[18vw] md:pr-0">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Molestias quas impedit eius at!
+              Molestias quas impedit eius. Molestias quas impedit eius at!
             </p>
             <div>
               <div className="w-full flex items-center space-x-2 py-5 md:py-2">
@@ -153,7 +153,7 @@ const Contact = () => {
           <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
             <div className="h-auto border border-gray-200 px-5 pt-8 pb-[24.4vh] overflow-hidden min-[480px]:py-12 lg:pb-[24.4vh]">
               <div className="w-full relative">
-                <img className="border p-2 bg-emerald-500 " src={mail} alt="" />
+                <img className="border p-2 bg-emerald-900 " src={mail} alt="" />
                 <h2 className="pb-3 pt-2 text-[1.375rem] font-semibold">
                   Email us
                 </h2>
@@ -171,7 +171,7 @@ const Contact = () => {
             <div className="h-auto border border-gray-200 px-5 pt-8 pb-[24.4vh] overflow-hidden min-[480px]:py-12 lg:pb-[24.4vh]">
               <div className="w-full relative">
                 <img
-                  className="border p-2 bg-emerald-500 "
+                  className="border p-2 bg-emerald-900 "
                   src={phone}
                   alt=""
                 />
@@ -189,10 +189,10 @@ const Contact = () => {
                 />
               </div>
             </div>
-            <div className="h-auto border border-gray-200 bg-emerald-500 px-5 pt-8 pb-[24.4vh] overflow-hidden min-[480px]:py-12 lg:pb-[24.4vh]">
+            <div className="h-auto border border-gray-200 bg-emerald-900 px-5 pt-8 pb-[24.4vh] overflow-hidden min-[480px]:py-12 lg:pb-[24.4vh]">
               <div className="w-full relative">
                 <img
-                  className="border-4 border-white p-2 bg-emerald-500 "
+                  className="border-4 border-white p-2 bg-emerald-900 "
                   src={pin}
                   alt=""
                 />

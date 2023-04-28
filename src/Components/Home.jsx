@@ -48,7 +48,7 @@ const Home = () => {
         <div className="mx-[5vw] my-32 grid grid-cols-1 gap-6 font-catamaran md:grid-cols-3 lg:px-[7vw]">
           <div className="h-auto border border-gray-200 bg-white px-5 py-8 overflow-hidden min-[480px]:py-12 md:py-8 lg:py-12">
             <div className="w-full relative">
-              <img className="border p-2 bg-emerald-500 " src={mail} alt="" />
+              <img className="border p-2 bg-emerald-900 " src={mail} alt="" />
               <h2 className="pb-3 pt-2 text-[1.375rem] font-semibold">
                 Email us
               </h2>
@@ -66,7 +66,7 @@ const Home = () => {
           </div>
           <div className="h-auto border border-gray-200 bg-white px-5 py-8 overflow-hidden min-[480px]:py-12 md:py-8 lg:py-12">
             <div className="w-full relative">
-              <img className="border p-2 bg-emerald-500 " src={mail} alt="" />
+              <img className="border p-2 bg-emerald-900 " src={mail} alt="" />
               <h2 className="pb-3 pt-2 text-[1.375rem] font-semibold">
                 Email us
               </h2>
@@ -82,17 +82,17 @@ const Home = () => {
               />
             </div>
           </div>
-          <div className="h-auto border border-gray-200 bg-emerald-500 px-5 py-8  overflow-hidden min-[480px]:py-12 md:py-8 lg:py-12">
+          <div className="h-auto border border-gray-200 bg-emerald-900 px-5 py-8  overflow-hidden min-[480px]:py-12 md:py-8 lg:py-12">
             <div className="w-full relative">
               <img
-                className="border-4 border-white p-2 bg-emerald-500 "
+                className="border-4 border-white p-2 bg-emerald-900 "
                 src={pin}
                 alt=""
               />
               <h2 className="pb-3 pt-2 text-[1.375rem] font-semibold text-white">
                 Location
               </h2>
-              <p className="text-gray-700 relative z-10 lg:text-[1.25rem]">
+              <p className="text-gray-700 relative z-10 lg:text-[1.25rem] text-white">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit quis
                 eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.
               </p>
