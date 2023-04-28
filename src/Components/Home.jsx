@@ -190,7 +190,7 @@ const Home = () => {
         </div>
       </section>
       <section className="h-auto w-full md:px-6 lg:px-[10.8vw]">
-        <div className="px-4 mt-5 mb-10 font-catamaran text-[3.5vw] sm:mt-10">
+        <div className="px-4 mt-5 mb-10 font-catamaran text-[3.5vw] sm:mt-10 md:pb-10">
           <h1 className="text-[7vw] font-bold py-6 sm:text-[6.5vw] sm:py-10 md:text-[4vw] lg:text-[2.7vw]">
             Our People
           </h1>
@@ -210,7 +210,7 @@ const Home = () => {
               good design, beautiful architecture, sustainability, changing
               neighborhoods and building a better tomorrow.
             </p>
-            <div className="mt-10 flex h-auto md:w-[45vw] md:mt-0 lg:-mt-14 lg:my-14">
+            <div className="mt-10 flex h-auto md:w-[45vw] md:-mt-16">
               <div className="w-1/2">
                 <img
                   className="object-cover w-full h-full py-5 pr-5 sm:pr-14 sm:py-10 md:pr-8"

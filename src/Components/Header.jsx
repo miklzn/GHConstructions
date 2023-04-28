@@ -2,7 +2,7 @@ const Header = () => {
   return (
     <nav class="w-full bg-emerald-900 px-[3vw] py-[1.4vw] border-b-4 border-emerald-900 sm:px-[3vw] sm:py-[4.4vw] md:px-[2.4vw] md:py-[1vw] lg:px-[3.5vw] xl:px-[10vw]">
       <div class="container flex flex-wrap items-center justify-between mx-auto sm:px-3 md:px-5">
-        <a href="/" class="flex animate-fade-in-up items-center">
+        <a href="/" class="pl-1 flex animate-fade-in-up items-center md:pl-0">
           {/* <img
             src="https://flowbite.com/docs/images/logo.svg"
             class="h-8 mr-3 sm:h-9"
