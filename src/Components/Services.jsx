@@ -1,10 +1,8 @@
-import instagram from "../utils/icons/Instagram.svg";
-import facebook from "../utils/icons/Facebook.svg";
-import whatsapp from "../utils/icons/Whatsapp.svg";
+import paint from "../utils/icons/Paint.svg";
 
 const Services = () => {
   return (
-    <section className="h-screen">
+    <section className="h-auto">
       <div className="py-10 font-almarai  bg-emerald-900 md:py-14 md:w-full lg:px-[7vw] lg:py-12">
         <div className="md:flex md:items-center">
           <div className="px-[5vw] md:w-1/2 ">
@@ -20,7 +18,7 @@ const Services = () => {
           </div>
           <div className="flex w-full justify-center space-x-4 px-[5vw] mt-7 md:w-1/2 md:mt-0">
             <button
-              className="bg-white w-full py-2.5 px-6 text-sm text-gray-900 min-[480px]:w-full min-[480px]:text-base sm:w-full sm:py-[1.127rem] md:text-lg md:py-[1rem] md:px-9"
+              className="bg-white w-full py-2.5 px-6 text-sm text-gray-900 min-[480px]:w-full min-[480px]:text-base sm:w-full sm:py-[1.127rem] md:text-lg md:py-[1rem] md:px-0"
               href="/"
             >
               Contact
@@ -31,6 +29,145 @@ const Services = () => {
             >
               Learn more
             </button>
+          </div>
+        </div>
+      </div>
+      <div className="py-10 md:py-16 lg:px-[7vw]">
+        <div className="px-[5vw] grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <div className="border h-auto px-6 py-10">
+            <img
+              className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
+              src={paint}
+              alt=""
+            />
+            <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
+              Project Planning
+            </h2>
+            <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
+              pharetra, habitasse turpis feugiat scelerisque nisi vestibulum eu
+              nibh.
+            </p>
+            <div className="font-almarai md:text-[1.125rem]">Learn more</div>
+          </div>
+          <div className="border h-auto px-6 py-10">
+            <img
+              className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
+              src={paint}
+              alt=""
+            />
+            <h2 className="font-almarai font-bold text-[1.375rem] my-4">
+              Project Planning
+            </h2>
+            <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
+              pharetra, habitasse turpis feugiat scelerisque nisi vestibulum eu
+              nibh.
+            </p>
+            <div className="font-almarai md:text-[1.125rem]">Learn more</div>
+          </div>
+          <div className="border h-auto px-6 py-10">
+            <img
+              className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
+              src={paint}
+              alt=""
+            />
+            <h2 className="font-almarai font-bold text-[1.375rem] my-4">
+              Project Planning
+            </h2>
+            <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
+              pharetra, habitasse turpis feugiat scelerisque nisi vestibulum eu
+              nibh.
+            </p>
+            <div className="font-almarai md:text-[1.125rem]">Learn more</div>
+          </div>
+          <div className="border h-auto px-6 py-10">
+            <img
+              className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
+              src={paint}
+              alt=""
+            />
+            <h2 className="font-almarai font-bold text-[1.375rem] my-4">
+              Project Planning
+            </h2>
+            <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
+              pharetra, habitasse turpis feugiat scelerisque nisi vestibulum eu
+              nibh.
+            </p>
+            <div className="font-almarai md:text-[1.125rem]">Learn more</div>
+          </div>
+          <div className="border h-auto px-6 py-10">
+            <img
+              className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
+              src={paint}
+              alt=""
+            />
+            <h2 className="font-almarai font-bold text-[1.375rem] my-4">
+              Project Planning
+            </h2>
+            <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
+              pharetra, habitasse turpis feugiat scelerisque nisi vestibulum eu
+              nibh.
+            </p>
+            <div className="font-almarai md:text-[1.125rem]">Learn more</div>
+          </div>
+          <div className="border h-auto px-6 py-10">
+            <img
+              className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
+              src={paint}
+              alt=""
+            />
+            <h2 className="font-almarai font-bold text-[1.375rem] my-4">
+              Project Planning
+            </h2>
+            <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
+              pharetra, habitasse turpis feugiat scelerisque nisi vestibulum eu
+              nibh.
+            </p>
+            <div className="font-almarai md:text-[1.125rem]">Learn more</div>
+          </div>
+        </div>
+      </div>
+      <div className="py-10 lg:px-[7vw]">
+        <div className="px-[5vw]">
+          <div className="font-almarai">
+            <p className="text-emerald-500 text-[1.125rem] mb-4 font-bold">
+              /TESTIMONIALS
+            </p>
+            <h2 className="text-[2rem] font-semibold leading-10 min-[480px]:text-[2.25rem]">
+              What our clients say about us and our work
+            </h2>
+          </div>
+          <div className="py-20">
+            <div className="border h-auto px-6 py-10 md:flex md:items-center md:space-x-10 lg:w-[728px] lg:px-11">
+              <div className="md:w-1/2">
+                <img
+                  className="mb-8 sm:w-full md:mb-0"
+                  src="https://assets.website-files.com/62ff9dff9c2362f8fb83a28e/62ff9dff9c2362d63583a469_lily-woods-testimonial-image-contractor-webflow-template-p-500.png"
+                  alt=""
+                />
+              </div>
+              <div className="md:w-1/2">
+                <h3 className="mb-3 text-[1.375rem] font-almarai font-bold">
+                  “A true team of expert contractors”
+                </h3>
+                <p className="font-catamaran text-gray-500 md:text-[1.125rem]">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Convallis senectus non dui vel tortor. Justo lectus integer
+                  arcu elit.
+                </p>
+                <div className="pt-8 font-almarai font-bold">
+                  <span className="md:text-[1.125rem]">Lily Woods</span>
+                  <div className="mt-1.5 text-[0.875rem] text-gray-500">
+                    ORLANDO, FL
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
