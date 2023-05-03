@@ -3,19 +3,21 @@ import facebook from "../utils/icons/Facebook.svg";
 import whatsapp from "../utils/icons/Whatsapp.svg";
 
 const Footer = () => {
+  const year = new Date().getFullYear();
+
   return (
     <footer className="bg-emerald-900">
       <div className="bg-emerald-900 h-auto">
         <div className="md:flex md:flex-row md:items-center md:py-[5vw] md:px-10 xl:px-[10vw]">
           <div
-            className="text-[7vw] text-center
-         font-catamaran text-white font-bold py-10 px-[15vw] sm:text-4xl md:py-0 md:text-[3vw] md:w-2/3 md:px-8 md:text-start xl:text-[2.2vw] xl:pr-[15vw]"
+            className="text-[1.5rem] text-center
+         font-almarai text-white font-bold py-10 px-[15vw] min-[480px]:text-[1.75rem] sm:text-[1.875rem] md:py-0 md:text-[1.5rem] md:w-2/3 md:px-8 md:text-start lg:text-[1.875rem] xl:text-[2.375rem] xl:pr-[8vw]"
           >
             We would love to hear from you so don't hesitate to say hi!
           </div>
           <div className=" w-full px-14 sm:px-32 md:w-1/3 md:px-12 md:py-2.5 md:my-auto">
             <a href="/contact">
-              <button className="w-full justify-center bg-emerald-500 py-2.5 text-gray-800 text-[4.7vw] font-catamaran font-semibold sm:py-4 sm:text-[3.2vw] md:py-2 md:text-[1.693vw] xl:text-[1.3vw] xl:py-4">
+              <button className="w-full justify-center bg-emerald-500 py-2.5 text-gray-800 text-[0.9375rem] font-almarai font-semibold min-[480px]:text-[1rem] sm:py-4 sm:text-[1.125rem] md:py-2 md:text-[0.875rem] lg:text-[1rem] xl:text-[1.125rem] xl:py-4">
                 Contact
               </button>
             </a>
@@ -25,25 +27,25 @@ const Footer = () => {
 
         <div className="w-full md:flex md:items-center md:px-10 md:justify-between md:pb-10 xl:px-[10vw]">
           <div className="md:w-1/3">
-            <h2 className="text-[6vw] font-bold font-catamaran text-center text-white sm:text-3xl md:text-[2.5vw] xl:text-[1.2vw]">
+            <h2 className="text-[1.25rem] font-bold font-almarai text-center text-white min-[480px]:text-[1.375rem] sm:text-3xl md:text-[2.5vw] lg:text-[1.625rem] xl:text-[1.5rem]">
               G&H Constructions
             </h2>
-            <p className="text-[4.5vw] font-catamaran text-center px-12 mt-4 text-white sm:text-[2.8vw] md:text-[1.5vw] md:px-0 md:mt-2 xl:text-[1vw]">
+            <p className="text-[0.875rem] font-catamaran text-center px-12 mt-4 text-white min-[480px]:text-[1rem] sm:text-[2.8vw] md:text-[0.875rem] md:px-0 md:mt-2 lg:px-5 xl:text-[1rem]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
             <div className="w-full flex items-center justify-center space-x-2 py-7 md:py-2">
               <img
-                className="sm:h-9 sm:w-9 md:w-4 lg:w-6"
+                className="sm:h-9 sm:w-9 md:w-5 lg:w-6 xl:w-7"
                 src={facebook}
                 alt=""
               />
               <img
-                className="sm:h-9 sm:w-9 md:w-4 lg:w-6"
+                className="sm:h-9 sm:w-9 md:w-5 lg:w-6 xl:w-7"
                 src={instagram}
                 alt=""
               />
               <img
-                className="sm:h-9 sm:w-9 md:w-4 lg:w-6"
+                className="sm:h-9 sm:w-9 md:w-5 lg:w-6 xl:w-7"
                 src={whatsapp}
                 alt=""
               />
@@ -52,10 +54,10 @@ const Footer = () => {
           <div className="md:flex md:w-2/4">
             <div className="flex justify-center text-center md:w-1/2">
               <div className="font-catamaran my-8 text-white">
-                <h2 className="font-semibold mb-4 text-[5.625vw] md:text-[1.694vw] xl:text-[1.2vw]">
+                <h2 className="font-semibold font-almarai mb-4 text-[1rem] min-[480px]:text-[1.125rem] md:text-[1.694vw] lg:text-[1.125rem] xl:text-[1.25rem]">
                   Quick Links
                 </h2>
-                <ul class="flex flex-col text-[4.375vw] space-y-2 sm:mb-0 md:text-[1.5vw] xl:text-[1vw]">
+                <ul class="flex flex-col text-[0.875rem] space-y-2 min-[480px]:text-[0.9375rem] sm:mb-0 md:text-[0.875rem] lg:text-[0.9375rem] xl:text-[1rem]">
                   <li>
                     <a href="#" class="">
                       Home
@@ -81,10 +83,10 @@ const Footer = () => {
             </div>
             <div className="flex justify-center text-center md:w-1/2">
               <div className="font-catamaran my-8 text-white">
-                <h2 className="font-semibold mb-4 text-[5.625vw] md:text-[1.694vw] xl:text-[1.2vw]">
+                <h2 className="font-semibold font-almarai mb-4 text-[1rem] min-[480px]:text-[1.125rem] md:text-[1.694vw] lg:text-[1.125rem] xl:text-[1.25rem]">
                   Contact Us
                 </h2>
-                <ul class="flex flex-col text-[4.375vw] space-y-2 sm:mb-0 md:text-[1.5vw] xl:text-[1vw]">
+                <ul class="flex flex-col text-[0.875rem] space-y-2 min-[480px]:text-[0.9375rem] sm:mb-0 md:text-[0.875rem] lg:text-[0.9375rem] xl:text-[1rem]">
                   <li>
                     <a href="#" class="">
                       Phone
@@ -111,8 +113,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className="py-4 text-xs text-center text-white font-catamaran px-3">
-        Copyright © 2023 G&H Constructions. All rights reserved
+      <p className="py-4 text-xs text-center text-white font-almarai px-3 md:text-[0.9375rem]">
+        Copyright © {year} G&H Constructions. All rights reserved
       </p>
     </footer>
   );

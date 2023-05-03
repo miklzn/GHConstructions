@@ -131,7 +131,7 @@ const Contact = () => {
                 </label>
               </div>
 
-              <button className="w-full justify-center bg-emerald-500 py-2.5 text-gray-800 text-[4.7vw] font-catamaran font-semibold my-5 sm:py-4 sm:text-[3.2vw] md:py-2 md:text-[1.693vw] xl:text-[1.3vw] xl:py-4">
+              <button className="w-full justify-center bg-emerald-500 py-2.5 text-gray-800 text-[0.9375rem] font-catamaran font-semibold my-5 sm:py-4 sm:text-[3.2vw] md:py-2 md:text-[1.693vw] xl:text-[1.3vw] xl:py-4">
                 Submit
               </button>
             </form>
@@ -140,7 +140,7 @@ const Contact = () => {
       </section>
       <section className="h-auto md:pb-[10vh] lg:px-[7vw]">
         <div className="px-[5vw] py-[10vh] font-catamaran">
-          <h2 className="text-center text-[2rem] font-bold sm:text-[2.375rem] md:text-[3rem]">
+          <h2 className="text-center text-[2rem] font-bold min-[480px]:text-[2.25rem] font-almarai">
             Prefer to reach out directly?
           </h2>
           <p className="text-gray-500 my-4 text-center md:text-[1.125rem]">

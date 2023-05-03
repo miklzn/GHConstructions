@@ -46,13 +46,13 @@ const Home = () => {
       </section>
       <section className="h-full w-full">
         <div className="mx-[5vw] my-32 grid grid-cols-1 gap-6 font-catamaran md:grid-cols-3 lg:px-[7vw]">
-          <div className="h-auto border border-gray-200 bg-white px-5 py-8 overflow-hidden min-[480px]:py-12 md:py-8 lg:py-12">
+          <div className="h-auto shadow-card border border-gray-50 bg-white px-5 py-8 overflow-hidden min-[480px]:py-12 md:py-8 lg:py-12">
             <div className="w-full relative">
               <img className="border p-2 bg-emerald-900 " src={mail} alt="" />
-              <h2 className="pb-3 pt-2 text-[1.375rem] font-semibold">
+              <h2 className="pb-3 pt-2 text-[1.375rem] font-semibold font-almarai">
                 Email us
               </h2>
-              <p className="text-gray-500 relative z-10 lg:text-[1.25rem]">
+              <p className="text-[0.875rem] text-gray-500 relative z-10 lg:text-[1rem] xl:text-[1.125rem]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit quis
                 eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.
               </p>
@@ -64,13 +64,13 @@ const Home = () => {
               />
             </div>
           </div>
-          <div className="h-auto border border-gray-200 bg-white px-5 py-8 overflow-hidden min-[480px]:py-12 md:py-8 lg:py-12">
+          <div className="h-auto shadow-card border border-gray-50 bg-white px-5 py-8 overflow-hidden min-[480px]:py-12 md:py-8 lg:py-12">
             <div className="w-full relative">
               <img className="border p-2 bg-emerald-900 " src={mail} alt="" />
-              <h2 className="pb-3 pt-2 text-[1.375rem] font-semibold">
+              <h2 className="pb-3 pt-2 text-[1.375rem] font-semibold font-almarai">
                 Email us
               </h2>
-              <p className="text-gray-500 relative z-10 lg:text-[1.25rem]">
+              <p className="text-[0.875rem] text-gray-500 relative z-10 lg:text-[1rem] xl:text-[1.125rem]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit quis
                 eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.
               </p>
@@ -82,17 +82,17 @@ const Home = () => {
               />
             </div>
           </div>
-          <div className="h-auto border border-gray-200 bg-emerald-900 px-5 py-8  overflow-hidden min-[480px]:py-12 md:py-8 lg:py-12">
+          <div className="h-auto shadow-card border border-gray-50 bg-emerald-900 px-5 py-8  overflow-hidden min-[480px]:py-12 md:py-8 lg:py-12">
             <div className="w-full relative">
               <img
                 className="border-4 border-white p-2 bg-emerald-900 "
                 src={pin}
                 alt=""
               />
-              <h2 className="pb-3 pt-2 text-[1.375rem] font-semibold text-white">
+              <h2 className="pb-3 pt-2 text-[1.375rem] font-semibold text-white font-almarai">
                 Location
               </h2>
-              <p className="text-gray-700 relative z-10 lg:text-[1.25rem] text-white">
+              <p className="text-[0.875rem] relative z-10 text-white lg:text-[1rem] xl:text-[1.125rem]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit quis
                 eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.
               </p>
@@ -108,7 +108,7 @@ const Home = () => {
       </section>
       <section className="h-full w-full md:px-6 lg:px-[10.8vw]">
         <div className="flex flex-col px-4 py-12 w-full sm:py-16 md:flex md:flex-row md:py-[7.5vw] lg:py-16">
-          <div className=" font-catamaran text-[7vw] font-bold sm:text-[6.5vw] md:w-2/5 md:my-auto md:text-[4vw] lg:text-[2.7vw]">
+          <div className=" font-catamaran text-[1.5rem] font-bold min-[480px]:text-[1.875rem] sm:text-[2rem] md:w-2/5 md:my-auto md:text-[1.875rem] lg:text-[2.7vw]">
             <div>
               <h1>Modernism &</h1>
             </div>
@@ -116,7 +116,7 @@ const Home = () => {
               <h1>Modernity</h1>
             </div>
           </div>
-          <div className="mt-5 font-catamaran text-[3.5vw] sm:text-[3.5vw] sm:mt-12 md:mt-0 md:w-3/5 md:my-auto md:text-[1.8vw] lg:text-[1.2vw]">
+          <div className="mt-5 font-catamaran text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mt-12 md:mt-0 md:w-3/5 md:my-auto md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1.125rem]">
             The company is a hybrid creative agency and architectural studio
             that infuses innovative branding and strategic marketing concepts
             early on in the architectural process. Our team of diverse and
@@ -136,7 +136,7 @@ const Home = () => {
       </section>
       <section className="h-auto w-full bg-gray-100 md:px-6 lg:px-[10.8vw]">
         <div className="pb-3 md:pb-1">
-          <div className="flex flex-row justify-between items-center px-4 py-10 font-catamaran text-[7vw] font-bold sm:text-[6.5vw] sm:py-20 md:text-[4vw] md:py-14 lg:text-[2.7vw]">
+          <div className="flex flex-row justify-between items-center px-4 py-10 font-catamaran text-[1.5rem] font-bold min-[480px]:text-[1.875rem] sm:text-[2rem] sm:py-20 md:text-[1.875rem] md:py-14 lg:text-[2.7vw]">
             <h1>Selected Project</h1>
             <div className="flex">
               <img className="sm:h-14 md:h-9 lg:h-11" src={leftArrow} alt="" />
@@ -144,7 +144,7 @@ const Home = () => {
             </div>
           </div>
           <div className="flex flex-col px-4 md:grid grid-cols-2 md:space-x-8 lg:space-x-0">
-            <div className="font-catamaran text-[3.5vw] sm:text-[3.2vw] sm:mb-5 md:text-[1.6vw] lg:mb-10 lg:pr-4">
+            <div className="font-catamaran text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[0.875rem] lg:mb-10 lg:pr-4 xl:text-[1.125rem]">
               <img
                 className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[29vw] lg:h-[25vw]"
                 src="https://www.maperi.com/wp-content/uploads/2022/07/tendencia-lavabo-2023-maperi.jpg"
@@ -152,11 +152,9 @@ const Home = () => {
               />
               <div className="md:flex flex-row md:mt-4">
                 <div className="md:w-1/3">
-                  <p className="my-2 sm:my-6 md:my-0 lg:text-[1.3vw]">
-                    Title project 1
-                  </p>
+                  <p className="my-2 sm:my-6 md:my-0">Title project 1</p>
                 </div>
-                <div className="md:w-2/3 lg:text-[1.3vw]">
+                <div className="md:w-2/3">
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                   <p>Lorem, ipsum.</p>
                   <p>2023</p>
@@ -164,8 +162,8 @@ const Home = () => {
               </div>
             </div>
             <div
-              className="font-catamaran text-[3.5vw]
-            mt-8 sm:text-[3.2vw] sm:mb-5 md:text-[1.6vw] md:mt-0 lg:pl-4"
+              className="font-catamaran text-[0.875rem]
+            mt-8 min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[0.875rem] md:mt-0 lg:pl-4 xl:text-[1.125rem]"
             >
               <img
                 className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[29vw] lg:h-[25vw]"
@@ -174,11 +172,9 @@ const Home = () => {
               />
               <div className="md:flex flex-row md:mt-4">
                 <div className="md:w-1/3">
-                  <p className="my-2 sm:my-6 md:my-0 lg:text-[1.3vw]">
-                    Title project 2
-                  </p>
+                  <p className="my-2 sm:my-6 md:my-0">Title project 2</p>
                 </div>
-                <div className="md:w-2/3 lg:text-[1.3vw]">
+                <div className="md:w-2/3">
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                   <p>Lorem, ipsum.</p>
                   <p>2022</p>
@@ -191,11 +187,11 @@ const Home = () => {
       </section>
       <section className="h-auto w-full md:px-6 lg:px-[10.8vw]">
         <div className="px-4 mt-5 mb-10 font-catamaran text-[3.5vw] sm:mt-10 md:pb-10">
-          <h1 className="text-[7vw] font-bold py-6 sm:text-[6.5vw] sm:py-10 md:text-[4vw] lg:text-[2.7vw]">
+          <h1 className="text-[1.5rem] font-bold py-6 min-[480px]:text-[1.875rem] sm:text-[2rem] sm:py-10 md:text-[1.875rem] lg:text-[2.7vw]">
             Our People
           </h1>
           <div className="md:flex md:flex-row">
-            <p className="sm:text-[3.5vw] md:text-[1.8vw] md:w-[45vw] md:pr-16 md:ml-0 lg:text-[1.2vw]">
+            <p className="text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] md:text-[0.875rem] md:w-[45vw] md:pr-16 md:ml-0 lg:text-[0.875rem] xl:text-[1.125rem]">
               Our heart and soul are more than our expertise and resources. Our
               team – our community – is what makes Shildan extraordinary.
               <br />
@@ -238,7 +234,7 @@ const Home = () => {
       </section>
       <section className="h-auto w-full md:bg-gray-100 md:px-6 md:pb-8 lg:py-16 lg:px-[10.8vw]">
         <div className="px-4 pt-10 mb-8 font-catamaran text-[3.5vw] md:mb-0 md:pb-10">
-          <div className="md:flex md:flex-row md:h-full md:space-x-10">
+          <div className="md:flex md:flex-row md:h-full md:space-x-10 md:flex md:items-center">
             <div className=" hidden md:block md:w-1/2 md:h-full">
               <img
                 className="md:h-[50vw] md:w-[50vw] md:object-cover lg:h-[40vw] lg:w-[34vw]"
@@ -247,10 +243,10 @@ const Home = () => {
               />
             </div>
             <div className="md:w-1/2 md:pl-3">
-              <h1 className="text-[7vw] font-bold sm:text-[6.5vw] py-6 sm:py-12 md:text-[4vw] md:pt-1 lg:text-[2.7vw]">
+              <h1 className="text-[1.5rem] font-bold min-[480px]:text-[1.875rem] sm:text-[2rem] py-6 sm:py-12 md:text-[1.875rem] md:pt-1 md:pb-5 lg:text-[2.7vw]">
                 Our Services
               </h1>
-              <p className="sm:text-[3.5vw] md:text-[1.8vw] lg:text-[1.2vw]">
+              <p className="text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1.125rem]">
                 The Company has engaged fundamentally new approach to the
                 designing. There are personal and reliability approach to Wide
                 range of Engineering and Construction Company Services.
@@ -260,21 +256,21 @@ const Home = () => {
                 understanding of the integral architectural, artistic, cultural,
                 civic, environmental, and economic forces that shape a project.
               </p>
-              <p className="mt-5 font-semibold text-[4.2vw] sm:text-2xl sm:mt-10 md:text-[2vw] md:mt-4 lg:mt-8 lg:text-[1.2vw]">
+              <p className="mt-5 font-semibold text-[0.875rem] min-[480px]:text-[1.125rem] sm:text-[1.25rem] sm:mt-10 md:text-[1rem] md:mt-4 lg:mt-8 lg:text-[1rem] xl:text-[1.125rem]">
                 You can see more here:
               </p>
-              <div className="flex space-x-4">
-                <div className="flex items-center text-[4vw] pt-4 font-semibold text-emerald-500 sm:text-[1.75rem] md:text-[1.8vw] lg:text-[1.1vw]">
+              <div className="flex space-x-4 pb-6 pt-3">
+                <div className="flex items-center text-[0.8125rem] pt-4 font-semibold text-emerald-500 min-[480px]:text-[1rem] sm:text-[1.125rem] md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1rem]">
                   <img
-                    className="sm:h-11 sm:my-7 md:h-6 md:my-2 lg:h-[2vw]"
+                    className="sm:h-7 sm:my-7 md:h-6 md:my-2 lg:h-[2.5vw]"
                     src={fbGreen}
                     alt=""
                   />
                   <p className="md:pt-1 lg:pt-0">Facebook</p>
                 </div>
-                <div className="flex items-center text-[4vw] pt-4 font-semibold text-emerald-500 sm:text-[1.75rem] md:text-[1.8vw] lg:text-[1.1vw]">
+                <div className="flex items-center text-[0.8125rem] pt-4 font-semibold text-emerald-500 min-[480px]:text-[1rem] sm:text-[1.125rem] md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1rem]">
                   <img
-                    className="sm:h-11 sm:my-7 md:h-6 md:my-2 lg:h-[2vw]"
+                    className="sm:h-7 sm:my-7 md:h-6 md:my-2 lg:h-[2.5vw]"
                     src={igGreen}
                     alt=""
                   />
@@ -287,15 +283,15 @@ const Home = () => {
       </section>
       <section className="h-auto w-full">
         <header class="relative flex items-center justify-center h-auto overflow-hidden sm:h-[85vw] md:h-[37.5vw] lg:h-[22.5vw]">
-          <div class="relative w-full h-full z-30 aligne-items text-center justify-center text-white bg-black bg-opacity-60 sm:py-32 md:py-[10vw] lg:py-[6.5vw]">
+          <div class="relative flex w-full h-full z-30 items-center text-center justify-center text-white bg-black bg-opacity-60 sm:py-32 md:py-[10vw] lg:py-[6.5vw]">
             <div className="py-[20vw] px-[6vw] sm:py-[1.5vh] sm:px-[15vw] md:py-[0vw] md:px-[8vw]">
               <h1
-                className="text-[8.5vw] font-catamaran font-bold md:text-[4.6vw] lg:text-[2.5vw]
+                className="text-[1.75rem] font-almarai font-bold min-[480px]:text-[2rem] md:text-[2.25rem] lg:text-[2rem] xl:text-[2.5rem]
             "
               >
-                Let’s Discuss Your Project
+                Let’s discuss your project
               </h1>
-              <p className="text-[3.8vw] mt-7 font-catamaran sm:text-[3vw] md:text-[2.2vw] lg:text-[1.4vw]">
+              <p className="text-[0.875rem] mt-7 font-catamaran min-[480px]:text-[0.9375rem] sm:text-[3vw] md:text-[1.125rem] lg:text-[1rem] xl:text-[1.25rem]">
                 We would love to share ideas, suggest options and answer your
                 question.
                 <br />
