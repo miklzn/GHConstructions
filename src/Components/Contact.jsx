@@ -25,19 +25,19 @@ const Contact = () => {
               Molestias quas impedit eius. Molestias quas impedit eius at!
             </p>
             <div>
-              <div className="w-full flex items-center space-x-2 py-5 md:py-2">
+              <div className="w-full flex items-center space-x-2 py-5 md:py-2 lg:py-5">
                 <img
-                  className="sm:h-9 sm:w-9 md:w-4 lg:w-6"
+                  className="sm:h-9 sm:w-9 md:w-4 lg:w-8"
                   src={facebook}
                   alt=""
                 />
                 <img
-                  className="sm:h-9 sm:w-9 md:w-4 lg:w-6"
+                  className="sm:h-9 sm:w-9 md:w-4 lg:w-8"
                   src={instagram}
                   alt=""
                 />
                 <img
-                  className="sm:h-9 sm:w-9 md:w-4 lg:w-6"
+                  className="sm:h-9 sm:w-9 md:w-4 lg:w-8"
                   src={whatsapp}
                   alt=""
                 />
@@ -131,7 +131,7 @@ const Contact = () => {
                 </label>
               </div>
 
-              <button className="w-full justify-center bg-emerald-500 py-2.5 text-gray-800 text-[0.9375rem] font-catamaran font-semibold my-5 sm:py-4 sm:text-[3.2vw] md:py-2 md:text-[1.693vw] xl:text-[1.3vw] xl:py-4">
+              <button className="w-full justify-center bg-emerald-500 py-2.5 text-gray-800 text-[0.9375rem] font-almarai font-semibold my-5 sm:py-4 sm:text-[3.2vw] md:py-[0.75rem] md:text-[1rem] lg:text-[1.125rem] lg:py-[1rem]">
                 Submit
               </button>
             </form>
@@ -151,7 +151,7 @@ const Contact = () => {
         </div>
         <div className="px-[5vw] py-[5vh] font-catamaran">
           <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
-            <div className="h-auto border border-gray-200 px-5 pt-8 pb-[24.4vh] overflow-hidden min-[480px]:py-12 lg:pb-[24.4vh]">
+            <div className="h-auto shadow-card border border-gray-50 px-5 pt-8 pb-[24.4vh] overflow-hidden min-[480px]:py-12 lg:pb-[24.4vh]">
               <div className="w-full relative">
                 <img className="border p-2 bg-emerald-900 " src={mail} alt="" />
                 <h2 className="pb-3 pt-2 text-[1.375rem] font-semibold">
@@ -168,7 +168,7 @@ const Contact = () => {
                 />
               </div>
             </div>
-            <div className="h-auto border border-gray-200 px-5 pt-8 pb-[24.4vh] overflow-hidden min-[480px]:py-12 lg:pb-[24.4vh]">
+            <div className="h-auto shadow-card border border-gray-50 px-5 pt-8 pb-[24.4vh] overflow-hidden min-[480px]:py-12 lg:pb-[24.4vh]">
               <div className="w-full relative">
                 <img
                   className="border p-2 bg-emerald-900 "
@@ -189,7 +189,7 @@ const Contact = () => {
                 />
               </div>
             </div>
-            <div className="h-auto border border-gray-200 bg-emerald-900 px-5 pt-8 pb-[24.4vh] overflow-hidden min-[480px]:py-12 lg:pb-[24.4vh]">
+            <div className="h-auto shadow-card border border-gray-50 bg-emerald-900 px-5 pt-8 pb-[24.4vh] overflow-hidden min-[480px]:py-12 lg:pb-[24.4vh]">
               <div className="w-full relative">
                 <img
                   className="border-4 border-white p-2 bg-emerald-900 "

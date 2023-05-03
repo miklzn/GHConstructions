@@ -18,16 +18,10 @@ const About = () => {
               </p>
             </div>
             <div className="flex w-full justify-center space-x-4 px-[5vw] mt-7 md:w-1/2 md:mt-0">
-              <button
-                className="bg-white w-full py-2.5 px-6 text-sm text-gray-900 min-[480px]:w-full min-[480px]:text-base sm:w-full sm:py-[1.127rem] md:text-lg md:py-[1rem] md:px-9"
-                href="/"
-              >
+              <button className="bg-white w-full py-2.5 px-6 text-sm text-gray-900 min-[480px]:w-full min-[480px]:text-base sm:w-full sm:py-[1.127rem] md:text-[1rem] md:py-[0.75rem] md:px-9 lg:text-[1.125rem] lg:py-[1rem]">
                 Contact
               </button>
-              <button
-                className="bg-emerald-500 w-full py-2.5 px-6 text-sm text-gray-900 min-[480px]:w-full min-[480px]:text-base sm:w-full sm:py-[1.127rem] md:text-lg md:py-[1rem] md:px-9"
-                href="/"
-              >
+              <button className="bg-emerald-500 w-full py-2.5 px-6 text-sm text-gray-900 min-[480px]:w-full min-[480px]:text-base sm:w-full sm:py-[1.127rem] md:text-[1rem] md:py-[0.75rem] md:px-9 lg:text-[1.125rem] lg:py-[1rem]">
                 Services
               </button>
             </div>
@@ -115,7 +109,7 @@ const About = () => {
             </p>
           </div>
           <div className="py-14 grid grid-cols-1 gap-6 md:grid-cols-3 lg:px-[7vw]">
-            <div className="h-auto border px-6 py-10 text-center">
+            <div className="h-auto shadow-card border border-gray-50 px-6 py-10 text-center">
               <div className="flex justify-center mb-4 min-[480px]:mb-5">
                 <img className="w-14 min-[480px]:w-[70px]" src={medal} alt="" />
               </div>
@@ -125,7 +119,7 @@ const About = () => {
                 arcu dictum at neque commodo.
               </p>
             </div>
-            <div className="h-auto border px-6 py-10 text-center">
+            <div className="h-auto shadow-card border border-gray-50 px-6 py-10 text-center">
               <div className="flex justify-center mb-4 min-[480px]:mb-5">
                 <img className="w-14 min-[480px]:w-[70px]" src={medal} alt="" />
               </div>
@@ -135,7 +129,7 @@ const About = () => {
                 arcu dictum at neque commodo.
               </p>
             </div>
-            <div className="h-auto border px-6 py-10 text-center">
+            <div className="h-auto shadow-card border border-gray-50 px-6 py-10 text-center">
               <div className="flex justify-center mb-4 min-[480px]:mb-5">
                 <img className="w-14 min-[480px]:w-[70px]" src={medal} alt="" />
               </div>

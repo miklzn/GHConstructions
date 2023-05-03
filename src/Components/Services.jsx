@@ -18,13 +18,13 @@ const Services = () => {
           </div>
           <div className="flex w-full justify-center space-x-4 px-[5vw] mt-7 md:w-1/2 md:mt-0">
             <button
-              className="bg-white w-full py-2.5 px-6 text-sm text-gray-900 min-[480px]:w-full min-[480px]:text-base sm:w-full sm:py-[1.127rem] md:text-lg md:py-[1rem] md:px-0"
+              className="bg-white w-full py-2.5 px-6 text-sm text-gray-900 min-[480px]:w-full min-[480px]:text-base sm:w-full sm:py-[1.127rem] md:text-[1rem] md:py-[0.75rem] md:px-0 lg:text-[1.125rem] lg:py-[1rem]"
               href="/"
             >
               Contact
             </button>
             <button
-              className="bg-emerald-500 w-full py-2.5 px-6 text-sm text-gray-900 min-[480px]:w-full min-[480px]:text-base sm:w-full sm:py-[1.127rem] md:text-lg md:py-[1rem] md:px-9"
+              className="bg-emerald-500 w-full py-2.5 px-6 text-sm text-gray-900 min-[480px]:w-full min-[480px]:text-base sm:w-full sm:py-[1.127rem] md:text-[1rem] md:py-[0.75rem] md:px-0 lg:text-[1.125rem] lg:py-[1rem]"
               href="/"
             >
               Learn more
@@ -34,7 +34,7 @@ const Services = () => {
       </div>
       <div className="py-10 md:py-16 lg:px-[7vw]">
         <div className="px-[5vw] grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-          <div className="border h-auto px-6 py-10">
+          <div className="shadow-card border border-gray-50 h-auto px-6 py-10">
             <img
               className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
               src={paint}
@@ -50,7 +50,7 @@ const Services = () => {
             </p>
             <div className="font-almarai md:text-[1.125rem]">Learn more</div>
           </div>
-          <div className="border h-auto px-6 py-10">
+          <div className="shadow-card border border-gray-50 h-auto px-6 py-10">
             <img
               className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
               src={paint}
@@ -66,7 +66,7 @@ const Services = () => {
             </p>
             <div className="font-almarai md:text-[1.125rem]">Learn more</div>
           </div>
-          <div className="border h-auto px-6 py-10">
+          <div className="shadow-card border border-gray-50 h-auto px-6 py-10">
             <img
               className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
               src={paint}
@@ -82,7 +82,7 @@ const Services = () => {
             </p>
             <div className="font-almarai md:text-[1.125rem]">Learn more</div>
           </div>
-          <div className="border h-auto px-6 py-10">
+          <div className="shadow-card border border-gray-50 h-auto px-6 py-10">
             <img
               className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
               src={paint}
@@ -98,7 +98,7 @@ const Services = () => {
             </p>
             <div className="font-almarai md:text-[1.125rem]">Learn more</div>
           </div>
-          <div className="border h-auto px-6 py-10">
+          <div className="shadow-card border border-gray-50 h-auto px-6 py-10">
             <img
               className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
               src={paint}
@@ -114,7 +114,7 @@ const Services = () => {
             </p>
             <div className="font-almarai md:text-[1.125rem]">Learn more</div>
           </div>
-          <div className="border h-auto px-6 py-10">
+          <div className="shadow-card border border-gray-50 h-auto px-6 py-10">
             <img
               className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
               src={paint}
@@ -143,7 +143,7 @@ const Services = () => {
             </h2>
           </div>
           <div className="py-20">
-            <div className="border h-auto px-6 py-10 md:flex md:items-center md:space-x-10 lg:w-[728px] lg:px-11">
+            <div className="shadow-card border border-gray-50 h-auto px-6 py-10 md:flex md:items-center md:space-x-10 lg:w-[728px] lg:px-11">
               <div className="md:w-1/2">
                 <img
                   className="mb-8 sm:w-full md:mb-0"
