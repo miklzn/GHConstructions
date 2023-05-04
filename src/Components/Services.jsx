@@ -1,7 +1,9 @@
 import paint from "../utils/icons/Paint.svg";
+import leftArrow from "../utils/icons/ArrowLeft.svg";
+import rightArrow from "../utils/icons/ArrowRight.svg";
 
 const Services = () => {
-  const widthPx = window.innerWidth < 1024 ? window.innerWidth : 728 + 100;
+  const widthPx = window.innerWidth < 1024 ? window.innerWidth - 8 : 728 + 100;
 
   const scrollLeft = () => {
     document.getElementById("content").scrollLeft -= widthPx;
@@ -145,38 +147,115 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="py-10 lg:px-[7vw]">
+        <div className="pt-10 pb-6 lg:px-[7vw]">
           <div className="px-[5vw]">
-            <div className="font-almarai">
-              <p className="text-emerald-500 text-[1.125rem] mb-4 font-bold">
-                /TESTIMONIALS
-              </p>
-              <h2 className="text-[2rem] font-semibold leading-10 min-[480px]:text-[2.25rem]">
-                What our clients say about us and our work
-              </h2>
+            <div className="md:flex md:justify-between md:items-center">
+              <div className="font-almarai md:w-8/12">
+                <p className="text-emerald-500 text-[1.125rem] mb-4 font-bold">
+                  /TESTIMONIALS
+                </p>
+                <h2 className="text-[2rem] font-semibold leading-10 min-[480px]:text-[2.25rem]">
+                  What our clients say about us and our work
+                </h2>
+              </div>
+              <div className="hidden flex justify-end md:block md:flex md:space-x-3 md:w-4/12">
+                <button
+                  onClick={scrollLeft}
+                  className="border border-black p-[0.825rem] md:p-5"
+                >
+                  <img className="h-5 md:h-6" src={leftArrow} alt="" />
+                </button>
+                <button
+                  onClick={scrollRight}
+                  className="border p-[0.825rem] bg-emerald-500 md:p-5"
+                >
+                  <img className="h-5 md:h-6" src={rightArrow} alt="" />
+                </button>
+              </div>
             </div>
-            <div className="py-20">
-              <div className="shadow-card border border-gray-50 h-auto px-6 py-10 md:flex md:items-center md:space-x-10 lg:w-[728px] lg:px-11">
-                <div className="md:w-1/2">
-                  <img
-                    className="mb-8 sm:w-full md:mb-0"
-                    src="https://assets.website-files.com/62ff9dff9c2362f8fb83a28e/62ff9dff9c2362d63583a469_lily-woods-testimonial-image-contractor-webflow-template-p-500.png"
-                    alt=""
-                  />
+            <div className="pt-20 md:pb-20">
+              <div
+                id="content"
+                className="p-1 flex items-center justify-start overflow-x-auto scroll-smooth scrollbar-hide space-x-[10vw] lg:p-1 "
+              >
+                <div>
+                  <div className="shadow-card border border-gray-50 h-auto w-[87vw] px-6 py-10 md:flex md:items-center md:space-x-10 lg:w-[728px] lg:px-11">
+                    <div className="md:w-1/2">
+                      <img
+                        className="mb-8 sm:w-full md:mb-0"
+                        src="https://assets.website-files.com/62ff9dff9c2362f8fb83a28e/62ff9dff9c2362d63583a469_lily-woods-testimonial-image-contractor-webflow-template-p-500.png"
+                        alt=""
+                      />
+                    </div>
+                    <div className="md:w-1/2">
+                      <h3 className="mb-3 text-[1.375rem] font-almarai font-bold">
+                        “A true team of expert contractors”
+                      </h3>
+                      <p className="font-catamaran text-gray-500 md:text-[1.125rem]">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Convallis senectus non dui vel tortor. Justo lectus
+                        integer arcu elit.
+                      </p>
+                      <div className="pt-8 font-almarai font-bold">
+                        <span className="md:text-[1.125rem]">Lily Woods</span>
+                        <div className="mt-1.5 text-[0.875rem] text-gray-500">
+                          ORLANDO, FL
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div className="md:w-1/2">
-                  <h3 className="mb-3 text-[1.375rem] font-almarai font-bold">
-                    “A true team of expert contractors”
-                  </h3>
-                  <p className="font-catamaran text-gray-500 md:text-[1.125rem]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Convallis senectus non dui vel tortor. Justo lectus integer
-                    arcu elit.
-                  </p>
-                  <div className="pt-8 font-almarai font-bold">
-                    <span className="md:text-[1.125rem]">Lily Woods</span>
-                    <div className="mt-1.5 text-[0.875rem] text-gray-500">
-                      ORLANDO, FL
+                <div>
+                  <div className="shadow-card border border-gray-50 h-auto w-[87vw] px-6 py-10 md:flex md:items-center md:space-x-10 lg:w-[728px] lg:px-11">
+                    <div className="md:w-1/2">
+                      <img
+                        className="mb-8 sm:w-full md:mb-0"
+                        src="https://assets.website-files.com/62ff9dff9c2362f8fb83a28e/62ff9dff9c2362d63583a469_lily-woods-testimonial-image-contractor-webflow-template-p-500.png"
+                        alt=""
+                      />
+                    </div>
+                    <div className="md:w-1/2">
+                      <h3 className="mb-3 text-[1.375rem] font-almarai font-bold">
+                        “A true team of expert contractors”
+                      </h3>
+                      <p className="font-catamaran text-gray-500 md:text-[1.125rem]">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Convallis senectus non dui vel tortor. Justo lectus
+                        integer arcu elit.
+                      </p>
+                      <div className="pt-8 font-almarai font-bold">
+                        <span className="md:text-[1.125rem]">Lily Woods</span>
+                        <div className="mt-1.5 text-[0.875rem] text-gray-500">
+                          ORLANDO, FL
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div className="shadow-card border border-gray-50 h-auto w-[87vw] px-6 py-10 md:flex md:items-center md:space-x-10 lg:w-[728px] lg:px-11">
+                    <div className="md:w-1/2">
+                      <img
+                        className="mb-8 sm:w-full md:mb-0"
+                        src="https://assets.website-files.com/62ff9dff9c2362f8fb83a28e/62ff9dff9c2362d63583a469_lily-woods-testimonial-image-contractor-webflow-template-p-500.png"
+                        alt=""
+                      />
+                    </div>
+                    <div className="md:w-1/2">
+                      <h3 className="mb-3 text-[1.375rem] font-almarai font-bold">
+                        “A true team of expert contractors”
+                      </h3>
+                      <p className="font-catamaran text-gray-500 md:text-[1.125rem]">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Convallis senectus non dui vel tortor. Justo lectus
+                        integer arcu elit.
+                      </p>
+                      <div className="pt-8 font-almarai font-bold">
+                        <span className="md:text-[1.125rem]">Lily Woods</span>
+                        <div className="mt-1.5 text-[0.875rem] text-gray-500">
+                          ORLANDO, FL
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -184,109 +263,19 @@ const Services = () => {
             </div>
           </div>
         </div>
-      </section>
-      {/* //Carrusel */}
-      <section className="h-auto bg-gray-100">
-        <div className="px-[5vw]">
-          <div className="flex justify-between items-center border">
-            <div>Carrusel</div>
-            <div className="space-x-2">
-              <button onClick={scrollLeft} className="bg-gray-200 p-3">
-                P
-              </button>
-              <button onClick={scrollRight} className="bg-gray-200 p-3">
-                N
-              </button>
-            </div>
-          </div>
-        </div>
-        <div className="px-[5vw]">
-          <div
-            id="content"
-            className="border py-4 flex items-center justify-start overflow-x-auto scroll-smooth scrollbar-hide space-x-[10vw] lg:px-3"
+        <div className="block flex justify-center space-x-3 mb-10 md:hidden">
+          <button
+            onClick={scrollLeft}
+            className="border border-black p-[0.825rem]"
           >
-            <div>
-              <div className="shadow-card border border-gray-50 h-auto w-[90vw] px-6 py-10 md:flex md:items-center md:space-x-10 lg:w-[728px] lg:px-11">
-                <div className="md:w-1/2">
-                  <img
-                    className="mb-8 sm:w-full md:mb-0"
-                    src="https://assets.website-files.com/62ff9dff9c2362f8fb83a28e/62ff9dff9c2362d63583a469_lily-woods-testimonial-image-contractor-webflow-template-p-500.png"
-                    alt=""
-                  />
-                </div>
-                <div className="md:w-1/2">
-                  <h3 className="mb-3 text-[1.375rem] font-almarai font-bold">
-                    “A true team of expert contractors”
-                  </h3>
-                  <p className="font-catamaran text-gray-500 md:text-[1.125rem]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Convallis senectus non dui vel tortor. Justo lectus integer
-                    arcu elit.
-                  </p>
-                  <div className="pt-8 font-almarai font-bold">
-                    <span className="md:text-[1.125rem]">Lily Woods</span>
-                    <div className="mt-1.5 text-[0.875rem] text-gray-500">
-                      ORLANDO, FL
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div className="shadow-card border border-gray-50 h-auto w-[90vw] px-6 py-10 md:flex md:items-center md:space-x-10 lg:w-[728px] lg:px-11">
-                <div className="md:w-1/2">
-                  <img
-                    className="mb-8 sm:w-full md:mb-0"
-                    src="https://assets.website-files.com/62ff9dff9c2362f8fb83a28e/62ff9dff9c2362d63583a469_lily-woods-testimonial-image-contractor-webflow-template-p-500.png"
-                    alt=""
-                  />
-                </div>
-                <div className="md:w-1/2">
-                  <h3 className="mb-3 text-[1.375rem] font-almarai font-bold">
-                    “A true team of expert contractors”
-                  </h3>
-                  <p className="font-catamaran text-gray-500 md:text-[1.125rem]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Convallis senectus non dui vel tortor. Justo lectus integer
-                    arcu elit.
-                  </p>
-                  <div className="pt-8 font-almarai font-bold">
-                    <span className="md:text-[1.125rem]">Lily Woods</span>
-                    <div className="mt-1.5 text-[0.875rem] text-gray-500">
-                      ORLANDO, FL
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div className="shadow-card border border-gray-50 h-auto w-[90vw] px-6 py-10 md:flex md:items-center md:space-x-10 lg:w-[728px] lg:px-11">
-                <div className="md:w-1/2">
-                  <img
-                    className="mb-8 sm:w-full md:mb-0"
-                    src="https://assets.website-files.com/62ff9dff9c2362f8fb83a28e/62ff9dff9c2362d63583a469_lily-woods-testimonial-image-contractor-webflow-template-p-500.png"
-                    alt=""
-                  />
-                </div>
-                <div className="md:w-1/2">
-                  <h3 className="mb-3 text-[1.375rem] font-almarai font-bold">
-                    “A true team of expert contractors”
-                  </h3>
-                  <p className="font-catamaran text-gray-500 md:text-[1.125rem]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Convallis senectus non dui vel tortor. Justo lectus integer
-                    arcu elit.
-                  </p>
-                  <div className="pt-8 font-almarai font-bold">
-                    <span className="md:text-[1.125rem]">Lily Woods</span>
-                    <div className="mt-1.5 text-[0.875rem] text-gray-500">
-                      ORLANDO, FL
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+            <img className="h-5" src={leftArrow} alt="" />
+          </button>
+          <button
+            onClick={scrollRight}
+            className="border p-[0.825rem] bg-emerald-500"
+          >
+            <img className="h-5" src={rightArrow} alt="" />
+          </button>
         </div>
       </section>
     </>
@@ -294,111 +283,3 @@ const Services = () => {
 };
 
 export default Services;
-
-//--------- Carrousel
-
-{
-  /* <section className="h-auto bg-gray-100">
-<div className="px-[5vw]">
-  <div className="flex justify-between items-center border">
-    <div>Carrusel</div>
-    <div className="space-x-2">
-      <button onClick={scrollLeft} className="bg-gray-200 p-3">
-        P
-      </button>
-      <button onClick={scrollRight} className="bg-gray-200 p-3">
-        N
-      </button>
-    </div>
-  </div>
-</div>
-<div className="px-[5vw]">
-  <div
-    id="content"
-    className="border py-4 flex items-center justify-start overflow-x-auto scroll-smooth scrollbar-hide space-x-[10vw] lg:px-3"
-  >
-    <div>
-      <div className="shadow-card border border-gray-50 h-auto w-[90vw] px-6 py-10 md:flex md:items-center md:space-x-10 lg:w-[728px] lg:px-11">
-        <div className="md:w-1/2">
-          <img
-            className="mb-8 sm:w-full md:mb-0"
-            src="https://assets.website-files.com/62ff9dff9c2362f8fb83a28e/62ff9dff9c2362d63583a469_lily-woods-testimonial-image-contractor-webflow-template-p-500.png"
-            alt=""
-          />
-        </div>
-        <div className="md:w-1/2">
-          <h3 className="mb-3 text-[1.375rem] font-almarai font-bold">
-            “A true team of expert contractors”
-          </h3>
-          <p className="font-catamaran text-gray-500 md:text-[1.125rem]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Convallis senectus non dui vel tortor. Justo lectus integer
-            arcu elit.
-          </p>
-          <div className="pt-8 font-almarai font-bold">
-            <span className="md:text-[1.125rem]">Lily Woods</span>
-            <div className="mt-1.5 text-[0.875rem] text-gray-500">
-              ORLANDO, FL
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div>
-      <div className="shadow-card border border-gray-50 h-auto w-[90vw] px-6 py-10 md:flex md:items-center md:space-x-10 lg:w-[728px] lg:px-11">
-        <div className="md:w-1/2">
-          <img
-            className="mb-8 sm:w-full md:mb-0"
-            src="https://assets.website-files.com/62ff9dff9c2362f8fb83a28e/62ff9dff9c2362d63583a469_lily-woods-testimonial-image-contractor-webflow-template-p-500.png"
-            alt=""
-          />
-        </div>
-        <div className="md:w-1/2">
-          <h3 className="mb-3 text-[1.375rem] font-almarai font-bold">
-            “A true team of expert contractors”
-          </h3>
-          <p className="font-catamaran text-gray-500 md:text-[1.125rem]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Convallis senectus non dui vel tortor. Justo lectus integer
-            arcu elit.
-          </p>
-          <div className="pt-8 font-almarai font-bold">
-            <span className="md:text-[1.125rem]">Lily Woods</span>
-            <div className="mt-1.5 text-[0.875rem] text-gray-500">
-              ORLANDO, FL
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div>
-      <div className="shadow-card border border-gray-50 h-auto w-[90vw] px-6 py-10 md:flex md:items-center md:space-x-10 lg:w-[728px] lg:px-11">
-        <div className="md:w-1/2">
-          <img
-            className="mb-8 sm:w-full md:mb-0"
-            src="https://assets.website-files.com/62ff9dff9c2362f8fb83a28e/62ff9dff9c2362d63583a469_lily-woods-testimonial-image-contractor-webflow-template-p-500.png"
-            alt=""
-          />
-        </div>
-        <div className="md:w-1/2">
-          <h3 className="mb-3 text-[1.375rem] font-almarai font-bold">
-            “A true team of expert contractors”
-          </h3>
-          <p className="font-catamaran text-gray-500 md:text-[1.125rem]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Convallis senectus non dui vel tortor. Justo lectus integer
-            arcu elit.
-          </p>
-          <div className="pt-8 font-almarai font-bold">
-            <span className="md:text-[1.125rem]">Lily Woods</span>
-            <div className="mt-1.5 text-[0.875rem] text-gray-500">
-              ORLANDO, FL
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-</section> */
-}

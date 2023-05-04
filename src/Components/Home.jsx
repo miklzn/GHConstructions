@@ -139,8 +139,16 @@ const Home = () => {
           <div className="flex flex-row justify-between items-center px-4 py-10 font-catamaran text-[1.5rem] font-bold min-[480px]:text-[1.875rem] sm:text-[2rem] sm:py-20 md:text-[1.875rem] md:py-14 lg:text-[2.7vw]">
             <h1>Selected Project</h1>
             <div className="flex">
-              <img className="sm:h-14 md:h-9 lg:h-11" src={leftArrow} alt="" />
-              <img className="sm:h-14 md:h-9 lg:h-11" src={rightArrow} alt="" />
+              <img
+                className="h-4 sm:h-14 md:h-9 lg:h-11"
+                src={leftArrow}
+                alt=""
+              />
+              <img
+                className="h-4 sm:h-14 md:h-9 lg:h-11"
+                src={rightArrow}
+                alt=""
+              />
             </div>
           </div>
           <div className="flex flex-col px-4 md:grid grid-cols-2 md:space-x-8 lg:space-x-0">
