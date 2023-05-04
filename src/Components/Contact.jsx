@@ -108,7 +108,7 @@ const Contact = () => {
               <div className="min-[480px]:grid min-[480px]:grid-cols-2 min-[480px]:gap-x-4">
                 <div class="relative z-0 w-full mb-6 group">
                   <input
-                    type="number"
+                    type="tel"
                     name="phone"
                     id="phone"
                     class="block py-2.5 px-0 w-full text-sm text-gray-200 bg-transparent border-0 border-b-2 border-white appearance-none  focus:outline-none focus:ring-0 focus:border-emerald-500 peer"
@@ -140,7 +140,7 @@ const Contact = () => {
                 </div>
               </div>
               <div class="relative z-0 w-full mb-6 group">
-                <input
+                <textarea
                   type="message"
                   name="message"
                   id="message"
