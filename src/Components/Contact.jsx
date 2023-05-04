@@ -1,3 +1,5 @@
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import instagram from "../utils/icons/Instagram.svg";
 import facebook from "../utils/icons/Facebook.svg";
 import whatsapp from "../utils/icons/Whatsapp.svg";
@@ -9,6 +11,29 @@ import pin from "../utils/icons/Pin.svg";
 import pinBack from "../utils/icons/PinBack.svg";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_i2t26cn",
+        "template_x1gxahj",
+        form.current,
+        "qKEzTHTQUMZE2ZtoJ"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          form.current.reset();
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <>
       <section className="h-auto bg-emerald-900 lg:px-[7vw]">
@@ -45,12 +70,12 @@ const Contact = () => {
             </div>
           </div>
           <div className="px-[5vw] font-catamaran md:w-1/2">
-            <form>
+            <form ref={form} onSubmit={sendEmail}>
               <div className="min-[480px]:grid min-[480px]:grid-cols-2 min-[480px]:gap-x-4">
                 <div class="relative z-0 w-full mb-6 group">
                   <input
                     type="text"
-                    name="name"
+                    name="fullname"
                     id="name"
                     class="block py-2.5 px-0 w-full text-sm text-gray-200 bg-transparent border-0 border-b-2 border-white appearance-none  focus:outline-none focus:ring-0 focus:border-emerald-500 peer"
                     placeholder=" "
@@ -131,7 +156,10 @@ const Contact = () => {
                 </label>
               </div>
 
-              <button className="w-full justify-center bg-emerald-500 py-2.5 text-gray-800 text-[0.9375rem] font-almarai font-semibold my-5 sm:py-4 sm:text-[3.2vw] md:py-[0.75rem] md:text-[1rem] lg:text-[1.125rem] lg:py-[1rem]">
+              <button
+                type="submit"
+                className="w-full justify-center bg-emerald-500 py-2.5 text-gray-800 text-[0.9375rem] font-almarai font-semibold my-5 sm:py-4 sm:text-[3.2vw] md:py-[0.75rem] md:text-[1rem] lg:text-[1.125rem] lg:py-[1rem]"
+              >
                 Submit
               </button>
             </form>
