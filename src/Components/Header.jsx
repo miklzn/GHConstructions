@@ -102,10 +102,10 @@ const Header = () => {
             </li>
             <li className="animate-fade-in-up delay-400">
               <a
-                href="#"
+                href="/project"
                 class="block py-2 pl-3 pr-4 hover:text-emerald-500 md:bg-transparent md:p-0"
               >
-                Pricing
+                Project
               </a>
             </li>
             <li className="animate-fade-in-up delay-500">

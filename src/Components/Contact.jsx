@@ -27,17 +27,17 @@ const Contact = () => {
             <div>
               <div className="w-full flex items-center space-x-2 py-5 md:py-2 lg:py-5">
                 <img
-                  className="sm:h-9 sm:w-9 md:w-4 lg:w-8"
+                  className="sm:h-9 sm:w-9 md:w-6 lg:w-8"
                   src={facebook}
                   alt=""
                 />
                 <img
-                  className="sm:h-9 sm:w-9 md:w-4 lg:w-8"
+                  className="sm:h-9 sm:w-9 md:w-6 lg:w-8"
                   src={instagram}
                   alt=""
                 />
                 <img
-                  className="sm:h-9 sm:w-9 md:w-4 lg:w-8"
+                  className="sm:h-9 sm:w-9 md:w-6 lg:w-8"
                   src={whatsapp}
                   alt=""
                 />
