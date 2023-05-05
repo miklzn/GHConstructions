@@ -52,7 +52,7 @@ const Home = () => {
               <h2 className="pb-3 pt-2 text-[1.375rem] font-semibold font-almarai">
                 Email us
               </h2>
-              <p className="text-[0.875rem] text-gray-500 relative z-10 lg:text-[1rem] xl:text-[1.125rem]">
+              <p className="text-[0.875rem] text-gray-500 relative z-10 min-[480px]:text-[0.9375rem] sm:text-[1rem] md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1.125rem]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit quis
                 eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.
               </p>
@@ -70,7 +70,7 @@ const Home = () => {
               <h2 className="pb-3 pt-2 text-[1.375rem] font-semibold font-almarai">
                 Email us
               </h2>
-              <p className="text-[0.875rem] text-gray-500 relative z-10 lg:text-[1rem] xl:text-[1.125rem]">
+              <p className="text-[0.875rem] text-gray-500 relative z-10 min-[480px]:text-[0.9375rem] sm:text-[1rem] md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1.125rem]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit quis
                 eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.
               </p>
@@ -92,7 +92,7 @@ const Home = () => {
               <h2 className="pb-3 pt-2 text-[1.375rem] font-semibold text-white font-almarai">
                 Location
               </h2>
-              <p className="text-[0.875rem] relative z-10 text-white lg:text-[1rem] xl:text-[1.125rem]">
+              <p className="text-[0.875rem] text-gray-500 relative z-10 min-[480px]:text-[0.9375rem] sm:text-[1rem] md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1.125rem]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit quis
                 eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.
               </p>
