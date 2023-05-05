@@ -4,13 +4,22 @@ import igGreen from "../utils/icons/InstagramGreen.svg";
 import fbGreen from "../utils/icons/FacebookGreen.svg";
 import mail from "../utils/icons/Mail.svg";
 import mailBack from "../utils/icons/MailBack.svg";
-import phone from "../utils/icons/Phone.svg";
-import phoneBack from "../utils/icons/PhoneBack.svg";
 import pin from "../utils/icons/Pin.svg";
 import pinBack from "../utils/icons/PinBack.svg";
-import home from "../utils/icons/Home.svg";
 
 const Home = () => {
+  const widthPx = window.innerWidth < 1024 ? window.innerWidth - 8 : 728 + 100;
+
+  const scrollLeft = () => {
+    document.getElementById("content").scrollLeft -= widthPx;
+  };
+
+  const scrollRight = () => {
+    document.getElementById("content").scrollLeft += widthPx;
+  };
+
+  //console.log(widthPx);
+
   return (
     <>
       <section className="h-full w-full">
@@ -138,54 +147,114 @@ const Home = () => {
         <div className="pb-3 md:pb-1">
           <div className="flex flex-row justify-between items-center px-4 py-10 font-catamaran text-[1.5rem] font-bold min-[480px]:text-[1.875rem] sm:text-[2rem] sm:py-20 md:text-[1.875rem] md:py-14 lg:text-[2.7vw]">
             <h1>Selected Project</h1>
-            <div className="flex">
-              <img
-                className="h-4 sm:h-14 md:h-9 lg:h-11"
-                src={leftArrow}
-                alt=""
-              />
-              <img
-                className="h-4 sm:h-14 md:h-9 lg:h-11"
-                src={rightArrow}
-                alt=""
-              />
+            <div className="flex justify-end space-x-2 md:w-4/12">
+              <button
+                onClick={scrollLeft}
+                className="border border-black p-[0.825rem] md:p-5"
+              >
+                <img className="h-4 md:h-6" src={leftArrow} alt="" />
+              </button>
+              <button
+                onClick={scrollRight}
+                className="border p-[0.825rem] bg-emerald-500 md:p-5"
+              >
+                <img className="h-4 md:h-6" src={rightArrow} alt="" />
+              </button>
             </div>
           </div>
-          <div className="flex flex-col px-4 md:grid grid-cols-2 md:space-x-8 lg:space-x-0">
-            <div className="font-catamaran text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[0.875rem] lg:mb-10 lg:pr-4 xl:text-[1.125rem]">
-              <img
-                className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[29vw] lg:h-[25vw]"
-                src="https://www.maperi.com/wp-content/uploads/2022/07/tendencia-lavabo-2023-maperi.jpg"
-                alt=""
-              />
-              <div className="md:flex flex-row md:mt-4">
-                <div className="md:w-1/3">
-                  <p className="my-2 sm:my-6 md:my-0">Title project 1</p>
-                </div>
-                <div className="md:w-2/3">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                  <p>Lorem, ipsum.</p>
-                  <p>2023</p>
+          <div className="pt-10 px-4 md:pb-20">
+            <div
+              id="content"
+              className="flex items-center justify-start overflow-x-auto scroll-smooth scrollbar-hide space-x-[10vw] lg:p-1 "
+            >
+              <div>
+                <div className="flex flex-col w-[90vw] md:grid grid-cols-2 md:space-x-8 lg:space-x-0">
+                  <div className="font-catamaran text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[0.875rem] lg:mb-10 lg:pr-4 xl:text-[1.125rem]">
+                    <img
+                      className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[29vw] lg:h-[25vw]"
+                      src="https://www.maperi.com/wp-content/uploads/2022/07/tendencia-lavabo-2023-maperi.jpg"
+                      alt=""
+                    />
+                    <div className="md:flex flex-row md:mt-4">
+                      <div className="md:w-1/3">
+                        <p className="my-2 sm:my-6 md:my-0">Title project 1</p>
+                      </div>
+                      <div className="md:w-2/3">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing.
+                        </p>
+                        <p>Lorem, ipsum.</p>
+                        <p>2023</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="font-catamaran text-[0.875rem]
+            mt-8 min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[0.875rem] md:mt-0 lg:pl-4 xl:text-[1.125rem]"
+                  >
+                    <img
+                      className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[29vw] lg:h-[25vw]"
+                      src="https://www.glogevi.com/wp-content/uploads/2022/07/Tienda-de-muebles-de-cocina-a-medida-en-Toledo.-Glogevi-Cocinas.jpg"
+                      alt=""
+                    />
+                    <div className="md:flex flex-row md:mt-4">
+                      <div className="md:w-1/3">
+                        <p className="my-2 sm:my-6 md:my-0">Title project 2</p>
+                      </div>
+                      <div className="md:w-2/3">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing.
+                        </p>
+                        <p>Lorem, ipsum.</p>
+                        <p>2022</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div
-              className="font-catamaran text-[0.875rem]
+              <div>
+                <div className="flex flex-col w-[90vw] md:grid grid-cols-2 md:space-x-8 lg:space-x-0">
+                  <div className="font-catamaran text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[0.875rem] lg:mb-10 lg:pr-4 xl:text-[1.125rem]">
+                    <img
+                      className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[29vw] lg:h-[25vw]"
+                      src="https://www.maperi.com/wp-content/uploads/2022/07/tendencia-lavabo-2023-maperi.jpg"
+                      alt=""
+                    />
+                    <div className="md:flex flex-row md:mt-4">
+                      <div className="md:w-1/3">
+                        <p className="my-2 sm:my-6 md:my-0">Title project 1</p>
+                      </div>
+                      <div className="md:w-2/3">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing.
+                        </p>
+                        <p>Lorem, ipsum.</p>
+                        <p>2023</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="font-catamaran text-[0.875rem]
             mt-8 min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[0.875rem] md:mt-0 lg:pl-4 xl:text-[1.125rem]"
-            >
-              <img
-                className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[29vw] lg:h-[25vw]"
-                src="https://www.glogevi.com/wp-content/uploads/2022/07/Tienda-de-muebles-de-cocina-a-medida-en-Toledo.-Glogevi-Cocinas.jpg"
-                alt=""
-              />
-              <div className="md:flex flex-row md:mt-4">
-                <div className="md:w-1/3">
-                  <p className="my-2 sm:my-6 md:my-0">Title project 2</p>
-                </div>
-                <div className="md:w-2/3">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                  <p>Lorem, ipsum.</p>
-                  <p>2022</p>
+                  >
+                    <img
+                      className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[29vw] lg:h-[25vw]"
+                      src="https://www.glogevi.com/wp-content/uploads/2022/07/Tienda-de-muebles-de-cocina-a-medida-en-Toledo.-Glogevi-Cocinas.jpg"
+                      alt=""
+                    />
+                    <div className="md:flex flex-row md:mt-4">
+                      <div className="md:w-1/3">
+                        <p className="my-2 sm:my-6 md:my-0">Title project 2</p>
+                      </div>
+                      <div className="md:w-2/3">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing.
+                        </p>
+                        <p>Lorem, ipsum.</p>
+                        <p>2022</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

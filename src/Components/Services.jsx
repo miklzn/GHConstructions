@@ -13,7 +13,7 @@ const Services = () => {
     document.getElementById("content").scrollLeft += widthPx;
   };
 
-  console.log(widthPx);
+  //console.log(widthPx);
 
   return (
     <>
