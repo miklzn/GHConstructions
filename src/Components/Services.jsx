@@ -1,6 +1,7 @@
 import paint from "../utils/icons/Paint.svg";
 import leftArrow from "../utils/icons/ArrowLeft.svg";
 import rightArrow from "../utils/icons/ArrowRight.svg";
+import diagonalArrow from "../utils/icons/DiagonalArrow.svg";
 
 const Services = () => {
   const widthPx = window.innerWidth < 1024 ? window.innerWidth - 8 : 728 + 100;
@@ -18,9 +19,9 @@ const Services = () => {
   return (
     <>
       <section className="h-auto">
-        <div className="py-10 font-almarai  bg-emerald-900 md:py-14 md:w-full lg:px-[7vw] lg:py-12">
+        <div className="py-10 font-almarai bg-emerald-900 md:py-14 md:w-full lg:px-[7vw] lg:py-12">
           <div className="md:flex md:items-center">
-            <div className="px-[5vw] md:w-1/2 ">
+            <div className="mx-[5vw] md:w-1/2 ">
               <p className="text-emerald-500 text-[1.125rem] mb-4">/SERVICES</p>
               <h1 className="text-[2.125rem] text-white font-semibold leading-10 min-[480px]:text-[2.5rem]">
                 Our services
@@ -31,7 +32,7 @@ const Services = () => {
                 porttitor porttitor quis quisque erat.
               </p>
             </div>
-            <div className="flex w-full justify-center space-x-4 px-[5vw] mt-7 md:w-1/2 md:mt-0">
+            <div className="flex justify-center space-x-4 mx-[5vw] mt-7 md:w-1/2 md:mt-0">
               <button
                 className="bg-white w-full py-2.5 px-6 text-sm text-gray-900 min-[480px]:w-full min-[480px]:text-base sm:w-full sm:py-[1.127rem] md:text-[1rem] md:py-[0.75rem] md:px-0 lg:text-[1.125rem] lg:py-[1rem]"
                 href="/"
@@ -48,7 +49,7 @@ const Services = () => {
           </div>
         </div>
         <div className="py-10 md:py-16 lg:px-[7vw]">
-          <div className="px-[5vw] grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <div className="mx-[5vw] grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
             <div className="shadow-card border border-gray-50 h-auto px-6 py-10">
               <img
                 className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
@@ -63,7 +64,14 @@ const Services = () => {
                 pharetra, habitasse turpis feugiat scelerisque nisi vestibulum
                 eu nibh.
               </p>
-              <div className="font-almarai md:text-[1.125rem]">Learn more</div>
+              <div className="flex items-center font-almarai md:text-[1.125rem]">
+                <img
+                  className="h-[30px] mr-2 bg-emerald-500"
+                  src={diagonalArrow}
+                  alt=""
+                />
+                Learn more
+              </div>
             </div>
             <div className="shadow-card border border-gray-50 h-auto px-6 py-10">
               <img
@@ -71,7 +79,7 @@ const Services = () => {
                 src={paint}
                 alt=""
               />
-              <h2 className="font-almarai font-bold text-[1.375rem] my-4">
+              <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
                 Project Planning
               </h2>
               <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
@@ -79,7 +87,14 @@ const Services = () => {
                 pharetra, habitasse turpis feugiat scelerisque nisi vestibulum
                 eu nibh.
               </p>
-              <div className="font-almarai md:text-[1.125rem]">Learn more</div>
+              <div className="flex items-center font-almarai md:text-[1.125rem]">
+                <img
+                  className="h-[30px] mr-2 bg-emerald-500"
+                  src={diagonalArrow}
+                  alt=""
+                />
+                Learn more
+              </div>
             </div>
             <div className="shadow-card border border-gray-50 h-auto px-6 py-10">
               <img
@@ -87,7 +102,7 @@ const Services = () => {
                 src={paint}
                 alt=""
               />
-              <h2 className="font-almarai font-bold text-[1.375rem] my-4">
+              <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
                 Project Planning
               </h2>
               <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
@@ -95,7 +110,14 @@ const Services = () => {
                 pharetra, habitasse turpis feugiat scelerisque nisi vestibulum
                 eu nibh.
               </p>
-              <div className="font-almarai md:text-[1.125rem]">Learn more</div>
+              <div className="flex items-center font-almarai md:text-[1.125rem]">
+                <img
+                  className="h-[30px] mr-2 bg-emerald-500"
+                  src={diagonalArrow}
+                  alt=""
+                />
+                Learn more
+              </div>
             </div>
             <div className="shadow-card border border-gray-50 h-auto px-6 py-10">
               <img
@@ -103,7 +125,7 @@ const Services = () => {
                 src={paint}
                 alt=""
               />
-              <h2 className="font-almarai font-bold text-[1.375rem] my-4">
+              <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
                 Project Planning
               </h2>
               <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
@@ -111,7 +133,14 @@ const Services = () => {
                 pharetra, habitasse turpis feugiat scelerisque nisi vestibulum
                 eu nibh.
               </p>
-              <div className="font-almarai md:text-[1.125rem]">Learn more</div>
+              <div className="flex items-center font-almarai md:text-[1.125rem]">
+                <img
+                  className="h-[30px] mr-2 bg-emerald-500"
+                  src={diagonalArrow}
+                  alt=""
+                />
+                Learn more
+              </div>
             </div>
             <div className="shadow-card border border-gray-50 h-auto px-6 py-10">
               <img
@@ -119,7 +148,7 @@ const Services = () => {
                 src={paint}
                 alt=""
               />
-              <h2 className="font-almarai font-bold text-[1.375rem] my-4">
+              <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
                 Project Planning
               </h2>
               <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
@@ -127,7 +156,14 @@ const Services = () => {
                 pharetra, habitasse turpis feugiat scelerisque nisi vestibulum
                 eu nibh.
               </p>
-              <div className="font-almarai md:text-[1.125rem]">Learn more</div>
+              <div className="flex items-center font-almarai md:text-[1.125rem]">
+                <img
+                  className="h-[30px] mr-2 bg-emerald-500"
+                  src={diagonalArrow}
+                  alt=""
+                />
+                Learn more
+              </div>
             </div>
             <div className="shadow-card border border-gray-50 h-auto px-6 py-10">
               <img
@@ -135,7 +171,7 @@ const Services = () => {
                 src={paint}
                 alt=""
               />
-              <h2 className="font-almarai font-bold text-[1.375rem] my-4">
+              <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
                 Project Planning
               </h2>
               <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
@@ -143,12 +179,19 @@ const Services = () => {
                 pharetra, habitasse turpis feugiat scelerisque nisi vestibulum
                 eu nibh.
               </p>
-              <div className="font-almarai md:text-[1.125rem]">Learn more</div>
+              <div className="flex items-center font-almarai md:text-[1.125rem]">
+                <img
+                  className="h-[30px] mr-2 bg-emerald-500"
+                  src={diagonalArrow}
+                  alt=""
+                />
+                Learn more
+              </div>
             </div>
           </div>
         </div>
         <div className="pt-10 pb-6 lg:px-[7vw]">
-          <div className="px-[5vw]">
+          <div className="mx-[5vw]">
             <div className="md:flex md:justify-between md:items-center">
               <div className="font-almarai md:w-8/12">
                 <p className="text-emerald-500 text-[1.125rem] mb-4 font-bold">
