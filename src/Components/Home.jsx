@@ -54,7 +54,7 @@ const Home = () => {
         </div>
       </section>
       <section className="h-full lg:px-[7vw] xl:px-[10.8vw]">
-        <div className="mx-[5vw] mb-32 -mt-16 grid grid-cols-1 gap-6 font-catamaran md:grid-cols-3">
+        <div className="mx-[5vw] mb-16 -mt-16 grid grid-cols-1 gap-6 font-catamaran md:grid-cols-3 md:mb-24">
           <div className="h-auto shadow-card border border-gray-50 bg-white px-5 py-8 overflow-hidden min-[480px]:py-12 md:py-8 lg:py-12">
             <div className="w-full relative">
               <img

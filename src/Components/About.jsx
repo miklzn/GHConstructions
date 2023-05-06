@@ -1,12 +1,14 @@
 import medal from "../utils/icons/Medal.svg";
+import check from "../utils/icons/Check.svg";
+import lamp from "../utils/icons/Lamp.svg";
 
 const About = () => {
   return (
     <>
       <section className="h-auto">
-        <div className="py-10 font-almarai  bg-emerald-900 md:py-14 md:w-full lg:px-[7vw] lg:py-12">
+        <div className="py-10 font-almarai bg-emerald-900 md:py-14 md:w-full lg:px-[7vw] lg:py-12">
           <div className="md:flex md:items-center">
-            <div className="px-[5vw] md:w-1/2 ">
+            <div className="mx-[5vw] md:w-1/2 ">
               <p className="text-emerald-500 text-[1.125rem] mb-4">/ABOUT US</p>
               <h1 className="text-[2.125rem] text-white font-semibold leading-10 min-[480px]:text-[2.5rem]">
                 A team of expert contractors ready to help you
@@ -17,7 +19,7 @@ const About = () => {
                 porttitor porttitor quis quisque erat.
               </p>
             </div>
-            <div className="flex w-full justify-center space-x-4 px-[5vw] mt-7 md:w-1/2 md:mt-0">
+            <div className="flex justify-center space-x-4 mx-[5vw] mt-7 md:w-1/2 md:mt-0">
               <button className="bg-white w-full py-2.5 px-6 text-sm text-gray-900 min-[480px]:w-full min-[480px]:text-base sm:w-full sm:py-[1.127rem] md:text-[1rem] md:py-[0.75rem] md:px-9 lg:text-[1.125rem] lg:py-[1rem]">
                 Contact
               </button>
@@ -27,7 +29,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="px-[5vw] py-10 font-almarai lg:px-[12vw]">
+        <div className="mx-[5vw] py-10 font-almarai lg:px-[7vw]">
           <div
             className="h-auto bg-cover bg-center"
             style={{
@@ -72,7 +74,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="px-[5vw] py-10 font-almarai ">
+        <div className="mx-[5vw] py-10 font-almarai ">
           <div className="md:flex md:space-x-14 md:items-center lg:px-[7vw]">
             <div className="md:w-1/2">
               <p className="text-emerald-500 text-[1.125rem] mb-4">
@@ -96,7 +98,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="px-[5vw] py-10 font-almarai">
+        <div className="mx-[5vw] py-10 font-almarai">
           <div className="lg:px-[7vw]">
             <p className="text-emerald-500 text-[1.125rem] mb-4">/OUR VALUES</p>
             <h1 className="text-[2rem] font-semibold leading-10 min-[480px]:text-[2.25rem]">
@@ -121,9 +123,9 @@ const About = () => {
             </div>
             <div className="h-auto shadow-card border border-gray-50 px-6 py-10 text-center">
               <div className="flex justify-center mb-4 min-[480px]:mb-5">
-                <img className="w-14 min-[480px]:w-[70px]" src={medal} alt="" />
+                <img className="w-14 min-[480px]:w-[70px]" src={check} alt="" />
               </div>
-              <h3 className="mb-3 min-[480px]:text-[1.25rem]">Quality</h3>
+              <h3 className="mb-3 min-[480px]:text-[1.25rem]">Commitment</h3>
               <p className="font-catamaran text-gray-500">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit ut dolor
                 arcu dictum at neque commodo.
@@ -131,9 +133,9 @@ const About = () => {
             </div>
             <div className="h-auto shadow-card border border-gray-50 px-6 py-10 text-center">
               <div className="flex justify-center mb-4 min-[480px]:mb-5">
-                <img className="w-14 min-[480px]:w-[70px]" src={medal} alt="" />
+                <img className="w-14 min-[480px]:w-[70px]" src={lamp} alt="" />
               </div>
-              <h3 className="mb-3 min-[480px]:text-[1.25rem]">Quality</h3>
+              <h3 className="mb-3 min-[480px]:text-[1.25rem]">Innovation</h3>
               <p className="font-catamaran text-gray-500">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit ut dolor
                 arcu dictum at neque commodo.
