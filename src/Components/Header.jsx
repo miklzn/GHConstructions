@@ -105,7 +105,7 @@ const Header = () => {
                 href="/project"
                 class="block py-2 pl-3 pr-4 hover:text-emerald-500 md:bg-transparent md:p-0"
               >
-                Project
+                Projects
               </a>
             </li>
             <li className="animate-fade-in-up delay-500">

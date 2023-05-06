@@ -2,13 +2,15 @@ import leftArrow from "../utils/icons/ArrowLeft.svg";
 import rightArrow from "../utils/icons/ArrowRight.svg";
 import igGreen from "../utils/icons/InstagramGreen.svg";
 import fbGreen from "../utils/icons/FacebookGreen.svg";
-import mail from "../utils/icons/Mail.svg";
-import mailBack from "../utils/icons/MailBack.svg";
-import pin from "../utils/icons/Pin.svg";
-import pinBack from "../utils/icons/PinBack.svg";
+import tools from "../utils/icons/Tools.svg";
+import toolsBack from "../utils/icons/ToolsBack.svg";
+import winch from "../utils/icons/Winch.svg";
+import winchBack from "../utils/icons/WinchBack.svg";
+import vacuum from "../utils/icons/Vacuum.svg";
+import vacuumBack from "../utils/icons/VacuumBack.svg";
 
 const Home = () => {
-  const widthPx = window.innerWidth < 1024 ? window.innerWidth - 8 : 728 + 100;
+  const widthPx = window.innerWidth;
 
   const scrollLeft = () => {
     document.getElementById("content").scrollLeft -= widthPx;
@@ -18,11 +20,9 @@ const Home = () => {
     document.getElementById("content").scrollLeft += widthPx;
   };
 
-  //console.log(widthPx);
-
   return (
     <>
-      <section className="h-full w-full">
+      <section className="h-full">
         <div
           className="h-[160vh] w-screen bg-cover bg-center bg-fixed sm:h-[320vh] md:h-[140vh] lg:h-[150vh]"
           style={{
@@ -53,13 +53,17 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="h-full w-full">
-        <div className="mx-[5vw] my-32 grid grid-cols-1 gap-6 font-catamaran md:grid-cols-3 lg:px-[7vw]">
+      <section className="h-full lg:px-[7vw] xl:px-[10.8vw]">
+        <div className="mx-[5vw] mb-32 -mt-16 grid grid-cols-1 gap-6 font-catamaran md:grid-cols-3">
           <div className="h-auto shadow-card border border-gray-50 bg-white px-5 py-8 overflow-hidden min-[480px]:py-12 md:py-8 lg:py-12">
             <div className="w-full relative">
-              <img className="border p-2 bg-emerald-900 " src={mail} alt="" />
+              <img
+                className="h-14 border p-2 bg-emerald-900 "
+                src={tools}
+                alt=""
+              />
               <h2 className="pb-3 pt-2 text-[1.375rem] font-semibold font-almarai">
-                Email us
+                Residential Construction
               </h2>
               <p className="text-[0.875rem] text-gray-500 relative z-10 min-[480px]:text-[0.9375rem] sm:text-[1rem] md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1.125rem]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit quis
@@ -68,16 +72,20 @@ const Home = () => {
 
               <img
                 className="h-40 absolute top-24 -right-20 min-[480px]:top-10 md:top-36 lg:top-32"
-                src={mailBack}
+                src={toolsBack}
                 alt=""
               />
             </div>
           </div>
           <div className="h-auto shadow-card border border-gray-50 bg-white px-5 py-8 overflow-hidden min-[480px]:py-12 md:py-8 lg:py-12">
             <div className="w-full relative">
-              <img className="border p-2 bg-emerald-900 " src={mail} alt="" />
+              <img
+                className="h-14 border p-2 bg-emerald-900 "
+                src={winch}
+                alt=""
+              />
               <h2 className="pb-3 pt-2 text-[1.375rem] font-semibold font-almarai">
-                Email us
+                Commercial Construction
               </h2>
               <p className="text-[0.875rem] text-gray-500 relative z-10 min-[480px]:text-[0.9375rem] sm:text-[1rem] md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1.125rem]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit quis
@@ -86,7 +94,7 @@ const Home = () => {
 
               <img
                 className="h-40 absolute top-24 -right-20 min-[480px]:top-10 md:top-36 lg:top-32"
-                src={mailBack}
+                src={winchBack}
                 alt=""
               />
             </div>
@@ -94,29 +102,29 @@ const Home = () => {
           <div className="h-auto shadow-card border border-gray-50 bg-emerald-900 px-5 py-8  overflow-hidden min-[480px]:py-12 md:py-8 lg:py-12">
             <div className="w-full relative">
               <img
-                className="border-4 border-white p-2 bg-emerald-900 "
-                src={pin}
+                className="h-14 border-4 border-white p-2 bg-emerald-900 "
+                src={vacuum}
                 alt=""
               />
               <h2 className="pb-3 pt-2 text-[1.375rem] font-semibold text-white font-almarai">
-                Location
+                Cleannig <br className="min-[480px]:hidden" /> Service
               </h2>
-              <p className="text-[0.875rem] text-gray-500 relative z-10 min-[480px]:text-[0.9375rem] sm:text-[1rem] md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1.125rem]">
+              <p className="text-[0.875rem] text-gray-200 relative z-10 min-[480px]:text-[0.9375rem] sm:text-[1rem] md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1.125rem]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit quis
                 eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.
               </p>
 
               <img
                 className="h-40 absolute top-24 -right-20 min-[480px]:top-10 md:top-36 lg:top-32"
-                src={pinBack}
+                src={vacuumBack}
                 alt=""
               />
             </div>
           </div>
         </div>
       </section>
-      <section className="h-full w-full md:px-6 lg:px-[10.8vw]">
-        <div className="flex flex-col px-4 py-12 w-full sm:py-16 md:flex md:flex-row md:py-[7.5vw] lg:py-16">
+      <section className="h-full md:px-6 lg:px-[10.8vw]">
+        <div className="flex flex-col mx-[5vw] py-12 sm:py-16 md:flex md:flex-row md:py-[7.5vw] lg:py-16">
           <div className=" font-catamaran text-[1.5rem] font-bold min-[480px]:text-[1.875rem] sm:text-[2rem] md:w-2/5 md:my-auto md:text-[1.875rem] lg:text-[2.7vw]">
             <div>
               <h1>Modernism &</h1>
@@ -135,7 +143,7 @@ const Home = () => {
             desires.
           </div>
         </div>
-        <div className="flex justify-center px-4 md:mb-16">
+        <div className="flex justify-center mx-[5vw] md:mb-16">
           <img
             className="object-cover pb-8 h-full w-full max-h-[540px] md:h-[37.5vw] md:pb-0 lg:h-[30vw]"
             src="https://www.chiraltarquitectos.com/wp-content/uploads/2020/11/Bueno-Chiralt-Arquitectos-Valencia-54-2.jpg"
@@ -143,32 +151,32 @@ const Home = () => {
           />
         </div>
       </section>
-      <section className="h-auto w-full bg-gray-100 md:px-6 lg:px-[10.8vw]">
+      <section className="h-auto bg-gray-100 md:px-6 lg:px-[10.8vw]">
         <div className="pb-3 md:pb-1">
-          <div className="flex flex-row justify-between items-center px-4 py-10 font-catamaran text-[1.5rem] font-bold min-[480px]:text-[1.875rem] sm:text-[2rem] sm:py-20 md:text-[1.875rem] md:py-14 lg:text-[2.7vw]">
+          <div className="flex flex-row justify-between items-center mx-[5vw] pt-16 pb-2 font-catamaran text-[1.5rem] font-bold min-[480px]:text-[1.875rem] sm:text-[2rem] sm:pt-20 sm:pb-4 md:text-[1.875rem] md:pt-24 lg:text-[2.7vw]">
             <h1>Selected Project</h1>
             <div className="flex justify-end space-x-2 md:w-4/12">
               <button
                 onClick={scrollLeft}
-                className="border border-black p-[0.825rem] md:p-5"
+                className="border border-black p-[0.825rem] md:p-4"
               >
-                <img className="h-4 md:h-6" src={leftArrow} alt="" />
+                <img className="h-4 md:h-5" src={leftArrow} alt="" />
               </button>
               <button
                 onClick={scrollRight}
-                className="border p-[0.825rem] bg-emerald-500 md:p-5"
+                className="border p-[0.825rem] bg-emerald-500 md:p-4"
               >
-                <img className="h-4 md:h-6" src={rightArrow} alt="" />
+                <img className="h-4 md:h-5" src={rightArrow} alt="" />
               </button>
             </div>
           </div>
-          <div className="pt-10 px-4 md:pb-20">
+          <div className="pt-10 mx-[5vw] md:pb-20">
             <div
               id="content"
               className="flex items-center justify-start overflow-x-auto scroll-smooth scrollbar-hide space-x-[10vw] lg:p-1 "
             >
               <div>
-                <div className="flex flex-col w-[90vw] md:grid grid-cols-2 md:space-x-8 lg:space-x-0">
+                <div className="flex flex-col w-[90vw] md:grid grid-cols-2 md:gap-x-8 md:w-[83.7vw] lg:gap-x-3 lg:w-[68vw]">
                   <div className="font-catamaran text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[0.875rem] lg:mb-10 lg:pr-4 xl:text-[1.125rem]">
                     <img
                       className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[29vw] lg:h-[25vw]"
@@ -213,7 +221,7 @@ const Home = () => {
                 </div>
               </div>
               <div>
-                <div className="flex flex-col w-[90vw] md:grid grid-cols-2 md:space-x-8 lg:space-x-0">
+                <div className="flex flex-col w-[90vw] md:grid grid-cols-2 md:gap-x-8 md:w-[83.7vw] lg:gap-x-3 lg:w-[68vw]">
                   <div className="font-catamaran text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[0.875rem] lg:mb-10 lg:pr-4 xl:text-[1.125rem]">
                     <img
                       className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[29vw] lg:h-[25vw]"
@@ -259,11 +267,11 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <hr className="border-[0.094rem] border-gray-300 my-6 mx-4 sm:my-10" />
+          <hr className="border-[0.094rem] border-gray-300 my-6 mx-[5vw] sm:my-10" />
         </div>
       </section>
-      <section className="h-auto w-full md:px-6 lg:px-[10.8vw]">
-        <div className="px-4 mt-5 mb-10 font-catamaran text-[3.5vw] sm:mt-10 md:pb-10">
+      <section className="h-auto md:px-6 lg:px-[10.8vw]">
+        <div className="mx-[5vw] mt-5 mb-10 font-catamaran text-[3.5vw] sm:mt-10 md:pb-10">
           <h1 className="text-[1.5rem] font-bold py-6 min-[480px]:text-[1.875rem] sm:text-[2rem] sm:py-10 md:text-[1.875rem] lg:text-[2.7vw]">
             Our People
           </h1>
@@ -309,8 +317,8 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="h-auto w-full md:bg-gray-100 md:px-6 md:pb-8 lg:py-16 lg:px-[10.8vw]">
-        <div className="px-4 pt-10 mb-8 font-catamaran text-[3.5vw] md:mb-0 md:pb-10">
+      <section className="h-auto md:bg-gray-100 md:px-6 md:pb-8 lg:py-16 lg:px-[10.8vw]">
+        <div className="mx-[5vw] pt-10 mb-8 font-catamaran text-[3.5vw] md:mb-0 md:pb-10">
           <div className="md:flex md:flex-row md:h-full md:space-x-10 md:flex md:items-center">
             <div className=" hidden md:block md:w-1/2 md:h-full">
               <img
@@ -358,7 +366,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="h-auto w-full">
+      <section className="h-auto">
         <header class="relative flex items-center justify-center h-auto overflow-hidden sm:h-[85vw] md:h-[37.5vw] lg:h-[22.5vw]">
           <div class="relative flex w-full h-full z-30 items-center text-center justify-center text-white bg-black bg-opacity-60 sm:py-32 md:py-[10vw] lg:py-[6.5vw]">
             <div className="py-[20vw] px-[6vw] sm:py-[1.5vh] sm:px-[15vw] md:py-[0vw] md:px-[8vw]">
