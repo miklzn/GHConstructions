@@ -177,11 +177,15 @@ const Contact = () => {
             adipiscing leo ligula praesent vitae sed volutpat.
           </p>
         </div>
-        <div className="px-[5vw] py-[5vh] font-catamaran">
+        <div className="px-[5vw] py-[5vh] font-almarai">
           <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
             <div className="h-auto shadow-card border border-gray-50 px-5 pt-8 pb-[24.4vh] overflow-hidden min-[480px]:py-12 lg:pb-[24.4vh]">
               <div className="w-full relative">
-                <img className="border p-2 bg-emerald-900 " src={mail} alt="" />
+                <img
+                  className="h-14 border p-2 bg-emerald-900 "
+                  src={mail}
+                  alt=""
+                />
                 <h2 className="pb-3 pt-2 text-[1.375rem] font-semibold">
                   Email us
                 </h2>
@@ -199,7 +203,7 @@ const Contact = () => {
             <div className="h-auto shadow-card border border-gray-50 px-5 pt-8 pb-[24.4vh] overflow-hidden min-[480px]:py-12 lg:pb-[24.4vh]">
               <div className="w-full relative">
                 <img
-                  className="border p-2 bg-emerald-900 "
+                  className="h-14 border p-2 bg-emerald-900 "
                   src={phone}
                   alt=""
                 />
@@ -220,7 +224,7 @@ const Contact = () => {
             <div className="h-auto shadow-card border border-gray-50 bg-emerald-900 px-5 pt-8 pb-[24.4vh] overflow-hidden min-[480px]:py-12 lg:pb-[24.4vh]">
               <div className="w-full relative">
                 <img
-                  className="border-4 border-white p-2 bg-emerald-900 "
+                  className="h-14 border-4 border-white p-2 bg-emerald-900 "
                   src={pin}
                   alt=""
                 />

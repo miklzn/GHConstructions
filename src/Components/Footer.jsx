@@ -59,22 +59,22 @@ const Footer = () => {
                 </h2>
                 <ul class="flex flex-col text-[0.875rem] space-y-2 min-[480px]:text-[0.9375rem] sm:mb-0 md:text-[0.875rem] lg:text-[0.9375rem] xl:text-[1rem]">
                   <li>
-                    <a href="#" class="">
+                    <a href="/" class="">
                       Home
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="">
+                    <a href="/about" class="">
                       About
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="">
+                    <a href="/services" class="">
                       Services
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="">
+                    <a href="contact" class="">
                       Contact
                     </a>
                   </li>

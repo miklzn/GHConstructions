@@ -72,7 +72,7 @@ const Project = () => {
                     Location
                   </div>
                   <div className="text-gray-500 lg:text-[1.125rem]">
-                    John Carter
+                    Tampa, FL
                   </div>
                 </div>
               </div>
@@ -87,7 +87,7 @@ const Project = () => {
                     Time
                   </div>
                   <div className="text-gray-500 lg:text-[1.125rem]">
-                    John Carter
+                    3 Weeks
                   </div>
                 </div>
               </div>
@@ -102,7 +102,7 @@ const Project = () => {
                     Service
                   </div>
                   <div className="text-gray-500 lg:text-[1.125rem]">
-                    John Carter
+                    Remodeling
                   </div>
                 </div>
               </div>
