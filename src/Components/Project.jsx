@@ -1,4 +1,7 @@
+import client from "../utils/icons/Client.svg";
 import pin from "../utils/icons/Pin.svg";
+import clock from "../utils/icons/Clock.svg";
+import mansory from "../utils/icons/Mansory.svg";
 import mallet from "../utils/icons/Mallet.svg";
 import leftArrow from "../utils/icons/ArrowLeft.svg";
 import rightArrow from "../utils/icons/ArrowRight.svg";
@@ -46,7 +49,7 @@ const Project = () => {
               <div className="flex font-catamaran">
                 <img
                   className="bg-emerald-500 p-2 w-12 mr-4 lg:w-[60px]"
-                  src={pin}
+                  src={client}
                   alt=""
                 />
                 <div>
@@ -66,7 +69,7 @@ const Project = () => {
                 />
                 <div>
                   <div className="text-[1.125rem] font-bold font-almarai lg:text-[1.375rem]">
-                    Client
+                    Location
                   </div>
                   <div className="text-gray-500 lg:text-[1.125rem]">
                     John Carter
@@ -76,12 +79,12 @@ const Project = () => {
               <div className="flex font-catamaran">
                 <img
                   className="bg-emerald-500 p-2 w-12 mr-4 lg:w-[60px]"
-                  src={pin}
+                  src={clock}
                   alt=""
                 />
                 <div>
                   <div className="text-[1.125rem] font-bold font-almarai lg:text-[1.375rem]">
-                    Client
+                    Time
                   </div>
                   <div className="text-gray-500 lg:text-[1.125rem]">
                     John Carter
@@ -91,12 +94,12 @@ const Project = () => {
               <div className="flex font-catamaran">
                 <img
                   className="bg-emerald-500 p-2 w-12 mr-4 lg:w-[60px]"
-                  src={pin}
+                  src={mansory}
                   alt=""
                 />
                 <div className="relative">
                   <div className="text-[1.125rem] font-bold font-almarai lg:text-[1.375rem]">
-                    Client
+                    Service
                   </div>
                   <div className="text-gray-500 lg:text-[1.125rem]">
                     John Carter
