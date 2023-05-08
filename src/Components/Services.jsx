@@ -1,4 +1,9 @@
-import paint from "../utils/icons/Paint.svg";
+import tools from "../utils/icons/ToolsBlack.svg";
+import winch from "../utils/icons/WinchBlack.svg";
+import vacuum from "../utils/icons/Vacuum.svg";
+import paint from "../utils/icons/PaintBlack.svg";
+import measuring from "../utils/icons/MeasuringBlack.svg";
+import driller from "../utils/icons/DrillerBlack.svg";
 import leftArrow from "../utils/icons/ArrowLeft.svg";
 import rightArrow from "../utils/icons/ArrowRight.svg";
 import diagonalArrow from "../utils/icons/DiagonalArrow.svg";
@@ -53,11 +58,11 @@ const Services = () => {
             <div className="shadow-card border border-gray-50 h-auto px-6 py-10">
               <img
                 className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
-                src={paint}
+                src={tools}
                 alt=""
               />
               <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
-                Project Planning
+                Residential Construcction
               </h2>
               <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
@@ -76,11 +81,59 @@ const Services = () => {
             <div className="shadow-card border border-gray-50 h-auto px-6 py-10">
               <img
                 className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
+                src={winch}
+                alt=""
+              />
+              <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
+                Commercial Construction
+              </h2>
+              <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
+                pharetra, habitasse turpis feugiat scelerisque nisi vestibulum
+                eu nibh.
+              </p>
+              <div className="flex items-center font-almarai md:text-[1.125rem]">
+                <img
+                  className="h-[30px] mr-2 bg-emerald-500"
+                  src={diagonalArrow}
+                  alt=""
+                />
+                Learn more
+              </div>
+            </div>
+            <div className="shadow-card bg-emerald-900 border border-gray-50 h-auto px-6 py-10">
+              <img
+                className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
+                src={vacuum}
+                alt=""
+              />
+              <h2 className="font-almarai text-white font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
+                Cleaning
+                <br className="min-[480px]:hidden lg:block xl:hidden" /> Service
+              </h2>
+              <p className="font-catamaran mb-4 text-gray-300 md:text-[1.125rem]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
+                pharetra, habitasse turpis feugiat scelerisque nisi vestibulum
+                eu nibh.
+              </p>
+              <div className="flex text-white items-center font-almarai md:text-[1.125rem]">
+                <img
+                  className="h-[30px] mr-2 bg-emerald-500"
+                  src={diagonalArrow}
+                  alt=""
+                />
+                Learn more
+              </div>
+            </div>
+            <div className="shadow-card border border-gray-50 h-auto px-6 py-10">
+              <img
+                className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
                 src={paint}
                 alt=""
               />
               <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
-                Project Planning
+                Painting{" "}
+                <br className="min-[480px]:hidden lg:block xl:hidden" /> Service
               </h2>
               <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
@@ -99,11 +152,11 @@ const Services = () => {
             <div className="shadow-card border border-gray-50 h-auto px-6 py-10">
               <img
                 className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
-                src={paint}
+                src={measuring}
                 alt=""
               />
               <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
-                Project Planning
+                Space <br className="min-[480px]:hidden" /> Remodeling
               </h2>
               <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
@@ -122,57 +175,12 @@ const Services = () => {
             <div className="shadow-card border border-gray-50 h-auto px-6 py-10">
               <img
                 className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
-                src={paint}
+                src={driller}
                 alt=""
               />
               <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
-                Project Planning
-              </h2>
-              <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
-                pharetra, habitasse turpis feugiat scelerisque nisi vestibulum
-                eu nibh.
-              </p>
-              <div className="flex items-center font-almarai md:text-[1.125rem]">
-                <img
-                  className="h-[30px] mr-2 bg-emerald-500"
-                  src={diagonalArrow}
-                  alt=""
-                />
-                Learn more
-              </div>
-            </div>
-            <div className="shadow-card border border-gray-50 h-auto px-6 py-10">
-              <img
-                className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
-                src={paint}
-                alt=""
-              />
-              <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
-                Project Planning
-              </h2>
-              <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
-                pharetra, habitasse turpis feugiat scelerisque nisi vestibulum
-                eu nibh.
-              </p>
-              <div className="flex items-center font-almarai md:text-[1.125rem]">
-                <img
-                  className="h-[30px] mr-2 bg-emerald-500"
-                  src={diagonalArrow}
-                  alt=""
-                />
-                Learn more
-              </div>
-            </div>
-            <div className="shadow-card border border-gray-50 h-auto px-6 py-10">
-              <img
-                className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
-                src={paint}
-                alt=""
-              />
-              <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
-                Project Planning
+                Home <br className="min-[480px]:hidden lg:block xl:hidden" />{" "}
+                Repair
               </h2>
               <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
