@@ -197,14 +197,16 @@ const Services = () => {
                 pharetra, habitasse turpis feugiat scelerisque nisi vestibulum
                 eu nibh.
               </p>
-              <div className="flex items-center font-almarai md:text-[1.125rem]">
-                <img
-                  className="h-[30px] mr-2 bg-emerald-500"
-                  src={diagonalArrow}
-                  alt=""
-                />
-                Learn more
-              </div>
+              <a href="/home-repair">
+                <div className="flex items-center font-almarai md:text-[1.125rem]">
+                  <img
+                    className="h-[30px] mr-2 bg-emerald-500"
+                    src={diagonalArrow}
+                    alt=""
+                  />
+                  Learn more
+                </div>
+              </a>
             </div>
           </div>
         </div>
