@@ -120,14 +120,16 @@ const Services = () => {
                 pharetra, habitasse turpis feugiat scelerisque nisi vestibulum
                 eu nibh.
               </p>
-              <div className="flex text-white items-center font-almarai md:text-[1.125rem]">
-                <img
-                  className="h-[30px] mr-2 bg-emerald-500"
-                  src={diagonalArrow}
-                  alt=""
-                />
-                Learn more
-              </div>
+              <a href="/cleaning-service">
+                <div className="flex text-white items-center font-almarai md:text-[1.125rem]">
+                  <img
+                    className="h-[30px] mr-2 bg-emerald-500"
+                    src={diagonalArrow}
+                    alt=""
+                  />
+                  Learn more
+                </div>
+              </a>
             </div>
             <div className="shadow-card border border-gray-50 h-auto px-6 py-10">
               <img
