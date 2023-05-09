@@ -86,7 +86,7 @@ sm:justify-between sm:py-4 sm:w-auto sm:px-8 md:py-[0.75rem] md:text-[1rem] lg:t
               alt=""
             />
             <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
-              Residential Construcction
+              Residential <br /> Construcction
             </h2>
             <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
@@ -111,21 +111,23 @@ sm:justify-between sm:py-4 sm:w-auto sm:px-8 md:py-[0.75rem] md:text-[1rem] lg:t
               alt=""
             />
             <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
-              Commercial Construction
+              Commercial <br /> Construction
             </h2>
             <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
               pharetra, habitasse turpis feugiat scelerisque nisi vestibulum eu
               nibh.
             </p>
-            <div className="flex items-center font-almarai md:text-[1.125rem]">
-              <img
-                className="h-[30px] mr-2 bg-emerald-500"
-                src={diagonalArrow}
-                alt=""
-              />
-              Learn more
-            </div>
+            <a href="/commercial-construction">
+              <div className="flex items-center font-almarai md:text-[1.125rem]">
+                <img
+                  className="h-[30px] mr-2 bg-emerald-500"
+                  src={diagonalArrow}
+                  alt=""
+                />
+                Learn more
+              </div>
+            </a>
           </div>
           <div className="shadow-card bg-emerald-900 border border-gray-50 h-auto px-6 py-10">
             <img
@@ -134,22 +136,23 @@ sm:justify-between sm:py-4 sm:w-auto sm:px-8 md:py-[0.75rem] md:text-[1rem] lg:t
               alt=""
             />
             <h2 className="font-almarai text-white font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
-              Cleaning
-              <br className="min-[480px]:hidden lg:block xl:hidden" /> Service
+              Cleaning <br /> Service
             </h2>
             <p className="font-catamaran mb-4 text-gray-300 md:text-[1.125rem]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
               pharetra, habitasse turpis feugiat scelerisque nisi vestibulum eu
               nibh.
             </p>
-            <div className="flex text-white items-center font-almarai md:text-[1.125rem]">
-              <img
-                className="h-[30px] mr-2 bg-emerald-500"
-                src={diagonalArrow}
-                alt=""
-              />
-              Learn more
-            </div>
+            <a href="/cleaning-service">
+              <div className="flex text-white items-center font-almarai md:text-[1.125rem]">
+                <img
+                  className="h-[30px] mr-2 bg-emerald-500"
+                  src={diagonalArrow}
+                  alt=""
+                />
+                Learn more
+              </div>
+            </a>
           </div>
         </div>
       </div>

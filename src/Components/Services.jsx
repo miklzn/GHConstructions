@@ -62,7 +62,7 @@ const Services = () => {
                 alt=""
               />
               <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
-                Residential Construcction
+                Residential <br /> Construcction
               </h2>
               <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
@@ -87,7 +87,7 @@ const Services = () => {
                 alt=""
               />
               <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
-                Commercial Construction
+                Commercial <br /> Construction
               </h2>
               <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
@@ -112,8 +112,7 @@ const Services = () => {
                 alt=""
               />
               <h2 className="font-almarai text-white font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
-                Cleaning
-                <br className="min-[480px]:hidden lg:block xl:hidden" /> Service
+                Cleaning <br /> Service
               </h2>
               <p className="font-catamaran mb-4 text-gray-300 md:text-[1.125rem]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
@@ -138,8 +137,7 @@ const Services = () => {
                 alt=""
               />
               <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
-                Painting{" "}
-                <br className="min-[480px]:hidden lg:block xl:hidden" /> Service
+                Painting <br /> Service
               </h2>
               <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
@@ -164,7 +162,7 @@ const Services = () => {
                 alt=""
               />
               <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
-                Space <br className="min-[480px]:hidden" /> Remodeling
+                Space <br /> Remodeling
               </h2>
               <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
@@ -189,8 +187,7 @@ const Services = () => {
                 alt=""
               />
               <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
-                Home <br className="min-[480px]:hidden lg:block xl:hidden" />{" "}
-                Repair
+                Home <br /> Repair
               </h2>
               <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,

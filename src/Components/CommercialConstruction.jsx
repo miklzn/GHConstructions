@@ -2,7 +2,6 @@ import winch from "../utils/icons/Winch.svg";
 import vacuum from "../utils/icons/Vacuum.svg";
 import paint from "../utils/icons/PaintBlack.svg";
 import measuring from "../utils/icons/MeasuringBlack.svg";
-
 import diagonalArrow from "../utils/icons/DiagonalArrow.svg";
 
 const CommercialConstruction = () => {
@@ -87,22 +86,23 @@ const CommercialConstruction = () => {
               alt=""
             />
             <h2 className="font-almarai text-white font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
-              Cleaning
-              <br className="min-[480px]:hidden lg:block xl:hidden" /> Service
+              Cleaning <br /> Service
             </h2>
             <p className="font-catamaran mb-4 text-gray-300 md:text-[1.125rem]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
               pharetra, habitasse turpis feugiat scelerisque nisi vestibulum eu
               nibh.
             </p>
-            <div className="flex text-white items-center font-almarai md:text-[1.125rem]">
-              <img
-                className="h-[30px] mr-2 bg-emerald-500"
-                src={diagonalArrow}
-                alt=""
-              />
-              Learn more
-            </div>
+            <a href="/cleaning-service">
+              <div className="flex text-white items-center font-almarai md:text-[1.125rem]">
+                <img
+                  className="h-[30px] mr-2 bg-emerald-500"
+                  src={diagonalArrow}
+                  alt=""
+                />
+                Learn more
+              </div>
+            </a>
           </div>
           <div className="shadow-card border border-gray-50 h-auto px-6 py-10">
             <img
@@ -111,22 +111,23 @@ const CommercialConstruction = () => {
               alt=""
             />
             <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
-              Painting <br className="min-[480px]:hidden lg:block xl:hidden" />{" "}
-              Service
+              Painting <br /> Service
             </h2>
             <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
               pharetra, habitasse turpis feugiat scelerisque nisi vestibulum eu
               nibh.
             </p>
-            <div className="flex items-center font-almarai md:text-[1.125rem]">
-              <img
-                className="h-[30px] mr-2 bg-emerald-500"
-                src={diagonalArrow}
-                alt=""
-              />
-              Learn more
-            </div>
+            <a href="/painting-service">
+              <div className="flex items-center font-almarai md:text-[1.125rem]">
+                <img
+                  className="h-[30px] mr-2 bg-emerald-500"
+                  src={diagonalArrow}
+                  alt=""
+                />
+                Learn more
+              </div>
+            </a>
           </div>
           <div className="shadow-card border border-gray-50 h-auto px-6 py-10">
             <img
@@ -135,21 +136,23 @@ const CommercialConstruction = () => {
               alt=""
             />
             <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
-              Space <br className="min-[480px]:hidden" /> Remodeling
+              Space <br /> Remodeling
             </h2>
             <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
               pharetra, habitasse turpis feugiat scelerisque nisi vestibulum eu
               nibh.
             </p>
-            <div className="flex items-center font-almarai md:text-[1.125rem]">
-              <img
-                className="h-[30px] mr-2 bg-emerald-500"
-                src={diagonalArrow}
-                alt=""
-              />
-              Learn more
-            </div>
+            <a href="/space-remodeling">
+              <div className="flex items-center font-almarai md:text-[1.125rem]">
+                <img
+                  className="h-[30px] mr-2 bg-emerald-500"
+                  src={diagonalArrow}
+                  alt=""
+                />
+                Learn more
+              </div>
+            </a>
           </div>
         </div>
       </div>
