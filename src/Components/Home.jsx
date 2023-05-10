@@ -158,13 +158,13 @@ const Home = () => {
             <div className="flex justify-end space-x-2 md:w-4/12">
               <button
                 onClick={scrollLeft}
-                className="border border-black p-[0.825rem] md:p-4"
+                className="border border-black p-[0.825rem] md:p-4 hover:bg-emerald-500"
               >
                 <img className="h-4 md:h-5" src={leftArrow} alt="" />
               </button>
               <button
                 onClick={scrollRight}
-                className="border p-[0.825rem] bg-emerald-500 md:p-4"
+                className="border p-[0.825rem] bg-emerald-500 md:p-4 hover:bg-emerald-600"
               >
                 <img className="h-4 md:h-5" src={rightArrow} alt="" />
               </button>
@@ -345,22 +345,34 @@ const Home = () => {
                 You can see more here:
               </p>
               <div className="flex space-x-4 pb-6 pt-3">
-                <div className="flex items-center text-[0.8125rem] pt-4 font-semibold text-emerald-500 min-[480px]:text-[1rem] sm:text-[1.125rem] md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1rem]">
-                  <img
-                    className="sm:h-7 sm:my-7 md:h-6 md:my-2 lg:h-[2.5vw]"
-                    src={fbGreen}
-                    alt=""
-                  />
-                  <p className="md:pt-1 lg:pt-0">Facebook</p>
-                </div>
-                <div className="flex items-center text-[0.8125rem] pt-4 font-semibold text-emerald-500 min-[480px]:text-[1rem] sm:text-[1.125rem] md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1rem]">
-                  <img
-                    className="sm:h-7 sm:my-7 md:h-6 md:my-2 lg:h-[2.5vw]"
-                    src={igGreen}
-                    alt=""
-                  />
-                  <p className="md:pt-1 lg:pt-0">Instagram</p>
-                </div>
+                <a
+                  href="http://facebook.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="flex items-center text-[0.8125rem] pt-4 font-semibold text-emerald-500 min-[480px]:text-[1rem] sm:text-[1.125rem] md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1rem]">
+                    <img
+                      className="sm:h-7 sm:my-7 md:h-6 md:my-2 lg:h-[2.5vw]"
+                      src={fbGreen}
+                      alt=""
+                    />
+                    <p className="md:pt-1 lg:pt-0">Facebook</p>
+                  </div>
+                </a>
+                <a
+                  href="http://instagram.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="flex items-center text-[0.8125rem] pt-4 font-semibold text-emerald-500 min-[480px]:text-[1rem] sm:text-[1.125rem] md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1rem]">
+                    <img
+                      className="sm:h-7 sm:my-7 md:h-6 md:my-2 lg:h-[2.5vw]"
+                      src={igGreen}
+                      alt=""
+                    />
+                    <p className="md:pt-1 lg:pt-0">Instagram</p>
+                  </div>
+                </a>
               </div>
             </div>
           </div>

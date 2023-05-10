@@ -17,7 +17,7 @@ const Footer = () => {
           </div>
           <div className=" w-full px-14 sm:px-32 md:w-1/3 md:px-12 md:py-2.5 md:my-auto">
             <a href="/contact">
-              <button className="w-full justify-center bg-emerald-500 py-2.5 text-gray-800 text-[0.9375rem] font-almarai font-semibold min-[480px]:text-[1rem] sm:py-4 sm:text-[1.125rem] md:py-2 md:text-[0.875rem] lg:text-[1rem] xl:text-[1.125rem] xl:py-4">
+              <button className="w-full justify-center text-gray-900 bg-emerald-500 py-2.5 text-[0.9375rem] font-almarai font-semibold min-[480px]:text-[1rem] sm:py-4 sm:text-[1.125rem] md:py-2 md:text-[0.875rem] lg:text-[1rem] lg:py-4 xl:text-[1.125rem] hover:bg-emerald-600">
                 Contact
               </button>
             </a>
@@ -34,21 +34,39 @@ const Footer = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
             <div className="w-full flex items-center justify-center space-x-2 py-7 md:py-2">
-              <img
-                className="sm:h-9 sm:w-9 md:w-5 lg:w-6 xl:w-7"
-                src={facebook}
-                alt=""
-              />
-              <img
-                className="sm:h-9 sm:w-9 md:w-5 lg:w-6 xl:w-7"
-                src={instagram}
-                alt=""
-              />
-              <img
-                className="sm:h-9 sm:w-9 md:w-5 lg:w-6 xl:w-7"
-                src={whatsapp}
-                alt=""
-              />
+              <a
+                href="http://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="sm:h-9 sm:w-9 md:w-5 lg:w-6 xl:w-7"
+                  src={facebook}
+                  alt=""
+                />
+              </a>
+              <a
+                href="http://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="sm:h-9 sm:w-9 md:w-5 lg:w-6 xl:w-7"
+                  src={instagram}
+                  alt=""
+                />
+              </a>
+              <a
+                href="http://whatsapp.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="sm:h-9 sm:w-9 md:w-5 lg:w-6 xl:w-7"
+                  src={whatsapp}
+                  alt=""
+                />
+              </a>
             </div>
           </div>
           <div className="md:flex md:w-2/4">
