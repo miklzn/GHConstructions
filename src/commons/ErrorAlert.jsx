@@ -1,6 +1,6 @@
 import error from "../utils/icons/Error.svg";
 
-const ErrorAlert = () => {
+const ErrorAlert = ({ handleClosePopup }) => {
   return (
     <div
       className="min-w-screen h-screen animated fadeIn faster fixed left-0 top-0 flex justify-center items-center inset-0 z-50 outline-none focus:outline-none bg-no-repeat bg-center bg-cover"
@@ -22,7 +22,10 @@ const ErrorAlert = () => {
           </div>
 
           <div className="text-center md:block">
-            <button className="flex items-center justify-center w-full px-6 py-3 text-base font-almarai text-center text-black transition duration-500 ease-in-out transform bg-emerald-500 hover:bg-emerald-600 focus:ring-0">
+            <button
+              className="flex items-center justify-center w-full px-6 py-3 text-base font-almarai text-center text-black transition duration-500 ease-in-out transform bg-emerald-500 hover:bg-emerald-600 focus:ring-0"
+              onClick={handleClosePopup}
+            >
               Close
             </button>
           </div>

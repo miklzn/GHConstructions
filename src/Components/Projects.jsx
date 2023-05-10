@@ -37,13 +37,13 @@ const Projects = () => {
       </div>
       <div className="h-auto mx-[5vw] py-20 lg:px-[7vw]">
         <div className="grid grid-cols gap-10 lg:gap-20">
-          <div className="text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 lg:text-[1.375rem]">
+          <div className="text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 md:shadow-card lg:text-[1.375rem]">
             <img
               className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[45vh] md:w-2/3"
               src="https://www.maperi.com/wp-content/uploads/2022/07/tendencia-lavabo-2023-maperi.jpg"
               alt=""
             />
-            <div className="md:pl-5 md:flex-col">
+            <div className="md:pl-4 md:flex-col">
               <div className="">
                 <p className="font-almarai my-2 sm:my-6 md:my-0 md:mb-3">
                   Remodeling Bathroom
@@ -122,13 +122,13 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 lg:text-[1.375rem]">
+          <div className="text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 md:shadow-card lg:text-[1.375rem]">
             <img
               className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[45vh] md:w-2/3"
               src="https://www.maperi.com/wp-content/uploads/2022/07/tendencia-lavabo-2023-maperi.jpg"
               alt=""
             />
-            <div className="md:pl-5 md:flex-col">
+            <div className="md:pl-4 md:flex-col">
               <div className="">
                 <p className="font-almarai my-2 sm:my-6 md:my-0 md:mb-3">
                   Remodeling Bathroom
@@ -207,13 +207,13 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 lg:text-[1.375rem]">
+          <div className="text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 md:shadow-card lg:text-[1.375rem]">
             <img
               className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[45vh] md:w-2/3"
               src="https://www.maperi.com/wp-content/uploads/2022/07/tendencia-lavabo-2023-maperi.jpg"
               alt=""
             />
-            <div className="md:pl-5 md:flex-col">
+            <div className="md:pl-4 md:flex-col">
               <div className="">
                 <p className="font-almarai my-2 sm:my-6 md:my-0 md:mb-3">
                   Remodeling Bathroom
@@ -292,13 +292,13 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 lg:text-[1.375rem]">
+          <div className="text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 md:shadow-card lg:text-[1.375rem]">
             <img
               className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[45vh] md:w-2/3"
               src="https://www.maperi.com/wp-content/uploads/2022/07/tendencia-lavabo-2023-maperi.jpg"
               alt=""
             />
-            <div className="md:pl-5 md:flex-col">
+            <div className="md:pl-4 md:flex-col">
               <div className="">
                 <p className="font-almarai my-2 sm:my-6 md:my-0 md:mb-3">
                   Remodeling Bathroom

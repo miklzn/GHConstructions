@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import instagram from "../utils/icons/Instagram.svg";
 import facebook from "../utils/icons/Facebook.svg";
@@ -9,8 +9,12 @@ import phone from "../utils/icons/Phone.svg";
 import phoneBack from "../utils/icons/PhoneBack.svg";
 import pin from "../utils/icons/Pin.svg";
 import pinBack from "../utils/icons/PinBack.svg";
+import Success from "../commons/SuccessAlert";
+import Error from "../commons/ErrorAlert";
 
 const Contact = () => {
+  const [showPopup, setShowPopup] = useState(0);
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -27,11 +31,17 @@ const Contact = () => {
         (result) => {
           console.log(result.text);
           form.current.reset();
+          setShowPopup(1);
         },
         (error) => {
           console.log(error.text);
+          setShowPopup(2);
         }
       );
+  };
+
+  const handleClosePopup = () => {
+    return setShowPopup(0);
   };
 
   return (
@@ -245,6 +255,11 @@ const Contact = () => {
           </div>
         </div>
       </section>
+      {showPopup === 1 ? (
+        <Success handleClosePopup={handleClosePopup} />
+      ) : showPopup === 2 ? (
+        <Error handleClosePopup={handleClosePopup} />
+      ) : null}
     </>
   );
 };
