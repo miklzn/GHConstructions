@@ -63,7 +63,7 @@ const Home = () => {
                 alt=""
               />
               <h2 className="pb-3 pt-2 text-[1.375rem] font-semibold font-almarai">
-                Residential Construction
+                Residential <br className="lg:hidden" /> Construction
               </h2>
               <p className="text-[0.875rem] text-gray-500 relative z-10 min-[480px]:text-[0.9375rem] sm:text-[1rem] md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1.125rem]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit quis
@@ -85,7 +85,7 @@ const Home = () => {
                 alt=""
               />
               <h2 className="pb-3 pt-2 text-[1.375rem] font-semibold font-almarai">
-                Commercial Construction
+                Commercial <br className="lg:hidden" /> Construction
               </h2>
               <p className="text-[0.875rem] text-gray-500 relative z-10 min-[480px]:text-[0.9375rem] sm:text-[1rem] md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1.125rem]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit quis
@@ -107,7 +107,7 @@ const Home = () => {
                 alt=""
               />
               <h2 className="pb-3 pt-2 text-[1.375rem] font-semibold text-white font-almarai">
-                Cleannig <br className="min-[480px]:hidden" /> Service
+                Cleannig <br className="lg:hidden" /> Service
               </h2>
               <p className="text-[0.875rem] text-gray-200 relative z-10 min-[480px]:text-[0.9375rem] sm:text-[1rem] md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1.125rem]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit quis

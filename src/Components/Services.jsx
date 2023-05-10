@@ -38,18 +38,16 @@ const Services = () => {
               </p>
             </div>
             <div className="flex justify-center space-x-4 mx-[5vw] mt-7 md:w-1/2 md:mt-0">
-              <button
-                className="bg-white w-full py-2.5 px-6 text-sm text-gray-900 min-[480px]:w-full min-[480px]:text-base sm:w-full sm:py-[1.127rem] md:text-[1rem] md:py-[0.75rem] md:px-0 lg:text-[1.125rem] lg:py-[1rem]"
-                href="/"
-              >
-                Contact
-              </button>
-              <button
-                className="bg-emerald-500 w-full py-2.5 px-6 text-sm text-gray-900 min-[480px]:w-full min-[480px]:text-base sm:w-full sm:py-[1.127rem] md:text-[1rem] md:py-[0.75rem] md:px-0 lg:text-[1.125rem] lg:py-[1rem]"
-                href="/"
-              >
-                Learn more
-              </button>
+              <a className="w-full" href="/contact">
+                <button className="bg-white w-full py-2.5 px-6 text-sm text-gray-900 min-[480px]:w-full min-[480px]:text-base sm:w-full sm:py-[1.127rem] md:text-[1rem] md:py-[0.75rem] md:px-0 lg:text-[1.125rem] lg:py-[1rem] hover:bg-emerald-500">
+                  Contact
+                </button>
+              </a>
+              <a className="w-full" href="/projects">
+                <button className="bg-emerald-500 w-full py-2.5 px-6 text-sm text-gray-900 min-[480px]:w-full min-[480px]:text-base sm:w-full sm:py-[1.127rem] md:text-[1rem] md:py-[0.75rem] md:px-0 lg:text-[1.125rem] lg:py-[1rem] hover:bg-emerald-600">
+                  Projects
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -221,13 +219,13 @@ const Services = () => {
               <div className="hidden flex justify-end md:block md:flex md:space-x-3 md:w-4/12">
                 <button
                   onClick={scrollLeft}
-                  className="border border-black p-[0.825rem] md:p-5"
+                  className="border border-black p-[0.825rem] md:p-5 hover:bg-emerald-500"
                 >
                   <img className="h-5 md:h-6" src={leftArrow} alt="" />
                 </button>
                 <button
                   onClick={scrollRight}
-                  className="border p-[0.825rem] bg-emerald-500 md:p-5"
+                  className="border p-[0.825rem] bg-emerald-500 md:p-5 hover:bg-emerald-600"
                 >
                   <img className="h-5 md:h-6" src={rightArrow} alt="" />
                 </button>

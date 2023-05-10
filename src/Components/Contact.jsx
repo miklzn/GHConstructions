@@ -61,21 +61,39 @@ const Contact = () => {
             </p>
             <div>
               <div className="w-full flex items-center space-x-2 py-5 md:py-2 lg:py-5">
-                <img
-                  className="sm:h-9 sm:w-9 md:w-6 lg:w-8"
-                  src={facebook}
-                  alt=""
-                />
-                <img
-                  className="sm:h-9 sm:w-9 md:w-6 lg:w-8"
-                  src={instagram}
-                  alt=""
-                />
-                <img
-                  className="sm:h-9 sm:w-9 md:w-6 lg:w-8"
-                  src={whatsapp}
-                  alt=""
-                />
+                <a
+                  href="http://facebook.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    className="sm:h-9 sm:w-9 md:w-6 lg:w-8"
+                    src={facebook}
+                    alt=""
+                  />
+                </a>
+                <a
+                  href="http://instagram.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    className="sm:h-9 sm:w-9 md:w-6 lg:w-8"
+                    src={instagram}
+                    alt=""
+                  />
+                </a>
+                <a
+                  href="http://whatsapp.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    className="sm:h-9 sm:w-9 md:w-6 lg:w-8"
+                    src={whatsapp}
+                    alt=""
+                  />
+                </a>
               </div>
             </div>
           </div>
@@ -87,13 +105,13 @@ const Contact = () => {
                     type="text"
                     name="fullname"
                     id="name"
-                    class="block py-2.5 px-0 w-full text-sm text-gray-200 bg-transparent border-0 border-b-2 border-white appearance-none  focus:outline-none focus:ring-0 focus:border-emerald-500 peer"
+                    class="block py-2.5 px-0 w-full text-sm text-gray-200 bg-transparent border-0 border-b-2 border-white appearance-none focus:outline-none focus:ring-0 focus:border-emerald-500 peer"
                     placeholder=" "
                     required
                   />
                   <label
                     for="name"
-                    class="peer-focus:font-medium absolute text-sm text-gray-300 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-gray-400 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                    class="peer-focus:font-medium absolute text-sm text-gray-300 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-gray-400 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                   >
                     Full name
                   </label>
@@ -168,7 +186,7 @@ const Contact = () => {
 
               <button
                 type="submit"
-                className="w-full justify-center bg-emerald-500 py-2.5 text-gray-800 text-[0.9375rem] font-almarai font-semibold my-5 sm:py-4 sm:text-[3.2vw] md:py-[0.75rem] md:text-[1rem] lg:text-[1.125rem] lg:py-[1rem]"
+                className="w-full justify-center bg-emerald-500 py-2.5 text-gray-900 text-[0.9375rem] font-almarai font-semibold my-5 sm:py-4 sm:text-[3.2vw] md:py-[0.75rem] md:text-[1rem] lg:text-[1.125rem] lg:py-[1rem] hover:bg-emerald-600"
               >
                 Submit
               </button>
