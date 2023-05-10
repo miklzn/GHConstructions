@@ -1,6 +1,6 @@
 import { React } from "react";
 import { Route, Routes } from "react-router-dom";
-import Header from "./components/Header";
+import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
@@ -18,7 +18,7 @@ import HomeRepair from "./components/HomeRepair";
 const App = () => {
   return (
     <div>
-      <Header />
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
