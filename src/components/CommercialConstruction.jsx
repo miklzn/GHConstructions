@@ -8,7 +8,7 @@ const CommercialConstruction = () => {
   return (
     <section>
       <div>
-        <div className="relative h-[78vh] sm:h-[74vh] md:h-[90vh]">
+        <div className="relative h-[88vh] sm:h-[74vh] sm:min-h-[280px] md:h-screen lg:h-[88vh]">
           <img
             className="absolute h-full w-full object-cover"
             src="https://loganparkinc.com/files/shutterstock/2022/03/shutterstock_601605617_1647975197_e141237af2f3a306d54ab52c8e093f9b2f.jpg?w=1600&a=t"

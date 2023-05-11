@@ -95,7 +95,7 @@ const About = () => {
             </div>
             <div className="py-10 md:w-1/2">
               <img
-                className="h-[51.338vh] object-cover sm:w-full"
+                className="h-[51.338vh] object-cover sm:w-full sm:min-h-[280px] md:min-h-[291px]"
                 src="https://content.fortune.com/wp-content/uploads/2016/09/71300566.jpg?w=1440&q=75"
                 alt=""
               />
