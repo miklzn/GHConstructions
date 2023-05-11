@@ -8,7 +8,7 @@ const PaintingService = () => {
   return (
     <section>
       <div>
-        <div className="relative h-[78vh] sm:h-[74vh] md:h-[90vh]">
+        <div className="relative h-[88vh] sm:h-[74vh] sm:min-h-[280px] md:h-screen lg:h-[88vh]">
           <img
             className="absolute h-full w-full object-cover"
             src="https://scontent.faep7-1.fna.fbcdn.net/v/t1.6435-9/193750178_165595418920707_5852149987576009275_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=e3f864&_nc_ohc=tep3XcqBQSYAX-G5baf&_nc_ht=scontent.faep7-1.fna&oh=00_AfAbaeg6fSf7z9_PYI3TKzp_eMkMPfdAzC6a5Vd5l3fi3w&oe=6481EC78"

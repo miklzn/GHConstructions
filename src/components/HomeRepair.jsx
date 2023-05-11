@@ -8,7 +8,7 @@ const HomeRepair = () => {
   return (
     <section>
       <div>
-        <div className="relative h-[78vh] sm:h-[74vh] md:h-[90vh]">
+        <div className="relative h-[88vh] sm:h-[74vh] sm:min-h-[280px] md:h-screen lg:h-[88vh]">
           <img
             className="absolute h-full w-full object-cover"
             src="https://white-electric.com/wp-content/uploads/2021/01/home-electrical-repair.jpg"

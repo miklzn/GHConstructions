@@ -24,7 +24,7 @@ const Home = () => {
     <>
       <section className="h-full">
         <div
-          className="h-[160vh] w-screen bg-cover bg-center bg-fixed sm:h-[320vh] md:h-[140vh] lg:h-[150vh]"
+          className="h-[160vh] w-screen bg-cover bg-center bg-fixed sm:h-[320vh] md:h-[140vh] md:min-h-[708px] lg:h-[150vh]"
           style={{
             backgroundImage: `url(https://media.revistagq.com/photos/5d7629118643ed00085b75a4/master/pass/La-Finca.jpg)`,
           }}
@@ -154,7 +154,7 @@ const Home = () => {
       <section className="h-auto bg-gray-100 md:px-6 lg:px-[10.8vw]">
         <div className="pb-3 md:pb-1">
           <div className="flex flex-row justify-between items-center mx-[5vw] pt-16 pb-2 font-catamaran text-[1.5rem] font-bold min-[480px]:text-[1.875rem] sm:text-[2rem] sm:pt-20 sm:pb-4 md:text-[1.875rem] md:pt-24 lg:text-[2.7vw]">
-            <h1>Selected Project</h1>
+            <h1>Selected Projects</h1>
             <div className="flex justify-end space-x-2 md:w-4/12">
               <button
                 onClick={scrollLeft}

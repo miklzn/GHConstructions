@@ -7,7 +7,10 @@ import leftArrow from "../utils/icons/ArrowLeft.svg";
 import rightArrow from "../utils/icons/ArrowRight.svg";
 
 const Project = () => {
-  const widthPx = window.innerWidth < 1024 ? 288 : 728 + 100;
+  const widthPx =
+    window.innerWidth < 1024
+      ? window.innerWidth * 0.9
+      : window.innerWidth * 0.33;
 
   const scrollLeft = () => {
     document.getElementById("content").scrollLeft -= widthPx;
@@ -23,7 +26,7 @@ const Project = () => {
     <>
       <section>
         <div>
-          <div className="relative h-[57vh] md:h-[100vh]">
+          <div className="relative h-[57vh] sm:min-h-[280px] md:h-[100vh]">
             <img
               className="absolute h-full w-full object-cover"
               src="https://latinexclusive.com/sites/default/files/api_file_downloads/5f2daa1a39646167c51a2308_3.jpg"
@@ -39,7 +42,7 @@ const Project = () => {
           </div>
         </div>
         <div className="h-auto mx-[5vw] xl:px-[7vw]">
-          <div className="relative h-auto bg-white -mt-16 mb-16 border overflow-hidden px-6 py-10 md:-mt-40 lg:-mt-44 lg:py-16">
+          <div className="relative h-auto bg-white -mt-16 mb-16 border border-gray-50 shadow-card overflow-hidden px-6 py-10 md:-mt-40 lg:-mt-44 lg:py-16">
             <img
               className="absolute -right-10 bottom-0 h-32 -rotate-[25deg]"
               src={mallet}

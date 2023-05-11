@@ -35,9 +35,9 @@ const Projects = () => {
       </div>
       <div className="h-auto mx-[5vw] py-20 lg:px-[7vw]">
         <div className="grid grid-cols gap-10 lg:gap-20">
-          <div className="text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 md:shadow-card lg:text-[1.375rem]">
+          <div className="text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 md:p-2 md:shadow-card lg:text-[1.375rem]">
             <img
-              className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[45vh] md:w-2/3"
+              className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[45vh] md:min-h-[270px] md:w-2/3"
               src="https://www.maperi.com/wp-content/uploads/2022/07/tendencia-lavabo-2023-maperi.jpg"
               alt=""
             />
@@ -120,9 +120,9 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 md:shadow-card lg:text-[1.375rem]">
+          <div className="text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 md:p-2 md:shadow-card lg:text-[1.375rem]">
             <img
-              className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[45vh] md:w-2/3"
+              className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[45vh] md:min-h-[270px] md:w-2/3"
               src="https://www.maperi.com/wp-content/uploads/2022/07/tendencia-lavabo-2023-maperi.jpg"
               alt=""
             />
@@ -205,9 +205,9 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 md:shadow-card lg:text-[1.375rem]">
+          <div className="text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 md:p-2 md:shadow-card lg:text-[1.375rem]">
             <img
-              className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[45vh] md:w-2/3"
+              className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[45vh] md:min-h-[270px] md:w-2/3"
               src="https://www.maperi.com/wp-content/uploads/2022/07/tendencia-lavabo-2023-maperi.jpg"
               alt=""
             />
@@ -290,9 +290,9 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 md:shadow-card lg:text-[1.375rem]">
+          <div className="text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 md:p-2 md:shadow-card lg:text-[1.375rem]">
             <img
-              className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[45vh] md:w-2/3"
+              className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[45vh] md:min-h-[270px] md:w-2/3"
               src="https://www.maperi.com/wp-content/uploads/2022/07/tendencia-lavabo-2023-maperi.jpg"
               alt=""
             />
