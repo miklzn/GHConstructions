@@ -29,7 +29,7 @@ const Home = () => {
             backgroundImage: `url(https://media.revistagq.com/photos/5d7629118643ed00085b75a4/master/pass/La-Finca.jpg)`,
           }}
         >
-          <div className="pt-[15.5vh] flex flex-col justify-center font-almarai text-white w-full h-auto text-[10vw] bg-emerald-900 px-[5vw] py-10 text-center sm:px-[5vw] md:static md:text-[5.3vw] md:px-[4.8vw] lg:py-[4.8vw] lg:pt-[19vh] lg:px-[5vw] lg:text-[5vw] lg:leading-tight xl:text-[4vw] xl:px-[11.5vw]">
+          <div className="flex flex-col justify-center font-almarai text-white w-full h-auto text-[10vw] bg-emerald-900 px-[5vw] py-10 text-center sm:px-[5vw] md:static md:text-[5.3vw] md:px-[4.8vw] lg:py-[4.8vw] lg:px-[5vw] lg:text-[5vw] lg:leading-tight xl:text-[4vw] xl:px-[11.5vw] xl:py-[4.5vw]">
             <div className="w-full animate-fade-in-up">
               <h1 className="md:text-start">
                 <span className="text-teal-700">G&H CONST. </span>
