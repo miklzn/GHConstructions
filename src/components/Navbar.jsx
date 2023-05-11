@@ -1,13 +1,11 @@
 const Navbar = () => {
   return (
-    <nav class="w-full bg-emerald-900 px-[3vw] py-[1.4vw] border-b-4 border-emerald-900 sm:px-[3vw] sm:py-[4.4vw] md:px-[2.4vw] md:py-[1vw] lg:px-[3.5vw] xl:px-[10vw]">
-      <div class="container flex flex-wrap items-center justify-between mx-auto sm:px-3 md:px-5">
-        <a href="/" class="pl-1 flex animate-fade-in-up items-center md:pl-0">
-          {/* <img
-            src="https://flowbite.com/docs/images/logo.svg"
-            class="h-8 mr-3 sm:h-9"
-            alt="Flowbite Logo"
-          /> */}
+    <nav className="w-full bg-emerald-900 px-[3vw] py-[1.4vw] sm:px-[3vw] sm:py-[4.4vw] md:px-[2.4vw] md:py-[1vw] lg:px-[3.5vw] xl:px-[10vw]">
+      <div className="container flex flex-wrap items-center justify-between mx-auto sm:px-3 md:px-5">
+        <a
+          href="/"
+          className="pl-1 flex animate-fade-in-up items-center md:pl-0"
+        >
           <span class="self-center text-xl font-semibold whitespace-nowrap text-white">
             Logotipe
           </span>
@@ -15,7 +13,7 @@ const Navbar = () => {
         <button
           data-collapse-toggle="navbar-default"
           type="button"
-          class="inline-flex items-center py-2 ml-3 text-sm text-white md:hidden"
+          className="animate-fade-in-up inline-flex items-center py-2 ml-3 text-sm text-white md:hidden"
           aria-controls="navbar-default"
           aria-expanded="false"
         >
@@ -73,12 +71,12 @@ const Navbar = () => {
             </rect>
           </svg>
         </button>
-        <div class=" hidden w-full md:block md:w-auto" id="navbar-default">
-          <ul class="absolute z-40 flex flex-col bg-emerald-900 bg-opacity-[0.005] backdrop-blur-xl p-4 mt-2 w-full -left-[0.02rem] text-[5vw] text-gray-300 sm:w-full sm:mt-7 sm:text-[2.125rem] sm:space-y-8 md:w-full md:static md:flex-row md:space-x-8 md:space-y-0 md:mt-0 md:text-sm md:font-light md:border-0 md:bg-emerald-900 md:text-gray-400 lg:text-lg">
+        <div className=" hidden w-full md:block md:w-auto" id="navbar-default">
+          <ul className="absolute z-40 flex flex-col bg-emerald-900 bg-opacity-[0.005] backdrop-blur-xl p-4 mt-2 w-full -left-[0.02rem] text-[5vw] text-gray-300 sm:w-full sm:mt-7 sm:text-[2.125rem] sm:space-y-8 md:w-full md:static md:flex-row md:space-x-8 md:space-y-0 md:mt-0 md:text-sm md:font-light md:border-0 md:bg-emerald-900 md:text-gray-400 lg:text-lg">
             <li className="animate-fade-in-up delay-100">
               <a
                 href="/"
-                class="block py-2 pl-3 pr-4 hover:text-emerald-500 md:bg-transparent md:p-0 "
+                className="block py-2 pl-3 pr-4 hover:text-emerald-500 md:bg-transparent md:p-0 "
                 aria-current="page"
               >
                 Home
@@ -87,7 +85,7 @@ const Navbar = () => {
             <li className="animate-fade-in-up delay-200">
               <a
                 href="/about"
-                class="block py-2 pl-3 pr-4 hover:text-emerald-500 md:bg-transparent md:p-0"
+                className="block py-2 pl-3 pr-4 hover:text-emerald-500 md:bg-transparent md:p-0"
               >
                 About
               </a>
@@ -95,7 +93,7 @@ const Navbar = () => {
             <li className="animate-fade-in-up delay-300">
               <a
                 href="/services"
-                class="block py-2 pl-3 pr-4 hover:text-emerald-500 md:bg-transparent md:p-0"
+                className="block py-2 pl-3 pr-4 hover:text-emerald-500 md:bg-transparent md:p-0"
               >
                 Services
               </a>
@@ -103,7 +101,7 @@ const Navbar = () => {
             <li className="animate-fade-in-up delay-400">
               <a
                 href="/projects"
-                class="block py-2 pl-3 pr-4 hover:text-emerald-500 md:bg-transparent md:p-0"
+                className="block py-2 pl-3 pr-4 hover:text-emerald-500 md:bg-transparent md:p-0"
               >
                 Projects
               </a>
@@ -111,7 +109,7 @@ const Navbar = () => {
             <li className="animate-fade-in-up delay-500">
               <a
                 href="/contact"
-                class="block py-2 pl-3 pr-4 hover:text-emerald-500 md:bg-transparent md:p-0"
+                className="block py-2 pl-3 pr-4 hover:text-emerald-500 md:bg-transparent md:p-0"
               >
                 Contact
               </a>
