@@ -66,9 +66,10 @@ const Home = () => {
               <h2 className="pb-3 pt-2 text-[1.375rem] font-semibold font-almarai relative z-10">
                 Residential <br className="lg:hidden" /> Construction
               </h2>
-              <p className="text-[0.875rem] text-gray-500 relative z-10 min-[480px]:text-[0.9375rem] sm:text-[1rem] md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1.125rem]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit quis
-                eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.
+              <p className="text-[0.875rem] text-gray-600 relative z-10 min-[480px]:text-[0.9375rem] sm:text-[1rem] md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1.125rem]">
+                We build custom homes with comprehensive design and construction
+                services, including ground-up construction, remodeling, outdoor
+                living spaces, landscaping, and sustainable practices.
               </p>
 
               <img
@@ -88,9 +89,11 @@ const Home = () => {
               <h2 className="pb-3 pt-2 text-[1.375rem] font-semibold font-almarai relative z-10">
                 Commercial <br className="lg:hidden" /> Construction
               </h2>
-              <p className="text-[0.875rem] text-gray-500 relative z-10 min-[480px]:text-[0.9375rem] sm:text-[1rem] md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1.125rem]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit quis
-                eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.
+              <p className="text-[0.875rem] text-gray-600 relative z-10 min-[480px]:text-[0.9375rem] sm:text-[1rem] md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1.125rem]">
+                New projects and remodels for stores, restaurants, gas stations,
+                and mid-rise multifamily buildings. We guarantee quality,
+                safety, and sustainability to meet your goals on time and
+                budget.
               </p>
 
               <img
@@ -111,8 +114,10 @@ const Home = () => {
                 Cleannig <br className="lg:hidden" /> Service
               </h2>
               <p className="text-[0.875rem] text-gray-200 relative z-10 min-[480px]:text-[0.9375rem] sm:text-[1rem] md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1.125rem]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit quis
-                eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.
+                We provide cleaning services for homes and businesses. Our
+                trained team uses sustainable products and practices to keep
+                your space clean and healthy, from deep cleans to scheduled
+                maintenance.
               </p>
 
               <img
