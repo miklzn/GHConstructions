@@ -32,7 +32,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-emerald-900">
-      <div className="mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="mx-[5vw] sm:px-6 lg:px-[7vw]">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center animate-fade-in-up">
             <a href="/" className="text-white font-almarai">
@@ -124,7 +124,7 @@ const Navbar = () => {
             {navlinks.map((link, index) => (
               <a
                 key={index}
-                className="text-white font-light hover:text-emerald-500 block px-3 py-2 text-base"
+                className="animate-fade-in-up text-white font-light hover:text-emerald-500 block px-3 py-2 text-base"
                 href={link.link}
               >
                 {link.title}
