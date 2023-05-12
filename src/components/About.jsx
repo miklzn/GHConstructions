@@ -11,12 +11,13 @@ const About = () => {
             <div className="mx-[5vw] md:w-1/2 ">
               <p className="text-emerald-500 text-[1.125rem] mb-4">/ABOUT US</p>
               <h1 className="text-[2.125rem] text-white font-semibold leading-10 min-[480px]:text-[2.5rem]">
-                A team of expert contractors ready to help you
+                A group of experts ready <br /> to help you.{" "}
               </h1>
               <p className="mt-7 font-catamaran text-white">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor
-                sit varius rhoncus, nullam pulvinar ut sollicitudin dictumst
-                porttitor porttitor quis quisque erat.
+                We are a team of construction experts ready to assist you at
+                every stage of your project. We pride ourselves on offering
+                customized services to fit your needs and budget. Trust us to
+                take your project to the next level.
               </p>
             </div>
             <div className="flex justify-center space-x-4 mx-[5vw] mt-7 md:w-1/2 md:mt-0">
@@ -85,12 +86,13 @@ const About = () => {
                 /OUR MISSION
               </p>
               <h1 className="text-[2rem] font-semibold leading-10 min-[480px]:text-[2.25rem]">
-                Our goal is to deliver high quality work at an affordable price
+                Our goal is to provide high-quality work at an affordable price
               </h1>
               <p className="mt-7 font-catamaran">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor
-                sit varius rhoncus, nullam pulvinar ut sollicitudin dictumst
-                porttitor porttitor quis quisque erat.
+                At G&H Construction, we focus on providing high-quality
+                construction services at affordable prices. We strive to
+                accommodate our clients' budgets without compromising on
+                excellence in our work.
               </p>
             </div>
             <div className="py-10 md:w-1/2">
@@ -109,9 +111,10 @@ const About = () => {
               The values that drive our work
             </h1>
             <p className="mt-7 font-catamaran">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit
-              varius rhoncus, nullam pulvinar ut sollicitudin dictumst porttitor
-              porttitor quis quisque erat.
+              We are guided by a strong work ethic based on values that are
+              fundamental to us. We work with honesty, integrity, and
+              transparency to provide exceptional service to our clients and
+              achieve their complete satisfaction.
             </p>
           </div>
           <div className="py-14 grid grid-cols-1 gap-6 md:grid-cols-3 lg:px-[7vw]">
@@ -120,9 +123,9 @@ const About = () => {
                 <img className="w-14 min-[480px]:w-[70px]" src={medal} alt="" />
               </div>
               <h3 className="mb-3 min-[480px]:text-[1.25rem]">Quality</h3>
-              <p className="font-catamaran text-gray-500">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut dolor
-                arcu dictum at neque commodo.
+              <p className="font-catamaran text-gray-600">
+                In our company, quality is our top priority. We are committed to
+                delivering exceptional work on every project we undertake.
               </p>
             </div>
             <div className="h-auto shadow-card border border-gray-50 px-6 py-10 text-center">
@@ -130,9 +133,10 @@ const About = () => {
                 <img className="w-14 min-[480px]:w-[70px]" src={check} alt="" />
               </div>
               <h3 className="mb-3 min-[480px]:text-[1.25rem]">Commitment</h3>
-              <p className="font-catamaran text-gray-500">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut dolor
-                arcu dictum at neque commodo.
+              <p className="font-catamaran text-gray-600">
+                The commitment is essential. We make sure to fulfill our
+                promises and exceed our clients' expectations in every project
+                we undertake.
               </p>
             </div>
             <div className="h-auto shadow-card border border-gray-50 px-6 py-10 text-center">
@@ -140,9 +144,10 @@ const About = () => {
                 <img className="w-14 min-[480px]:w-[70px]" src={lamp} alt="" />
               </div>
               <h3 className="mb-3 min-[480px]:text-[1.25rem]">Innovation</h3>
-              <p className="font-catamaran text-gray-500">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut dolor
-                arcu dictum at neque commodo.
+              <p className="font-catamaran text-gray-600">
+                Innovation is a core value at our company. We strive to stay at
+                the forefront of the latest trends and technologies in our
+                industry.
               </p>
             </div>
           </div>

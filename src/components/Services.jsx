@@ -32,9 +32,10 @@ const Services = () => {
                 Our services
               </h1>
               <p className="mt-7 font-catamaran text-white">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor
-                sit varius rhoncus, nullam pulvinar ut sollicitudin dictumst
-                porttitor porttitor quis quisque erat.
+                We offer high-quality construction and maintenance services for
+                homes and businesses. Our team of experienced professionals is
+                committed to excellence and ready to help you achieve your
+                goals.
               </p>
             </div>
             <div className="flex justify-center space-x-4 mx-[5vw] mt-7 md:w-1/2 md:mt-0">
