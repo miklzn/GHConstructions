@@ -8,6 +8,7 @@ import winch from "../utils/icons/Winch.svg";
 import winchBack from "../utils/icons/WinchBack.svg";
 import vacuum from "../utils/icons/Vacuum.svg";
 import vacuumBack from "../utils/icons/VacuumBack.svg";
+import bottomVideo from "../utils/videos/bottom-video.mp4";
 
 const Home = () => {
   const widthPx = window.innerWidth;
@@ -404,10 +405,7 @@ const Home = () => {
             playsinline
             className="absolute object-cover z-10 h-full w-full"
           >
-            <source
-              src="https://st2.depositphotos.com/1007980/49070/v/600/depositphotos_490704012-stock-video-motion-video-waverly-surfside-beach.mp4"
-              type="video/mp4"
-            />
+            <source src={bottomVideo} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </header>
