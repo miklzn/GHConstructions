@@ -133,20 +133,19 @@ const Home = () => {
         <div className="flex flex-col mx-[5vw] py-12 sm:py-16 md:flex md:flex-row md:py-[7.5vw] lg:py-16">
           <div className=" font-catamaran text-[1.5rem] font-bold min-[480px]:text-[1.875rem] sm:text-[2rem] md:w-2/5 md:my-auto md:text-[1.875rem] lg:text-[2.7vw]">
             <div>
-              <h1>Modernism &</h1>
+              <h1>Quality &</h1>
             </div>
             <div>
-              <h1>Modernity</h1>
+              <h1>Satisfaction</h1>
             </div>
           </div>
           <div className="mt-5 font-catamaran text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mt-12 md:mt-0 md:w-3/5 md:my-auto md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1.125rem]">
-            The company is a hybrid creative agency and architectural studio
-            that infuses innovative branding and strategic marketing concepts
-            early on in the architectural process. Our team of diverse and
-            experienced problem solvers utilize our unique approach, which
-            allows us to pinpoint value-add opportunities and ensure that the
-            design of the building or space is aligned to target demographic
-            desires.
+            At G&H Construction, we take pride in providing high-quality,
+            personalized services tailored to each client's needs. Our highly
+            skilled team is dedicated to excellence on every project we
+            undertake. Whether you need to build a new home, remodel a kitchen
+            or bathroom, paint your home, or require maintenance and cleaning
+            services, G&H Construction is here to help you.
           </div>
         </div>
         <div className="flex justify-center mx-[5vw] md:mb-16">
@@ -283,19 +282,17 @@ const Home = () => {
           </h1>
           <div className="md:flex md:flex-row">
             <p className="text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] md:text-[0.875rem] md:w-[45vw] md:pr-16 md:ml-0 lg:text-[0.875rem] xl:text-[1.125rem]">
-              Our heart and soul are more than our expertise and resources. Our
-              team – our community – is what makes Shildan extraordinary.
+              At G&H Construction, our extensive team of highly skilled
+              professionals is committed to excellence on every project.
               <br />
               <br />
-              The team brings together a diverse group of people passionate
-              about architecture, design, materiality, and artistry. Unified by
-              a shared vision, we are a collective of innovators, designers, and
-              engineers, working together to help build a better future.
+              Including architects, engineers, interior designers, general
+              contractors, painters, cleaners, and maintenance staff, each with
+              extensive experience in their area of expertise.
               <br />
               <br />
-              Passion is the driving force in all we do. We are passionate about
-              good design, beautiful architecture, sustainability, changing
-              neighborhoods and building a better tomorrow.
+              We work closely with clients to ensure satisfaction at every step
+              of the way, maintaining high standards of quality and safety.
             </p>
             <div className="mt-10 flex h-auto md:w-[45vw] md:-mt-16">
               <div className="w-1/2">
@@ -338,14 +335,11 @@ const Home = () => {
                 Our Services
               </h1>
               <p className="text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1.125rem]">
-                The Company has engaged fundamentally new approach to the
-                designing. There are personal and reliability approach to Wide
-                range of Engineering and Construction Company Services.
-                <br />
-                <br />
-                Each design decision is guided by a deep appreciation for and
-                understanding of the integral architectural, artistic, cultural,
-                civic, environmental, and economic forces that shape a project.
+                We offer a wide range of construction, remodeling, maintenance,
+                cleaning services and more. We adapt to our clients' budgets
+                without compromising quality and ensure that each project is
+                carried out to the highest standards of excellence and safety.
+                Trust us to bring your construction projects to life.
               </p>
               <p className="mt-5 font-semibold text-[0.875rem] min-[480px]:text-[1.125rem] sm:text-[1.25rem] sm:mt-10 md:text-[1rem] md:mt-4 lg:mt-8 lg:text-[1rem] xl:text-[1.125rem]">
                 You can see more here:

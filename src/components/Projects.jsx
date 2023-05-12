@@ -14,9 +14,10 @@ const Projects = () => {
               Our projects
             </h1>
             <p className="mt-7 font-catamaran text-white">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit
-              varius rhoncus, nullam pulvinar ut sollicitudin dictumst porttitor
-              porttitor quis quisque erat.
+              In every project we undertake, we leave our mark of quality and
+              commitment. Each space we create is a testament to our passion for
+              excellence in construction and maintenance. Let our work speak for
+              itself and discover what we can do for you.
             </p>
           </div>
           <div className="flex justify-center space-x-4 mx-[5vw] mt-7 md:w-1/2 md:mt-0">
