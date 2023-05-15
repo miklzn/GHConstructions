@@ -13,7 +13,7 @@ import CommercialConstruction from "./components/CommercialConstruction";
 import CleaningService from "./components/CleaningService";
 import PaintingService from "./components/PaintingService";
 import SpaceRemodeling from "./components/SpaceRemodeling";
-import HomeRepair from "./components/HomeRepair";
+import RepairServices from "./components/RepairServices";
 
 const App = () => {
   return (
@@ -36,7 +36,7 @@ const App = () => {
         <Route path="/cleaning-service" element={<CleaningService />} />
         <Route path="/painting-service" element={<PaintingService />} />
         <Route path="/space-remodeling" element={<SpaceRemodeling />} />
-        <Route path="/home-repair" element={<HomeRepair />} />
+        <Route path="/repair-services" element={<RepairServices />} />
         <Route path="/project" element={<Project />} />
       </Routes>
       <Footer />

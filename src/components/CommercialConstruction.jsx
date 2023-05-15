@@ -25,9 +25,10 @@ const CommercialConstruction = () => {
                 Commercial Construction
               </h3>
               <p className="font-catamaran text-gray-300 md:text-[1.125rem]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor
-                sit varius rhoncus, nullam pulvinar ut sollicitudin dictumst
-                porttitor.
+                New projects and remodels for stores, restaurants, gas stations,
+                and mid-rise multifamily buildings. We guarantee quality,
+                safety, and sustainability to meet your goals on time and
+                budget.
               </p>
             </div>
           </div>
@@ -39,29 +40,26 @@ const CommercialConstruction = () => {
           About the service
         </h1>
         <p className="mt-7 font-catamaran">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit feugiat morbi
-          accumsan odio luctus ut quam senectus hendrerit convallis dui aenean
-          mauris ut felis in tellus leo lacus sit molestie et augue orci, tortor
-          magna malesuada orci id lorem ultrices sapien.
+          We specialize in commercial construction projects, offering services
+          for new building construction and renovations for stores, restaurants,
+          gas stations, and mid-rise multifamily buildings.
+          <br />
+          <br />
+          In each project, we work closely with our clients to understand their
+          specific goals and needs, and create tailor-made solutions that meet
+          their requirements.
+          <br />
+          <br />
+          Our commitment is to ensure quality, safety, and sustainability in all
+          phases of construction, and to adhere to established timelines and
+          budgets. Additionally, we have a highly trained and experienced team,
+          as well as state-of-the-art tools and technologies to efficiently and
+          effectively carry out each project.
+          <br />
+          <br />
+          Trust us to bring your commercial projects to life, with exceptional
+          results and high-quality service.
         </p>
-        <ul className="pl-7 mt-6 font-catamaran space-y-2 mb-6 md:text-lg">
-          <li type="disc">
-            Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt
-            vitae.
-          </li>
-          <li type="disc">
-            Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt
-            vitae.
-          </li>
-          <li type="disc">
-            Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt
-            vitae.
-          </li>
-          <li type="disc">
-            Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt
-            vitae.
-          </li>
-        </ul>
       </div>
       <div className="mx-[5vw] lg:px-[7vw]">
         <div className="sm:flex sm:items-center sm:justify-between">
@@ -89,9 +87,9 @@ const CommercialConstruction = () => {
               Cleaning <br /> Service
             </h2>
             <p className="font-catamaran mb-4 text-gray-300 md:text-[1.125rem]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
-              pharetra, habitasse turpis feugiat scelerisque nisi vestibulum eu
-              nibh.
+              We provide cleaning services for homes and businesses. Our trained
+              team uses sustainable products and practices to keep your space
+              clean and healthy, from deep cleans to scheduled maintenance.
             </p>
             <a href="/cleaning-service">
               <div className="flex text-white items-center font-almarai md:text-[1.125rem]">
@@ -114,9 +112,9 @@ const CommercialConstruction = () => {
               Painting <br /> Service
             </h2>
             <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
-              pharetra, habitasse turpis feugiat scelerisque nisi vestibulum eu
-              nibh.
+              We transform your spaces with impeccable results. Interior and
+              exterior painting for homes and businesses. Trust us to beautify
+              your environments with precision and quality.
             </p>
             <a href="/painting-service">
               <div className="flex items-center font-almarai md:text-[1.125rem]">
@@ -139,9 +137,9 @@ const CommercialConstruction = () => {
               Space <br /> Remodeling
             </h2>
             <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
-              pharetra, habitasse turpis feugiat scelerisque nisi vestibulum eu
-              nibh.
+              Creativity and quality in transforming your spaces. Homes,
+              businesses, and more. We fulfill your visions and create
+              functional and attractive spaces with our expert team.
             </p>
             <a href="/space-remodeling">
               <div className="flex items-center font-almarai md:text-[1.125rem]">

@@ -25,9 +25,9 @@ const ResidentialConstruction = () => {
                 Residential Construction
               </h3>
               <p className="font-catamaran text-gray-300 md:text-[1.125rem]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor
-                sit varius rhoncus, nullam pulvinar ut sollicitudin dictumst
-                porttitor.
+                We build custom homes with comprehensive design and construction
+                services, including ground-up construction, remodeling, outdoor
+                living spaces, landscaping, and sustainable practices.
               </p>
             </div>
           </div>
@@ -39,29 +39,32 @@ const ResidentialConstruction = () => {
           About the service
         </h1>
         <p className="mt-7 font-catamaran">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit feugiat morbi
-          accumsan odio luctus ut quam senectus hendrerit convallis dui aenean
-          mauris ut felis in tellus leo lacus sit molestie et augue orci, tortor
-          magna malesuada orci id lorem ultrices sapien.
+          At our company, we offer comprehensive design and construction
+          services for custom homes, from planning to construction and
+          maintenance. We specialize in ground-up construction, home remodeling,
+          and the creation of outdoor spaces, such as entertainment areas and
+          gardens.
+          <br />
+          <br />
+          Additionally, we provide landscaping and hardscaping services,
+          allowing us to create a complete experience for our clients in their
+          homes. We are also proud to offer sustainable and
+          environmentally-friendly practices to help reduce the environmental
+          impact of every project we build.
+          <br />
+          <br />
+          As a design-build company, we take care of the entire process,
+          ensuring quality, consistency, and efficiency in every project. We
+          make sure to work closely with our clients to understand their needs
+          and expectations, providing them with personalized and practical
+          solutions to meet their design and construction goals.
+          <br />
+          <br />
+          With our focus on quality, attention to detail, and exceptional
+          customer service, you can rest assured that your home is in good hands
+          with us. Let us bring your vision to reality and create the custom
+          home you have always dreamed of.
         </p>
-        <ul className="pl-7 mt-6 font-catamaran space-y-2 mb-6 md:text-lg">
-          <li type="disc">
-            Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt
-            vitae.
-          </li>
-          <li type="disc">
-            Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt
-            vitae.
-          </li>
-          <li type="disc">
-            Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt
-            vitae.
-          </li>
-          <li type="disc">
-            Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt
-            vitae.
-          </li>
-        </ul>
       </div>
       <div className="mx-[5vw] lg:px-[7vw]">
         <div className="sm:flex sm:items-center sm:justify-between">
@@ -89,9 +92,9 @@ const ResidentialConstruction = () => {
               Commercial <br /> Construction
             </h2>
             <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
-              pharetra, habitasse turpis feugiat scelerisque nisi vestibulum eu
-              nibh.
+              New projects and remodels for stores, restaurants, gas stations,
+              and mid-rise multifamily buildings. We guarantee quality, safety,
+              and sustainability to meet your goals on time and budget.
             </p>
             <a href="/commercial-construction">
               <div className="flex items-center font-almarai md:text-[1.125rem]">
@@ -114,9 +117,9 @@ const ResidentialConstruction = () => {
               Cleaning <br /> Service
             </h2>
             <p className="font-catamaran mb-4 text-gray-300 md:text-[1.125rem]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
-              pharetra, habitasse turpis feugiat scelerisque nisi vestibulum eu
-              nibh.
+              We provide cleaning services for homes and businesses. Our trained
+              team uses sustainable products and practices to keep your space
+              clean and healthy, from deep cleans to scheduled maintenance.
             </p>
             <a href="/cleaning-service">
               <div className="flex text-white items-center font-almarai md:text-[1.125rem]">
@@ -139,9 +142,9 @@ const ResidentialConstruction = () => {
               Painting <br /> Service
             </h2>
             <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
-              pharetra, habitasse turpis feugiat scelerisque nisi vestibulum eu
-              nibh.
+              We transform your spaces with impeccable results. Interior and
+              exterior painting for homes and businesses. Trust us to beautify
+              your environments with precision and quality.
             </p>
             <a href="/painting-service">
               <div className="flex items-center font-almarai md:text-[1.125rem]">
