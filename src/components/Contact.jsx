@@ -56,8 +56,9 @@ const Contact = () => {
               Get in touch today!
             </h1>
             <p className="text-white font-catamaran mt-3 min-[480px]:pr-[18vw] md:pr-0">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Molestias quas impedit eius. Molestias quas impedit eius at!
+              Get in touch and share your ideas with us! We're here to make your
+              construction dreams come true. Let us know how we can assist you
+              Molestias quas impedit eius at!
             </p>
             <div>
               <div className="w-full flex items-center space-x-2 py-5 md:py-2 lg:py-5">
@@ -199,10 +200,10 @@ const Contact = () => {
           <h2 className="text-center text-[2rem] font-bold min-[480px]:text-[2.25rem] font-almarai">
             Prefer to reach out directly?
           </h2>
-          <p className="text-gray-500 my-4 text-center md:text-[1.125rem]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam ac
-            cursus laoreet imperdiet. Volutpat tellus sit nunc netus magna
-            adipiscing leo ligula praesent vitae sed volutpat.
+          <p className="text-gray-600 my-4 text-center md:text-[1.125rem]">
+            Reach out to us directly for swift assistance. Our team is ready to
+            answer your call and provide prompt support for your construction
+            needs.
           </p>
         </div>
         <div className="px-[5vw] py-[5vh] font-almarai">

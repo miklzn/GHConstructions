@@ -25,9 +25,10 @@ const CleaningService = () => {
                 Cleaning <br /> Service
               </h3>
               <p className="font-catamaran text-gray-300 md:text-[1.125rem]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor
-                sit varius rhoncus, nullam pulvinar ut sollicitudin dictumst
-                porttitor.
+                We provide cleaning services for homes and businesses. Our
+                trained team uses sustainable products and practices to keep
+                your space clean and healthy, from deep cleans to scheduled
+                maintenance.
               </p>
             </div>
           </div>
@@ -39,29 +40,30 @@ const CleaningService = () => {
           About the service
         </h1>
         <p className="mt-7 font-catamaran">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit feugiat morbi
-          accumsan odio luctus ut quam senectus hendrerit convallis dui aenean
-          mauris ut felis in tellus leo lacus sit molestie et augue orci, tortor
-          magna malesuada orci id lorem ultrices sapien.
+          Our focus is to provide exceptional and reliable cleaning services to
+          our clients. Whether you need a deep clean, scheduled maintenance, or
+          regular commercial cleaning, our trained and experienced team is here
+          to assist.
+          <br />
+          <br />
+          We take pride in using only sustainable products and practices to
+          ensure that your home or business is not only clean and healthy but
+          also environmentally friendly. Our staff is highly trained to handle
+          all types of cleaning needs and always works with attention to detail
+          to ensure nothing is overlooked.
+          <br />
+          <br />
+          We strive to maintain clear and open communication with our clients to
+          ensure that their expectations are met and exceeded. We understand
+          that each client has unique needs and preferences, so we work with you
+          to tailor our services to your specific requirements and ensure your
+          satisfaction.
+          <br />
+          <br />
+          Trust us to keep your home or business clean and healthy, while
+          working with a professional and reliable team that always strives to
+          exceed your expectations.
         </p>
-        <ul className="pl-7 mt-6 font-catamaran space-y-2 mb-6 md:text-lg">
-          <li type="disc">
-            Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt
-            vitae.
-          </li>
-          <li type="disc">
-            Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt
-            vitae.
-          </li>
-          <li type="disc">
-            Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt
-            vitae.
-          </li>
-          <li type="disc">
-            Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt
-            vitae.
-          </li>
-        </ul>
       </div>
       <div className="mx-[5vw] lg:px-[7vw]">
         <div className="sm:flex sm:items-center sm:justify-between">
@@ -88,9 +90,9 @@ const CleaningService = () => {
               Painting <br /> Service
             </h2>
             <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
-              pharetra, habitasse turpis feugiat scelerisque nisi vestibulum eu
-              nibh.
+              We transform your spaces with impeccable results. Interior and
+              exterior painting for homes and businesses. Trust us to beautify
+              your environments with precision and quality.
             </p>
             <a href="/painting-service">
               <div className="flex items-center font-almarai md:text-[1.125rem]">
@@ -113,9 +115,9 @@ const CleaningService = () => {
               Space <br /> Remodeling
             </h2>
             <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
-              pharetra, habitasse turpis feugiat scelerisque nisi vestibulum eu
-              nibh.
+              Creativity and quality in transforming your spaces. Homes,
+              businesses, and more. We fulfill your visions and create
+              functional and attractive spaces with our expert team.
             </p>
             <a href="/space-remodeling">
               <div className="flex items-center font-almarai md:text-[1.125rem]">
@@ -135,14 +137,14 @@ const CleaningService = () => {
               alt=""
             />
             <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
-              Home <br /> Repair
+              Repair <br /> Service
             </h2>
             <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
-              pharetra, habitasse turpis feugiat scelerisque nisi vestibulum eu
-              nibh.
+              We provide specialized maintenance and repair services in
+              electricity, plumbing, roofing, and more. We guarantee reliable
+              and efficient solutions to keep your spaces in optimal condition.
             </p>
-            <a href="/home-repair">
+            <a href="/repair-services">
               <div className="flex items-center font-almarai md:text-[1.125rem]">
                 <img
                   className="h-[30px] mr-2 bg-emerald-500"

@@ -64,9 +64,9 @@ const Services = () => {
                 Residential <br /> Construcction
               </h2>
               <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
-                pharetra, habitasse turpis feugiat scelerisque nisi vestibulum
-                eu nibh.
+                We build custom homes with comprehensive design and construction
+                services, including ground-up construction, remodeling, outdoor
+                living spaces, landscaping, and sustainable practices.
               </p>
               <a href="/residential-construction">
                 <div className="flex items-center font-almarai md:text-[1.125rem]">
@@ -89,9 +89,10 @@ const Services = () => {
                 Commercial <br /> Construction
               </h2>
               <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
-                pharetra, habitasse turpis feugiat scelerisque nisi vestibulum
-                eu nibh.
+                New projects and remodels for stores, restaurants, gas stations,
+                and mid-rise multifamily buildings. We guarantee quality,
+                safety, and sustainability to meet your goals on time and
+                budget.
               </p>
               <a href="/commercial-construction">
                 <div className="flex items-center font-almarai md:text-[1.125rem]">
@@ -114,9 +115,10 @@ const Services = () => {
                 Cleaning <br /> Service
               </h2>
               <p className="font-catamaran mb-4 text-gray-300 md:text-[1.125rem]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
-                pharetra, habitasse turpis feugiat scelerisque nisi vestibulum
-                eu nibh.
+                We provide cleaning services for homes and businesses. Our
+                trained team uses sustainable products and practices to keep
+                your space clean and healthy, from deep cleans to scheduled
+                maintenance.
               </p>
               <a href="/cleaning-service">
                 <div className="flex text-white items-center font-almarai md:text-[1.125rem]">
@@ -139,9 +141,9 @@ const Services = () => {
                 Painting <br /> Service
               </h2>
               <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
-                pharetra, habitasse turpis feugiat scelerisque nisi vestibulum
-                eu nibh.
+                We transform your spaces with impeccable results. Interior and
+                exterior painting for homes and businesses. Trust us to beautify
+                your environments with precision and quality.
               </p>
               <a href="/painting-service">
                 <div className="flex items-center font-almarai md:text-[1.125rem]">
@@ -164,9 +166,9 @@ const Services = () => {
                 Space <br /> Remodeling
               </h2>
               <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
-                pharetra, habitasse turpis feugiat scelerisque nisi vestibulum
-                eu nibh.
+                Creativity and quality in transforming your spaces. Homes,
+                businesses, and more. We fulfill your visions and create
+                functional and attractive spaces with our expert team.
               </p>
               <a href="/space-remodeling">
                 <div className="flex items-center font-almarai md:text-[1.125rem]">
@@ -186,12 +188,13 @@ const Services = () => {
                 alt=""
               />
               <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
-                Home <br /> Repair
+                Repair <br /> Services
               </h2>
               <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
-                pharetra, habitasse turpis feugiat scelerisque nisi vestibulum
-                eu nibh.
+                We provide specialized maintenance and repair services in
+                electricity, plumbing, roofing, and more. We guarantee reliable
+                and efficient solutions to keep your spaces in optimal
+                condition.
               </p>
               <a href="/home-repair">
                 <div className="flex items-center font-almarai md:text-[1.125rem]">

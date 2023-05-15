@@ -4,7 +4,7 @@ import winch from "../utils/icons/WinchBlack.svg";
 import vacuum from "../utils/icons/Vacuum.svg";
 import diagonalArrow from "../utils/icons/DiagonalArrow.svg";
 
-const HomeRepair = () => {
+const RepairServices = () => {
   return (
     <section>
       <div>
@@ -22,12 +22,13 @@ const HomeRepair = () => {
                 alt=""
               />
               <h3 className="text-[2.125rem] font-semibold leading-10 font-almarai mb-4 min-[480px]:text-[2.5rem] md:text-[3.625rem] md:mb-8 md:leading-none lg:text-[4.375rem]">
-                Home <br /> Repair
+                Repair <br /> Services
               </h3>
               <p className="font-catamaran text-gray-300 md:text-[1.125rem]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor
-                sit varius rhoncus, nullam pulvinar ut sollicitudin dictumst
-                porttitor.
+                We provide specialized maintenance and repair services in
+                electricity, plumbing, roofing, and more. We guarantee reliable
+                and efficient solutions to keep your spaces in optimal
+                condition.
               </p>
             </div>
           </div>
@@ -39,29 +40,22 @@ const HomeRepair = () => {
           About the service
         </h1>
         <p className="mt-7 font-catamaran">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit feugiat morbi
-          accumsan odio luctus ut quam senectus hendrerit convallis dui aenean
-          mauris ut felis in tellus leo lacus sit molestie et augue orci, tortor
-          magna malesuada orci id lorem ultrices sapien.
+          In our company, we specialize in providing professional maintenance
+          and repair services for your home and business. Our team of experts
+          handles specialized solutions in electricity, plumbing, roofing, and
+          more. We are committed to offering reliable and efficient solutions to
+          keep your spaces in optimal condition. <br />
+          <br />
+          We understand the importance of having a reliable and high-quality
+          service. Whether you need urgent repairs, scheduled maintenance, or
+          customized solutions, you can trust us to meet all your maintenance
+          and repair needs. Our team is trained to address a wide range of
+          issues and ensure exceptional results. <br />
+          <br />
+          Your satisfaction is our top priority. We work with professionalism,
+          integrity, and efficiency to provide you with a maintenance and repair
+          service that exceeds your expectations.
         </p>
-        <ul className="pl-7 mt-6 font-catamaran space-y-2 mb-6 md:text-lg">
-          <li type="disc">
-            Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt
-            vitae.
-          </li>
-          <li type="disc">
-            Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt
-            vitae.
-          </li>
-          <li type="disc">
-            Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt
-            vitae.
-          </li>
-          <li type="disc">
-            Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt
-            vitae.
-          </li>
-        </ul>
       </div>
       <div className="mx-[5vw] lg:px-[7vw]">
         <div className="sm:flex sm:items-center sm:justify-between">
@@ -89,9 +83,9 @@ sm:justify-between sm:py-4 sm:w-auto sm:px-8 md:py-[0.75rem] md:text-[1rem] lg:t
               Residential <br /> Construcction
             </h2>
             <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
-              pharetra, habitasse turpis feugiat scelerisque nisi vestibulum eu
-              nibh.
+              We build custom homes with comprehensive design and construction
+              services, including ground-up construction, remodeling, outdoor
+              living spaces, landscaping, and sustainable practices.
             </p>
             <a href="/residential-construction">
               <div className="flex items-center font-almarai md:text-[1.125rem]">
@@ -114,9 +108,9 @@ sm:justify-between sm:py-4 sm:w-auto sm:px-8 md:py-[0.75rem] md:text-[1rem] lg:t
               Commercial <br /> Construction
             </h2>
             <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
-              pharetra, habitasse turpis feugiat scelerisque nisi vestibulum eu
-              nibh.
+              New projects and remodels for stores, restaurants, gas stations,
+              and mid-rise multifamily buildings. We guarantee quality, safety,
+              and sustainability to meet your goals on time and budget.
             </p>
             <a href="/commercial-construction">
               <div className="flex items-center font-almarai md:text-[1.125rem]">
@@ -139,9 +133,9 @@ sm:justify-between sm:py-4 sm:w-auto sm:px-8 md:py-[0.75rem] md:text-[1rem] lg:t
               Cleaning <br /> Service
             </h2>
             <p className="font-catamaran mb-4 text-gray-300 md:text-[1.125rem]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
-              pharetra, habitasse turpis feugiat scelerisque nisi vestibulum eu
-              nibh.
+              We provide cleaning services for homes and businesses. Our trained
+              team uses sustainable products and practices to keep your space
+              clean and healthy, from deep cleans to scheduled maintenance.
             </p>
             <a href="/cleaning-service">
               <div className="flex text-white items-center font-almarai md:text-[1.125rem]">
@@ -160,4 +154,4 @@ sm:justify-between sm:py-4 sm:w-auto sm:px-8 md:py-[0.75rem] md:text-[1rem] lg:t
   );
 };
 
-export default HomeRepair;
+export default RepairServices;

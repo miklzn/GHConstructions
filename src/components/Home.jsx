@@ -392,8 +392,8 @@ const Home = () => {
                 We would love to share ideas, suggest options and answer your
                 question.
                 <br />
-                We’re ready to beacome your guide in the fascinating landscape
-                of architecture and design.
+                We're ready to become your guide in the fascinating world of
+                construction.
               </p>
             </div>
           </div>

@@ -25,9 +25,9 @@ const SpaceRemodeling = () => {
                 Space <br /> Remodeling
               </h3>
               <p className="font-catamaran text-gray-300 md:text-[1.125rem]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor
-                sit varius rhoncus, nullam pulvinar ut sollicitudin dictumst
-                porttitor.
+                We transform your spaces with impeccable results. Interior and
+                exterior painting for homes and businesses. Trust us to beautify
+                your environments with precision and quality.
               </p>
             </div>
           </div>
@@ -39,29 +39,29 @@ const SpaceRemodeling = () => {
           About the service
         </h1>
         <p className="mt-7 font-catamaran">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit feugiat morbi
-          accumsan odio luctus ut quam senectus hendrerit convallis dui aenean
-          mauris ut felis in tellus leo lacus sit molestie et augue orci, tortor
-          magna malesuada orci id lorem ultrices sapien.
+          In our company, we specialize in space remodeling to provide you with
+          renewed and functional environments that cater to your needs and
+          reflect your personal style. Our dedicated team of remodeling experts
+          works closely with you to understand your vision and transform your
+          spaces into extraordinary places. <br />
+          <br />
+          From home renovation to business remodeling, we are committed to
+          delivering high-quality results. We use premium materials and
+          innovative techniques to ensure that each project is a true success.
+          Whether you desire to update your kitchen, renovate your bathroom, or
+          transform your commercial space, we are here to bring your vision to
+          life. <br />
+          <br />
+          We take pride in offering a wide range of services, including interior
+          remodeling, creating stunning outdoor spaces, and optimizing the flow
+          and design of your areas. Our focus is on every detail, from selecting
+          colors and materials to the impeccable execution of the work. <br />
+          <br />
+          Your satisfaction is our priority, and we strive to exceed your
+          expectations in every project. We work with integrity, transparency,
+          and commitment to ensure that your remodeling experience is smooth and
+          satisfying.
         </p>
-        <ul className="pl-7 mt-6 font-catamaran space-y-2 mb-6 md:text-lg">
-          <li type="disc">
-            Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt
-            vitae.
-          </li>
-          <li type="disc">
-            Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt
-            vitae.
-          </li>
-          <li type="disc">
-            Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt
-            vitae.
-          </li>
-          <li type="disc">
-            Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt
-            vitae.
-          </li>
-        </ul>
       </div>
       <div className="mx-[5vw] lg:px-[7vw]">
         <div className="sm:flex sm:items-center sm:justify-between">
@@ -86,14 +86,14 @@ const SpaceRemodeling = () => {
               alt=""
             />
             <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
-              Home <br /> Repair
+              Repair <br /> Service
             </h2>
             <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
-              pharetra, habitasse turpis feugiat scelerisque nisi vestibulum eu
-              nibh.
+              We provide specialized maintenance and repair services in
+              electricity, plumbing, roofing, and more. We guarantee reliable
+              and efficient solutions to keep your spaces in optimal condition.
             </p>
-            <a href="/home-repair">
+            <a href="/repair-services">
               <div className="flex items-center font-almarai md:text-[1.125rem]">
                 <img
                   className="h-[30px] mr-2 bg-emerald-500"
@@ -114,9 +114,9 @@ const SpaceRemodeling = () => {
               Residential <br /> Construcction
             </h2>
             <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
-              pharetra, habitasse turpis feugiat scelerisque nisi vestibulum eu
-              nibh.
+              We build custom homes with comprehensive design and construction
+              services, including ground-up construction, remodeling, outdoor
+              living spaces, landscaping, and sustainable practices.
             </p>
             <a href="/residential-construction">
               <div className="flex items-center font-almarai md:text-[1.125rem]">
@@ -139,9 +139,9 @@ const SpaceRemodeling = () => {
               Commercial <br /> Construction
             </h2>
             <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
-              pharetra, habitasse turpis feugiat scelerisque nisi vestibulum eu
-              nibh.
+              New projects and remodels for stores, restaurants, gas stations,
+              and mid-rise multifamily buildings. We guarantee quality, safety,
+              and sustainability to meet your goals on time and budget.
             </p>
             <a href="commercial-construction">
               <div className="flex items-center font-almarai md:text-[1.125rem]">

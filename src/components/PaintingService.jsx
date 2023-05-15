@@ -25,9 +25,9 @@ const PaintingService = () => {
                 Painting <br /> Service
               </h3>
               <p className="font-catamaran text-gray-300 md:text-[1.125rem]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor
-                sit varius rhoncus, nullam pulvinar ut sollicitudin dictumst
-                porttitor.
+                We transform your spaces with impeccable results. Interior and
+                exterior painting for homes and businesses. Trust us to beautify
+                your environments with precision and quality.
               </p>
             </div>
           </div>
@@ -39,29 +39,29 @@ const PaintingService = () => {
           About the service
         </h1>
         <p className="mt-7 font-catamaran">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit feugiat morbi
-          accumsan odio luctus ut quam senectus hendrerit convallis dui aenean
-          mauris ut felis in tellus leo lacus sit molestie et augue orci, tortor
-          magna malesuada orci id lorem ultrices sapien.
+          We specialize in delivering exceptional painting services that
+          transform your spaces with impeccable results. With our expertise in
+          interior and exterior painting, we bring new life to both residential
+          and commercial properties.
+          <br />
+          <br />
+          Using specialized techniques and premium quality materials, our
+          skilled team ensures a flawless finish that enhances the aesthetic
+          appeal of your spaces. We pay meticulous attention to detail, ensuring
+          precise and even application of paint for a professional and
+          long-lasting result. <br />
+          <br />
+          Whether it's refreshing the interior of your home or giving your
+          business a vibrant new look, you can trust us to deliver outstanding
+          craftsmanship and reliable service. Our commitment to excellence and
+          customer satisfaction drives us to go above and beyond to meet your
+          painting needs. <br />
+          <br />
+          Experience the difference of our trusted painting service and let us
+          create stunning transformations that exceed your expectations. Contact
+          us today for a consultation and discover how we can enhance the beauty
+          of your spaces.
         </p>
-        <ul className="pl-7 mt-6 font-catamaran space-y-2 mb-6 md:text-lg">
-          <li type="disc">
-            Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt
-            vitae.
-          </li>
-          <li type="disc">
-            Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt
-            vitae.
-          </li>
-          <li type="disc">
-            Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt
-            vitae.
-          </li>
-          <li type="disc">
-            Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt
-            vitae.
-          </li>
-        </ul>
       </div>
       <div className="mx-[5vw] lg:px-[7vw]">
         <div className="sm:flex sm:items-center sm:justify-between">
@@ -89,9 +89,9 @@ const PaintingService = () => {
               Space <br /> Remodeling
             </h2>
             <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
-              pharetra, habitasse turpis feugiat scelerisque nisi vestibulum eu
-              nibh.
+              We transform your spaces with impeccable results. Interior and
+              exterior painting for homes and businesses. Trust us to beautify
+              your environments with precision and quality.
             </p>
             <a href="/space-remodeling">
               <div className="flex items-center font-almarai md:text-[1.125rem]">
@@ -111,14 +111,14 @@ const PaintingService = () => {
               alt=""
             />
             <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
-              Home <br /> Repair
+              Repair <br /> Service
             </h2>
             <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
-              pharetra, habitasse turpis feugiat scelerisque nisi vestibulum eu
-              nibh.
+              We provide specialized maintenance and repair services in
+              electricity, plumbing, roofing, and more. We guarantee reliable
+              and efficient solutions to keep your spaces in optimal condition.
             </p>
-            <a href="/home-repair">
+            <a href="/repair-services">
               <div className="flex items-center font-almarai md:text-[1.125rem]">
                 <img
                   className="h-[30px] mr-2 bg-emerald-500"
@@ -139,9 +139,9 @@ const PaintingService = () => {
               Residential <br /> Construcction
             </h2>
             <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor,
-              pharetra, habitasse turpis feugiat scelerisque nisi vestibulum eu
-              nibh.
+              We build custom homes with comprehensive design and construction
+              services, including ground-up construction, remodeling, outdoor
+              living spaces, landscaping, and sustainable practices.
             </p>
             <a href="/residential-construction">
               <div className="flex items-center font-almarai md:text-[1.125rem]">
