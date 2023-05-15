@@ -196,7 +196,7 @@ const Services = () => {
                 and efficient solutions to keep your spaces in optimal
                 condition.
               </p>
-              <a href="/home-repair">
+              <a href="/repair-services">
                 <div className="flex items-center font-almarai md:text-[1.125rem]">
                   <img
                     className="h-[30px] mr-2 bg-emerald-500"
