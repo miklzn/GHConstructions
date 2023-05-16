@@ -36,22 +36,23 @@ const Home = () => {
           <div className="flex flex-col justify-center font-almarai text-white w-full h-auto text-[10vw] bg-emerald-900 px-[5vw] py-10 text-center sm:px-[5vw] md:static md:text-[5.3vw] md:px-[4.8vw] lg:py-[4.8vw] lg:px-[5vw] lg:text-[5vw] lg:leading-tight xl:text-[4vw] xl:px-[11.5vw] xl:py-[4.5vw]">
             <div className="w-full animate-fade-in-up">
               <h1 className="md:text-start">
-                <span className="text-teal-700">G&H CONST. </span>
-                CONSTRUCTIONS
+                <span className="text-teal-700">WE BUILD, </span>
+                RENOVATE AND
               </h1>
             </div>
             <div
               className="md:text-end animate-fade-in-up"
               style={{ animationDelay: "200ms" }}
             >
-              <h1 className="">SERVICES OF HOMES AND</h1>
+              <h1 className="">BEAUTY YOUR SPACES WITH</h1>
             </div>
             <div
               className="animate-fade-in-up"
               style={{ animationDelay: "300ms" }}
             >
               <h1 className="">
-                GARDENS OF <span className="text-teal-700">DISTINCTION.</span>
+                EXELLENCE AND
+                <span className="text-teal-700"> PASSION.</span>
               </h1>
             </div>
           </div>
