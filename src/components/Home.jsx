@@ -44,7 +44,7 @@ const Home = () => {
               className="md:text-end animate-fade-in-up"
               style={{ animationDelay: "200ms" }}
             >
-              <h1 className="">BEAUTY YOUR SPACES WITH</h1>
+              <h1 className="">BEAUTIFY YOUR SPACES WITH</h1>
             </div>
             <div
               className="animate-fade-in-up"
