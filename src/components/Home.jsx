@@ -8,6 +8,9 @@ import winch from "../utils/icons/Winch.svg";
 import winchBack from "../utils/icons/WinchBack.svg";
 import vacuum from "../utils/icons/Vacuum.svg";
 import vacuumBack from "../utils/icons/VacuumBack.svg";
+import pin from "../utils/icons/Pin.svg";
+import clock from "../utils/icons/Clock.svg";
+import mansory from "../utils/icons/Mansory.svg";
 import bottomVideo from "../utils/videos/bottom-video.mp4";
 
 const Home = () => {
@@ -188,38 +191,77 @@ const Home = () => {
                       src="https://www.maperi.com/wp-content/uploads/2022/07/tendencia-lavabo-2023-maperi.jpg"
                       alt=""
                     />
-                    <div className="md:flex flex-row md:mt-4">
-                      <div className="md:w-1/3">
-                        <p className="my-2 sm:my-6 md:my-0">Title project 1</p>
-                      </div>
-                      <div className="md:w-2/3">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing.
+                    <div className="md:mt-4">
+                      <div>
+                        <p className="font-almarai my-2 sm:my-6 md:my-4">
+                          Remodeling Bathroom
                         </p>
-                        <p>Lorem, ipsum.</p>
-                        <p>2023</p>
+                      </div>
+                      <div className="space-y-1 ">
+                        <div className="flex items-center">
+                          <img
+                            className="h-6 p-0.5 bg-emerald-500 mr-1"
+                            src={pin}
+                            alt=""
+                          />
+                          <p className="font-semibold">Miami, FL</p>
+                        </div>
+                        <div className="flex items-center">
+                          <img
+                            className="h-6 p-0.5 bg-emerald-500 mr-1"
+                            src={clock}
+                            alt=""
+                          />
+                          <p className="font-semibold">3 weeks</p>
+                        </div>
+                        <div className="flex items-center">
+                          <img
+                            className="h-6 p-0.5 bg-emerald-500 mr-1"
+                            src={mansory}
+                            alt=""
+                          />
+                          <p className="font-semibold">Remodeling</p>
+                        </div>
                       </div>
                     </div>
                   </div>
-                  <div
-                    className="font-catamaran text-[0.875rem]
-            mt-8 min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[0.875rem] md:mt-0 lg:pl-4 xl:text-[1.125rem]"
-                  >
+                  <div className="font-catamaran text-[0.875rem] mt-8 min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[0.875rem] md:mt-0 lg:pl-4 xl:text-[1.125rem]">
                     <img
                       className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[29vw] lg:h-[25vw]"
                       src="https://www.glogevi.com/wp-content/uploads/2022/07/Tienda-de-muebles-de-cocina-a-medida-en-Toledo.-Glogevi-Cocinas.jpg"
                       alt=""
                     />
-                    <div className="md:flex flex-row md:mt-4">
-                      <div className="md:w-1/3">
-                        <p className="my-2 sm:my-6 md:my-0">Title project 2</p>
-                      </div>
-                      <div className="md:w-2/3">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing.
+                    <div className="md:mt-4">
+                      <div>
+                        <p className="font-almarai my-2 sm:my-6 md:my-4">
+                          Remodeling Bathroom
                         </p>
-                        <p>Lorem, ipsum.</p>
-                        <p>2022</p>
+                      </div>
+                      <div className="space-y-1">
+                        <div className="flex items-center">
+                          <img
+                            className="h-6 p-0.5 bg-emerald-500 mr-1"
+                            src={pin}
+                            alt=""
+                          />
+                          <p className="font-semibold">Miami, FL</p>
+                        </div>
+                        <div className="flex items-center">
+                          <img
+                            className="h-6 p-0.5 bg-emerald-500 mr-1"
+                            src={clock}
+                            alt=""
+                          />
+                          <p className="font-semibold">3 weeks</p>
+                        </div>
+                        <div className="flex items-center">
+                          <img
+                            className="h-6 p-0.5 bg-emerald-500 mr-1"
+                            src={mansory}
+                            alt=""
+                          />
+                          <p className="font-semibold">Remodeling</p>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -233,38 +275,77 @@ const Home = () => {
                       src="https://www.maperi.com/wp-content/uploads/2022/07/tendencia-lavabo-2023-maperi.jpg"
                       alt=""
                     />
-                    <div className="md:flex flex-row md:mt-4">
-                      <div className="md:w-1/3">
-                        <p className="my-2 sm:my-6 md:my-0">Title project 1</p>
-                      </div>
-                      <div className="md:w-2/3">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing.
+                    <div className="md:mt-4">
+                      <div>
+                        <p className="font-almarai my-2 sm:my-6 md:my-4">
+                          Remodeling Bathroom
                         </p>
-                        <p>Lorem, ipsum.</p>
-                        <p>2023</p>
+                      </div>
+                      <div className="space-y-1 ">
+                        <div className="flex items-center">
+                          <img
+                            className="h-6 p-0.5 bg-emerald-500 mr-1"
+                            src={pin}
+                            alt=""
+                          />
+                          <p className="font-semibold">Miami, FL</p>
+                        </div>
+                        <div className="flex items-center">
+                          <img
+                            className="h-6 p-0.5 bg-emerald-500 mr-1"
+                            src={clock}
+                            alt=""
+                          />
+                          <p className="font-semibold">3 weeks</p>
+                        </div>
+                        <div className="flex items-center">
+                          <img
+                            className="h-6 p-0.5 bg-emerald-500 mr-1"
+                            src={mansory}
+                            alt=""
+                          />
+                          <p className="font-semibold">Remodeling</p>
+                        </div>
                       </div>
                     </div>
                   </div>
-                  <div
-                    className="font-catamaran text-[0.875rem]
-            mt-8 min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[0.875rem] md:mt-0 lg:pl-4 xl:text-[1.125rem]"
-                  >
+                  <div className="font-catamaran text-[0.875rem] mt-8 min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[0.875rem] md:mt-0 lg:pl-4 xl:text-[1.125rem]">
                     <img
                       className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[29vw] lg:h-[25vw]"
                       src="https://www.glogevi.com/wp-content/uploads/2022/07/Tienda-de-muebles-de-cocina-a-medida-en-Toledo.-Glogevi-Cocinas.jpg"
                       alt=""
                     />
-                    <div className="md:flex flex-row md:mt-4">
-                      <div className="md:w-1/3">
-                        <p className="my-2 sm:my-6 md:my-0">Title project 2</p>
-                      </div>
-                      <div className="md:w-2/3">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing.
+                    <div className="md:mt-4">
+                      <div>
+                        <p className="font-almarai my-2 sm:my-6 md:my-4">
+                          Remodeling Bathroom
                         </p>
-                        <p>Lorem, ipsum.</p>
-                        <p>2022</p>
+                      </div>
+                      <div className="space-y-1">
+                        <div className="flex items-center">
+                          <img
+                            className="h-6 p-0.5 bg-emerald-500 mr-1"
+                            src={pin}
+                            alt=""
+                          />
+                          <p className="font-semibold">Miami, FL</p>
+                        </div>
+                        <div className="flex items-center">
+                          <img
+                            className="h-6 p-0.5 bg-emerald-500 mr-1"
+                            src={clock}
+                            alt=""
+                          />
+                          <p className="font-semibold">3 weeks</p>
+                        </div>
+                        <div className="flex items-center">
+                          <img
+                            className="h-6 p-0.5 bg-emerald-500 mr-1"
+                            src={mansory}
+                            alt=""
+                          />
+                          <p className="font-semibold">Remodeling</p>
+                        </div>
                       </div>
                     </div>
                   </div>
