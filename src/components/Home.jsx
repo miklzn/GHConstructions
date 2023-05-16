@@ -13,8 +13,8 @@ import clock from "../utils/icons/Clock.svg";
 import mansory from "../utils/icons/Mansory.svg";
 import bottomVideo from "../utils/videos/bottom-video.mp4";
 
-import project_1_1 from "../utils/images/project-1/project-1.jpg";
-import project_2_1 from "../utils/images/project-2/project-2.jpg";
+import project_1_1 from "../utils/images/project-1/project-1-1.jpg";
+import project_2_1 from "../utils/images/project-2/project-2-1.jpg";
 import project_3_1 from "../utils/images/project-3/project-3.jpg";
 import project_4_1 from "../utils/images/project-4/project-4.jpg";
 
@@ -191,86 +191,90 @@ const Home = () => {
             >
               <div>
                 <div className="flex flex-col w-[90vw] md:grid grid-cols-2 md:gap-x-8 md:w-[83.7vw] lg:gap-x-3 lg:w-[68vw]">
-                  <div className="font-catamaran text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[0.875rem] lg:mb-10 lg:pr-4 xl:text-[1.125rem]">
-                    <img
-                      className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[29vw] lg:h-[25vw]"
-                      src={project_1_1}
-                      alt=""
-                    />
-                    <div className="md:mt-4">
-                      <div>
-                        <p className="font-almarai my-2 sm:my-6 md:my-4">
-                          Remodeling Bathroom
-                        </p>
-                      </div>
-                      <div className="space-y-1 ">
-                        <div className="flex items-center">
-                          <img
-                            className="h-6 p-0.5 bg-emerald-500 mr-1"
-                            src={pin}
-                            alt=""
-                          />
-                          <p className="font-semibold">Miami, FL</p>
+                  <a href="/project-1">
+                    <div className="font-catamaran text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[0.875rem] lg:mb-10 lg:pr-4 xl:text-[1.125rem]">
+                      <img
+                        className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[29vw] lg:h-[25vw]"
+                        src={project_1_1}
+                        alt=""
+                      />
+                      <div className="md:mt-4">
+                        <div>
+                          <p className="font-almarai my-2 sm:my-6 md:my-4">
+                            Remodeling Bathroom
+                          </p>
                         </div>
-                        <div className="flex items-center">
-                          <img
-                            className="h-6 p-0.5 bg-emerald-500 mr-1"
-                            src={clock}
-                            alt=""
-                          />
-                          <p className="font-semibold">3 weeks</p>
-                        </div>
-                        <div className="flex items-center">
-                          <img
-                            className="h-6 p-0.5 bg-emerald-500 mr-1"
-                            src={mansory}
-                            alt=""
-                          />
-                          <p className="font-semibold">Remodeling</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="font-catamaran text-[0.875rem] mt-8 min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[0.875rem] md:mt-0 lg:pl-4 xl:text-[1.125rem]">
-                    <img
-                      className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[29vw] lg:h-[25vw]"
-                      src={project_2_1}
-                      alt=""
-                    />
-                    <div className="md:mt-4">
-                      <div>
-                        <p className="font-almarai my-2 sm:my-6 md:my-4">
-                          Remodeling Bathroom
-                        </p>
-                      </div>
-                      <div className="space-y-1">
-                        <div className="flex items-center">
-                          <img
-                            className="h-6 p-0.5 bg-emerald-500 mr-1"
-                            src={pin}
-                            alt=""
-                          />
-                          <p className="font-semibold">Miami, FL</p>
-                        </div>
-                        <div className="flex items-center">
-                          <img
-                            className="h-6 p-0.5 bg-emerald-500 mr-1"
-                            src={clock}
-                            alt=""
-                          />
-                          <p className="font-semibold">3 weeks</p>
-                        </div>
-                        <div className="flex items-center">
-                          <img
-                            className="h-6 p-0.5 bg-emerald-500 mr-1"
-                            src={mansory}
-                            alt=""
-                          />
-                          <p className="font-semibold">Remodeling</p>
+                        <div className="space-y-1 ">
+                          <div className="flex items-center">
+                            <img
+                              className="h-6 p-0.5 bg-emerald-500 mr-1"
+                              src={pin}
+                              alt=""
+                            />
+                            <p className="font-semibold">Miami, FL</p>
+                          </div>
+                          <div className="flex items-center">
+                            <img
+                              className="h-6 p-0.5 bg-emerald-500 mr-1"
+                              src={clock}
+                              alt=""
+                            />
+                            <p className="font-semibold">3 weeks</p>
+                          </div>
+                          <div className="flex items-center">
+                            <img
+                              className="h-6 p-0.5 bg-emerald-500 mr-1"
+                              src={mansory}
+                              alt=""
+                            />
+                            <p className="font-semibold">Remodeling</p>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </a>
+                  <a href="/project-2">
+                    <div className="font-catamaran text-[0.875rem] mt-8 min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[0.875rem] md:mt-0 lg:pl-4 xl:text-[1.125rem]">
+                      <img
+                        className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[29vw] lg:h-[25vw]"
+                        src={project_2_1}
+                        alt=""
+                      />
+                      <div className="md:mt-4">
+                        <div>
+                          <p className="font-almarai my-2 sm:my-6 md:my-4">
+                            Remodeling Bathroom
+                          </p>
+                        </div>
+                        <div className="space-y-1">
+                          <div className="flex items-center">
+                            <img
+                              className="h-6 p-0.5 bg-emerald-500 mr-1"
+                              src={pin}
+                              alt=""
+                            />
+                            <p className="font-semibold">Miami, FL</p>
+                          </div>
+                          <div className="flex items-center">
+                            <img
+                              className="h-6 p-0.5 bg-emerald-500 mr-1"
+                              src={clock}
+                              alt=""
+                            />
+                            <p className="font-semibold">3 weeks</p>
+                          </div>
+                          <div className="flex items-center">
+                            <img
+                              className="h-6 p-0.5 bg-emerald-500 mr-1"
+                              src={mansory}
+                              alt=""
+                            />
+                            <p className="font-semibold">Remodeling</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
                 </div>
               </div>
               <div>

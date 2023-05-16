@@ -14,6 +14,8 @@ import CleaningService from "./components/CleaningService";
 import PaintingService from "./components/PaintingService";
 import SpaceRemodeling from "./components/SpaceRemodeling";
 import RepairServices from "./components/RepairServices";
+import ProjectOne from "./components/ProjectOne";
+import ProjectTwo from "./components/ProjectTwo";
 
 const App = () => {
   return (
@@ -37,7 +39,8 @@ const App = () => {
         <Route path="/painting-service" element={<PaintingService />} />
         <Route path="/space-remodeling" element={<SpaceRemodeling />} />
         <Route path="/repair-services" element={<RepairServices />} />
-        <Route path="/project" element={<Project />} />
+        <Route path="/project-1" element={<ProjectOne />} />
+        <Route path="/project-2" element={<ProjectTwo />} />
       </Routes>
       <Footer />
     </div>
