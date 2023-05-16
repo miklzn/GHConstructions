@@ -13,6 +13,11 @@ import clock from "../utils/icons/Clock.svg";
 import mansory from "../utils/icons/Mansory.svg";
 import bottomVideo from "../utils/videos/bottom-video.mp4";
 
+import project_1_1 from "../utils/images/project-1/project-1.jpg";
+import project_2_1 from "../utils/images/project-2/project-2.jpg";
+import project_3_1 from "../utils/images/project-3/project-3.jpg";
+import project_4_1 from "../utils/images/project-4/project-4.jpg";
+
 const Home = () => {
   const widthPx = window.innerWidth;
 
@@ -189,7 +194,7 @@ const Home = () => {
                   <div className="font-catamaran text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[0.875rem] lg:mb-10 lg:pr-4 xl:text-[1.125rem]">
                     <img
                       className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[29vw] lg:h-[25vw]"
-                      src="https://www.maperi.com/wp-content/uploads/2022/07/tendencia-lavabo-2023-maperi.jpg"
+                      src={project_1_1}
                       alt=""
                     />
                     <div className="md:mt-4">
@@ -229,7 +234,7 @@ const Home = () => {
                   <div className="font-catamaran text-[0.875rem] mt-8 min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[0.875rem] md:mt-0 lg:pl-4 xl:text-[1.125rem]">
                     <img
                       className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[29vw] lg:h-[25vw]"
-                      src="https://www.glogevi.com/wp-content/uploads/2022/07/Tienda-de-muebles-de-cocina-a-medida-en-Toledo.-Glogevi-Cocinas.jpg"
+                      src={project_2_1}
                       alt=""
                     />
                     <div className="md:mt-4">
@@ -273,7 +278,7 @@ const Home = () => {
                   <div className="font-catamaran text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[0.875rem] lg:mb-10 lg:pr-4 xl:text-[1.125rem]">
                     <img
                       className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[29vw] lg:h-[25vw]"
-                      src="https://www.maperi.com/wp-content/uploads/2022/07/tendencia-lavabo-2023-maperi.jpg"
+                      src={project_3_1}
                       alt=""
                     />
                     <div className="md:mt-4">
@@ -313,7 +318,7 @@ const Home = () => {
                   <div className="font-catamaran text-[0.875rem] mt-8 min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[0.875rem] md:mt-0 lg:pl-4 xl:text-[1.125rem]">
                     <img
                       className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[29vw] lg:h-[25vw]"
-                      src="https://www.glogevi.com/wp-content/uploads/2022/07/Tienda-de-muebles-de-cocina-a-medida-en-Toledo.-Glogevi-Cocinas.jpg"
+                      src={project_4_1}
                       alt=""
                     />
                     <div className="md:mt-4">
