@@ -36,7 +36,7 @@ const Projects = () => {
       </div>
       <div className="h-auto mx-[5vw] py-20 lg:px-[7vw]">
         <div className="grid grid-cols gap-10 lg:gap-20">
-          <div className="text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 md:p-2 md:shadow-card lg:text-[1.375rem]">
+          <div className="shadow-card p-2 text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 md:p-2 md:shadow-card lg:text-[1.375rem]">
             <img
               className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[45vh] md:min-h-[270px] md:w-2/3"
               src="https://www.maperi.com/wp-content/uploads/2022/07/tendencia-lavabo-2023-maperi.jpg"
@@ -49,10 +49,31 @@ const Projects = () => {
                 </p>
               </div>
               <div className="">
-                <div className="block font-catamaran md:hidden">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                  <p>Lorem, ipsum.</p>
-                  <p>2023</p>
+                <div className="block font-catamaran space-y-1 md:hidden">
+                  <div className="flex items-center">
+                    <img
+                      className="h-6 p-0.5 bg-emerald-500 mr-1"
+                      src={pin}
+                      alt=""
+                    />
+                    <p className="font-semibold">Miami, FL</p>
+                  </div>
+                  <div className="flex items-center">
+                    <img
+                      className="h-6 p-0.5 bg-emerald-500 mr-1"
+                      src={clock}
+                      alt=""
+                    />
+                    <p className="font-semibold">3 weeks</p>
+                  </div>
+                  <div className="flex items-center">
+                    <img
+                      className="h-6 p-0.5 bg-emerald-500 mr-1"
+                      src={mansory}
+                      alt=""
+                    />
+                    <p className="font-semibold">Remodeling</p>
+                  </div>
                 </div>
                 <div className="hidden w-full md:block">
                   <div className="grid grid-cols gap-y-2">
@@ -121,7 +142,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 md:p-2 md:shadow-card lg:text-[1.375rem]">
+          <div className="shadow-card p-2 text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 md:p-2 md:shadow-card lg:text-[1.375rem]">
             <img
               className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[45vh] md:min-h-[270px] md:w-2/3"
               src="https://www.maperi.com/wp-content/uploads/2022/07/tendencia-lavabo-2023-maperi.jpg"
@@ -134,10 +155,31 @@ const Projects = () => {
                 </p>
               </div>
               <div className="">
-                <div className="block font-catamaran md:hidden">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                  <p>Lorem, ipsum.</p>
-                  <p>2023</p>
+                <div className="block font-catamaran space-y-1 md:hidden">
+                  <div className="flex items-center">
+                    <img
+                      className="h-6 p-0.5 bg-emerald-500 mr-1"
+                      src={pin}
+                      alt=""
+                    />
+                    <p className="font-semibold">Miami, FL</p>
+                  </div>
+                  <div className="flex items-center">
+                    <img
+                      className="h-6 p-0.5 bg-emerald-500 mr-1"
+                      src={clock}
+                      alt=""
+                    />
+                    <p className="font-semibold">3 weeks</p>
+                  </div>
+                  <div className="flex items-center">
+                    <img
+                      className="h-6 p-0.5 bg-emerald-500 mr-1"
+                      src={mansory}
+                      alt=""
+                    />
+                    <p className="font-semibold">Remodeling</p>
+                  </div>
                 </div>
                 <div className="hidden w-full md:block">
                   <div className="grid grid-cols gap-y-2">
@@ -206,7 +248,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 md:p-2 md:shadow-card lg:text-[1.375rem]">
+          <div className="shadow-card p-2 text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 md:p-2 md:shadow-card lg:text-[1.375rem]">
             <img
               className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[45vh] md:min-h-[270px] md:w-2/3"
               src="https://www.maperi.com/wp-content/uploads/2022/07/tendencia-lavabo-2023-maperi.jpg"
@@ -219,10 +261,31 @@ const Projects = () => {
                 </p>
               </div>
               <div className="">
-                <div className="block font-catamaran md:hidden">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                  <p>Lorem, ipsum.</p>
-                  <p>2023</p>
+                <div className="block font-catamaran space-y-1 md:hidden">
+                  <div className="flex items-center">
+                    <img
+                      className="h-6 p-0.5 bg-emerald-500 mr-1"
+                      src={pin}
+                      alt=""
+                    />
+                    <p className="font-semibold">Miami, FL</p>
+                  </div>
+                  <div className="flex items-center">
+                    <img
+                      className="h-6 p-0.5 bg-emerald-500 mr-1"
+                      src={clock}
+                      alt=""
+                    />
+                    <p className="font-semibold">3 weeks</p>
+                  </div>
+                  <div className="flex items-center">
+                    <img
+                      className="h-6 p-0.5 bg-emerald-500 mr-1"
+                      src={mansory}
+                      alt=""
+                    />
+                    <p className="font-semibold">Remodeling</p>
+                  </div>
                 </div>
                 <div className="hidden w-full md:block">
                   <div className="grid grid-cols gap-y-2">
@@ -291,7 +354,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 md:p-2 md:shadow-card lg:text-[1.375rem]">
+          <div className="shadow-card p-2 text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 md:p-2 md:shadow-card lg:text-[1.375rem]">
             <img
               className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[45vh] md:min-h-[270px] md:w-2/3"
               src="https://www.maperi.com/wp-content/uploads/2022/07/tendencia-lavabo-2023-maperi.jpg"
@@ -304,10 +367,31 @@ const Projects = () => {
                 </p>
               </div>
               <div className="">
-                <div className="block font-catamaran md:hidden">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                  <p>Lorem, ipsum.</p>
-                  <p>2023</p>
+                <div className="block font-catamaran space-y-1 md:hidden">
+                  <div className="flex items-center">
+                    <img
+                      className="h-6 p-0.5 bg-emerald-500 mr-1"
+                      src={pin}
+                      alt=""
+                    />
+                    <p className="font-semibold">Miami, FL</p>
+                  </div>
+                  <div className="flex items-center">
+                    <img
+                      className="h-6 p-0.5 bg-emerald-500 mr-1"
+                      src={clock}
+                      alt=""
+                    />
+                    <p className="font-semibold">3 weeks</p>
+                  </div>
+                  <div className="flex items-center">
+                    <img
+                      className="h-6 p-0.5 bg-emerald-500 mr-1"
+                      src={mansory}
+                      alt=""
+                    />
+                    <p className="font-semibold">Remodeling</p>
+                  </div>
                 </div>
                 <div className="hidden w-full md:block">
                   <div className="grid grid-cols gap-y-2">
