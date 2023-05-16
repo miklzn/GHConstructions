@@ -8,7 +8,7 @@ const PaintingService = () => {
   return (
     <section>
       <div>
-        <div className="relative h-[88vh] sm:h-[74vh] sm:min-h-[280px] md:h-screen lg:h-[88vh]">
+        <div className="relative h-[88vh] sm:h-[74vh] sm:min-h-[280px] md:h-screen lg:h-[92vh]">
           <img
             className="absolute h-full w-full object-cover"
             src="https://scontent.faep7-1.fna.fbcdn.net/v/t1.6435-9/193750178_165595418920707_5852149987576009275_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=e3f864&_nc_ohc=tep3XcqBQSYAX-G5baf&_nc_ht=scontent.faep7-1.fna&oh=00_AfAbaeg6fSf7z9_PYI3TKzp_eMkMPfdAzC6a5Vd5l3fi3w&oe=6481EC78"
@@ -79,80 +79,93 @@ const PaintingService = () => {
           </a>
         </div>
         <div className="py-14 grid grid-cols-1 gap-6 lg:grid-cols-3">
-          <div className="shadow-card border border-gray-50 h-auto px-6 py-10">
-            <img
-              className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
-              src={measuring}
-              alt=""
-            />
-            <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
-              Space <br /> Remodeling
-            </h2>
-            <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
-              We transform your spaces with impeccable results. Interior and
-              exterior painting for homes and businesses. Trust us to beautify
-              your environments with precision and quality.
-            </p>
-            <a href="/space-remodeling">
-              <div className="flex items-center font-almarai md:text-[1.125rem]">
-                <img
-                  className="h-[30px] mr-2 bg-emerald-500"
-                  src={diagonalArrow}
-                  alt=""
-                />
-                Learn more
-              </div>
-            </a>
+          <div className="shadow-card border border-gray-50 h-auto px-6 py-10 md:flex md:flex-col">
+            <div>
+              <img
+                className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
+                src={measuring}
+                alt=""
+              />
+              <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
+                Space <br /> Remodeling
+              </h2>
+              <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
+                We transform your spaces with impeccable results. Interior and
+                exterior painting for homes and businesses. Trust us to beautify
+                your environments with precision and quality.
+              </p>
+            </div>
+            <div className="md:flex md:h-full md:items-end">
+              <a href="/space-remodeling">
+                <div className="flex items-center font-almarai md:text-[1.125rem]">
+                  <img
+                    className="h-[30px] mr-2 bg-emerald-500"
+                    src={diagonalArrow}
+                    alt=""
+                  />
+                  Learn more
+                </div>
+              </a>
+            </div>
           </div>
-          <div className="shadow-card border border-gray-50 h-auto px-6 py-10">
-            <img
-              className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
-              src={driller}
-              alt=""
-            />
-            <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
-              Repair <br /> Service
-            </h2>
-            <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
-              We provide specialized maintenance and repair services in
-              electricity, plumbing, roofing, and more. We guarantee reliable
-              and efficient solutions to keep your spaces in optimal condition.
-            </p>
-            <a href="/repair-services">
-              <div className="flex items-center font-almarai md:text-[1.125rem]">
-                <img
-                  className="h-[30px] mr-2 bg-emerald-500"
-                  src={diagonalArrow}
-                  alt=""
-                />
-                Learn more
-              </div>
-            </a>
+          <div className="shadow-card border border-gray-50 h-auto px-6 py-10 md:flex md:flex-col">
+            <div>
+              <img
+                className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
+                src={driller}
+                alt=""
+              />
+              <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
+                Repair <br /> Service
+              </h2>
+              <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
+                We provide specialized maintenance and repair services in
+                electricity, plumbing, roofing, and more. We guarantee reliable
+                and efficient solutions to keep your spaces in optimal
+                condition.
+              </p>
+            </div>
+            <div className="md:flex md:h-full md:items-end">
+              <a href="/repair-services">
+                <div className="flex items-center font-almarai md:text-[1.125rem]">
+                  <img
+                    className="h-[30px] mr-2 bg-emerald-500"
+                    src={diagonalArrow}
+                    alt=""
+                  />
+                  Learn more
+                </div>
+              </a>
+            </div>
           </div>
-          <div className="shadow-card border border-gray-50 h-auto px-6 py-10">
-            <img
-              className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
-              src={tools}
-              alt=""
-            />
-            <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
-              Residential <br /> Construcction
-            </h2>
-            <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
-              We build custom homes with comprehensive design and construction
-              services, including ground-up construction, remodeling, outdoor
-              living spaces, landscaping, and sustainable practices.
-            </p>
-            <a href="/residential-construction">
-              <div className="flex items-center font-almarai md:text-[1.125rem]">
-                <img
-                  className="h-[30px] mr-2 bg-emerald-500"
-                  src={diagonalArrow}
-                  alt=""
-                />
-                Learn more
-              </div>
-            </a>
+          <div className="shadow-card border border-gray-50 h-auto px-6 py-10 md:flex md:flex-col">
+            <div>
+              <img
+                className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
+                src={tools}
+                alt=""
+              />
+              <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
+                Residential <br /> Construction
+              </h2>
+              <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
+                We build custom homes with comprehensive design and construction
+                services, including ground-up construction, remodeling, outdoor
+                living spaces, landscaping, and sustainable practices.
+              </p>
+            </div>
+            <div className="md:flex md:h-full md:items-end">
+              <a href="/residential-construction">
+                <div className="flex items-center font-almarai md:text-[1.125rem]">
+                  <img
+                    className="h-[30px] mr-2 bg-emerald-500"
+                    src={diagonalArrow}
+                    alt=""
+                  />
+                  Learn more
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
