@@ -57,8 +57,7 @@ const Contact = () => {
             </h1>
             <p className="text-white font-catamaran mt-3 min-[480px]:pr-[18vw] md:pr-0">
               Get in touch and share your ideas with us! We're here to make your
-              construction dreams come true. Let us know how we can assist you
-              Molestias quas impedit eius at!
+              construction dreams come true. Let us know how we can assist you.
             </p>
             <div>
               <div className="w-full flex items-center space-x-2 py-5 md:py-2 lg:py-5">
