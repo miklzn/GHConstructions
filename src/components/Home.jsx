@@ -103,7 +103,7 @@ const Home = () => {
               />
             </div>
           </div>
-          <div className="h-auto shadow-card border border-gray-50 bg-emerald-900 px-5 py-8  overflow-hidden min-[480px]:py-12 md:py-8 lg:py-12">
+          <div className="h-auto shadow-card bg-emerald-900 px-5 py-8  overflow-hidden min-[480px]:py-12 md:py-8 lg:py-12">
             <div className="w-full relative">
               <img
                 className="h-14 border-4 border-white p-2 bg-emerald-900 "

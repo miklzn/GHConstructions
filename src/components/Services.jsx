@@ -54,158 +54,183 @@ const Services = () => {
         </div>
         <div className="py-10 md:py-16 lg:px-[7vw]">
           <div className="mx-[5vw] grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-            <div className="shadow-card border border-gray-50 h-auto px-6 py-10">
-              <img
-                className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
-                src={tools}
-                alt=""
-              />
-              <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
-                Residential <br /> Construcction
-              </h2>
-              <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
-                We build custom homes with comprehensive design and construction
-                services, including ground-up construction, remodeling, outdoor
-                living spaces, landscaping, and sustainable practices.
-              </p>
-              <a href="/residential-construction">
-                <div className="flex items-center font-almarai md:text-[1.125rem]">
-                  <img
-                    className="h-[30px] mr-2 bg-emerald-500"
-                    src={diagonalArrow}
-                    alt=""
-                  />
-                  Learn more
-                </div>
-              </a>
+            <div className="shadow-card border border-gray-50 h-auto px-6 py-10 md:flex md:flex-col">
+              <div>
+                <img
+                  className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
+                  src={tools}
+                  alt=""
+                />
+                <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
+                  Residential <br /> Construction
+                </h2>
+                <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
+                  We build custom homes with comprehensive design and
+                  construction services, including ground-up construction,
+                  remodeling, outdoor living spaces, landscaping, and
+                  sustainable practices.
+                </p>
+              </div>
+              <div className="md:flex md:h-full md:items-end">
+                <a href="/residential-construction">
+                  <div className="flex items-center font-almarai md:text-[1.125rem]">
+                    <img
+                      className="h-[30px] mr-2 bg-emerald-500"
+                      src={diagonalArrow}
+                      alt=""
+                    />
+                    Learn more
+                  </div>
+                </a>
+              </div>
             </div>
-            <div className="shadow-card border border-gray-50 h-auto px-6 py-10">
-              <img
-                className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
-                src={winch}
-                alt=""
-              />
-              <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
-                Commercial <br /> Construction
-              </h2>
-              <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
-                New projects and remodels for stores, restaurants, gas stations,
-                and mid-rise multifamily buildings. We guarantee quality,
-                safety, and sustainability to meet your goals on time and
-                budget.
-              </p>
-              <a href="/commercial-construction">
-                <div className="flex items-center font-almarai md:text-[1.125rem]">
-                  <img
-                    className="h-[30px] mr-2 bg-emerald-500"
-                    src={diagonalArrow}
-                    alt=""
-                  />
-                  Learn more
-                </div>
-              </a>
+            <div className="shadow-card border border-gray-50 h-auto px-6 py-10 md:flex md:flex-col">
+              <div>
+                <img
+                  className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
+                  src={winch}
+                  alt=""
+                />
+                <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
+                  Commercial <br /> Construction
+                </h2>
+                <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
+                  New projects and remodels for stores, restaurants, gas
+                  stations, and mid-rise multifamily buildings. We guarantee
+                  quality, safety, and sustainability to meet your goals on time
+                  and budget.
+                </p>
+              </div>
+              <div className="md:flex md:h-full md:items-end">
+                <a href="/commercial-construction">
+                  <div className="flex items-center font-almarai md:text-[1.125rem]">
+                    <img
+                      className="h-[30px] mr-2 bg-emerald-500"
+                      src={diagonalArrow}
+                      alt=""
+                    />
+                    Learn more
+                  </div>
+                </a>
+              </div>
             </div>
-            <div className="shadow-card bg-emerald-900 border border-gray-50 h-auto px-6 py-10">
-              <img
-                className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
-                src={vacuum}
-                alt=""
-              />
-              <h2 className="font-almarai text-white font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
-                Cleaning <br /> Service
-              </h2>
-              <p className="font-catamaran mb-4 text-gray-300 md:text-[1.125rem]">
-                We provide cleaning services for homes and businesses. Our
-                trained team uses sustainable products and practices to keep
-                your space clean and healthy, from deep cleans to scheduled
-                maintenance.
-              </p>
-              <a href="/cleaning-service">
-                <div className="flex text-white items-center font-almarai md:text-[1.125rem]">
-                  <img
-                    className="h-[30px] mr-2 bg-emerald-500"
-                    src={diagonalArrow}
-                    alt=""
-                  />
-                  Learn more
-                </div>
-              </a>
+            <div className="shadow-card bg-emerald-900 border border-gray-50 h-auto px-6 py-10 md:flex md:flex-col">
+              <div>
+                <img
+                  className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
+                  src={vacuum}
+                  alt=""
+                />
+                <h2 className="font-almarai text-white font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
+                  Cleaning <br /> Service
+                </h2>
+                <p className="font-catamaran mb-4 text-gray-300 md:text-[1.125rem]">
+                  We provide cleaning services for homes and businesses. Our
+                  trained team uses sustainable products and practices to keep
+                  your space clean and healthy, from deep cleans to scheduled
+                  maintenance.
+                </p>
+              </div>
+              <div className="md:flex md:h-full md:items-end">
+                <a href="/cleaning-service">
+                  <div className="flex text-white items-center font-almarai md:text-[1.125rem]">
+                    <img
+                      className="h-[30px] mr-2 bg-emerald-500"
+                      src={diagonalArrow}
+                      alt=""
+                    />
+                    Learn more
+                  </div>
+                </a>
+              </div>
             </div>
-            <div className="shadow-card border border-gray-50 h-auto px-6 py-10">
-              <img
-                className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
-                src={paint}
-                alt=""
-              />
-              <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
-                Painting <br /> Service
-              </h2>
-              <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
-                We transform your spaces with impeccable results. Interior and
-                exterior painting for homes and businesses. Trust us to beautify
-                your environments with precision and quality.
-              </p>
-              <a href="/painting-service">
-                <div className="flex items-center font-almarai md:text-[1.125rem]">
-                  <img
-                    className="h-[30px] mr-2 bg-emerald-500"
-                    src={diagonalArrow}
-                    alt=""
-                  />
-                  Learn more
-                </div>
-              </a>
+            <div className="shadow-card border border-gray-50 h-auto px-6 py-10 md:flex md:flex-col">
+              <div>
+                <img
+                  className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
+                  src={paint}
+                  alt=""
+                />
+                <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
+                  Painting <br /> Service
+                </h2>
+                <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
+                  We transform your spaces with impeccable results. Interior and
+                  exterior painting for homes and businesses. Trust us to
+                  beautify your environments with precision and quality.
+                </p>
+              </div>
+              <div className="md:flex md:h-full md:items-end">
+                <a href="/painting-service">
+                  <div className="flex items-center font-almarai md:text-[1.125rem]">
+                    <img
+                      className="h-[30px] mr-2 bg-emerald-500"
+                      src={diagonalArrow}
+                      alt=""
+                    />
+                    Learn more
+                  </div>
+                </a>
+              </div>
             </div>
-            <div className="shadow-card border border-gray-50 h-auto px-6 py-10">
-              <img
-                className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
-                src={measuring}
-                alt=""
-              />
-              <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
-                Space <br /> Remodeling
-              </h2>
-              <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
-                Creativity and quality in transforming your spaces. Homes,
-                businesses, and more. We fulfill your visions and create
-                functional and attractive spaces with our expert team.
-              </p>
-              <a href="/space-remodeling">
-                <div className="flex items-center font-almarai md:text-[1.125rem]">
-                  <img
-                    className="h-[30px] mr-2 bg-emerald-500"
-                    src={diagonalArrow}
-                    alt=""
-                  />
-                  Learn more
-                </div>
-              </a>
+            <div className="shadow-card border border-gray-50 h-auto px-6 py-10 md:flex md:flex-col">
+              <div>
+                <img
+                  className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
+                  src={measuring}
+                  alt=""
+                />
+                <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
+                  Space <br /> Remodeling
+                </h2>
+                <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
+                  Creativity and quality in transforming your spaces. Homes,
+                  businesses, and more. We fulfill your visions and create
+                  functional and attractive spaces with our expert team.
+                </p>
+              </div>
+              <div className="md:flex md:h-full md:items-end">
+                <a href="/space-remodeling">
+                  <div className="flex items-center font-almarai md:text-[1.125rem]">
+                    <img
+                      className="h-[30px] mr-2 bg-emerald-500"
+                      src={diagonalArrow}
+                      alt=""
+                    />
+                    Learn more
+                  </div>
+                </a>
+              </div>
             </div>
-            <div className="shadow-card border border-gray-50 h-auto px-6 py-10">
-              <img
-                className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
-                src={driller}
-                alt=""
-              />
-              <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
-                Repair <br /> Services
-              </h2>
-              <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
-                We provide specialized maintenance and repair services in
-                electricity, plumbing, roofing, and more. We guarantee reliable
-                and efficient solutions to keep your spaces in optimal
-                condition.
-              </p>
-              <a href="/repair-services">
-                <div className="flex items-center font-almarai md:text-[1.125rem]">
-                  <img
-                    className="h-[30px] mr-2 bg-emerald-500"
-                    src={diagonalArrow}
-                    alt=""
-                  />
-                  Learn more
-                </div>
-              </a>
+            <div className="shadow-card border border-gray-50 h-auto px-6 py-10 md:flex md:flex-col">
+              <div>
+                <img
+                  className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
+                  src={driller}
+                  alt=""
+                />
+                <h2 className="font-almarai font-bold text-[1.375rem] my-4 lg:text-[1.5rem]">
+                  Repair <br /> Services
+                </h2>
+                <p className="font-catamaran mb-4 text-gray-500 md:text-[1.125rem]">
+                  We provide specialized maintenance and repair services in
+                  electricity, plumbing, roofing, and more. We guarantee
+                  reliable and efficient solutions to keep your spaces in
+                  optimal condition.
+                </p>
+              </div>
+              <div className="md:flex md:h-full md:items-end">
+                <a href="/repair-services">
+                  <div className="flex items-center font-almarai md:text-[1.125rem]">
+                    <img
+                      className="h-[30px] mr-2 bg-emerald-500"
+                      src={diagonalArrow}
+                      alt=""
+                    />
+                    Learn more
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
         </div>
