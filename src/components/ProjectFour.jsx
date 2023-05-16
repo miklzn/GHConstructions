@@ -5,8 +5,14 @@ import mansory from "../utils/icons/Mansory.svg";
 import mallet from "../utils/icons/Mallet.svg";
 import leftArrow from "../utils/icons/ArrowLeft.svg";
 import rightArrow from "../utils/icons/ArrowRight.svg";
+import project_4_1 from "../utils/images/project-4/project-4-1.jpg";
+import project_4_2 from "../utils/images/project-4/project-4-2.jpg";
+import project_4_3 from "../utils/images/project-4/project-4-3.jpg";
+import project_4_4 from "../utils/images/project-4/project-4-4.jpg";
+import project_4_5 from "../utils/images/project-4/project-4-5.jpg";
+import project_4_6 from "../utils/images/project-4/project-4-6.jpg";
 
-const Project = () => {
+const ProjectFour = () => {
   const widthPx =
     window.innerWidth < 1024
       ? window.innerWidth * 0.9
@@ -29,13 +35,13 @@ const Project = () => {
           <div className="relative h-[57vh] sm:min-h-[280px] md:h-[100vh]">
             <img
               className="absolute h-full w-full object-cover"
-              src="https://latinexclusive.com/sites/default/files/api_file_downloads/5f2daa1a39646167c51a2308_3.jpg"
+              src={project_4_1}
               alt=""
             />
             <div className="absolute flex w-full h-full backdrop-opacity-10 backdrop-invert bg-transparent bg-gradient-to-b from-transparent to-black/90 h-full items-center text-center">
               <div className="mx-[5vw] w-full text-white font-dmSans my-10 xl:px-[5vw]">
                 <h3 className="text-[2.125rem] font-semibold font-almarai mb-12 px-4 min-[480px]:text-[2.5rem] md:text-[3.625rem] md:mb-40 lg:px-20 lg:text-[4.375rem]">
-                  Garden remodeling in Miami, FL
+                  Kitchen remodeling in Orlando, FL
                 </h3>
               </div>
             </div>
@@ -75,7 +81,7 @@ const Project = () => {
                     Location
                   </div>
                   <div className="text-gray-500 lg:text-[1.125rem]">
-                    Tampa, FL
+                    Orlando, FL
                   </div>
                 </div>
               </div>
@@ -158,55 +164,55 @@ const Project = () => {
             className="flex items-center justify-start overflow-x-auto scroll-smooth scrollbar-hide md:space-x-3 lg:px-3"
           >
             <div>
-              <div className="w-[90vw] h-auto md:w-[30vw]">
+              <div className="w-[90vw] md:w-[30vw]">
                 <img
-                  className="object-cover md:relative"
-                  src="https://latinexclusive.com/sites/default/files/api_file_downloads/5f2daa1a39646167c51a2308_1.jpg"
+                  className="object-cover w-full h-[50vh] sm:h-[70vh] md:relative md:h-[40vh] md:min-h-[206px]"
+                  src={project_4_1}
                   alt=""
                 />
               </div>
             </div>
             <div>
-              <div className="w-[90vw] h-auto md:w-[30vw]">
+              <div className="w-[90vw] md:w-[30vw]">
                 <img
-                  className="object-cover md:relative"
-                  src="https://latinexclusive.com/sites/default/files/api_file_downloads/5f2daa1a39646167c51a2308_1.jpg"
+                  className="object-cover w-full h-[50vh] sm:h-[70vh] md:relative md:h-[40vh] md:min-h-[206px]"
+                  src={project_4_2}
                   alt=""
                 />
               </div>
             </div>
             <div>
-              <div className="w-[90vw] h-auto md:w-[30vw]">
+              <div className="w-[90vw] md:w-[30vw]">
                 <img
-                  className="object-cover md:relative"
-                  src="https://latinexclusive.com/sites/default/files/api_file_downloads/5f2daa1a39646167c51a2308_1.jpg"
+                  className="object-cover w-full h-[50vh] sm:h-[70vh] md:relative md:h-[40vh] md:min-h-[206px]"
+                  src={project_4_3}
                   alt=""
                 />
               </div>
             </div>
             <div>
-              <div className="w-[90vw] h-auto md:w-[30vw]">
+              <div className="w-[90vw] md:w-[30vw]">
                 <img
-                  className="object-cover md:relative"
-                  src="https://latinexclusive.com/sites/default/files/api_file_downloads/5f2daa1a39646167c51a2308_1.jpg"
+                  className="object-cover w-full h-[50vh] sm:h-[70vh] md:relative md:h-[40vh] md:min-h-[206px]"
+                  src={project_4_4}
                   alt=""
                 />
               </div>
             </div>
             <div>
-              <div className="w-[90vw] h-auto md:w-[30vw]">
+              <div className="w-[90vw] md:w-[30vw]">
                 <img
-                  className="object-cover md:relative"
-                  src="https://latinexclusive.com/sites/default/files/api_file_downloads/5f2daa1a39646167c51a2308_1.jpg"
+                  className="object-cover w-full h-[50vh] sm:h-[70vh] md:relative md:h-[40vh] md:min-h-[206px]"
+                  src={project_4_5}
                   alt=""
                 />
               </div>
             </div>
             <div>
-              <div className="w-[90vw] h-auto md:w-[30vw]">
+              <div className="w-[90vw] md:w-[30vw]">
                 <img
-                  className="object-cover md:relative"
-                  src="https://latinexclusive.com/sites/default/files/api_file_downloads/5f2daa1a39646167c51a2308_1.jpg"
+                  className="object-cover w-full h-[50vh] sm:h-[70vh] md:relative md:h-[40vh] md:min-h-[206px]"
+                  src={project_4_6}
                   alt=""
                 />
               </div>
@@ -232,4 +238,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default ProjectFour;

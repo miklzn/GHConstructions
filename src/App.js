@@ -4,7 +4,6 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
-import Project from "./components/Project";
 import About from "./components/About";
 import Services from "./components/Services";
 import Projects from "./components/Projects";
@@ -16,6 +15,8 @@ import SpaceRemodeling from "./components/SpaceRemodeling";
 import RepairServices from "./components/RepairServices";
 import ProjectOne from "./components/ProjectOne";
 import ProjectTwo from "./components/ProjectTwo";
+import ProjectThree from "./components/ProjectThree";
+import ProjectFour from "./components/ProjectFour";
 
 const App = () => {
   return (
@@ -41,6 +42,8 @@ const App = () => {
         <Route path="/repair-services" element={<RepairServices />} />
         <Route path="/project-1" element={<ProjectOne />} />
         <Route path="/project-2" element={<ProjectTwo />} />
+        <Route path="/project-3" element={<ProjectThree />} />
+        <Route path="/project-4" element={<ProjectFour />} />
       </Routes>
       <Footer />
     </div>
