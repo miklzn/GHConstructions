@@ -14,7 +14,7 @@ import project_2_6 from "../utils/images/project-2/project-2-6.jpg";
 
 const ProjectTwo = () => {
   const widthPx =
-    window.innerWidth < 1024
+    window.innerWidth < 768
       ? window.innerWidth * 0.9
       : window.innerWidth * 0.33;
 
@@ -161,9 +161,9 @@ const ProjectTwo = () => {
         <div className="mx-[5vw] py-10 md:py-20 xl:px-[7vw]">
           <div
             id="content"
-            className="flex items-center justify-start overflow-x-auto scroll-smooth scrollbar-hide md:space-x-3 lg:px-3"
+            className="snap-x flex items-center justify-start overflow-x-auto scroll-smooth scrollbar-hide space-x-3 lg:px-3"
           >
-            <div>
+            <div className="snap-center md:snap-start">
               <div className="w-[90vw] md:w-[30vw]">
                 <img
                   className="object-cover w-full h-[50vh] sm:h-[70vh] md:relative md:h-[40vh] md:min-h-[206px]"
@@ -172,7 +172,7 @@ const ProjectTwo = () => {
                 />
               </div>
             </div>
-            <div>
+            <div className="snap-center md:snap-start">
               <div className="w-[90vw] md:w-[30vw]">
                 <img
                   className="object-cover w-full h-[50vh] sm:h-[70vh] md:relative md:h-[40vh] md:min-h-[206px]"
@@ -181,7 +181,7 @@ const ProjectTwo = () => {
                 />
               </div>
             </div>
-            <div>
+            <div className="snap-center md:snap-start">
               <div className="w-[90vw] md:w-[30vw]">
                 <img
                   className="object-cover w-full h-[50vh] sm:h-[70vh] md:relative md:h-[40vh] md:min-h-[206px]"
@@ -190,7 +190,7 @@ const ProjectTwo = () => {
                 />
               </div>
             </div>
-            <div>
+            <div className="snap-center md:snap-start">
               <div className="w-[90vw] md:w-[30vw]">
                 <img
                   className="object-cover w-full h-[50vh] sm:h-[70vh] md:relative md:h-[40vh] md:min-h-[206px]"
@@ -199,7 +199,7 @@ const ProjectTwo = () => {
                 />
               </div>
             </div>
-            <div>
+            <div className="snap-center md:snap-start">
               <div className="w-[90vw] md:w-[30vw]">
                 <img
                   className="object-cover w-full h-[50vh] sm:h-[70vh] md:relative md:h-[40vh] md:min-h-[206px]"
@@ -208,7 +208,7 @@ const ProjectTwo = () => {
                 />
               </div>
             </div>
-            <div>
+            <div className="snap-center md:snap-start">
               <div className="w-[90vw] md:w-[30vw]">
                 <img
                   className="object-cover w-full h-[50vh] sm:h-[70vh] md:relative md:h-[40vh] md:min-h-[206px]"
