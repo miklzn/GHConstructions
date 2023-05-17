@@ -31,7 +31,8 @@ const Footer = () => {
               G&H Constructions
             </h2>
             <p className="text-[0.875rem] font-catamaran text-center px-12 mt-4 text-white min-[480px]:text-[1rem] sm:text-[2.8vw] md:text-[0.875rem] md:px-0 md:mt-2 lg:px-5 xl:text-[1rem]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              We build, renovate and beautify your spaces with exellence and
+              passion.
             </p>
             <div className="w-full flex items-center justify-center space-x-2 py-7 md:py-2">
               <a
@@ -131,7 +132,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className="py-4 text-xs text-center text-white font-almarai px-3 md:text-[0.9375rem]">
+      <p className="py-4 text-xs text-center text-white font-catamaran px-3 md:text-[0.9375rem]">
         Copyright © {year} G&H Constructions. All rights reserved
       </p>
     </footer>
