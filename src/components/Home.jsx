@@ -165,7 +165,7 @@ const Home = () => {
       <section className="h-auto bg-gray-100 md:px-6 lg:px-[10.8vw]">
         <div className="pb-3 md:pb-1">
           <div className="flex flex-row justify-between items-center mx-[5vw] pt-16 pb-2 font-catamaran text-[1.5rem] font-bold min-[480px]:text-[1.875rem] sm:text-[2rem] sm:pt-20 sm:pb-4 md:text-[1.875rem] md:pt-24 lg:text-[2.7vw]">
-            <h1>Selected Projects</h1>
+            <h2>Selected Projects</h2>
             <div className="flex justify-end space-x-2 md:w-4/12">
               <button
                 onClick={scrollLeft}
