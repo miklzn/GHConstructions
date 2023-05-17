@@ -72,15 +72,14 @@ const Home = () => {
                 src={tools}
                 alt=""
               />
-              <h2 className="pb-3 pt-2 text-[1.375rem] font-semibold font-almarai relative z-10">
+              <h3 className="pb-3 pt-2 text-[1.375rem] font-semibold font-almarai relative z-10">
                 Residential <br className="lg:hidden" /> Construction
-              </h2>
+              </h3>
               <p className="text-[0.875rem] text-gray-600 relative z-10 min-[480px]:text-[0.9375rem] sm:text-[1rem] md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1.125rem]">
                 We build custom homes with comprehensive design and construction
                 services, including ground-up construction, remodeling, outdoor
                 living spaces, landscaping, and sustainable practices.
               </p>
-
               <img
                 className="h-40 absolute top-24 -right-20 min-[480px]:top-10 md:top-36 lg:top-32"
                 src={toolsBack}
@@ -95,16 +94,15 @@ const Home = () => {
                 src={winch}
                 alt=""
               />
-              <h2 className="pb-3 pt-2 text-[1.375rem] font-semibold font-almarai relative z-10">
+              <h3 className="pb-3 pt-2 text-[1.375rem] font-semibold font-almarai relative z-10">
                 Commercial <br className="lg:hidden" /> Construction
-              </h2>
+              </h3>
               <p className="text-[0.875rem] text-gray-600 relative z-10 min-[480px]:text-[0.9375rem] sm:text-[1rem] md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1.125rem]">
                 New projects and remodels for stores, restaurants, gas stations,
                 and mid-rise multifamily buildings. We guarantee quality,
                 safety, and sustainability to meet your goals on time and
                 budget.
               </p>
-
               <img
                 className="h-40 absolute top-24 -right-20 min-[480px]:top-10 md:top-36 lg:top-32"
                 src={winchBack}
@@ -119,16 +117,15 @@ const Home = () => {
                 src={vacuum}
                 alt=""
               />
-              <h2 className="pb-3 pt-2 text-[1.375rem] font-semibold text-white font-almarai relative z-10">
+              <h3 className="pb-3 pt-2 text-[1.375rem] font-semibold text-white font-almarai relative z-10">
                 Cleannig <br className="lg:hidden" /> Service
-              </h2>
+              </h3>
               <p className="text-[0.875rem] text-gray-200 relative z-10 min-[480px]:text-[0.9375rem] sm:text-[1rem] md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1.125rem]">
                 We provide cleaning services for homes and businesses. Our
                 trained team uses sustainable products and practices to keep
                 your space clean and healthy, from deep cleans to scheduled
                 maintenance.
               </p>
-
               <img
                 className="h-40 absolute top-24 -right-20 min-[480px]:top-10 md:top-36 lg:top-32"
                 src={vacuumBack}
@@ -142,20 +139,20 @@ const Home = () => {
         <div className="flex flex-col mx-[5vw] py-12 sm:py-16 md:flex md:flex-row md:py-[7.5vw] lg:py-16">
           <div className=" font-catamaran text-[1.5rem] font-bold min-[480px]:text-[1.875rem] sm:text-[2rem] md:w-2/5 md:my-auto md:text-[1.875rem] lg:text-[2.7vw]">
             <div>
-              <h1>Quality &</h1>
+              <h2>Quality &</h2>
             </div>
             <div>
-              <h1>Satisfaction</h1>
+              <h2>Satisfaction</h2>
             </div>
           </div>
-          <div className="mt-5 font-catamaran text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mt-12 md:mt-0 md:w-3/5 md:my-auto md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1.125rem]">
+          <p className="mt-5 font-catamaran text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mt-12 md:mt-0 md:w-3/5 md:my-auto md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1.125rem]">
             At G&H Construction, we take pride in providing high-quality,
             personalized services tailored to each client's needs. Our highly
             skilled team is dedicated to excellence on every project we
             undertake. Whether you need to build a new home, remodel a kitchen
             or bathroom, paint your home, or require maintenance and cleaning
             services, G&H Construction is here to help you.
-          </div>
+          </p>
         </div>
         <div className="flex justify-center mx-[5vw] md:mb-16">
           <img
@@ -200,9 +197,9 @@ const Home = () => {
                       />
                       <div className="md:mt-4">
                         <div>
-                          <p className="font-almarai my-2 sm:my-6 md:my-4">
+                          <h3 className="font-almarai my-2 sm:my-6 md:my-4">
                             Remodeling Bathroom
-                          </p>
+                          </h3>
                         </div>
                         <div className="space-y-1 ">
                           <div className="flex items-center">
@@ -242,9 +239,9 @@ const Home = () => {
                       />
                       <div className="md:mt-4">
                         <div>
-                          <p className="font-almarai my-2 sm:my-6 md:my-4">
+                          <h3 className="font-almarai my-2 sm:my-6 md:my-4">
                             Remodeling Bathroom
-                          </p>
+                          </h3>
                         </div>
                         <div className="space-y-1">
                           <div className="flex items-center">
@@ -288,9 +285,9 @@ const Home = () => {
                       />
                       <div className="md:mt-4">
                         <div>
-                          <p className="font-almarai my-2 sm:my-6 md:my-4">
+                          <h3 className="font-almarai my-2 sm:my-6 md:my-4">
                             Remodeling Bathroom
-                          </p>
+                          </h3>
                         </div>
                         <div className="space-y-1 ">
                           <div className="flex items-center">
@@ -330,9 +327,9 @@ const Home = () => {
                       />
                       <div className="md:mt-4">
                         <div>
-                          <p className="font-almarai my-2 sm:my-6 md:my-4">
+                          <h3 className="font-almarai my-2 sm:my-6 md:my-4">
                             Remodeling Bathroom
-                          </p>
+                          </h3>
                         </div>
                         <div className="space-y-1">
                           <div className="flex items-center">
@@ -372,9 +369,9 @@ const Home = () => {
       </section>
       <section className="h-auto md:px-6 lg:px-[10.8vw]">
         <div className="mx-[5vw] mt-5 mb-10 font-catamaran text-[3.5vw] sm:mt-10 md:pb-10">
-          <h1 className="text-[1.5rem] font-bold py-6 min-[480px]:text-[1.875rem] sm:text-[2rem] sm:py-10 md:text-[1.875rem] lg:text-[2.7vw]">
+          <h2 className="text-[1.5rem] font-bold py-6 min-[480px]:text-[1.875rem] sm:text-[2rem] sm:py-10 md:text-[1.875rem] lg:text-[2.7vw]">
             Our People
-          </h1>
+          </h2>
           <div className="md:flex md:flex-row">
             <p className="text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] md:text-[0.875rem] md:w-[45vw] md:pr-16 md:ml-0 lg:text-[0.875rem] xl:text-[1.125rem]">
               At G&H Construction, our extensive team of highly skilled
@@ -426,9 +423,9 @@ const Home = () => {
               />
             </div>
             <div className="md:w-1/2 md:pl-3">
-              <h1 className="text-[1.5rem] font-bold min-[480px]:text-[1.875rem] sm:text-[2rem] py-6 sm:py-12 md:text-[1.875rem] md:pt-1 md:pb-5 lg:text-[2.7vw]">
+              <h2 className="text-[1.5rem] font-bold min-[480px]:text-[1.875rem] sm:text-[2rem] py-6 sm:py-12 md:text-[1.875rem] md:pt-1 md:pb-5 lg:text-[2.7vw]">
                 Our Services
-              </h1>
+              </h2>
               <p className="text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1.125rem]">
                 We offer a wide range of construction, remodeling, maintenance,
                 cleaning services and more. We adapt to our clients' budgets
@@ -477,12 +474,12 @@ const Home = () => {
         <header class="relative flex items-center justify-center h-auto overflow-hidden sm:h-[85vw] md:h-[37.5vw] lg:h-[22.5vw]">
           <div class="relative flex w-full h-full z-30 items-center text-center justify-center text-white bg-black bg-opacity-60 sm:py-32 md:py-[10vw] lg:py-[6.5vw]">
             <div className="py-[20vw] px-[6vw] sm:py-[1.5vh] sm:px-[15vw] md:py-[0vw] md:px-[8vw]">
-              <h1
+              <p
                 className="text-[1.75rem] font-almarai font-bold min-[480px]:text-[2rem] md:text-[2.25rem] lg:text-[2rem] xl:text-[2.5rem]
             "
               >
                 Let’s discuss your project
-              </h1>
+              </p>
               <p className="text-[0.875rem] mt-7 font-catamaran min-[480px]:text-[0.9375rem] sm:text-[3vw] md:text-[1.125rem] lg:text-[1rem] xl:text-[1.25rem]">
                 We would love to share ideas, suggest options and answer your
                 question.

@@ -40,9 +40,9 @@ const ProjectTwo = () => {
             />
             <div className="absolute flex w-full h-full backdrop-opacity-10 backdrop-invert bg-transparent bg-gradient-to-b from-transparent to-black/90 h-full items-center text-center">
               <div className="mx-[5vw] w-full text-white font-dmSans my-10 xl:px-[5vw]">
-                <h3 className="text-[2.125rem] font-semibold font-almarai mb-12 px-4 min-[480px]:text-[2.5rem] md:text-[3.625rem] md:mb-40 lg:px-20 lg:text-[4.375rem]">
+                <h1 className="text-[2.125rem] font-semibold font-almarai mb-12 px-4 min-[480px]:text-[2.5rem] md:text-[3.625rem] md:mb-40 lg:px-20 lg:text-[4.375rem]">
                   Kitchen remodeling in Tampa, FL
-                </h3>
+                </h1>
               </div>
             </div>
           </div>
@@ -119,9 +119,9 @@ const ProjectTwo = () => {
           </div>
         </div>
         <div className="h-auto mx-[5vw] font-catamaran xl:px-[7vw]">
-          <h1 className="text-[2rem] font-bold font-almarai mb-4 leading-10 min-[480px]:text-[2.25rem]">
+          <h2 className="text-[2rem] font-bold font-almarai mb-4 leading-10 min-[480px]:text-[2.25rem]">
             About the project
-          </h1>
+          </h2>
           <p className="text-gray-500 mb-10 lg:text-[1.125rem]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit feugiat
             morbi accumsan odio luctus ut quam senectus hendrerit convallis dui

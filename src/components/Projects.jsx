@@ -50,9 +50,9 @@ const Projects = () => {
               />
               <div className="md:pl-4 md:flex-col">
                 <div className="">
-                  <p className="font-almarai my-2 sm:my-6 md:my-0 md:mb-3">
+                  <h3 className="font-almarai my-2 sm:my-6 md:my-0 md:mb-3">
                     Remodeling Bathroom
-                  </p>
+                  </h3>
                 </div>
                 <div className="">
                   <div className="block font-catamaran space-y-1 md:hidden">
@@ -158,9 +158,9 @@ const Projects = () => {
               />
               <div className="md:pl-4 md:flex-col">
                 <div className="">
-                  <p className="font-almarai my-2 sm:my-6 md:my-0 md:mb-3">
+                  <h3 className="font-almarai my-2 sm:my-6 md:my-0 md:mb-3">
                     Remodeling Bathroom
-                  </p>
+                  </h3>
                 </div>
                 <div className="">
                   <div className="block font-catamaran space-y-1 md:hidden">
@@ -266,9 +266,9 @@ const Projects = () => {
               />
               <div className="md:pl-4 md:flex-col">
                 <div className="">
-                  <p className="font-almarai my-2 sm:my-6 md:my-0 md:mb-3">
+                  <h3 className="font-almarai my-2 sm:my-6 md:my-0 md:mb-3">
                     Remodeling Bathroom
-                  </p>
+                  </h3>
                 </div>
                 <div className="">
                   <div className="block font-catamaran space-y-1 md:hidden">
@@ -374,9 +374,9 @@ const Projects = () => {
               />
               <div className="md:pl-4 md:flex-col">
                 <div className="">
-                  <p className="font-almarai my-2 sm:my-6 md:my-0 md:mb-3">
+                  <h3 className="font-almarai my-2 sm:my-6 md:my-0 md:mb-3">
                     Remodeling Bathroom
-                  </p>
+                  </h3>
                 </div>
                 <div className="">
                   <div className="block font-catamaran space-y-1 md:hidden">

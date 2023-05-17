@@ -85,9 +85,9 @@ const About = () => {
               <p className="text-emerald-500 text-[1.125rem] mb-4">
                 /OUR MISSION
               </p>
-              <h1 className="text-[2rem] font-semibold leading-10 min-[480px]:text-[2.25rem]">
+              <h2 className="text-[2rem] font-semibold leading-10 min-[480px]:text-[2.25rem]">
                 Our goal is to provide high-quality work at an affordable price
-              </h1>
+              </h2>
               <p className="mt-7 font-catamaran">
                 At G&H Construction, we focus on providing high-quality
                 construction services at affordable prices. We strive to
@@ -107,9 +107,9 @@ const About = () => {
         <div className="mx-[5vw] py-10 font-almarai">
           <div className="lg:px-[7vw]">
             <p className="text-emerald-500 text-[1.125rem] mb-4">/OUR VALUES</p>
-            <h1 className="text-[2rem] font-semibold leading-10 min-[480px]:text-[2.25rem]">
+            <h2 className="text-[2rem] font-semibold leading-10 min-[480px]:text-[2.25rem]">
               The values that drive our work
-            </h1>
+            </h2>
             <p className="mt-7 font-catamaran">
               We are guided by a strong work ethic based on values that are
               fundamental to us. We work with honesty, integrity, and
