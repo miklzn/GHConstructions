@@ -3,6 +3,11 @@ import pin from "../utils/icons/Pin.svg";
 import clock from "../utils/icons/Clock.svg";
 import mansory from "../utils/icons/Mansory.svg";
 
+import project_1_1 from "../utils/images/project-1/project-1-3.jpg";
+import project_2_1 from "../utils/images/project-2/project-2-1.jpg";
+import project_3_1 from "../utils/images/project-3/project-3-1.jpg";
+import project_4_1 from "../utils/images/project-4/project-4-1.jpg";
+
 const Projects = () => {
   return (
     <section>
@@ -36,104 +41,106 @@ const Projects = () => {
       </div>
       <div className="h-auto mx-[5vw] py-20 lg:px-[7vw]">
         <div className="grid grid-cols gap-10 lg:gap-20">
-          <div className="shadow-card p-2 text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 md:p-2 md:shadow-card lg:text-[1.375rem]">
-            <img
-              className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[45vh] md:min-h-[270px] md:w-2/3"
-              src="https://www.maperi.com/wp-content/uploads/2022/07/tendencia-lavabo-2023-maperi.jpg"
-              alt=""
-            />
-            <div className="md:pl-4 md:flex-col">
-              <div className="">
-                <p className="font-almarai my-2 sm:my-6 md:my-0 md:mb-3">
-                  Remodeling Bathroom
-                </p>
-              </div>
-              <div className="">
-                <div className="block font-catamaran space-y-1 md:hidden">
-                  <div className="flex items-center">
-                    <img
-                      className="h-6 p-0.5 bg-emerald-500 mr-1"
-                      src={pin}
-                      alt=""
-                    />
-                    <p className="font-semibold">Miami, FL</p>
-                  </div>
-                  <div className="flex items-center">
-                    <img
-                      className="h-6 p-0.5 bg-emerald-500 mr-1"
-                      src={clock}
-                      alt=""
-                    />
-                    <p className="font-semibold">3 weeks</p>
-                  </div>
-                  <div className="flex items-center">
-                    <img
-                      className="h-6 p-0.5 bg-emerald-500 mr-1"
-                      src={mansory}
-                      alt=""
-                    />
-                    <p className="font-semibold">Remodeling</p>
-                  </div>
+          <a href="/project-1">
+            <div className="shadow-card p-2 text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 md:p-2 md:shadow-card lg:text-[1.375rem]">
+              <img
+                className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[45vh] md:min-h-[270px] md:w-2/3"
+                src={project_1_1}
+                alt=""
+              />
+              <div className="md:pl-4 md:flex-col">
+                <div className="">
+                  <p className="font-almarai my-2 sm:my-6 md:my-0 md:mb-3">
+                    Remodeling Bathroom
+                  </p>
                 </div>
-                <div className="hidden w-full md:block">
-                  <div className="grid grid-cols gap-y-2">
-                    <div className="flex font-catamaran">
+                <div className="">
+                  <div className="block font-catamaran space-y-1 md:hidden">
+                    <div className="flex items-center">
                       <img
-                        className="bg-emerald-500 p-2 w-10 mr-4 lg:w-12"
-                        src={client}
-                        alt=""
-                      />
-                      <div>
-                        <div className="text-[1.125rem] font-bold font-almarai lg:text-[1.125rem]">
-                          Client
-                        </div>
-                        <div className="text-[1rem] text-gray-500 lg:text-[1rem]">
-                          John Carter
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex font-catamaran">
-                      <img
-                        className="bg-emerald-500 p-2 w-10 mr-4 lg:w-12"
+                        className="h-6 p-0.5 bg-emerald-500 mr-1"
                         src={pin}
                         alt=""
                       />
-                      <div>
-                        <div className="text-[1.125rem] font-bold font-almarai lg:text-[1.125rem]">
-                          Location
-                        </div>
-                        <div className="text-[1rem] text-gray-500 lg:text-[1rem]">
-                          Tampa, FL
-                        </div>
-                      </div>
+                      <p className="font-semibold">Miami, FL</p>
                     </div>
-                    <div className="flex font-catamaran">
+                    <div className="flex items-center">
                       <img
-                        className="bg-emerald-500 p-2 w-10 mr-4 lg:w-12"
+                        className="h-6 p-0.5 bg-emerald-500 mr-1"
                         src={clock}
                         alt=""
                       />
-                      <div>
-                        <div className="text-[1.125rem] font-bold font-almarai lg:text-[1.125rem]">
-                          Time
-                        </div>
-                        <div className="text-[1rem] text-gray-500 lg:text-[1rem]">
-                          3 Weeks
-                        </div>
-                      </div>
+                      <p className="font-semibold">3 weeks</p>
                     </div>
-                    <div className="flex font-catamaran">
+                    <div className="flex items-center">
                       <img
-                        className="bg-emerald-500 p-2 w-10 mr-4 lg:w-12"
+                        className="h-6 p-0.5 bg-emerald-500 mr-1"
                         src={mansory}
                         alt=""
                       />
-                      <div className="relative">
-                        <div className="text-[1.125rem] font-bold font-almarai lg:text-[1.125rem]">
-                          Service
+                      <p className="font-semibold">Remodeling</p>
+                    </div>
+                  </div>
+                  <div className="hidden w-full md:block">
+                    <div className="grid grid-cols gap-y-2">
+                      <div className="flex font-catamaran">
+                        <img
+                          className="bg-emerald-500 p-2 w-10 mr-4 lg:w-12"
+                          src={client}
+                          alt=""
+                        />
+                        <div>
+                          <div className="text-[1.125rem] font-bold font-almarai lg:text-[1.125rem]">
+                            Client
+                          </div>
+                          <div className="text-[1rem] text-gray-500 lg:text-[1rem]">
+                            John Carter
+                          </div>
                         </div>
-                        <div className="text-[1rem] text-gray-500 lg:text-[1rem]">
-                          Remodeling
+                      </div>
+                      <div className="flex font-catamaran">
+                        <img
+                          className="bg-emerald-500 p-2 w-10 mr-4 lg:w-12"
+                          src={pin}
+                          alt=""
+                        />
+                        <div>
+                          <div className="text-[1.125rem] font-bold font-almarai lg:text-[1.125rem]">
+                            Location
+                          </div>
+                          <div className="text-[1rem] text-gray-500 lg:text-[1rem]">
+                            Tampa, FL
+                          </div>
+                        </div>
+                      </div>
+                      <div className="flex font-catamaran">
+                        <img
+                          className="bg-emerald-500 p-2 w-10 mr-4 lg:w-12"
+                          src={clock}
+                          alt=""
+                        />
+                        <div>
+                          <div className="text-[1.125rem] font-bold font-almarai lg:text-[1.125rem]">
+                            Time
+                          </div>
+                          <div className="text-[1rem] text-gray-500 lg:text-[1rem]">
+                            3 Weeks
+                          </div>
+                        </div>
+                      </div>
+                      <div className="flex font-catamaran">
+                        <img
+                          className="bg-emerald-500 p-2 w-10 mr-4 lg:w-12"
+                          src={mansory}
+                          alt=""
+                        />
+                        <div className="relative">
+                          <div className="text-[1.125rem] font-bold font-almarai lg:text-[1.125rem]">
+                            Service
+                          </div>
+                          <div className="text-[1rem] text-gray-500 lg:text-[1rem]">
+                            Remodeling
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -141,105 +148,107 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="shadow-card p-2 text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 md:p-2 md:shadow-card lg:text-[1.375rem]">
-            <img
-              className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[45vh] md:min-h-[270px] md:w-2/3"
-              src="https://www.maperi.com/wp-content/uploads/2022/07/tendencia-lavabo-2023-maperi.jpg"
-              alt=""
-            />
-            <div className="md:pl-4 md:flex-col">
-              <div className="">
-                <p className="font-almarai my-2 sm:my-6 md:my-0 md:mb-3">
-                  Remodeling Bathroom
-                </p>
-              </div>
-              <div className="">
-                <div className="block font-catamaran space-y-1 md:hidden">
-                  <div className="flex items-center">
-                    <img
-                      className="h-6 p-0.5 bg-emerald-500 mr-1"
-                      src={pin}
-                      alt=""
-                    />
-                    <p className="font-semibold">Miami, FL</p>
-                  </div>
-                  <div className="flex items-center">
-                    <img
-                      className="h-6 p-0.5 bg-emerald-500 mr-1"
-                      src={clock}
-                      alt=""
-                    />
-                    <p className="font-semibold">3 weeks</p>
-                  </div>
-                  <div className="flex items-center">
-                    <img
-                      className="h-6 p-0.5 bg-emerald-500 mr-1"
-                      src={mansory}
-                      alt=""
-                    />
-                    <p className="font-semibold">Remodeling</p>
-                  </div>
+          </a>
+          <a href="project-2">
+            <div className="shadow-card p-2 text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 md:p-2 md:shadow-card lg:text-[1.375rem]">
+              <img
+                className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[45vh] md:min-h-[270px] md:w-2/3"
+                src={project_2_1}
+                alt=""
+              />
+              <div className="md:pl-4 md:flex-col">
+                <div className="">
+                  <p className="font-almarai my-2 sm:my-6 md:my-0 md:mb-3">
+                    Remodeling Bathroom
+                  </p>
                 </div>
-                <div className="hidden w-full md:block">
-                  <div className="grid grid-cols gap-y-2">
-                    <div className="flex font-catamaran">
+                <div className="">
+                  <div className="block font-catamaran space-y-1 md:hidden">
+                    <div className="flex items-center">
                       <img
-                        className="bg-emerald-500 p-2 w-10 mr-4 lg:w-12"
-                        src={client}
-                        alt=""
-                      />
-                      <div>
-                        <div className="text-[1.125rem] font-bold font-almarai lg:text-[1.125rem]">
-                          Client
-                        </div>
-                        <div className="text-[1rem] text-gray-500 lg:text-[1rem]">
-                          John Carter
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex font-catamaran">
-                      <img
-                        className="bg-emerald-500 p-2 w-10 mr-4 lg:w-12"
+                        className="h-6 p-0.5 bg-emerald-500 mr-1"
                         src={pin}
                         alt=""
                       />
-                      <div>
-                        <div className="text-[1.125rem] font-bold font-almarai lg:text-[1.125rem]">
-                          Location
-                        </div>
-                        <div className="text-[1rem] text-gray-500 lg:text-[1rem]">
-                          Tampa, FL
-                        </div>
-                      </div>
+                      <p className="font-semibold">Miami, FL</p>
                     </div>
-                    <div className="flex font-catamaran">
+                    <div className="flex items-center">
                       <img
-                        className="bg-emerald-500 p-2 w-10 mr-4 lg:w-12"
+                        className="h-6 p-0.5 bg-emerald-500 mr-1"
                         src={clock}
                         alt=""
                       />
-                      <div>
-                        <div className="text-[1.125rem] font-bold font-almarai lg:text-[1.125rem]">
-                          Time
-                        </div>
-                        <div className="text-[1rem] text-gray-500 lg:text-[1rem]">
-                          3 Weeks
-                        </div>
-                      </div>
+                      <p className="font-semibold">3 weeks</p>
                     </div>
-                    <div className="flex font-catamaran">
+                    <div className="flex items-center">
                       <img
-                        className="bg-emerald-500 p-2 w-10 mr-4 lg:w-12"
+                        className="h-6 p-0.5 bg-emerald-500 mr-1"
                         src={mansory}
                         alt=""
                       />
-                      <div className="relative">
-                        <div className="text-[1.125rem] font-bold font-almarai lg:text-[1.125rem]">
-                          Service
+                      <p className="font-semibold">Remodeling</p>
+                    </div>
+                  </div>
+                  <div className="hidden w-full md:block">
+                    <div className="grid grid-cols gap-y-2">
+                      <div className="flex font-catamaran">
+                        <img
+                          className="bg-emerald-500 p-2 w-10 mr-4 lg:w-12"
+                          src={client}
+                          alt=""
+                        />
+                        <div>
+                          <div className="text-[1.125rem] font-bold font-almarai lg:text-[1.125rem]">
+                            Client
+                          </div>
+                          <div className="text-[1rem] text-gray-500 lg:text-[1rem]">
+                            John Carter
+                          </div>
                         </div>
-                        <div className="text-[1rem] text-gray-500 lg:text-[1rem]">
-                          Remodeling
+                      </div>
+                      <div className="flex font-catamaran">
+                        <img
+                          className="bg-emerald-500 p-2 w-10 mr-4 lg:w-12"
+                          src={pin}
+                          alt=""
+                        />
+                        <div>
+                          <div className="text-[1.125rem] font-bold font-almarai lg:text-[1.125rem]">
+                            Location
+                          </div>
+                          <div className="text-[1rem] text-gray-500 lg:text-[1rem]">
+                            Tampa, FL
+                          </div>
+                        </div>
+                      </div>
+                      <div className="flex font-catamaran">
+                        <img
+                          className="bg-emerald-500 p-2 w-10 mr-4 lg:w-12"
+                          src={clock}
+                          alt=""
+                        />
+                        <div>
+                          <div className="text-[1.125rem] font-bold font-almarai lg:text-[1.125rem]">
+                            Time
+                          </div>
+                          <div className="text-[1rem] text-gray-500 lg:text-[1rem]">
+                            3 Weeks
+                          </div>
+                        </div>
+                      </div>
+                      <div className="flex font-catamaran">
+                        <img
+                          className="bg-emerald-500 p-2 w-10 mr-4 lg:w-12"
+                          src={mansory}
+                          alt=""
+                        />
+                        <div className="relative">
+                          <div className="text-[1.125rem] font-bold font-almarai lg:text-[1.125rem]">
+                            Service
+                          </div>
+                          <div className="text-[1rem] text-gray-500 lg:text-[1rem]">
+                            Remodeling
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -247,105 +256,107 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="shadow-card p-2 text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 md:p-2 md:shadow-card lg:text-[1.375rem]">
-            <img
-              className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[45vh] md:min-h-[270px] md:w-2/3"
-              src="https://www.maperi.com/wp-content/uploads/2022/07/tendencia-lavabo-2023-maperi.jpg"
-              alt=""
-            />
-            <div className="md:pl-4 md:flex-col">
-              <div className="">
-                <p className="font-almarai my-2 sm:my-6 md:my-0 md:mb-3">
-                  Remodeling Bathroom
-                </p>
-              </div>
-              <div className="">
-                <div className="block font-catamaran space-y-1 md:hidden">
-                  <div className="flex items-center">
-                    <img
-                      className="h-6 p-0.5 bg-emerald-500 mr-1"
-                      src={pin}
-                      alt=""
-                    />
-                    <p className="font-semibold">Miami, FL</p>
-                  </div>
-                  <div className="flex items-center">
-                    <img
-                      className="h-6 p-0.5 bg-emerald-500 mr-1"
-                      src={clock}
-                      alt=""
-                    />
-                    <p className="font-semibold">3 weeks</p>
-                  </div>
-                  <div className="flex items-center">
-                    <img
-                      className="h-6 p-0.5 bg-emerald-500 mr-1"
-                      src={mansory}
-                      alt=""
-                    />
-                    <p className="font-semibold">Remodeling</p>
-                  </div>
+          </a>
+          <a href="project-3">
+            <div className="shadow-card p-2 text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 md:p-2 md:shadow-card lg:text-[1.375rem]">
+              <img
+                className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[45vh] md:min-h-[270px] md:w-2/3"
+                src={project_3_1}
+                alt=""
+              />
+              <div className="md:pl-4 md:flex-col">
+                <div className="">
+                  <p className="font-almarai my-2 sm:my-6 md:my-0 md:mb-3">
+                    Remodeling Bathroom
+                  </p>
                 </div>
-                <div className="hidden w-full md:block">
-                  <div className="grid grid-cols gap-y-2">
-                    <div className="flex font-catamaran">
+                <div className="">
+                  <div className="block font-catamaran space-y-1 md:hidden">
+                    <div className="flex items-center">
                       <img
-                        className="bg-emerald-500 p-2 w-10 mr-4 lg:w-12"
-                        src={client}
-                        alt=""
-                      />
-                      <div>
-                        <div className="text-[1.125rem] font-bold font-almarai lg:text-[1.125rem]">
-                          Client
-                        </div>
-                        <div className="text-[1rem] text-gray-500 lg:text-[1rem]">
-                          John Carter
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex font-catamaran">
-                      <img
-                        className="bg-emerald-500 p-2 w-10 mr-4 lg:w-12"
+                        className="h-6 p-0.5 bg-emerald-500 mr-1"
                         src={pin}
                         alt=""
                       />
-                      <div>
-                        <div className="text-[1.125rem] font-bold font-almarai lg:text-[1.125rem]">
-                          Location
-                        </div>
-                        <div className="text-[1rem] text-gray-500 lg:text-[1rem]">
-                          Tampa, FL
-                        </div>
-                      </div>
+                      <p className="font-semibold">Miami, FL</p>
                     </div>
-                    <div className="flex font-catamaran">
+                    <div className="flex items-center">
                       <img
-                        className="bg-emerald-500 p-2 w-10 mr-4 lg:w-12"
+                        className="h-6 p-0.5 bg-emerald-500 mr-1"
                         src={clock}
                         alt=""
                       />
-                      <div>
-                        <div className="text-[1.125rem] font-bold font-almarai lg:text-[1.125rem]">
-                          Time
-                        </div>
-                        <div className="text-[1rem] text-gray-500 lg:text-[1rem]">
-                          3 Weeks
-                        </div>
-                      </div>
+                      <p className="font-semibold">3 weeks</p>
                     </div>
-                    <div className="flex font-catamaran">
+                    <div className="flex items-center">
                       <img
-                        className="bg-emerald-500 p-2 w-10 mr-4 lg:w-12"
+                        className="h-6 p-0.5 bg-emerald-500 mr-1"
                         src={mansory}
                         alt=""
                       />
-                      <div className="relative">
-                        <div className="text-[1.125rem] font-bold font-almarai lg:text-[1.125rem]">
-                          Service
+                      <p className="font-semibold">Remodeling</p>
+                    </div>
+                  </div>
+                  <div className="hidden w-full md:block">
+                    <div className="grid grid-cols gap-y-2">
+                      <div className="flex font-catamaran">
+                        <img
+                          className="bg-emerald-500 p-2 w-10 mr-4 lg:w-12"
+                          src={client}
+                          alt=""
+                        />
+                        <div>
+                          <div className="text-[1.125rem] font-bold font-almarai lg:text-[1.125rem]">
+                            Client
+                          </div>
+                          <div className="text-[1rem] text-gray-500 lg:text-[1rem]">
+                            John Carter
+                          </div>
                         </div>
-                        <div className="text-[1rem] text-gray-500 lg:text-[1rem]">
-                          Remodeling
+                      </div>
+                      <div className="flex font-catamaran">
+                        <img
+                          className="bg-emerald-500 p-2 w-10 mr-4 lg:w-12"
+                          src={pin}
+                          alt=""
+                        />
+                        <div>
+                          <div className="text-[1.125rem] font-bold font-almarai lg:text-[1.125rem]">
+                            Location
+                          </div>
+                          <div className="text-[1rem] text-gray-500 lg:text-[1rem]">
+                            Tampa, FL
+                          </div>
+                        </div>
+                      </div>
+                      <div className="flex font-catamaran">
+                        <img
+                          className="bg-emerald-500 p-2 w-10 mr-4 lg:w-12"
+                          src={clock}
+                          alt=""
+                        />
+                        <div>
+                          <div className="text-[1.125rem] font-bold font-almarai lg:text-[1.125rem]">
+                            Time
+                          </div>
+                          <div className="text-[1rem] text-gray-500 lg:text-[1rem]">
+                            3 Weeks
+                          </div>
+                        </div>
+                      </div>
+                      <div className="flex font-catamaran">
+                        <img
+                          className="bg-emerald-500 p-2 w-10 mr-4 lg:w-12"
+                          src={mansory}
+                          alt=""
+                        />
+                        <div className="relative">
+                          <div className="text-[1.125rem] font-bold font-almarai lg:text-[1.125rem]">
+                            Service
+                          </div>
+                          <div className="text-[1rem] text-gray-500 lg:text-[1rem]">
+                            Remodeling
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -353,105 +364,107 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="shadow-card p-2 text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 md:p-2 md:shadow-card lg:text-[1.375rem]">
-            <img
-              className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[45vh] md:min-h-[270px] md:w-2/3"
-              src="https://www.maperi.com/wp-content/uploads/2022/07/tendencia-lavabo-2023-maperi.jpg"
-              alt=""
-            />
-            <div className="md:pl-4 md:flex-col">
-              <div className="">
-                <p className="font-almarai my-2 sm:my-6 md:my-0 md:mb-3">
-                  Remodeling Bathroom
-                </p>
-              </div>
-              <div className="">
-                <div className="block font-catamaran space-y-1 md:hidden">
-                  <div className="flex items-center">
-                    <img
-                      className="h-6 p-0.5 bg-emerald-500 mr-1"
-                      src={pin}
-                      alt=""
-                    />
-                    <p className="font-semibold">Miami, FL</p>
-                  </div>
-                  <div className="flex items-center">
-                    <img
-                      className="h-6 p-0.5 bg-emerald-500 mr-1"
-                      src={clock}
-                      alt=""
-                    />
-                    <p className="font-semibold">3 weeks</p>
-                  </div>
-                  <div className="flex items-center">
-                    <img
-                      className="h-6 p-0.5 bg-emerald-500 mr-1"
-                      src={mansory}
-                      alt=""
-                    />
-                    <p className="font-semibold">Remodeling</p>
-                  </div>
+          </a>
+          <a href="project-4">
+            <div className="shadow-card p-2 text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 md:p-2 md:shadow-card lg:text-[1.375rem]">
+              <img
+                className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[45vh] md:min-h-[270px] md:w-2/3"
+                src={project_4_1}
+                alt=""
+              />
+              <div className="md:pl-4 md:flex-col">
+                <div className="">
+                  <p className="font-almarai my-2 sm:my-6 md:my-0 md:mb-3">
+                    Remodeling Bathroom
+                  </p>
                 </div>
-                <div className="hidden w-full md:block">
-                  <div className="grid grid-cols gap-y-2">
-                    <div className="flex font-catamaran">
+                <div className="">
+                  <div className="block font-catamaran space-y-1 md:hidden">
+                    <div className="flex items-center">
                       <img
-                        className="bg-emerald-500 p-2 w-10 mr-4 lg:w-12"
-                        src={client}
-                        alt=""
-                      />
-                      <div>
-                        <div className="text-[1.125rem] font-bold font-almarai lg:text-[1.125rem]">
-                          Client
-                        </div>
-                        <div className="text-[1rem] text-gray-500 lg:text-[1rem]">
-                          John Carter
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex font-catamaran">
-                      <img
-                        className="bg-emerald-500 p-2 w-10 mr-4 lg:w-12"
+                        className="h-6 p-0.5 bg-emerald-500 mr-1"
                         src={pin}
                         alt=""
                       />
-                      <div>
-                        <div className="text-[1.125rem] font-bold font-almarai lg:text-[1.125rem]">
-                          Location
-                        </div>
-                        <div className="text-[1rem] text-gray-500 lg:text-[1rem]">
-                          Tampa, FL
-                        </div>
-                      </div>
+                      <p className="font-semibold">Miami, FL</p>
                     </div>
-                    <div className="flex font-catamaran">
+                    <div className="flex items-center">
                       <img
-                        className="bg-emerald-500 p-2 w-10 mr-4 lg:w-12"
+                        className="h-6 p-0.5 bg-emerald-500 mr-1"
                         src={clock}
                         alt=""
                       />
-                      <div>
-                        <div className="text-[1.125rem] font-bold font-almarai lg:text-[1.125rem]">
-                          Time
-                        </div>
-                        <div className="text-[1rem] text-gray-500 lg:text-[1rem]">
-                          3 Weeks
-                        </div>
-                      </div>
+                      <p className="font-semibold">3 weeks</p>
                     </div>
-                    <div className="flex font-catamaran">
+                    <div className="flex items-center">
                       <img
-                        className="bg-emerald-500 p-2 w-10 mr-4 lg:w-12"
+                        className="h-6 p-0.5 bg-emerald-500 mr-1"
                         src={mansory}
                         alt=""
                       />
-                      <div className="relative">
-                        <div className="text-[1.125rem] font-bold font-almarai lg:text-[1.125rem]">
-                          Service
+                      <p className="font-semibold">Remodeling</p>
+                    </div>
+                  </div>
+                  <div className="hidden w-full md:block">
+                    <div className="grid grid-cols gap-y-2">
+                      <div className="flex font-catamaran">
+                        <img
+                          className="bg-emerald-500 p-2 w-10 mr-4 lg:w-12"
+                          src={client}
+                          alt=""
+                        />
+                        <div>
+                          <div className="text-[1.125rem] font-bold font-almarai lg:text-[1.125rem]">
+                            Client
+                          </div>
+                          <div className="text-[1rem] text-gray-500 lg:text-[1rem]">
+                            John Carter
+                          </div>
                         </div>
-                        <div className="text-[1rem] text-gray-500 lg:text-[1rem]">
-                          Remodeling
+                      </div>
+                      <div className="flex font-catamaran">
+                        <img
+                          className="bg-emerald-500 p-2 w-10 mr-4 lg:w-12"
+                          src={pin}
+                          alt=""
+                        />
+                        <div>
+                          <div className="text-[1.125rem] font-bold font-almarai lg:text-[1.125rem]">
+                            Location
+                          </div>
+                          <div className="text-[1rem] text-gray-500 lg:text-[1rem]">
+                            Tampa, FL
+                          </div>
+                        </div>
+                      </div>
+                      <div className="flex font-catamaran">
+                        <img
+                          className="bg-emerald-500 p-2 w-10 mr-4 lg:w-12"
+                          src={clock}
+                          alt=""
+                        />
+                        <div>
+                          <div className="text-[1.125rem] font-bold font-almarai lg:text-[1.125rem]">
+                            Time
+                          </div>
+                          <div className="text-[1rem] text-gray-500 lg:text-[1rem]">
+                            3 Weeks
+                          </div>
+                        </div>
+                      </div>
+                      <div className="flex font-catamaran">
+                        <img
+                          className="bg-emerald-500 p-2 w-10 mr-4 lg:w-12"
+                          src={mansory}
+                          alt=""
+                        />
+                        <div className="relative">
+                          <div className="text-[1.125rem] font-bold font-almarai lg:text-[1.125rem]">
+                            Service
+                          </div>
+                          <div className="text-[1rem] text-gray-500 lg:text-[1rem]">
+                            Remodeling
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -459,7 +472,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
     </section>

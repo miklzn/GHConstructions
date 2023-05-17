@@ -207,7 +207,7 @@ const Contact = () => {
         </div>
         <div className="px-[5vw] py-[5vh] font-almarai">
           <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
-            <div className="h-auto shadow-card border border-gray-50 px-5 pt-8 pb-[24.4vh] overflow-hidden min-[480px]:py-12 lg:pb-[24.4vh]">
+            <div className="h-auto shadow-card border border-gray-50 px-5 py-8 overflow-hidden min-[480px]:py-12">
               <div className="w-full relative">
                 <img
                   className="h-14 border p-2 bg-emerald-900 "
@@ -222,13 +222,13 @@ const Contact = () => {
                 </p>
 
                 <img
-                  className="h-40 absolute -right-20 min-[480px]:top-10 lg:top-36"
+                  className="h-40 absolute -right-20 top-12 min-[480px]:top-10"
                   src={mailBack}
                   alt=""
                 />
               </div>
             </div>
-            <div className="h-auto shadow-card border border-gray-50 px-5 pt-8 pb-[24.4vh] overflow-hidden min-[480px]:py-12 lg:pb-[24.4vh]">
+            <div className="h-auto shadow-card border border-gray-50 px-5 py-8 overflow-hidden min-[480px]:py-12">
               <div className="w-full relative">
                 <img
                   className="h-14 border p-2 bg-emerald-900 "
@@ -243,13 +243,13 @@ const Contact = () => {
                 </p>
 
                 <img
-                  className="h-40 absolute -right-20 min-[480px]:top-5 lg:top-36"
+                  className="h-40 absolute -right-20 top-12 min-[480px]:top-5 lg:top-10"
                   src={phoneBack}
                   alt=""
                 />
               </div>
             </div>
-            <div className="h-auto shadow-card border border-gray-50 bg-emerald-900 px-5 pt-8 pb-[24.4vh] overflow-hidden min-[480px]:py-12 lg:pb-[24.4vh]">
+            <div className="h-auto shadow-card border border-gray-50 bg-emerald-900 px-5 py-8 overflow-hidden min-[480px]:py-12">
               <div className="w-full relative">
                 <img
                   className="h-14 border-4 border-white p-2 bg-emerald-900 "
@@ -264,7 +264,7 @@ const Contact = () => {
                 </p>
 
                 <img
-                  className="h-40 absolute -right-20 min-[480px]:top-5 lg:top-36"
+                  className="h-40 absolute -right-20 top-12 min-[480px]:top-5 lg:top-10"
                   src={pinBack}
                   alt=""
                 />
