@@ -263,9 +263,9 @@ const Services = () => {
             <div className="pt-20 md:pb-20">
               <div
                 id="content"
-                className="p-1 flex items-center justify-start overflow-x-auto scroll-smooth scrollbar-hide space-x-[10vw] lg:p-1 "
+                className="snap-x p-1 flex items-center justify-start overflow-x-auto scroll-smooth scrollbar-hide space-x-[10vw] lg:p-1 lg:scroll-pl-1"
               >
-                <div>
+                <div className="snap-center lg:snap-start">
                   <div className="shadow-card border border-gray-50 h-auto w-[87vw] px-6 py-10 md:flex md:items-center md:space-x-10 lg:w-[728px] lg:px-11">
                     <div className="md:w-1/2">
                       <img
@@ -292,7 +292,7 @@ const Services = () => {
                     </div>
                   </div>
                 </div>
-                <div>
+                <div className="snap-center lg:snap-start">
                   <div className="shadow-card border border-gray-50 h-auto w-[87vw] px-6 py-10 md:flex md:items-center md:space-x-10 lg:w-[728px] lg:px-11">
                     <div className="md:w-1/2">
                       <img
@@ -319,7 +319,7 @@ const Services = () => {
                     </div>
                   </div>
                 </div>
-                <div>
+                <div className="snap-center lg:snap-start">
                   <div className="shadow-card border border-gray-50 h-auto w-[87vw] px-6 py-10 md:flex md:items-center md:space-x-10 lg:w-[728px] lg:px-11">
                     <div className="md:w-1/2">
                       <img
