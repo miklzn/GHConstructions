@@ -21,9 +21,9 @@ const CommercialConstruction = () => {
                 src={winch}
                 alt=""
               />
-              <h3 className="text-[2.125rem] font-semibold leading-10 font-almarai mb-4 min-[480px]:text-[2.5rem] md:text-[3.625rem] md:mb-8 md:leading-none lg:text-[4.375rem]">
+              <h1 className="text-[2.125rem] font-semibold leading-10 font-almarai mb-4 min-[480px]:text-[2.5rem] md:text-[3.625rem] md:mb-8 md:leading-none lg:text-[4.375rem]">
                 Commercial Construction
-              </h3>
+              </h1>
               <p className="font-catamaran text-gray-300 md:text-[1.125rem]">
                 New projects and remodels for stores, restaurants, gas stations,
                 and mid-rise multifamily buildings. We guarantee quality,
@@ -36,9 +36,9 @@ const CommercialConstruction = () => {
       </div>
       <div className="mx-[5vw] py-10 font-almarai sm:pb-10 sm:pt-14 lg:px-[7vw]">
         <p className="text-emerald-500 text-[1.125rem] mb-4">/OUR SERVICE</p>
-        <h1 className="text-[2rem] font-semibold leading-10 min-[480px]:text-[2.25rem]">
+        <h2 className="text-[2rem] font-semibold leading-10 min-[480px]:text-[2.25rem]">
           About the service
-        </h1>
+        </h2>
         <p className="mt-7 font-catamaran">
           We specialize in commercial construction projects, offering services
           for new building construction and renovations for stores, restaurants,
