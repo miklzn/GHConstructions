@@ -41,27 +41,56 @@ const Home = () => {
           }}
         >
           <div className="flex flex-col justify-center font-almarai text-white w-full h-auto text-[10vw] bg-emerald-900 px-[5vw] py-10 text-center sm:px-[5vw] md:static md:text-[5.3vw] md:px-[4.8vw] lg:py-[4.8vw] lg:px-[5vw] lg:text-[5vw] lg:leading-tight xl:text-[4vw] xl:px-[11.5vw] xl:py-[4.5vw]">
-            <div className="w-full animate-fade-in-up">
+            <motion.div
+              initial={{
+                opacity: 0,
+                transform: "translateY(10px)",
+              }}
+              whileInView={{
+                opacity: 1,
+                transform: "translateY(0px)",
+              }}
+              transition={{ delay: 0.4, duration: 1 }}
+              viewport={{ once: true }}
+              className="w-full"
+            >
               <h1 className="md:text-start">
                 <span className="text-teal-700">WE BUILD, </span>
                 RENOVATE AND
               </h1>
-            </div>
-            <div
-              className="md:text-end animate-fade-in-up"
-              style={{ animationDelay: "200ms" }}
+            </motion.div>
+            <motion.div
+              initial={{
+                opacity: 0,
+                transform: "translateY(10px)",
+              }}
+              whileInView={{
+                opacity: 1,
+                transform: "translateY(0px)",
+              }}
+              transition={{ delay: 0.6, duration: 1 }}
+              viewport={{ once: true }}
+              className="md:text-end"
             >
               <h1 className="">BEAUTIFY YOUR SPACES WITH</h1>
-            </div>
-            <div
-              className="animate-fade-in-up"
-              style={{ animationDelay: "300ms" }}
+            </motion.div>
+            <motion.div
+              initial={{
+                opacity: 0,
+                transform: "translateY(10px)",
+              }}
+              whileInView={{
+                opacity: 1,
+                transform: "translateY(0px)",
+              }}
+              transition={{ delay: 0.8, duration: 1 }}
+              viewport={{ once: true }}
             >
               <h1 className="">
                 EXELLENCE AND
                 <span className="text-teal-700"> PASSION.</span>
               </h1>
-            </div>
+            </motion.div>
           </div>
         </div>
       </section>
@@ -71,13 +100,13 @@ const Home = () => {
             className="h-auto shadow-card border border-gray-50 bg-white px-5 py-8 overflow-hidden min-[480px]:py-12 md:py-8 lg:py-12"
             initial={{
               opacity: 0,
-              transform: "translateY(10px)",
+              transform: "translateY(15px)",
             }}
             whileInView={{
               opacity: 1,
               transform: "translateY(0px)",
             }}
-            transition={{ duration: 1 }}
+            transition={{ delay: 0.5, duration: 1 }}
             viewport={{ once: true }}
           >
             <div className="w-full relative">
@@ -105,13 +134,13 @@ const Home = () => {
             className="h-auto shadow-card border border-gray-50 bg-white px-5 py-8 overflow-hidden min-[480px]:py-12 md:py-8 lg:py-12"
             initial={{
               opacity: 0,
-              transform: "translateY(10px)",
+              transform: "translateY(15px)",
             }}
             whileInView={{
               opacity: 1,
               transform: "translateY(0px)",
             }}
-            transition={{ duration: 1 }}
+            transition={{ delay: 0.5, duration: 1 }}
             viewport={{ once: true }}
           >
             <div className="w-full relative">
@@ -140,13 +169,13 @@ const Home = () => {
             className="h-auto shadow-card bg-emerald-900 px-5 py-8  overflow-hidden min-[480px]:py-12 md:py-8 lg:py-12"
             initial={{
               opacity: 0,
-              transform: "translateY(10px)",
+              transform: "translateY(15px)",
             }}
             whileInView={{
               opacity: 1,
               transform: "translateY(0px)",
             }}
-            transition={{ duration: 1 }}
+            transition={{ delay: 0.5, duration: 1 }}
             viewport={{ once: true }}
           >
             <div className="w-full relative">
@@ -179,15 +208,13 @@ const Home = () => {
             <motion.div
               initial={{
                 opacity: 0,
-                // scale: 0,
                 transform: "translateY(10px)",
               }}
               whileInView={{
                 opacity: 1,
-                // scale: 1,
                 transform: "translateY(0px)",
               }}
-              transition={{ duration: 1 }}
+              transition={{ delay: 0.5, duration: 1 }}
               viewport={{ once: true }}
             >
               <h2>Quality &</h2>
@@ -201,7 +228,7 @@ const Home = () => {
                 opacity: 1,
                 transform: "translateY(0px)",
               }}
-              transition={{ duration: 1 }}
+              transition={{ delay: 0.5, duration: 1 }}
               viewport={{ once: true }}
             >
               <h2>Satisfaction</h2>
@@ -217,7 +244,7 @@ const Home = () => {
               opacity: 1,
               transform: "translateY(0px)",
             }}
-            transition={{ delay: 0.3, duration: 1 }}
+            transition={{ delay: 0.7, duration: 1 }}
             viewport={{ once: true }}
           >
             At G&H Construction, we take pride in providing high-quality,
@@ -238,7 +265,7 @@ const Home = () => {
               opacity: 1,
               transform: "translateY(0px)",
             }}
-            transition={{ duration: 1 }}
+            transition={{ delay: 0.6, duration: 1 }}
             viewport={{ once: true }}
             className="object-cover pb-8 h-full w-full max-h-[540px] md:h-[37.5vw] md:pb-0 lg:h-[30vw]"
             src="https://www.chiraltarquitectos.com/wp-content/uploads/2020/11/Bueno-Chiralt-Arquitectos-Valencia-54-2.jpg"
@@ -499,7 +526,7 @@ const Home = () => {
               opacity: 1,
               transform: "translateY(0px)",
             }}
-            transition={{ delay: 0.3, duration: 1 }}
+            transition={{ delay: 0.5, duration: 1 }}
             viewport={{ once: true }}
             className="text-[1.5rem] font-bold py-6 min-[480px]:text-[1.875rem] sm:text-[2rem] sm:py-10 md:text-[1.875rem] lg:text-[2.7vw]"
           >
@@ -542,7 +569,7 @@ const Home = () => {
                     opacity: 1,
                     transform: "translateY(0px)",
                   }}
-                  transition={{ delay: 0.4, duration: 1 }}
+                  transition={{ delay: 0.6, duration: 1 }}
                   viewport={{ once: true }}
                   className="object-cover w-full h-full py-5 pr-5 sm:pr-14 sm:py-10 md:pr-8"
                   src="https://www.cgmiami.org/wp-content/uploads/2022/07/1658379943_22_construction-company-names.jpg"
@@ -575,7 +602,7 @@ const Home = () => {
                       opacity: 1,
                       transform: "translateY(0px)",
                     }}
-                    transition={{ delay: 0.6, duration: 1 }}
+                    transition={{ delay: 0.8, duration: 1 }}
                     viewport={{ once: true }}
                     className="h-full w-full object-cover"
                     src="http://www.obcipol.com/wp-content/uploads/2015/07/EMPRESA_DE_CONSTRUCCION_DE_EDIFICIOS_COLOMBIA-941x599.jpg"
@@ -591,54 +618,124 @@ const Home = () => {
         <div className="mx-[5vw] pt-10 mb-8 font-catamaran text-[3.5vw] md:mb-0 md:pb-10">
           <div className="md:flex md:flex-row md:h-full md:space-x-10 md:flex md:items-center">
             <div className=" hidden md:block md:w-1/2 md:h-full">
-              <img
+              <motion.img
+                initial={{
+                  opacity: 0,
+                  transform: "translateY(10px)",
+                }}
+                whileInView={{
+                  opacity: 1,
+                  transform: "translateY(0px)",
+                }}
+                transition={{ delay: 0.5, duration: 1 }}
+                viewport={{ once: true }}
                 className="md:h-[50vw] md:w-[50vw] md:object-cover lg:h-[40vw] lg:w-[34vw]"
                 src="https://static2.mansionglobal.com/production/media/article-images/d92c7415002ec3cf75b08329fb479444/large_DSC8488-HIGH1.jpg"
                 alt=""
               />
             </div>
             <div className="md:w-1/2 md:pl-3">
-              <h2 className="text-[1.5rem] font-bold min-[480px]:text-[1.875rem] sm:text-[2rem] py-6 sm:py-12 md:text-[1.875rem] md:pt-1 md:pb-5 lg:text-[2.7vw]">
+              <motion.h2
+                initial={{
+                  opacity: 0,
+                  transform: "translateY(10px)",
+                }}
+                whileInView={{
+                  opacity: 1,
+                  transform: "translateY(0px)",
+                }}
+                transition={{ delay: 0.5, duration: 1 }}
+                viewport={{ once: true }}
+                className="text-[1.5rem] font-bold min-[480px]:text-[1.875rem] sm:text-[2rem] py-6 sm:py-12 md:text-[1.875rem] md:pt-1 md:pb-5 lg:text-[2.7vw]"
+              >
                 Our Services
-              </h2>
-              <p className="text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1.125rem]">
+              </motion.h2>
+              <motion.p
+                initial={{
+                  opacity: 0,
+                  transform: "translateY(10px)",
+                }}
+                whileInView={{
+                  opacity: 1,
+                  transform: "translateY(0px)",
+                }}
+                transition={{ delay: 0.6, duration: 1 }}
+                viewport={{ once: true }}
+                className="text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1.125rem]"
+              >
                 We offer a wide range of construction, remodeling, maintenance,
                 cleaning services and more. We adapt to our clients' budgets
                 without compromising quality and ensure that each project is
                 carried out to the highest standards of excellence and safety.
                 Trust us to bring your construction projects to life.
-              </p>
-              <p className="mt-5 font-semibold text-[0.875rem] min-[480px]:text-[1.125rem] sm:text-[1.25rem] sm:mt-10 md:text-[1rem] md:mt-4 lg:mt-8 lg:text-[1rem] xl:text-[1.125rem]">
+              </motion.p>
+              <motion.p
+                initial={{
+                  opacity: 0,
+                  transform: "translateY(10px)",
+                }}
+                whileInView={{
+                  opacity: 1,
+                  transform: "translateY(0px)",
+                }}
+                transition={{ delay: 0.6, duration: 1 }}
+                viewport={{ once: true }}
+                className="mt-5 font-semibold text-[0.875rem] min-[480px]:text-[1.125rem] sm:text-[1.25rem] sm:mt-10 md:text-[1rem] md:mt-4 lg:mt-8 lg:text-[1rem] xl:text-[1.125rem]"
+              >
                 You can see more here:
-              </p>
+              </motion.p>
               <div className="flex space-x-4 pb-6 pt-3">
                 <a
                   href="http://facebook.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <div className="flex items-center text-[0.8125rem] pt-4 font-semibold text-emerald-500 min-[480px]:text-[1rem] sm:text-[1.125rem] md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1rem]">
+                  <motion.div
+                    initial={{
+                      opacity: 0,
+                      transform: "translateY(10px)",
+                    }}
+                    whileInView={{
+                      opacity: 1,
+                      transform: "translateY(0px)",
+                    }}
+                    transition={{ delay: 0.5, duration: 1 }}
+                    viewport={{ once: true }}
+                    className="flex items-center text-[0.8125rem] pt-4 font-semibold text-emerald-500 min-[480px]:text-[1rem] sm:text-[1.125rem] md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1rem]"
+                  >
                     <img
                       className="sm:h-7 sm:my-7 md:h-6 md:my-2 lg:h-[2.5vw]"
                       src={fbGreen}
                       alt=""
                     />
                     <p className="md:pt-1 lg:pt-0">Facebook</p>
-                  </div>
+                  </motion.div>
                 </a>
                 <a
                   href="http://instagram.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <div className="flex items-center text-[0.8125rem] pt-4 font-semibold text-emerald-500 min-[480px]:text-[1rem] sm:text-[1.125rem] md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1rem]">
+                  <motion.div
+                    initial={{
+                      opacity: 0,
+                      transform: "translateY(10px)",
+                    }}
+                    whileInView={{
+                      opacity: 1,
+                      transform: "translateY(0px)",
+                    }}
+                    transition={{ delay: 0.7, duration: 1 }}
+                    viewport={{ once: true }}
+                    className="flex items-center text-[0.8125rem] pt-4 font-semibold text-emerald-500 min-[480px]:text-[1rem] sm:text-[1.125rem] md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1rem]"
+                  >
                     <img
                       className="sm:h-7 sm:my-7 md:h-6 md:my-2 lg:h-[2.5vw]"
                       src={igGreen}
                       alt=""
                     />
                     <p className="md:pt-1 lg:pt-0">Instagram</p>
-                  </div>
+                  </motion.div>
                 </a>
               </div>
             </div>
@@ -649,19 +746,41 @@ const Home = () => {
         <header class="relative flex items-center justify-center h-auto overflow-hidden sm:h-[85vw] md:h-[37.5vw] lg:h-[22.5vw]">
           <div class="relative flex w-full h-full z-30 items-center text-center justify-center text-white bg-black bg-opacity-60 sm:py-32 md:py-[10vw] lg:py-[6.5vw]">
             <div className="py-[20vw] px-[6vw] sm:py-[1.5vh] sm:px-[15vw] md:py-[0vw] md:px-[8vw]">
-              <p
+              <motion.p
+                initial={{
+                  opacity: 0,
+                  transform: "translateY(10px)",
+                }}
+                whileInView={{
+                  opacity: 1,
+                  transform: "translateY(0px)",
+                }}
+                transition={{ delay: 0.5, duration: 1 }}
+                viewport={{ once: true }}
                 className="text-[1.75rem] font-almarai font-bold min-[480px]:text-[2rem] md:text-[2.25rem] lg:text-[2rem] xl:text-[2.5rem]
             "
               >
                 Let’s discuss your project
-              </p>
-              <p className="text-[0.875rem] mt-7 font-catamaran min-[480px]:text-[0.9375rem] sm:text-[3vw] md:text-[1.125rem] lg:text-[1rem] xl:text-[1.25rem]">
+              </motion.p>
+              <motion.p
+                initial={{
+                  opacity: 0,
+                  transform: "translateY(10px)",
+                }}
+                whileInView={{
+                  opacity: 1,
+                  transform: "translateY(0px)",
+                }}
+                transition={{ delay: 0.7, duration: 1 }}
+                viewport={{ once: true }}
+                className="text-[0.875rem] mt-7 font-catamaran min-[480px]:text-[0.9375rem] sm:text-[3vw] md:text-[1.125rem] lg:text-[1rem] xl:text-[1.25rem]"
+              >
                 We would love to share ideas, suggest options and answer your
                 question.
                 <br />
                 We're ready to become your guide in the fascinating world of
                 construction.
-              </p>
+              </motion.p>
             </div>
           </div>
           <video
