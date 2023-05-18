@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { motion } from "framer-motion";
 
 const navlinks = [
   {
@@ -34,14 +35,38 @@ const Navbar = () => {
     <nav className="bg-emerald-900">
       <div className="mx-[5vw] sm:px-6 lg:px-[7vw]">
         <div className="flex items-center justify-between h-16">
-          <div className="flex items-center animate-fade-in-up">
+          <motion.div
+            initial={{
+              opacity: 0,
+              transform: "translateY(10px)",
+            }}
+            whileInView={{
+              opacity: 1,
+              transform: "translateY(0px)",
+            }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true }}
+            className="flex items-center"
+          >
             <a href="/" className="text-white font-almarai">
               LOGOTIPE
             </a>
-          </div>
+          </motion.div>
           {/*navlinks*/}
-          <div className="hidden animate-fade-in-up md:block">
-            <div className="ml-10 flex items-baseline space-x-4 font-light">
+          <div className="hidden md:block">
+            <motion.div
+              initial={{
+                opacity: 0,
+                transform: "translateY(10px)",
+              }}
+              whileInView={{
+                opacity: 1,
+                transform: "translateY(0px)",
+              }}
+              transition={{ duration: 1 }}
+              viewport={{ once: true }}
+              className="ml-10 flex items-baseline space-x-4 font-light"
+            >
               {navlinks.map((link, index) => (
                 <a
                   key={index}
@@ -51,10 +76,22 @@ const Navbar = () => {
                   {link.title}
                 </a>
               ))}
-            </div>
+            </motion.div>
           </div>
           {/*hamburguer button*/}
-          <div className="-mr-3 animate-fade-in-up flex md:hidden">
+          <motion.div
+            initial={{
+              opacity: 0,
+              transform: "translateY(10px)",
+            }}
+            whileInView={{
+              opacity: 1,
+              transform: "translateY(0px)",
+            }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true }}
+            className="-mr-3 flex md:hidden"
+          >
             <button
               type="button"
               onClick={handleMenu}
@@ -114,7 +151,7 @@ const Navbar = () => {
                 </rect>
               </svg>
             </button>
-          </div>
+          </motion.div>
         </div>
       </div>
       {/*mobile-menu*/}
@@ -122,13 +159,23 @@ const Navbar = () => {
         <div className="absolute z-40 bg-emerald-900 w-screen bg-opacity-[0.005] backdrop-blur-xl md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 md:px-3">
             {navlinks.map((link, index) => (
-              <a
+              <motion.a
+                initial={{
+                  opacity: 0,
+                  transform: "translateY(10px)",
+                }}
+                whileInView={{
+                  opacity: 1,
+                  transform: "translateY(0px)",
+                }}
+                transition={{ duration: 1 }}
+                viewport={{ once: true }}
                 key={index}
-                className="animate-fade-in-up text-white font-light hover:text-emerald-500 block px-3 py-2 text-base"
+                className="text-white font-light hover:text-emerald-500 block px-3 py-2 text-base"
                 href={link.link}
               >
                 {link.title}
-              </a>
+              </motion.a>
             ))}
           </div>
         </div>
