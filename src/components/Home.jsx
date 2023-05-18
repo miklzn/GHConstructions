@@ -18,6 +18,8 @@ import project_2_1 from "../utils/images/project-2/project-2-1.jpg";
 import project_3_1 from "../utils/images/project-3/project-3-1.jpg";
 import project_4_1 from "../utils/images/project-4/project-4-1.jpg";
 
+import { motion } from "framer-motion";
+
 const Home = () => {
   const widthPx = window.innerWidth;
 
@@ -65,7 +67,19 @@ const Home = () => {
       </section>
       <section className="h-full lg:px-[7vw] xl:px-[10.8vw]">
         <div className="mx-[5vw] mb-16 -mt-16 grid grid-cols-1 gap-6 font-catamaran md:grid-cols-3 md:mb-24">
-          <div className="h-auto shadow-card border border-gray-50 bg-white px-5 py-8 overflow-hidden min-[480px]:py-12 md:py-8 lg:py-12">
+          <motion.div
+            className="h-auto shadow-card border border-gray-50 bg-white px-5 py-8 overflow-hidden min-[480px]:py-12 md:py-8 lg:py-12"
+            initial={{
+              opacity: 0,
+              transform: "translateY(10px)",
+            }}
+            whileInView={{
+              opacity: 1,
+              transform: "translateY(0px)",
+            }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true }}
+          >
             <div className="w-full relative">
               <img
                 className="h-14 border p-2 bg-emerald-900 "
@@ -86,8 +100,20 @@ const Home = () => {
                 alt=""
               />
             </div>
-          </div>
-          <div className="h-auto shadow-card border border-gray-50 bg-white px-5 py-8 overflow-hidden min-[480px]:py-12 md:py-8 lg:py-12">
+          </motion.div>
+          <motion.div
+            className="h-auto shadow-card border border-gray-50 bg-white px-5 py-8 overflow-hidden min-[480px]:py-12 md:py-8 lg:py-12"
+            initial={{
+              opacity: 0,
+              transform: "translateY(10px)",
+            }}
+            whileInView={{
+              opacity: 1,
+              transform: "translateY(0px)",
+            }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true }}
+          >
             <div className="w-full relative">
               <img
                 className="h-14 border p-2 bg-emerald-900 "
@@ -109,8 +135,20 @@ const Home = () => {
                 alt=""
               />
             </div>
-          </div>
-          <div className="h-auto shadow-card bg-emerald-900 px-5 py-8  overflow-hidden min-[480px]:py-12 md:py-8 lg:py-12">
+          </motion.div>
+          <motion.div
+            className="h-auto shadow-card bg-emerald-900 px-5 py-8  overflow-hidden min-[480px]:py-12 md:py-8 lg:py-12"
+            initial={{
+              opacity: 0,
+              transform: "translateY(10px)",
+            }}
+            whileInView={{
+              opacity: 1,
+              transform: "translateY(0px)",
+            }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true }}
+          >
             <div className="w-full relative">
               <img
                 className="h-14 border-4 border-white p-2 bg-emerald-900 "
@@ -132,30 +170,76 @@ const Home = () => {
                 alt=""
               />
             </div>
-          </div>
+          </motion.div>
         </div>
       </section>
       <section className="h-full md:px-6 lg:px-[10.8vw]">
         <div className="flex flex-col mx-[5vw] py-12 sm:py-16 md:flex md:flex-row md:py-[7.5vw] lg:py-16">
           <div className=" font-catamaran text-[1.5rem] font-bold min-[480px]:text-[1.875rem] sm:text-[2rem] md:w-2/5 md:my-auto md:text-[1.875rem] lg:text-[2.7vw]">
-            <div>
+            <motion.div
+              initial={{
+                opacity: 0,
+                // scale: 0,
+                transform: "translateY(10px)",
+              }}
+              whileInView={{
+                opacity: 1,
+                // scale: 1,
+                transform: "translateY(0px)",
+              }}
+              transition={{ duration: 1 }}
+              viewport={{ once: true }}
+            >
               <h2>Quality &</h2>
-            </div>
-            <div>
+            </motion.div>
+            <motion.div
+              initial={{
+                opacity: 0,
+                transform: "translateY(10px)",
+              }}
+              whileInView={{
+                opacity: 1,
+                transform: "translateY(0px)",
+              }}
+              transition={{ duration: 1 }}
+              viewport={{ once: true }}
+            >
               <h2>Satisfaction</h2>
-            </div>
+            </motion.div>
           </div>
-          <p className="mt-5 font-catamaran text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mt-12 md:mt-0 md:w-3/5 md:my-auto md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1.125rem]">
+          <motion.p
+            className="mt-5 font-catamaran text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mt-12 md:mt-0 md:w-3/5 md:my-auto md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1.125rem]"
+            initial={{
+              opacity: 0,
+              transform: "translateY(15px)",
+            }}
+            whileInView={{
+              opacity: 1,
+              transform: "translateY(0px)",
+            }}
+            transition={{ delay: 0.3, duration: 1 }}
+            viewport={{ once: true }}
+          >
             At G&H Construction, we take pride in providing high-quality,
             personalized services tailored to each client's needs. Our highly
             skilled team is dedicated to excellence on every project we
             undertake. Whether you need to build a new home, remodel a kitchen
             or bathroom, paint your home, or require maintenance and cleaning
             services, G&H Construction is here to help you.
-          </p>
+          </motion.p>
         </div>
         <div className="flex justify-center mx-[5vw] md:mb-16">
-          <img
+          <motion.img
+            initial={{
+              opacity: 0,
+              transform: "translateY(10px)",
+            }}
+            whileInView={{
+              opacity: 1,
+              transform: "translateY(0px)",
+            }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true }}
             className="object-cover pb-8 h-full w-full max-h-[540px] md:h-[37.5vw] md:pb-0 lg:h-[30vw]"
             src="https://www.chiraltarquitectos.com/wp-content/uploads/2020/11/Bueno-Chiralt-Arquitectos-Valencia-54-2.jpg"
             alt=""
@@ -165,7 +249,20 @@ const Home = () => {
       <section className="h-auto bg-gray-100 md:px-6 lg:px-[10.8vw]">
         <div className="pb-3 md:pb-1">
           <div className="flex flex-row justify-between items-center mx-[5vw] pt-16 pb-2 font-catamaran text-[1.5rem] font-bold min-[480px]:text-[1.875rem] sm:text-[2rem] sm:pt-20 sm:pb-4 md:text-[1.875rem] md:pt-24 lg:text-[2.7vw]">
-            <h2>Selected Projects</h2>
+            <motion.h2
+              initial={{
+                opacity: 0,
+                transform: "translateY(10px)",
+              }}
+              whileInView={{
+                opacity: 1,
+                transform: "translateY(0px)",
+              }}
+              transition={{ delay: 0.3, duration: 1 }}
+              viewport={{ once: true }}
+            >
+              Selected Projects
+            </motion.h2>
             <div className="flex justify-end space-x-2 md:w-4/12">
               <button
                 onClick={scrollLeft}
@@ -189,7 +286,19 @@ const Home = () => {
               <div>
                 <div className="flex flex-col w-[90vw] md:grid grid-cols-2 md:gap-x-8 md:w-[83.7vw] lg:gap-x-3 lg:w-[68vw]">
                   <a href="/project-1">
-                    <div className="font-catamaran text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[0.875rem] lg:mb-10 lg:pr-4 xl:text-[1.125rem]">
+                    <motion.div
+                      className="font-catamaran text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[0.875rem] lg:mb-10 lg:pr-4 xl:text-[1.125rem]"
+                      initial={{
+                        opacity: 0,
+                        transform: "translateY(10px)",
+                      }}
+                      whileInView={{
+                        opacity: 1,
+                        transform: "translateY(0px)",
+                      }}
+                      transition={{ delay: 0.5, duration: 1 }}
+                      viewport={{ once: true }}
+                    >
                       <img
                         className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[29vw] lg:h-[25vw]"
                         src={project_1_1}
@@ -228,10 +337,22 @@ const Home = () => {
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </motion.div>
                   </a>
                   <a href="/project-2">
-                    <div className="font-catamaran text-[0.875rem] mt-8 min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[0.875rem] md:mt-0 lg:pl-4 xl:text-[1.125rem]">
+                    <motion.div
+                      className="font-catamaran text-[0.875rem] mt-8 min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[0.875rem] md:mt-0 lg:pl-4 xl:text-[1.125rem]"
+                      initial={{
+                        opacity: 0,
+                        transform: "translateY(10px)",
+                      }}
+                      whileInView={{
+                        opacity: 1,
+                        transform: "translateY(0px)",
+                      }}
+                      transition={{ delay: 0.5, duration: 1 }}
+                      viewport={{ once: true }}
+                    >
                       <img
                         className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[29vw] lg:h-[25vw]"
                         src={project_2_1}
@@ -270,7 +391,7 @@ const Home = () => {
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </motion.div>
                   </a>
                 </div>
               </div>
@@ -369,11 +490,35 @@ const Home = () => {
       </section>
       <section className="h-auto md:px-6 lg:px-[10.8vw]">
         <div className="mx-[5vw] mt-5 mb-10 font-catamaran text-[3.5vw] sm:mt-10 md:pb-10">
-          <h2 className="text-[1.5rem] font-bold py-6 min-[480px]:text-[1.875rem] sm:text-[2rem] sm:py-10 md:text-[1.875rem] lg:text-[2.7vw]">
+          <motion.h2
+            initial={{
+              opacity: 0,
+              transform: "translateY(10px)",
+            }}
+            whileInView={{
+              opacity: 1,
+              transform: "translateY(0px)",
+            }}
+            transition={{ delay: 0.3, duration: 1 }}
+            viewport={{ once: true }}
+            className="text-[1.5rem] font-bold py-6 min-[480px]:text-[1.875rem] sm:text-[2rem] sm:py-10 md:text-[1.875rem] lg:text-[2.7vw]"
+          >
             Our People
-          </h2>
+          </motion.h2>
           <div className="md:flex md:flex-row">
-            <p className="text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] md:text-[0.875rem] md:w-[45vw] md:pr-16 md:ml-0 lg:text-[0.875rem] xl:text-[1.125rem]">
+            <motion.p
+              initial={{
+                opacity: 0,
+                transform: "translateY(10px)",
+              }}
+              whileInView={{
+                opacity: 1,
+                transform: "translateY(0px)",
+              }}
+              transition={{ delay: 0.5, duration: 1 }}
+              viewport={{ once: true }}
+              className="text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] md:text-[0.875rem] md:w-[45vw] md:pr-16 md:ml-0 lg:text-[0.875rem] xl:text-[1.125rem]"
+            >
               At G&H Construction, our extensive team of highly skilled
               professionals is committed to excellence on every project.
               <br />
@@ -385,10 +530,20 @@ const Home = () => {
               <br />
               We work closely with clients to ensure satisfaction at every step
               of the way, maintaining high standards of quality and safety.
-            </p>
+            </motion.p>
             <div className="mt-10 flex h-auto md:w-[45vw] md:-mt-16">
               <div className="w-1/2">
-                <img
+                <motion.img
+                  initial={{
+                    opacity: 0,
+                    transform: "translateY(10px)",
+                  }}
+                  whileInView={{
+                    opacity: 1,
+                    transform: "translateY(0px)",
+                  }}
+                  transition={{ delay: 0.4, duration: 1 }}
+                  viewport={{ once: true }}
                   className="object-cover w-full h-full py-5 pr-5 sm:pr-14 sm:py-10 md:pr-8"
                   src="https://www.cgmiami.org/wp-content/uploads/2022/07/1658379943_22_construction-company-names.jpg"
                   alt=""
@@ -396,12 +551,32 @@ const Home = () => {
               </div>
               <div className="w-1/2">
                 <div className="flex flex-col h-full">
-                  <img
+                  <motion.img
+                    initial={{
+                      opacity: 0,
+                      transform: "translateY(-10px)",
+                    }}
+                    whileInView={{
+                      opacity: 1,
+                      transform: "translateY(0px)",
+                    }}
+                    transition={{ delay: 0.7, duration: 1 }}
+                    viewport={{ once: true }}
                     className="h-full w-full pr-4 pb-9 object-cover sm:pr-8 sm:pb-14 "
                     src="https://www.cgmiami.org/wp-content/uploads/2022/07/1658379943_construction-company-names.jpg"
                     alt=""
                   />
-                  <img
+                  <motion.img
+                    initial={{
+                      opacity: 0,
+                      transform: "translateY(10px)",
+                    }}
+                    whileInView={{
+                      opacity: 1,
+                      transform: "translateY(0px)",
+                    }}
+                    transition={{ delay: 0.6, duration: 1 }}
+                    viewport={{ once: true }}
                     className="h-full w-full object-cover"
                     src="http://www.obcipol.com/wp-content/uploads/2015/07/EMPRESA_DE_CONSTRUCCION_DE_EDIFICIOS_COLOMBIA-941x599.jpg"
                     alt=""
