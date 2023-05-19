@@ -8,6 +8,8 @@ import leftArrow from "../utils/icons/ArrowLeft.svg";
 import rightArrow from "../utils/icons/ArrowRight.svg";
 import diagonalArrow from "../utils/icons/DiagonalArrow.svg";
 
+import { motion } from "framer-motion";
+
 const Services = () => {
   const widthPx = window.innerWidth < 1024 ? window.innerWidth - 8 : 728 + 100;
 
@@ -27,34 +29,108 @@ const Services = () => {
         <div className="py-10 font-almarai bg-emerald-900 md:py-14 md:w-full lg:px-[7vw] lg:py-12">
           <div className="md:flex md:items-center">
             <div className="mx-[5vw] md:w-1/2 ">
-              <p className="text-emerald-500 text-[1.125rem] mb-4">/SERVICES</p>
-              <h1 className="text-[2.125rem] text-white font-semibold leading-10 min-[480px]:text-[2.5rem]">
+              <motion.p
+                initial={{
+                  opacity: 0,
+                  transform: "translateY(10px)",
+                }}
+                whileInView={{
+                  opacity: 1,
+                  transform: "translateY(0px)",
+                }}
+                transition={{ delay: 0.5, duration: 1 }}
+                viewport={{ once: true }}
+                className="text-emerald-500 text-[1.125rem] mb-4"
+              >
+                /SERVICES
+              </motion.p>
+              <motion.h1
+                initial={{
+                  opacity: 0,
+                  transform: "translateY(10px)",
+                }}
+                whileInView={{
+                  opacity: 1,
+                  transform: "translateY(0px)",
+                }}
+                transition={{ delay: 0.5, duration: 1 }}
+                viewport={{ once: true }}
+                className="text-[2.125rem] text-white font-semibold leading-10 min-[480px]:text-[2.5rem]"
+              >
                 Our services
-              </h1>
-              <p className="mt-7 font-catamaran text-white">
+              </motion.h1>
+              <motion.p
+                initial={{
+                  opacity: 0,
+                  transform: "translateY(10px)",
+                }}
+                whileInView={{
+                  opacity: 1,
+                  transform: "translateY(0px)",
+                }}
+                transition={{ delay: 0.6, duration: 1 }}
+                viewport={{ once: true }}
+                className="mt-7 font-catamaran text-white"
+              >
                 We offer high-quality construction and maintenance services for
                 homes and businesses. Our team of experienced professionals is
                 committed to excellence and ready to help you achieve your
                 goals.
-              </p>
+              </motion.p>
             </div>
             <div className="flex justify-center space-x-4 mx-[5vw] mt-7 md:w-1/2 md:mt-0">
               <a className="w-full" href="/contact">
-                <button className="bg-white w-full py-2.5 px-6 text-sm text-gray-900 min-[480px]:w-full min-[480px]:text-base sm:w-full sm:py-[1.127rem] md:text-[1rem] md:py-[0.75rem] md:px-0 lg:text-[1.125rem] lg:py-[1rem] hover:bg-emerald-500">
+                <motion.button
+                  initial={{
+                    opacity: 0,
+                    transform: "translateY(10px)",
+                  }}
+                  whileInView={{
+                    opacity: 1,
+                    transform: "translateY(0px)",
+                  }}
+                  transition={{ delay: 0.7, duration: 1 }}
+                  viewport={{ once: true }}
+                  className="bg-white w-full py-2.5 px-6 text-sm text-gray-900 min-[480px]:w-full min-[480px]:text-base sm:w-full sm:py-[1.127rem] md:text-[1rem] md:py-[0.75rem] md:px-0 lg:text-[1.125rem] lg:py-[1rem] hover:bg-emerald-500"
+                >
                   Contact
-                </button>
+                </motion.button>
               </a>
               <a className="w-full" href="/projects">
-                <button className="bg-emerald-500 w-full py-2.5 px-6 text-sm text-gray-900 min-[480px]:w-full min-[480px]:text-base sm:w-full sm:py-[1.127rem] md:text-[1rem] md:py-[0.75rem] md:px-0 lg:text-[1.125rem] lg:py-[1rem] hover:bg-emerald-600">
+                <motion.button
+                  initial={{
+                    opacity: 0,
+                    transform: "translateY(10px)",
+                  }}
+                  whileInView={{
+                    opacity: 1,
+                    transform: "translateY(0px)",
+                  }}
+                  transition={{ delay: 0.8, duration: 1 }}
+                  viewport={{ once: true }}
+                  className="bg-emerald-500 w-full py-2.5 px-6 text-sm text-gray-900 min-[480px]:w-full min-[480px]:text-base sm:w-full sm:py-[1.127rem] md:text-[1rem] md:py-[0.75rem] md:px-0 lg:text-[1.125rem] lg:py-[1rem] hover:bg-emerald-600"
+                >
                   Projects
-                </button>
+                </motion.button>
               </a>
             </div>
           </div>
         </div>
         <div className="py-10 md:py-16 lg:px-[7vw]">
           <div className="mx-[5vw] grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-            <div className="shadow-card border border-gray-50 h-auto px-6 py-10 md:flex md:flex-col">
+            <motion.div
+              initial={{
+                opacity: 0,
+                transform: "translateY(10px)",
+              }}
+              whileInView={{
+                opacity: 1,
+                transform: "translateY(0px)",
+              }}
+              transition={{ delay: 0.5, duration: 1 }}
+              viewport={{ once: true }}
+              className="shadow-card border border-gray-50 h-auto px-6 py-10 md:flex md:flex-col"
+            >
               <div>
                 <img
                   className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
@@ -83,8 +159,20 @@ const Services = () => {
                   </div>
                 </a>
               </div>
-            </div>
-            <div className="shadow-card border border-gray-50 h-auto px-6 py-10 md:flex md:flex-col">
+            </motion.div>
+            <motion.div
+              initial={{
+                opacity: 0,
+                transform: "translateY(10px)",
+              }}
+              whileInView={{
+                opacity: 1,
+                transform: "translateY(0px)",
+              }}
+              transition={{ delay: 0.5, duration: 1 }}
+              viewport={{ once: true }}
+              className="shadow-card border border-gray-50 h-auto px-6 py-10 md:flex md:flex-col"
+            >
               <div>
                 <img
                   className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
@@ -113,8 +201,20 @@ const Services = () => {
                   </div>
                 </a>
               </div>
-            </div>
-            <div className="shadow-card bg-emerald-900 border border-gray-50 h-auto px-6 py-10 md:flex md:flex-col">
+            </motion.div>
+            <motion.div
+              initial={{
+                opacity: 0,
+                transform: "translateY(10px)",
+              }}
+              whileInView={{
+                opacity: 1,
+                transform: "translateY(0px)",
+              }}
+              transition={{ delay: 0.5, duration: 1 }}
+              viewport={{ once: true }}
+              className="shadow-card bg-emerald-900 border border-gray-50 h-auto px-6 py-10 md:flex md:flex-col"
+            >
               <div>
                 <img
                   className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
@@ -143,8 +243,20 @@ const Services = () => {
                   </div>
                 </a>
               </div>
-            </div>
-            <div className="shadow-card border border-gray-50 h-auto px-6 py-10 md:flex md:flex-col">
+            </motion.div>
+            <motion.div
+              initial={{
+                opacity: 0,
+                transform: "translateY(10px)",
+              }}
+              whileInView={{
+                opacity: 1,
+                transform: "translateY(0px)",
+              }}
+              transition={{ delay: 0.5, duration: 1 }}
+              viewport={{ once: true }}
+              className="shadow-card border border-gray-50 h-auto px-6 py-10 md:flex md:flex-col"
+            >
               <div>
                 <img
                   className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
@@ -172,8 +284,20 @@ const Services = () => {
                   </div>
                 </a>
               </div>
-            </div>
-            <div className="shadow-card border border-gray-50 h-auto px-6 py-10 md:flex md:flex-col">
+            </motion.div>
+            <motion.div
+              initial={{
+                opacity: 0,
+                transform: "translateY(10px)",
+              }}
+              whileInView={{
+                opacity: 1,
+                transform: "translateY(0px)",
+              }}
+              transition={{ delay: 0.5, duration: 1 }}
+              viewport={{ once: true }}
+              className="shadow-card border border-gray-50 h-auto px-6 py-10 md:flex md:flex-col"
+            >
               <div>
                 <img
                   className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
@@ -201,8 +325,20 @@ const Services = () => {
                   </div>
                 </a>
               </div>
-            </div>
-            <div className="shadow-card border border-gray-50 h-auto px-6 py-10 md:flex md:flex-col">
+            </motion.div>
+            <motion.div
+              initial={{
+                opacity: 0,
+                transform: "translateY(10px)",
+              }}
+              whileInView={{
+                opacity: 1,
+                transform: "translateY(0px)",
+              }}
+              transition={{ delay: 0.5, duration: 1 }}
+              viewport={{ once: true }}
+              className="shadow-card border border-gray-50 h-auto px-6 py-10 md:flex md:flex-col"
+            >
               <div>
                 <img
                   className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
@@ -231,37 +367,91 @@ const Services = () => {
                   </div>
                 </a>
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
         <div className="pt-10 pb-6 lg:px-[7vw]">
           <div className="mx-[5vw]">
             <div className="md:flex md:justify-between md:items-center">
               <div className="font-almarai md:w-8/12">
-                <p className="text-emerald-500 text-[1.125rem] mb-4 font-bold">
+                <motion.p
+                  initial={{
+                    opacity: 0,
+                    transform: "translateY(10px)",
+                  }}
+                  whileInView={{
+                    opacity: 1,
+                    transform: "translateY(0px)",
+                  }}
+                  transition={{ delay: 0.5, duration: 1 }}
+                  viewport={{ once: true }}
+                  className="text-emerald-500 text-[1.125rem] mb-4 font-bold"
+                >
                   /TESTIMONIALS
-                </p>
-                <h2 className="text-[2rem] font-semibold leading-10 min-[480px]:text-[2.25rem]">
+                </motion.p>
+                <motion.h2
+                  initial={{
+                    opacity: 0,
+                    transform: "translateY(10px)",
+                  }}
+                  whileInView={{
+                    opacity: 1,
+                    transform: "translateY(0px)",
+                  }}
+                  transition={{ delay: 0.5, duration: 1 }}
+                  viewport={{ once: true }}
+                  className="text-[2rem] font-semibold leading-10 min-[480px]:text-[2.25rem]"
+                >
                   What our clients say about us and our work
-                </h2>
+                </motion.h2>
               </div>
               <div className="hidden flex justify-end md:block md:flex md:space-x-3 md:w-4/12">
-                <button
+                <motion.button
+                  initial={{
+                    opacity: 0,
+                    transform: "translateY(10px)",
+                  }}
+                  whileInView={{
+                    opacity: 1,
+                    transform: "translateY(0px)",
+                  }}
+                  transition={{ delay: 0.6, duration: 1 }}
+                  viewport={{ once: true }}
                   onClick={scrollLeft}
                   className="border border-black p-[0.825rem] md:p-5 hover:bg-emerald-500"
                 >
                   <img className="h-5 md:h-6" src={leftArrow} alt="" />
-                </button>
-                <button
+                </motion.button>
+                <motion.button
+                  initial={{
+                    opacity: 0,
+                    transform: "translateY(10px)",
+                  }}
+                  whileInView={{
+                    opacity: 1,
+                    transform: "translateY(0px)",
+                  }}
+                  transition={{ delay: 0.7, duration: 1 }}
+                  viewport={{ once: true }}
                   onClick={scrollRight}
                   className="border p-[0.825rem] bg-emerald-500 md:p-5 hover:bg-emerald-600"
                 >
                   <img className="h-5 md:h-6" src={rightArrow} alt="" />
-                </button>
+                </motion.button>
               </div>
             </div>
             <div className="pt-20 md:pb-20">
-              <div
+              <motion.div
+                initial={{
+                  opacity: 0,
+                  transform: "translateY(10px)",
+                }}
+                whileInView={{
+                  opacity: 1,
+                  transform: "translateY(0px)",
+                }}
+                transition={{ delay: 0.5, duration: 1 }}
+                viewport={{ once: true }}
                 id="content"
                 className="snap-x p-1 flex items-center justify-start overflow-x-auto scroll-smooth scrollbar-hide space-x-[10vw] lg:p-1 lg:scroll-pl-1"
               >
@@ -346,23 +536,43 @@ const Services = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </motion.div>
             </div>
           </div>
         </div>
         <div className="block flex justify-center space-x-3 mb-10 md:hidden">
-          <button
+          <motion.button
+            initial={{
+              opacity: 0,
+              transform: "translateY(10px)",
+            }}
+            whileInView={{
+              opacity: 1,
+              transform: "translateY(0px)",
+            }}
+            transition={{ delay: 0.6, duration: 1 }}
+            viewport={{ once: true }}
             onClick={scrollLeft}
             className="border border-black p-[0.825rem]"
           >
             <img className="h-5" src={leftArrow} alt="" />
-          </button>
-          <button
+          </motion.button>
+          <motion.button
+            initial={{
+              opacity: 0,
+              transform: "translateY(10px)",
+            }}
+            whileInView={{
+              opacity: 1,
+              transform: "translateY(0px)",
+            }}
+            transition={{ delay: 0.7, duration: 1 }}
+            viewport={{ once: true }}
             onClick={scrollRight}
             className="border p-[0.825rem] bg-emerald-500"
           >
             <img className="h-5" src={rightArrow} alt="" />
-          </button>
+          </motion.button>
         </div>
       </section>
     </>
