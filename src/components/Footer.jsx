@@ -258,21 +258,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <motion.p
-        initial={{
-          opacity: 0,
-          transform: "translateY(10px)",
-        }}
-        whileInView={{
-          opacity: 1,
-          transform: "translateY(0px)",
-        }}
-        transition={{ delay: 0.5, duration: 1 }}
-        viewport={{ once: true }}
-        className="py-4 text-xs text-center text-white font-catamaran px-3 md:text-[0.9375rem]"
-      >
+      <p className="py-4 text-xs text-center text-white font-catamaran px-3 md:text-[0.9375rem]">
         Copyright © {year} G&H Constructions. All rights reserved
-      </motion.p>
+      </p>
     </footer>
   );
 };

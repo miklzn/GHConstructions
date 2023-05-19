@@ -8,40 +8,116 @@ import project_2_1 from "../utils/images/project-2/project-2-1.jpg";
 import project_3_1 from "../utils/images/project-3/project-3-1.jpg";
 import project_4_1 from "../utils/images/project-4/project-4-1.jpg";
 
+import { motion } from "framer-motion";
+
 const Projects = () => {
   return (
     <section>
       <div className="py-10 font-almarai bg-emerald-900 md:py-14 md:w-full lg:px-[7vw] lg:py-12">
         <div className="md:flex md:items-center">
           <div className="mx-[5vw] md:w-1/2 ">
-            <p className="text-emerald-500 text-[1.125rem] mb-4">/PROJECTS</p>
-            <h1 className="text-[2.125rem] text-white font-semibold leading-10 min-[480px]:text-[2.5rem]">
+            <motion.p
+              initial={{
+                opacity: 0,
+                transform: "translateY(10px)",
+              }}
+              whileInView={{
+                opacity: 1,
+                transform: "translateY(0px)",
+              }}
+              transition={{ delay: 0.5, duration: 1 }}
+              viewport={{ once: true }}
+              className="text-emerald-500 text-[1.125rem] mb-4"
+            >
+              /PROJECTS
+            </motion.p>
+            <motion.h1
+              initial={{
+                opacity: 0,
+                transform: "translateY(10px)",
+              }}
+              whileInView={{
+                opacity: 1,
+                transform: "translateY(0px)",
+              }}
+              transition={{ delay: 0.5, duration: 1 }}
+              viewport={{ once: true }}
+              className="text-[2.125rem] text-white font-semibold leading-10 min-[480px]:text-[2.5rem]"
+            >
               Our projects
-            </h1>
-            <p className="mt-7 font-catamaran text-white">
+            </motion.h1>
+            <motion.p
+              initial={{
+                opacity: 0,
+                transform: "translateY(10px)",
+              }}
+              whileInView={{
+                opacity: 1,
+                transform: "translateY(0px)",
+              }}
+              transition={{ delay: 0.6, duration: 1 }}
+              viewport={{ once: true }}
+              className="mt-7 font-catamaran text-white"
+            >
               In every project we undertake, we leave our mark of quality and
               commitment. Each space we create is a testament to our passion for
               excellence in construction and maintenance. Let our work speak for
               itself and discover what we can do for you.
-            </p>
+            </motion.p>
           </div>
           <div className="flex justify-center space-x-4 mx-[5vw] mt-7 md:w-1/2 md:mt-0">
             <a className="w-full" href="/contact">
-              <button className="bg-white w-full py-2.5 px-6 text-sm text-gray-900 min-[480px]:w-full min-[480px]:text-base sm:w-full sm:py-[1.127rem] md:text-[1rem] md:py-[0.75rem] md:px-0 lg:text-[1.125rem] lg:py-[1rem] hover:bg-emerald-500">
+              <motion.button
+                initial={{
+                  opacity: 0,
+                  transform: "translateY(10px)",
+                }}
+                whileInView={{
+                  opacity: 1,
+                  transform: "translateY(0px)",
+                }}
+                transition={{ delay: 0.7, duration: 1 }}
+                viewport={{ once: true }}
+                className="bg-white w-full py-2.5 px-6 text-sm text-gray-900 min-[480px]:w-full min-[480px]:text-base sm:w-full sm:py-[1.127rem] md:text-[1rem] md:py-[0.75rem] md:px-0 lg:text-[1.125rem] lg:py-[1rem] hover:bg-emerald-500"
+              >
                 Contact
-              </button>
+              </motion.button>
             </a>
             <a className="w-full" href="/services">
-              <button className="bg-emerald-500 w-full py-2.5 px-6 text-sm text-gray-900 min-[480px]:w-full min-[480px]:text-base sm:w-full sm:py-[1.127rem] md:text-[1rem] md:py-[0.75rem] md:px-0 lg:text-[1.125rem] lg:py-[1rem] hover:bg-emerald-600">
+              <motion.button
+                initial={{
+                  opacity: 0,
+                  transform: "translateY(10px)",
+                }}
+                whileInView={{
+                  opacity: 1,
+                  transform: "translateY(0px)",
+                }}
+                transition={{ delay: 0.8, duration: 1 }}
+                viewport={{ once: true }}
+                className="bg-emerald-500 w-full py-2.5 px-6 text-sm text-gray-900 min-[480px]:w-full min-[480px]:text-base sm:w-full sm:py-[1.127rem] md:text-[1rem] md:py-[0.75rem] md:px-0 lg:text-[1.125rem] lg:py-[1rem] hover:bg-emerald-600"
+              >
                 Services
-              </button>
+              </motion.button>
             </a>
           </div>
         </div>
       </div>
       <div className="h-auto mx-[5vw] py-20 lg:px-[7vw]">
         <div className="grid grid-cols gap-10 lg:gap-20">
-          <a href="/project-1">
+          <motion.a
+            initial={{
+              opacity: 0,
+              transform: "translateY(10px)",
+            }}
+            whileInView={{
+              opacity: 1,
+              transform: "translateY(0px)",
+            }}
+            transition={{ delay: 0.5, duration: 1 }}
+            viewport={{ once: true }}
+            href="/project-1"
+          >
             <div className="shadow-card p-2 text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 md:p-2 md:shadow-card lg:text-[1.375rem]">
               <img
                 className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[45vh] md:min-h-[270px] md:w-2/3"
@@ -148,8 +224,20 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-          </a>
-          <a href="project-2">
+          </motion.a>
+          <motion.a
+            initial={{
+              opacity: 0,
+              transform: "translateY(10px)",
+            }}
+            whileInView={{
+              opacity: 1,
+              transform: "translateY(0px)",
+            }}
+            transition={{ delay: 0.5, duration: 1 }}
+            viewport={{ once: true }}
+            href="project-2"
+          >
             <div className="shadow-card p-2 text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 md:p-2 md:shadow-card lg:text-[1.375rem]">
               <img
                 className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[45vh] md:min-h-[270px] md:w-2/3"
@@ -256,8 +344,20 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-          </a>
-          <a href="project-3">
+          </motion.a>
+          <motion.a
+            initial={{
+              opacity: 0,
+              transform: "translateY(10px)",
+            }}
+            whileInView={{
+              opacity: 1,
+              transform: "translateY(0px)",
+            }}
+            transition={{ delay: 0.5, duration: 1 }}
+            viewport={{ once: true }}
+            href="project-3"
+          >
             <div className="shadow-card p-2 text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 md:p-2 md:shadow-card lg:text-[1.375rem]">
               <img
                 className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[45vh] md:min-h-[270px] md:w-2/3"
@@ -364,8 +464,20 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-          </a>
-          <a href="project-4">
+          </motion.a>
+          <motion.a
+            initial={{
+              opacity: 0,
+              transform: "translateY(10px)",
+            }}
+            whileInView={{
+              opacity: 1,
+              transform: "translateY(0px)",
+            }}
+            transition={{ delay: 0.5, duration: 1 }}
+            viewport={{ once: true }}
+            href="project-4"
+          >
             <div className="shadow-card p-2 text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 md:p-2 md:shadow-card lg:text-[1.375rem]">
               <img
                 className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[45vh] md:min-h-[270px] md:w-2/3"
@@ -472,7 +584,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-          </a>
+          </motion.a>
         </div>
       </div>
     </section>

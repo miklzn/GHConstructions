@@ -233,7 +233,7 @@ const About = () => {
                   opacity: 1,
                   transform: "translateY(0px)",
                 }}
-                transition={{ delay: 0.6, duration: 1 }}
+                transition={{ delay: 0.5, duration: 1 }}
                 viewport={{ once: true }}
                 className="mt-7 font-catamaran"
               >
@@ -303,7 +303,7 @@ const About = () => {
                 opacity: 1,
                 transform: "translateY(0px)",
               }}
-              transition={{ delay: 0.6, duration: 1 }}
+              transition={{ delay: 0.5, duration: 1 }}
               viewport={{ once: true }}
               className="mt-7 font-catamaran"
             >
@@ -345,7 +345,7 @@ const About = () => {
                 opacity: 1,
                 transform: "translateY(0px)",
               }}
-              transition={{ delay: 0.7, duration: 1 }}
+              transition={{ delay: 0.6, duration: 1 }}
               viewport={{ once: true }}
               className="h-auto shadow-card border border-gray-50 px-6 py-10 text-center"
             >
@@ -368,7 +368,7 @@ const About = () => {
                 opacity: 1,
                 transform: "translateY(0px)",
               }}
-              transition={{ delay: 0.9, duration: 1 }}
+              transition={{ delay: 0.7, duration: 1 }}
               viewport={{ once: true }}
               className="h-auto shadow-card border border-gray-50 px-6 py-10 text-center"
             >

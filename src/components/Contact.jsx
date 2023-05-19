@@ -12,6 +12,8 @@ import pinBack from "../utils/icons/PinBack.svg";
 import Success from "../commons/SuccessAlert";
 import Error from "../commons/ErrorAlert";
 
+import { motion } from "framer-motion";
+
 const Contact = () => {
   const [showPopup, setShowPopup] = useState(0);
 
@@ -49,19 +51,65 @@ const Contact = () => {
       <section className="h-auto bg-emerald-900 lg:px-[7vw]">
         <div className="md:flex md:items-center md:py-10">
           <div className="px-[5vw] py-[10vh] md:w-1/2">
-            <p className="text-emerald-500 text-[1.125rem] font-almarai mb-4">
+            <motion.p
+              initial={{
+                opacity: 0,
+                transform: "translateY(10px)",
+              }}
+              whileInView={{
+                opacity: 1,
+                transform: "translateY(0px)",
+              }}
+              transition={{ delay: 0.5, duration: 1 }}
+              viewport={{ once: true }}
+              className="text-emerald-500 text-[1.125rem] font-almarai mb-4"
+            >
               /CONTACT
-            </p>
-            <h1 className="text-white text-[2.125rem] font-almarai font-semibold pr-10 leading-10 sm:text-[2.5rem]">
+            </motion.p>
+            <motion.h1
+              initial={{
+                opacity: 0,
+                transform: "translateY(10px)",
+              }}
+              whileInView={{
+                opacity: 1,
+                transform: "translateY(0px)",
+              }}
+              transition={{ delay: 0.5, duration: 1 }}
+              viewport={{ once: true }}
+              className="text-white text-[2.125rem] font-almarai font-semibold pr-10 leading-10 sm:text-[2.5rem]"
+            >
               Get in touch today!
-            </h1>
-            <p className="text-white font-catamaran mt-3 min-[480px]:pr-[18vw] md:pr-0">
+            </motion.h1>
+            <motion.p
+              initial={{
+                opacity: 0,
+                transform: "translateY(10px)",
+              }}
+              whileInView={{
+                opacity: 1,
+                transform: "translateY(0px)",
+              }}
+              transition={{ delay: 0.6, duration: 1 }}
+              viewport={{ once: true }}
+              className="text-white font-catamaran mt-3 min-[480px]:pr-[18vw] md:pr-0"
+            >
               Get in touch and share your ideas with us! We're here to make your
               construction dreams come true. Let us know how we can assist you.
-            </p>
+            </motion.p>
             <div>
               <div className="w-full flex items-center space-x-2 py-5 md:py-2 lg:py-5">
-                <a
+                <motion.a
+                  initial={{
+                    opacity: 0,
+                    transform: "translateY(10px)",
+                  }}
+                  whileInView={{
+                    opacity: 1,
+                    transform: "translateY(0px)",
+                  }}
+                  transition={{ delay: 0.7, duration: 1 }}
+                  viewport={{ once: true }}
                   href="http://facebook.com"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -71,8 +119,18 @@ const Contact = () => {
                     src={facebook}
                     alt=""
                   />
-                </a>
-                <a
+                </motion.a>
+                <motion.a
+                  initial={{
+                    opacity: 0,
+                    transform: "translateY(10px)",
+                  }}
+                  whileInView={{
+                    opacity: 1,
+                    transform: "translateY(0px)",
+                  }}
+                  transition={{ delay: 0.8, duration: 1 }}
+                  viewport={{ once: true }}
                   href="http://instagram.com"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -82,8 +140,18 @@ const Contact = () => {
                     src={instagram}
                     alt=""
                   />
-                </a>
-                <a
+                </motion.a>
+                <motion.a
+                  initial={{
+                    opacity: 0,
+                    transform: "translateY(10px)",
+                  }}
+                  whileInView={{
+                    opacity: 1,
+                    transform: "translateY(0px)",
+                  }}
+                  transition={{ delay: 0.9, duration: 1 }}
+                  viewport={{ once: true }}
                   href="http://whatsapp.com"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -93,12 +161,25 @@ const Contact = () => {
                     src={whatsapp}
                     alt=""
                   />
-                </a>
+                </motion.a>
               </div>
             </div>
           </div>
           <div className="px-[5vw] font-catamaran md:w-1/2">
-            <form ref={form} onSubmit={sendEmail}>
+            <motion.form
+              initial={{
+                opacity: 0,
+                transform: "translateY(10px)",
+              }}
+              whileInView={{
+                opacity: 1,
+                transform: "translateY(0px)",
+              }}
+              transition={{ delay: 0.6, duration: 1 }}
+              viewport={{ once: true }}
+              ref={form}
+              onSubmit={sendEmail}
+            >
               <div className="min-[480px]:grid min-[480px]:grid-cols-2 min-[480px]:gap-x-4">
                 <div class="relative z-0 w-full mb-6 group">
                   <input
@@ -190,24 +271,60 @@ const Contact = () => {
               >
                 Submit
               </button>
-            </form>
+            </motion.form>
           </div>
         </div>
       </section>
       <section className="h-auto md:pb-[10vh] lg:px-[7vw]">
         <div className="px-[5vw] py-[10vh] font-catamaran">
-          <h2 className="text-center text-[2rem] font-bold min-[480px]:text-[2.25rem] font-almarai">
+          <motion.h2
+            initial={{
+              opacity: 0,
+              transform: "translateY(10px)",
+            }}
+            whileInView={{
+              opacity: 1,
+              transform: "translateY(0px)",
+            }}
+            transition={{ delay: 0.5, duration: 1 }}
+            viewport={{ once: true }}
+            className="text-center text-[2rem] font-bold min-[480px]:text-[2.25rem] font-almarai"
+          >
             Prefer to reach out directly?
-          </h2>
-          <p className="text-gray-600 my-4 text-center md:text-[1.125rem]">
+          </motion.h2>
+          <motion.p
+            initial={{
+              opacity: 0,
+              transform: "translateY(10px)",
+            }}
+            whileInView={{
+              opacity: 1,
+              transform: "translateY(0px)",
+            }}
+            transition={{ delay: 0.5, duration: 1 }}
+            viewport={{ once: true }}
+            className="text-gray-600 my-4 text-center md:text-[1.125rem]"
+          >
             Reach out to us directly for swift assistance. Our team is ready to
             answer your call and provide prompt support for your construction
             needs.
-          </p>
+          </motion.p>
         </div>
         <div className="px-[5vw] py-[5vh] font-almarai">
           <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
-            <div className="h-auto shadow-card border border-gray-50 px-5 py-8 overflow-hidden min-[480px]:py-12">
+            <motion.div
+              initial={{
+                opacity: 0,
+                transform: "translateY(10px)",
+              }}
+              whileInView={{
+                opacity: 1,
+                transform: "translateY(0px)",
+              }}
+              transition={{ delay: 0.5, duration: 1 }}
+              viewport={{ once: true }}
+              className="h-auto shadow-card border border-gray-50 px-5 py-8 overflow-hidden min-[480px]:py-12"
+            >
               <div className="w-full relative">
                 <img
                   className="h-14 border p-2 bg-emerald-900 "
@@ -227,8 +344,20 @@ const Contact = () => {
                   alt=""
                 />
               </div>
-            </div>
-            <div className="h-auto shadow-card border border-gray-50 px-5 py-8 overflow-hidden min-[480px]:py-12">
+            </motion.div>
+            <motion.div
+              initial={{
+                opacity: 0,
+                transform: "translateY(10px)",
+              }}
+              whileInView={{
+                opacity: 1,
+                transform: "translateY(0px)",
+              }}
+              transition={{ delay: 0.5, duration: 1 }}
+              viewport={{ once: true }}
+              className="h-auto shadow-card border border-gray-50 px-5 py-8 overflow-hidden min-[480px]:py-12"
+            >
               <div className="w-full relative">
                 <img
                   className="h-14 border p-2 bg-emerald-900 "
@@ -248,8 +377,20 @@ const Contact = () => {
                   alt=""
                 />
               </div>
-            </div>
-            <div className="h-auto shadow-card border border-gray-50 bg-emerald-900 px-5 py-8 overflow-hidden min-[480px]:py-12">
+            </motion.div>
+            <motion.div
+              initial={{
+                opacity: 0,
+                transform: "translateY(10px)",
+              }}
+              whileInView={{
+                opacity: 1,
+                transform: "translateY(0px)",
+              }}
+              transition={{ delay: 0.5, duration: 1 }}
+              viewport={{ once: true }}
+              className="h-auto shadow-card border border-gray-50 bg-emerald-900 px-5 py-8 overflow-hidden min-[480px]:py-12"
+            >
               <div className="w-full relative">
                 <img
                   className="h-14 border-4 border-white p-2 bg-emerald-900 "
@@ -269,7 +410,7 @@ const Contact = () => {
                   alt=""
                 />
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
       </section>
