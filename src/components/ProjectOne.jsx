@@ -5,6 +5,7 @@ import mansory from "../utils/icons/Mansory.svg";
 import mallet from "../utils/icons/Mallet.svg";
 import leftArrow from "../utils/icons/ArrowLeft.svg";
 import rightArrow from "../utils/icons/ArrowRight.svg";
+
 import project_1_1 from "../utils/images/project-1/project-1-1.jpg";
 import project_1_2 from "../utils/images/project-1/project-1-2.jpg";
 import project_1_3 from "../utils/images/project-1/project-1-3.jpg";
@@ -13,6 +14,8 @@ import project_1_5 from "../utils/images/project-1/project-1-5.jpg";
 import project_1_6 from "../utils/images/project-1/project-1-6.jpg";
 import project_1_7 from "../utils/images/project-1/project-1-7.jpg";
 import project_1_8 from "../utils/images/project-1/project-1-8.jpg";
+
+import { motion } from "framer-motion";
 
 const ProjectOne = () => {
   const widthPx =
@@ -42,22 +45,56 @@ const ProjectOne = () => {
             />
             <div className="absolute flex w-full h-full backdrop-opacity-10 backdrop-invert bg-transparent bg-gradient-to-b from-transparent to-black/90 h-full items-center text-center">
               <div className="mx-[5vw] w-full text-white font-dmSans my-10 xl:px-[5vw]">
-                <h1 className="text-[2.125rem] font-semibold font-almarai mb-12 px-4 min-[480px]:text-[2.5rem] md:text-[3.625rem] md:mb-40 lg:px-20 lg:text-[4.375rem]">
+                <motion.h1
+                  initial={{
+                    opacity: 0,
+                    transform: "translateY(10px)",
+                  }}
+                  whileInView={{
+                    opacity: 1,
+                    transform: "translateY(0px)",
+                  }}
+                  transition={{ delay: 0.2, duration: 1 }}
+                  viewport={{ once: true }}
+                  className="text-[2.125rem] font-semibold font-almarai mb-12 px-4 min-[480px]:text-[2.5rem] md:text-[3.625rem] md:mb-40 lg:px-20 lg:text-[4.375rem]"
+                >
                   Garden remodeling in Miami, FL
-                </h1>
+                </motion.h1>
               </div>
             </div>
           </div>
         </div>
         <div className="h-auto mx-[5vw] xl:px-[7vw]">
-          <div className="relative h-auto bg-white -mt-16 mb-16 border border-gray-50 shadow-card overflow-hidden px-6 py-10 md:-mt-40 lg:-mt-44 lg:py-16">
+          <motion.div
+            initial={{
+              opacity: 0,
+            }}
+            whileInView={{
+              opacity: 1,
+            }}
+            transition={{ delay: 0.2, duration: 0.4 }}
+            viewport={{ once: true }}
+            className="relative h-auto bg-white -mt-16 mb-16 border border-gray-50 shadow-card overflow-hidden px-6 py-10 md:-mt-40 lg:-mt-44 lg:py-16"
+          >
             <img
               className="absolute -right-10 bottom-0 h-32 -rotate-[25deg]"
               src={mallet}
               alt=""
             />
             <div className="grid grid-cols-1 gap-9 min-[480px]:grid-cols-2 sm:px-10 lg:grid-cols-4">
-              <div className="flex font-catamaran">
+              <motion.div
+                initial={{
+                  opacity: 0,
+                  transform: "translateY(10px)",
+                }}
+                whileInView={{
+                  opacity: 1,
+                  transform: "translateY(0px)",
+                }}
+                transition={{ delay: 0.4, duration: 0.7 }}
+                viewport={{ once: true }}
+                className="flex font-catamaran"
+              >
                 <img
                   className="bg-emerald-500 p-2 w-12 mr-4 lg:w-[60px]"
                   src={client}
@@ -71,8 +108,20 @@ const ProjectOne = () => {
                     John Carter
                   </div>
                 </div>
-              </div>
-              <div className="flex font-catamaran">
+              </motion.div>
+              <motion.div
+                initial={{
+                  opacity: 0,
+                  transform: "translateY(10px)",
+                }}
+                whileInView={{
+                  opacity: 1,
+                  transform: "translateY(0px)",
+                }}
+                transition={{ delay: 0.5, duration: 0.7 }}
+                viewport={{ once: true }}
+                className="flex font-catamaran"
+              >
                 <img
                   className="bg-emerald-500 p-2 w-12 mr-4 lg:w-[60px]"
                   src={pin}
@@ -86,8 +135,20 @@ const ProjectOne = () => {
                     Tampa, FL
                   </div>
                 </div>
-              </div>
-              <div className="flex font-catamaran">
+              </motion.div>
+              <motion.div
+                initial={{
+                  opacity: 0,
+                  transform: "translateY(10px)",
+                }}
+                whileInView={{
+                  opacity: 1,
+                  transform: "translateY(0px)",
+                }}
+                transition={{ delay: 0.6, duration: 0.7 }}
+                viewport={{ once: true }}
+                className="flex font-catamaran"
+              >
                 <img
                   className="bg-emerald-500 p-2 w-12 mr-4 lg:w-[60px]"
                   src={clock}
@@ -101,8 +162,20 @@ const ProjectOne = () => {
                     3 Weeks
                   </div>
                 </div>
-              </div>
-              <div className="flex font-catamaran">
+              </motion.div>
+              <motion.div
+                initial={{
+                  opacity: 0,
+                  transform: "translateY(10px)",
+                }}
+                whileInView={{
+                  opacity: 1,
+                  transform: "translateY(0px)",
+                }}
+                transition={{ delay: 0.7, duration: 0.7 }}
+                viewport={{ once: true }}
+                className="flex font-catamaran"
+              >
                 <img
                   className="bg-emerald-500 p-2 w-12 mr-4 lg:w-[60px]"
                   src={mansory}
@@ -116,15 +189,39 @@ const ProjectOne = () => {
                     Remodeling
                   </div>
                 </div>
-              </div>
+              </motion.div>
             </div>
-          </div>
+          </motion.div>
         </div>
         <div className="h-auto mx-[5vw] font-catamaran xl:px-[7vw]">
-          <h2 className="text-[2rem] font-bold font-almarai mb-4 leading-10 min-[480px]:text-[2.25rem]">
+          <motion.h2
+            initial={{
+              opacity: 0,
+              transform: "translateY(10px)",
+            }}
+            whileInView={{
+              opacity: 1,
+              transform: "translateY(0px)",
+            }}
+            transition={{ delay: 0.5, duration: 1 }}
+            viewport={{ once: true }}
+            className="text-[2rem] font-bold font-almarai mb-4 leading-10 min-[480px]:text-[2.25rem]"
+          >
             About the project
-          </h2>
-          <p className="text-gray-500 mb-10 lg:text-[1.125rem]">
+          </motion.h2>
+          <motion.p
+            initial={{
+              opacity: 0,
+              transform: "translateY(10px)",
+            }}
+            whileInView={{
+              opacity: 1,
+              transform: "translateY(0px)",
+            }}
+            transition={{ delay: 0.5, duration: 1 }}
+            viewport={{ once: true }}
+            className="text-gray-500 mb-10 lg:text-[1.125rem]"
+          >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit feugiat
             morbi accumsan odio luctus ut quam senectus hendrerit convallis dui
             aenean mauris ut felis in tellus leo lacus sit molestie et augue
@@ -135,33 +232,75 @@ const ProjectOne = () => {
             morbi accumsan odio luctus ut quam senectus hendrerit convallis dui
             aenean mauris ut felis in tellus leo lacus sit molestie et augue
             orci, tortor magna malesuada orci id lorem ultrices sapien.
-          </p>
+          </motion.p>
         </div>
         <div className="h-auto pt-4 mx-[5vw] md:pt-8 xl:px-[7vw]">
           <div className="md:flex md:justify-between">
             <div className="font-almarai">
-              <h2 className="text-[2rem] font-semibold leading-10 min-[480px]:text-[2.25rem] md:py-4">
+              <motion.h2
+                initial={{
+                  opacity: 0,
+                  transform: "translateY(10px)",
+                }}
+                whileInView={{
+                  opacity: 1,
+                  transform: "translateY(0px)",
+                }}
+                transition={{ delay: 0.5, duration: 1 }}
+                viewport={{ once: true }}
+                className="text-[2rem] font-semibold leading-10 min-[480px]:text-[2.25rem] md:py-4"
+              >
                 Gallery
-              </h2>
+              </motion.h2>
             </div>
             <div className="hidden flex justify-end md:block md:flex md:space-x-3 md:w-4/12">
-              <button
+              <motion.button
+                initial={{
+                  opacity: 0,
+                  transform: "translateY(10px)",
+                }}
+                whileInView={{
+                  opacity: 1,
+                  transform: "translateY(0px)",
+                }}
+                transition={{ delay: 0.6, duration: 1 }}
+                viewport={{ once: true }}
                 onClick={scrollLeft}
                 className="border border-black p-[0.825rem] md:p-5"
               >
                 <img className="h-5 md:h-6" src={leftArrow} alt="" />
-              </button>
-              <button
+              </motion.button>
+              <motion.button
+                initial={{
+                  opacity: 0,
+                  transform: "translateY(10px)",
+                }}
+                whileInView={{
+                  opacity: 1,
+                  transform: "translateY(0px)",
+                }}
+                transition={{ delay: 0.7, duration: 1 }}
+                viewport={{ once: true }}
                 onClick={scrollRight}
                 className="border p-[0.825rem] bg-emerald-500 md:p-5"
               >
                 <img className="h-5 md:h-6" src={rightArrow} alt="" />
-              </button>
+              </motion.button>
             </div>
           </div>
         </div>
         <div className="mx-[5vw] py-10 md:py-20 xl:px-[7vw]">
-          <div
+          <motion.div
+            initial={{
+              opacity: 0,
+              transform: "translateY(10px)",
+            }}
+            whileInView={{
+              opacity: 1,
+              transform: "translateY(0px)",
+            }}
+            transition={{ delay: 0.5, duration: 1 }}
+            viewport={{ once: true }}
             id="content"
             className="snap-x flex items-center justify-start overflow-x-auto scroll-smooth scrollbar-hide space-x-3 lg:px-3"
           >
@@ -237,7 +376,7 @@ const ProjectOne = () => {
                 />
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
         <div className="block flex justify-center space-x-3 mb-10 md:hidden">
           <button
