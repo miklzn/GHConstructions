@@ -541,38 +541,18 @@ const Services = () => {
           </div>
         </div>
         <div className="block flex justify-center space-x-3 mb-10 md:hidden">
-          <motion.button
-            initial={{
-              opacity: 0,
-              transform: "translateY(10px)",
-            }}
-            whileInView={{
-              opacity: 1,
-              transform: "translateY(0px)",
-            }}
-            transition={{ delay: 0.6, duration: 1 }}
-            viewport={{ once: true }}
+          <button
             onClick={scrollLeft}
             className="border border-black p-[0.825rem]"
           >
             <img className="h-5" src={leftArrow} alt="" />
-          </motion.button>
-          <motion.button
-            initial={{
-              opacity: 0,
-              transform: "translateY(10px)",
-            }}
-            whileInView={{
-              opacity: 1,
-              transform: "translateY(0px)",
-            }}
-            transition={{ delay: 0.7, duration: 1 }}
-            viewport={{ once: true }}
+          </button>
+          <button
             onClick={scrollRight}
             className="border p-[0.825rem] bg-emerald-500"
           >
             <img className="h-5" src={rightArrow} alt="" />
-          </motion.button>
+          </button>
         </div>
       </section>
     </>

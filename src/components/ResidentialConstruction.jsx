@@ -4,6 +4,8 @@ import vacuum from "../utils/icons/Vacuum.svg";
 import paint from "../utils/icons/PaintBlack.svg";
 import diagonalArrow from "../utils/icons/DiagonalArrow.svg";
 
+import { motion } from "framer-motion";
+
 const ResidentialConstruction = () => {
   return (
     <section>
@@ -16,29 +18,101 @@ const ResidentialConstruction = () => {
           />
           <div className="absolute flex w-full h-full backdrop-opacity-10 backdrop-invert bg-black/40 bg-gradient-to-b from-transparent to-black/90">
             <div className="mx-[5vw] mt-[12vh] w-full text-white md:w-2/3 lg:px-[7vw] xl:mt-[20vh] ">
-              <img
+              <motion.img
+                initial={{
+                  opacity: 0,
+                  transform: "translateY(10px)",
+                }}
+                whileInView={{
+                  opacity: 1,
+                  transform: "translateY(0px)",
+                }}
+                transition={{ delay: 0.5, duration: 1 }}
+                viewport={{ once: true }}
                 className="h-16 mb-2 md:h-[78px] md:mb-10"
                 src={tools}
                 alt=""
               />
-              <h1 className="text-[2.125rem] font-semibold leading-10 font-almarai mb-4 min-[480px]:text-[2.5rem] md:text-[3.625rem] md:mb-8 md:leading-none lg:text-[4.375rem]">
+              <motion.h1
+                initial={{
+                  opacity: 0,
+                  transform: "translateY(10px)",
+                }}
+                whileInView={{
+                  opacity: 1,
+                  transform: "translateY(0px)",
+                }}
+                transition={{ delay: 0.6, duration: 1 }}
+                viewport={{ once: true }}
+                className="text-[2.125rem] font-semibold leading-10 font-almarai mb-4 min-[480px]:text-[2.5rem] md:text-[3.625rem] md:mb-8 md:leading-none lg:text-[4.375rem]"
+              >
                 Residential Construction
-              </h1>
-              <p className="font-catamaran text-gray-300 md:text-[1.125rem]">
+              </motion.h1>
+              <motion.p
+                initial={{
+                  opacity: 0,
+                  transform: "translateY(10px)",
+                }}
+                whileInView={{
+                  opacity: 1,
+                  transform: "translateY(0px)",
+                }}
+                transition={{ delay: 0.8, duration: 1 }}
+                viewport={{ once: true }}
+                className="font-catamaran text-gray-300 md:text-[1.125rem]"
+              >
                 We build custom homes with comprehensive design and construction
                 services, including ground-up construction, remodeling, outdoor
                 living spaces, landscaping, and sustainable practices.
-              </p>
+              </motion.p>
             </div>
           </div>
         </div>
       </div>
       <div className="mx-[5vw] py-10 font-almarai sm:pb-10 sm:pt-14 lg:px-[7vw]">
-        <p className="text-emerald-500 text-[1.125rem] mb-4">/OUR SERVICE</p>
-        <h2 className="text-[2rem] font-semibold leading-10 min-[480px]:text-[2.25rem]">
+        <motion.p
+          initial={{
+            opacity: 0,
+            transform: "translateY(10px)",
+          }}
+          whileInView={{
+            opacity: 1,
+            transform: "translateY(0px)",
+          }}
+          transition={{ delay: 0.5, duration: 1 }}
+          viewport={{ once: true }}
+          className="text-emerald-500 text-[1.125rem] mb-4"
+        >
+          /OUR SERVICE
+        </motion.p>
+        <motion.h2
+          initial={{
+            opacity: 0,
+            transform: "translateY(10px)",
+          }}
+          whileInView={{
+            opacity: 1,
+            transform: "translateY(0px)",
+          }}
+          transition={{ delay: 0.5, duration: 1 }}
+          viewport={{ once: true }}
+          className="text-[2rem] font-semibold leading-10 min-[480px]:text-[2.25rem]"
+        >
           About the service
-        </h2>
-        <p className="mt-7 font-catamaran">
+        </motion.h2>
+        <motion.p
+          initial={{
+            opacity: 0,
+            transform: "translateY(10px)",
+          }}
+          whileInView={{
+            opacity: 1,
+            transform: "translateY(0px)",
+          }}
+          transition={{ delay: 0.5, duration: 1 }}
+          viewport={{ once: true }}
+          className="mt-7 font-catamaran"
+        >
           At our company, we offer comprehensive design and construction
           services for custom homes, from planning to construction and
           maintenance. We specialize in ground-up construction, home remodeling,
@@ -64,25 +138,59 @@ const ResidentialConstruction = () => {
           customer service, you can rest assured that your home is in good hands
           with us. Let us bring your vision to reality and create the custom
           home you have always dreamed of.
-        </p>
+        </motion.p>
       </div>
       <div className="mx-[5vw] lg:px-[7vw]">
         <div className="sm:flex sm:items-center sm:justify-between">
-          <h2 className="text-[2rem] font-almarai font-semibold leading-10 min-[480px]:text-[2.25rem]">
+          <motion.h2
+            initial={{
+              opacity: 0,
+              transform: "translateY(10px)",
+            }}
+            whileInView={{
+              opacity: 1,
+              transform: "translateY(0px)",
+            }}
+            transition={{ delay: 0.5, duration: 1 }}
+            viewport={{ once: true }}
+            className="text-[2rem] font-almarai font-semibold leading-10 min-[480px]:text-[2.25rem]"
+          >
             More of our services
-          </h2>
+          </motion.h2>
           <a href="/services">
-            <button
+            <motion.button
+              initial={{
+                opacity: 0,
+                transform: "translateY(10px)",
+              }}
+              whileInView={{
+                opacity: 1,
+                transform: "translateY(0px)",
+              }}
+              transition={{ delay: 0.6, duration: 1 }}
+              viewport={{ once: true }}
               type="submit"
               className="w-full justify-center bg-emerald-500 py-4 text-[1rem] font-almarai font-semibold my-5
             sm:justify-between sm:py-4 sm:w-auto sm:px-8 md:py-[0.75rem] md:text-[1rem] lg:text-[1.125rem] lg:py-[1rem]"
             >
               All services
-            </button>
+            </motion.button>
           </a>
         </div>
         <div className="py-14 grid grid-cols-1 gap-6 lg:grid-cols-3">
-          <div className="shadow-card border border-gray-50 h-auto px-6 py-10 md:flex md:flex-col">
+          <motion.div
+            initial={{
+              opacity: 0,
+              transform: "translateY(10px)",
+            }}
+            whileInView={{
+              opacity: 1,
+              transform: "translateY(0px)",
+            }}
+            transition={{ delay: 0.5, duration: 1 }}
+            viewport={{ once: true }}
+            className="shadow-card border border-gray-50 h-auto px-6 py-10 md:flex md:flex-col"
+          >
             <div>
               <img
                 className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
@@ -111,8 +219,20 @@ const ResidentialConstruction = () => {
                 </div>
               </a>
             </div>
-          </div>
-          <div className="shadow-card bg-emerald-900 border border-gray-50 h-auto px-6 py-10 md:flex md:flex-col">
+          </motion.div>
+          <motion.div
+            initial={{
+              opacity: 0,
+              transform: "translateY(10px)",
+            }}
+            whileInView={{
+              opacity: 1,
+              transform: "translateY(0px)",
+            }}
+            transition={{ delay: 0.5, duration: 1 }}
+            viewport={{ once: true }}
+            className="shadow-card bg-emerald-900 border border-gray-50 h-auto px-6 py-10 md:flex md:flex-col"
+          >
             <div>
               <img
                 className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
@@ -141,8 +261,20 @@ const ResidentialConstruction = () => {
                 </div>
               </a>
             </div>
-          </div>
-          <div className="shadow-card border border-gray-50 h-auto px-6 py-10 md:flex md:flex-col">
+          </motion.div>
+          <motion.div
+            initial={{
+              opacity: 0,
+              transform: "translateY(10px)",
+            }}
+            whileInView={{
+              opacity: 1,
+              transform: "translateY(0px)",
+            }}
+            transition={{ delay: 0.5, duration: 1 }}
+            viewport={{ once: true }}
+            className="shadow-card border border-gray-50 h-auto px-6 py-10 md:flex md:flex-col"
+          >
             <div>
               <img
                 className="w-12 min-[480px]:w-16 min-[480px]:mb-6"
@@ -170,7 +302,7 @@ const ResidentialConstruction = () => {
                 </div>
               </a>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>

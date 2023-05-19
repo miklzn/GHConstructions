@@ -285,7 +285,7 @@ const Home = () => {
                 opacity: 1,
                 transform: "translateY(0px)",
               }}
-              transition={{ delay: 0.3, duration: 1 }}
+              transition={{ delay: 0.5, duration: 1 }}
               viewport={{ once: true }}
             >
               Selected Projects
@@ -326,26 +326,24 @@ const Home = () => {
             </div>
           </div>
           <div className="pt-10 mx-[5vw] md:pb-20">
-            <div
+            <motion.div
+              initial={{
+                opacity: 0,
+                transform: "translateY(10px)",
+              }}
+              whileInView={{
+                opacity: 1,
+                transform: "translateY(0px)",
+              }}
+              transition={{ delay: 0.5, duration: 1 }}
+              viewport={{ once: true }}
               id="content"
               className="flex items-center justify-start overflow-x-auto scroll-smooth scrollbar-hide space-x-[10vw] lg:p-1 "
             >
               <div>
                 <div className="flex flex-col w-[90vw] md:grid grid-cols-2 md:gap-x-8 md:w-[83.7vw] lg:gap-x-3 lg:w-[68vw]">
                   <a href="/project-1">
-                    <motion.div
-                      className="font-catamaran text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[0.875rem] lg:mb-10 lg:pr-4 xl:text-[1.125rem]"
-                      initial={{
-                        opacity: 0,
-                        transform: "translateY(10px)",
-                      }}
-                      whileInView={{
-                        opacity: 1,
-                        transform: "translateY(0px)",
-                      }}
-                      transition={{ delay: 0.5, duration: 1 }}
-                      viewport={{ once: true }}
-                    >
+                    <div className="font-catamaran text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[0.875rem] lg:mb-10 lg:pr-4 xl:text-[1.125rem]">
                       <img
                         className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[29vw] lg:h-[25vw]"
                         src={project_1_1}
@@ -384,22 +382,10 @@ const Home = () => {
                           </div>
                         </div>
                       </div>
-                    </motion.div>
+                    </div>
                   </a>
                   <a href="/project-2">
-                    <motion.div
-                      className="font-catamaran text-[0.875rem] mt-8 min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[0.875rem] md:mt-0 lg:pl-4 xl:text-[1.125rem]"
-                      initial={{
-                        opacity: 0,
-                        transform: "translateY(10px)",
-                      }}
-                      whileInView={{
-                        opacity: 1,
-                        transform: "translateY(0px)",
-                      }}
-                      transition={{ delay: 0.5, duration: 1 }}
-                      viewport={{ once: true }}
-                    >
+                    <div className="font-catamaran text-[0.875rem] mt-8 min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[0.875rem] md:mt-0 lg:pl-4 xl:text-[1.125rem]">
                       <img
                         className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[29vw] lg:h-[25vw]"
                         src={project_2_1}
@@ -438,7 +424,7 @@ const Home = () => {
                           </div>
                         </div>
                       </div>
-                    </motion.div>
+                    </div>
                   </a>
                 </div>
               </div>
@@ -530,7 +516,7 @@ const Home = () => {
                   </a>
                 </div>
               </div>
-            </div>
+            </motion.div>
           </div>
           <hr className="border-[0.094rem] border-gray-300 my-6 mx-[5vw] sm:my-10" />
         </div>
