@@ -97,7 +97,7 @@ const Home = () => {
       <section className="h-full lg:px-[7vw] xl:px-[10.8vw]">
         <div className="mx-[5vw] mb-16 -mt-16 grid grid-cols-1 gap-6 font-catamaran md:grid-cols-3 md:mb-24">
           <motion.div
-            className="h-auto shadow-card border border-gray-50 bg-white px-5 py-8 overflow-hidden min-[480px]:py-12 md:py-8 lg:py-12"
+            className="h-auto shadow-card bg-white px-5 py-8 overflow-hidden min-[480px]:py-12 md:py-8 lg:py-12"
             initial={{
               opacity: 0,
               transform: "translateY(15px)",
@@ -110,28 +110,31 @@ const Home = () => {
             viewport={{ once: true }}
           >
             <div className="w-full relative">
-              <img
-                className="h-14 border p-2 bg-emerald-900 "
-                src={tools}
-                alt=""
-              />
-              <h3 className="pb-3 pt-2 text-[1.375rem] font-semibold font-almarai relative z-10">
-                Residential <br className="lg:hidden" /> Construction
-              </h3>
-              <p className="text-[0.875rem] text-gray-600 relative z-10 min-[480px]:text-[0.9375rem] sm:text-[1rem] md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1.125rem]">
-                We build custom homes with comprehensive design and construction
-                services, including ground-up construction, remodeling, outdoor
-                living spaces, landscaping, and sustainable practices.
-              </p>
-              <img
-                className="h-40 absolute top-24 -right-20 min-[480px]:top-10 md:top-36 lg:top-32"
-                src={toolsBack}
-                alt=""
-              />
+              <a href="/residential-construction">
+                <img
+                  className="h-14 border p-2 bg-emerald-900 "
+                  src={tools}
+                  alt=""
+                />
+                <h3 className="pb-3 pt-2 text-[1.375rem] font-semibold font-almarai relative z-10">
+                  Residential <br className="lg:hidden" /> Construction
+                </h3>
+                <p className="text-[0.875rem] text-gray-600 relative z-10 min-[480px]:text-[0.9375rem] sm:text-[1rem] md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1.125rem]">
+                  We build custom homes with comprehensive design and
+                  construction services, including ground-up construction,
+                  remodeling, outdoor living spaces, landscaping, and
+                  sustainable practices.
+                </p>
+                <img
+                  className="h-40 absolute top-24 -right-20 min-[480px]:top-10 md:top-36 lg:top-32"
+                  src={toolsBack}
+                  alt=""
+                />
+              </a>
             </div>
           </motion.div>
           <motion.div
-            className="h-auto shadow-card border border-gray-50 bg-white px-5 py-8 overflow-hidden min-[480px]:py-12 md:py-8 lg:py-12"
+            className="h-auto shadow-card bg-white px-5 py-8 overflow-hidden min-[480px]:py-12 md:py-8 lg:py-12"
             initial={{
               opacity: 0,
               transform: "translateY(15px)",
@@ -144,25 +147,27 @@ const Home = () => {
             viewport={{ once: true }}
           >
             <div className="w-full relative">
-              <img
-                className="h-14 border p-2 bg-emerald-900 "
-                src={winch}
-                alt=""
-              />
-              <h3 className="pb-3 pt-2 text-[1.375rem] font-semibold font-almarai relative z-10">
-                Commercial <br className="lg:hidden" /> Construction
-              </h3>
-              <p className="text-[0.875rem] text-gray-600 relative z-10 min-[480px]:text-[0.9375rem] sm:text-[1rem] md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1.125rem]">
-                New projects and remodels for stores, restaurants, gas stations,
-                and mid-rise multifamily buildings. We guarantee quality,
-                safety, and sustainability to meet your goals on time and
-                budget.
-              </p>
-              <img
-                className="h-40 absolute top-24 -right-20 min-[480px]:top-10 md:top-36 lg:top-32"
-                src={winchBack}
-                alt=""
-              />
+              <a href="commercial-construction">
+                <img
+                  className="h-14 border p-2 bg-emerald-900 "
+                  src={winch}
+                  alt=""
+                />
+                <h3 className="pb-3 pt-2 text-[1.375rem] font-semibold font-almarai relative z-10">
+                  Commercial <br className="lg:hidden" /> Construction
+                </h3>
+                <p className="text-[0.875rem] text-gray-600 relative z-10 min-[480px]:text-[0.9375rem] sm:text-[1rem] md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1.125rem]">
+                  New projects and remodels for stores, restaurants, gas
+                  stations, and mid-rise multifamily buildings. We guarantee
+                  quality, safety, and sustainability to meet your goals on time
+                  and budget.
+                </p>
+                <img
+                  className="h-40 absolute top-24 -right-20 min-[480px]:top-10 md:top-36 lg:top-32"
+                  src={winchBack}
+                  alt=""
+                />
+              </a>
             </div>
           </motion.div>
           <motion.div
@@ -179,25 +184,27 @@ const Home = () => {
             viewport={{ once: true }}
           >
             <div className="w-full relative">
-              <img
-                className="h-14 border-4 border-white p-2 bg-emerald-900 "
-                src={vacuum}
-                alt=""
-              />
-              <h3 className="pb-3 pt-2 text-[1.375rem] font-semibold text-white font-almarai relative z-10">
-                Cleannig <br className="lg:hidden" /> Service
-              </h3>
-              <p className="text-[0.875rem] text-gray-200 relative z-10 min-[480px]:text-[0.9375rem] sm:text-[1rem] md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1.125rem]">
-                We provide cleaning services for homes and businesses. Our
-                trained team uses sustainable products and practices to keep
-                your space clean and healthy, from deep cleans to scheduled
-                maintenance.
-              </p>
-              <img
-                className="h-40 absolute top-24 -right-20 min-[480px]:top-10 md:top-36 lg:top-32"
-                src={vacuumBack}
-                alt=""
-              />
+              <a href="/cleaning-service">
+                <img
+                  className="h-14 border-4 border-white p-2 bg-emerald-900 "
+                  src={vacuum}
+                  alt=""
+                />
+                <h3 className="pb-3 pt-2 text-[1.375rem] font-semibold text-white font-almarai relative z-10">
+                  Cleannig <br className="lg:hidden" /> Service
+                </h3>
+                <p className="text-[0.875rem] text-gray-200 relative z-10 min-[480px]:text-[0.9375rem] sm:text-[1rem] md:text-[0.875rem] lg:text-[0.875rem] xl:text-[1.125rem]">
+                  We provide cleaning services for homes and businesses. Our
+                  trained team uses sustainable products and practices to keep
+                  your space clean and healthy, from deep cleans to scheduled
+                  maintenance.
+                </p>
+                <img
+                  className="h-40 absolute top-24 -right-20 min-[480px]:top-10 md:top-36 lg:top-32"
+                  src={vacuumBack}
+                  alt=""
+                />
+              </a>
             </div>
           </motion.div>
         </div>

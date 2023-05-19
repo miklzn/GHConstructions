@@ -466,12 +466,12 @@ const Services = () => {
                     </div>
                     <div className="md:w-1/2">
                       <h3 className="mb-3 text-[1.375rem] font-almarai font-bold">
-                        “A true team of expert contractors”
+                        “Exceptional kitchen remodeling service”
                       </h3>
                       <p className="font-catamaran text-gray-500 md:text-[1.125rem]">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Convallis senectus non dui vel tortor. Justo lectus
-                        integer arcu elit.
+                        Amazing kitchen remodeling service! Professional,
+                        attention to detail, and exceeded expectations.
+                        Spectacular results!
                       </p>
                       <div className="pt-8 font-almarai font-bold">
                         <span className="md:text-[1.125rem]">Lily Woods</span>
@@ -487,23 +487,23 @@ const Services = () => {
                     <div className="md:w-1/2">
                       <img
                         className="mb-8 sm:w-full md:mb-0"
-                        src="https://assets.website-files.com/62ff9dff9c2362f8fb83a28e/62ff9dff9c2362d63583a469_lily-woods-testimonial-image-contractor-webflow-template-p-500.png"
+                        src="https://assets.website-files.com/62ff9dff9c2362f8fb83a28e/62ff9dff9c2362644283a468_matt-cannon-testimonial-image-contractor-webflow-template-p-500.png"
                         alt=""
                       />
                     </div>
                     <div className="md:w-1/2">
                       <h3 className="mb-3 text-[1.375rem] font-almarai font-bold">
-                        “A true team of expert contractors”
+                        “A great team of professional builders”
                       </h3>
                       <p className="font-catamaran text-gray-500 md:text-[1.125rem]">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Convallis senectus non dui vel tortor. Justo lectus
-                        integer arcu elit.
+                        An exceptional construction experience. I am delighted
+                        with the impressive results achieved. Highly
+                        recommended!
                       </p>
                       <div className="pt-8 font-almarai font-bold">
-                        <span className="md:text-[1.125rem]">Lily Woods</span>
+                        <span className="md:text-[1.125rem]">Matt Cannon</span>
                         <div className="mt-1.5 text-[0.875rem] text-gray-500">
-                          ORLANDO, FL
+                          TAMPA, FL
                         </div>
                       </div>
                     </div>
@@ -514,23 +514,23 @@ const Services = () => {
                     <div className="md:w-1/2">
                       <img
                         className="mb-8 sm:w-full md:mb-0"
-                        src="https://assets.website-files.com/62ff9dff9c2362f8fb83a28e/62ff9dff9c2362d63583a469_lily-woods-testimonial-image-contractor-webflow-template-p-500.png"
+                        src="https://assets.website-files.com/62ff9dff9c2362f8fb83a28e/62ff9dff9c2362720583a466_john-carter-testimonial-image-contractor-webflow-template-p-500.png"
                         alt=""
                       />
                     </div>
                     <div className="md:w-1/2">
                       <h3 className="mb-3 text-[1.375rem] font-almarai font-bold">
-                        “A true team of expert contractors”
+                        “Fast, impeccable, and recommended”
                       </h3>
                       <p className="font-catamaran text-gray-500 md:text-[1.125rem]">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Convallis senectus non dui vel tortor. Justo lectus
-                        integer arcu elit.
+                        The best painting service. The team was fast and
+                        efficient, achieving high-quality results. My spaces
+                        look renewed and vibrant.
                       </p>
                       <div className="pt-8 font-almarai font-bold">
-                        <span className="md:text-[1.125rem]">Lily Woods</span>
+                        <span className="md:text-[1.125rem]">John Carter</span>
                         <div className="mt-1.5 text-[0.875rem] text-gray-500">
-                          ORLANDO, FL
+                          MIAMI, FL
                         </div>
                       </div>
                     </div>
