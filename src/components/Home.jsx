@@ -35,7 +35,7 @@ const Home = () => {
     <>
       <section className="h-full">
         <div
-          className="h-[160vh] w-screen bg-cover bg-center sm:h-[320vh] md:h-[140vh] md:min-h-[708px] lg:h-[150vh]"
+          className="h-[160vh] w-screen bg-cover bg-center bg-fixed sm:h-[320vh] md:h-[140vh] md:min-h-[708px] lg:h-[150vh]"
           style={{
             backgroundImage: `url(https://i.pinimg.com/originals/07/ef/41/07ef4167a4e11abe607842d88ff29ed3.gif)`,
           }}
