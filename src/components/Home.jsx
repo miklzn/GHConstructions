@@ -37,7 +37,7 @@ const Home = () => {
         <div
           className="h-[160vh] w-screen bg-cover bg-center bg-fixed sm:h-[320vh] md:h-[140vh] md:min-h-[708px] lg:h-[150vh]"
           style={{
-            backgroundImage: `url(https://media.revistagq.com/photos/5d7629118643ed00085b75a4/master/pass/La-Finca.jpg)`,
+            backgroundImage: `url(https://i.pinimg.com/originals/07/ef/41/07ef4167a4e11abe607842d88ff29ed3.gif)`,
           }}
         >
           <div className="flex flex-col justify-center font-almarai text-white w-full h-auto text-[10vw] bg-emerald-900 px-[5vw] py-10 text-center sm:px-[5vw] md:static md:text-[5.3vw] md:px-[4.8vw] lg:py-[4.8vw] lg:px-[5vw] lg:text-[5vw] lg:leading-tight xl:text-[4vw] xl:px-[11.5vw] xl:py-[4.5vw]">
