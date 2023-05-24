@@ -351,11 +351,13 @@ const Home = () => {
                 <div className="flex flex-col w-[90vw] md:grid grid-cols-2 md:gap-x-8 md:w-[83.7vw] lg:gap-x-3 lg:w-[68vw]">
                   <a href="/project-1">
                     <div className="font-catamaran text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[0.875rem] lg:mb-10 lg:pr-4 xl:text-[1.125rem]">
-                      <img
-                        className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[29vw] lg:h-[25vw]"
-                        src={project_1_1}
-                        alt=""
-                      />
+                      <div className="h-[60vw] w-full overflow-hidden sm:h-[25.313rem] md:h-[29vw] lg:h-[25vw]">
+                        <img
+                          className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[29vw] lg:h-[25vw] hover:scale-110 transition duration-300"
+                          src={project_1_1}
+                          alt=""
+                        />
+                      </div>
                       <div className="md:mt-4">
                         <div>
                           <h3 className="font-almarai my-2 sm:my-6 md:my-4">
@@ -393,11 +395,13 @@ const Home = () => {
                   </a>
                   <a href="/project-2">
                     <div className="font-catamaran text-[0.875rem] mt-8 min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[0.875rem] md:mt-0 lg:pl-4 xl:text-[1.125rem]">
-                      <img
-                        className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[29vw] lg:h-[25vw]"
-                        src={project_2_1}
-                        alt=""
-                      />
+                      <div className="h-[60vw] w-full overflow-hidden sm:h-[25.313rem] md:h-[29vw] lg:h-[25vw]">
+                        <img
+                          className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[29vw] lg:h-[25vw] hover:scale-110 transition duration-300"
+                          src={project_2_1}
+                          alt=""
+                        />
+                      </div>
                       <div className="md:mt-4">
                         <div>
                           <h3 className="font-almarai my-2 sm:my-6 md:my-4">
@@ -439,11 +443,13 @@ const Home = () => {
                 <div className="flex flex-col w-[90vw] md:grid grid-cols-2 md:gap-x-8 md:w-[83.7vw] lg:gap-x-3 lg:w-[68vw]">
                   <a href="/project-3">
                     <div className="font-catamaran text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[0.875rem] lg:mb-10 lg:pr-4 xl:text-[1.125rem]">
-                      <img
-                        className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[29vw] lg:h-[25vw]"
-                        src={project_3_1}
-                        alt=""
-                      />
+                      <div className="h-[60vw] w-full overflow-hidden sm:h-[25.313rem] md:h-[29vw] lg:h-[25vw]">
+                        <img
+                          className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[29vw] lg:h-[25vw] hover:scale-110 transition duration-300"
+                          src={project_3_1}
+                          alt=""
+                        />
+                      </div>
                       <div className="md:mt-4">
                         <div>
                           <h3 className="font-almarai my-2 sm:my-6 md:my-4">
@@ -481,11 +487,13 @@ const Home = () => {
                   </a>
                   <a href="/project-4">
                     <div className="font-catamaran text-[0.875rem] mt-8 min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[0.875rem] md:mt-0 lg:pl-4 xl:text-[1.125rem]">
-                      <img
-                        className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[29vw] lg:h-[25vw]"
-                        src={project_4_1}
-                        alt=""
-                      />
+                      <div className="h-[60vw] w-full overflow-hidden sm:h-[25.313rem] md:h-[29vw] lg:h-[25vw]">
+                        <img
+                          className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[29vw] lg:h-[25vw] hover:scale-110 transition duration-300"
+                          src={project_4_1}
+                          alt=""
+                        />
+                      </div>
                       <div className="md:mt-4">
                         <div>
                           <h3 className="font-almarai my-2 sm:my-6 md:my-4">

@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import client from "../utils/icons/Client.svg";
 import pin from "../utils/icons/Pin.svg";
 import clock from "../utils/icons/Clock.svg";
@@ -5,6 +6,7 @@ import mansory from "../utils/icons/Mansory.svg";
 import mallet from "../utils/icons/Mallet.svg";
 import leftArrow from "../utils/icons/ArrowLeft.svg";
 import rightArrow from "../utils/icons/ArrowRight.svg";
+import close from "../utils/icons/Close.svg";
 
 import project_3_1 from "../utils/images/project-3/project-3-1.jpg";
 import project_3_2 from "../utils/images/project-3/project-3-2.jpg";
@@ -14,7 +16,17 @@ import project_3_5 from "../utils/images/project-3/project-3-5.jpg";
 
 import { motion } from "framer-motion";
 
+const images = [
+  project_3_1,
+  project_3_2,
+  project_3_3,
+  project_3_4,
+  project_3_5,
+];
+
 const ProjectThree = () => {
+  const [dataImg, setDataImg] = useState({ img: "", i: 0 });
+
   const widthPx =
     window.innerWidth < 768
       ? window.innerWidth * 0.9
@@ -28,7 +40,22 @@ const ProjectThree = () => {
     document.getElementById("content").scrollLeft += widthPx;
   };
 
-  // console.log(widthPx);
+  const viewImage = (img, i) => {
+    setDataImg({ img, i });
+  };
+
+  const imgAction = (action) => {
+    let i = dataImg.i;
+    if (action === "next") {
+      setDataImg({ img: images[i + 1], i: i + 1 });
+    }
+    if (action === "previous") {
+      setDataImg({ img: images[i - 1], i: i - 1 });
+    }
+    if (!action) {
+      setDataImg({ img: "", i: 0 });
+    }
+  };
 
   return (
     <>
@@ -301,51 +328,19 @@ const ProjectThree = () => {
             id="content"
             className="snap-x flex items-center justify-start overflow-x-auto scroll-smooth scrollbar-hide space-x-3 lg:px-3"
           >
-            <div className="snap-center md:snap-start">
-              <div className="w-[90vw] md:w-[30vw]">
-                <img
-                  className="object-cover w-full h-[50vh] sm:h-[70vh] md:relative md:h-[40vh] md:min-h-[206px]"
-                  src={project_3_1}
-                  alt=""
-                />
+            {images.map((image, i) => (
+              <div className="snap-center cursor-pointer md:snap-start">
+                <div className="w-[90vw] md:w-[30vw]">
+                  <img
+                    key={i}
+                    className="object-cover w-full h-[50vh] sm:h-[70vh] md:relative md:h-[40vh] md:min-h-[206px]"
+                    src={image}
+                    alt=""
+                    onClick={() => viewImage(image, i)}
+                  />
+                </div>
               </div>
-            </div>
-            <div className="snap-center md:snap-start">
-              <div className="w-[90vw] md:w-[30vw]">
-                <img
-                  className="object-cover w-full h-[50vh] sm:h-[70vh] md:relative md:h-[40vh] md:min-h-[206px]"
-                  src={project_3_2}
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="snap-center md:snap-start">
-              <div className="w-[90vw] md:w-[30vw]">
-                <img
-                  className="object-cover w-full h-[50vh] sm:h-[70vh] md:relative md:h-[40vh] md:min-h-[206px]"
-                  src={project_3_3}
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="snap-center md:snap-start">
-              <div className="w-[90vw] md:w-[30vw]">
-                <img
-                  className="object-cover w-full h-[50vh] sm:h-[70vh] md:relative md:h-[40vh] md:min-h-[206px]"
-                  src={project_3_4}
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="snap-center md:snap-start">
-              <div className="w-[90vw] md:w-[30vw]">
-                <img
-                  className="object-cover w-full h-[50vh] sm:h-[70vh] md:relative md:h-[40vh] md:min-h-[206px]"
-                  src={project_3_5}
-                  alt=""
-                />
-              </div>
-            </div>
+            ))}
           </motion.div>
         </div>
         <div className="block flex justify-center space-x-3 mb-10 md:hidden">
@@ -363,6 +358,39 @@ const ProjectThree = () => {
           </button>
         </div>
       </section>
+      {dataImg.img && (
+        <div
+          className="min-w-screen h-screen animated fadeIn faster fixed left-0 top-0 flex justify-center items-center inset-0 z-50 outline-none focus:outline-none bg-no-repeat bg-center bg-cover"
+          id="modal-id"
+        >
+          <div className="absolute flex bg-black opacity-80 inset-0 z-0"></div>
+          <button
+            onClick={() => imgAction()}
+            className="absolute top-2 right-2 bg-emerald-500 p-2"
+          >
+            <img className="h-5" src={close} alt="" />
+          </button>
+          <button onClick={() => imgAction("previous")}>
+            <img
+              className="absolute h-10 bg-emerald-500 p-2 z-10 left-0 min-[480px]:relative"
+              src={leftArrow}
+              alt=""
+            />
+          </button>
+          <img
+            className="relative w-full max-w-sm h-auto p-3 sm:max-w-md md:max-w-lg md:p-6"
+            src={dataImg.img}
+            alt=""
+          />
+          <button onClick={() => imgAction("next")}>
+            <img
+              className="absolute h-10 bg-emerald-500 p-2 z-10 right-0 min-[480px]:relative"
+              src={rightArrow}
+              alt=""
+            />
+          </button>
+        </div>
+      )}
     </>
   );
 };
