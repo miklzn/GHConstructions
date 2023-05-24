@@ -361,7 +361,7 @@ const Home = () => {
                       <div className="md:mt-4">
                         <div>
                           <h3 className="font-almarai my-2 sm:my-6 md:my-4">
-                            Remodeling Bathroom
+                            Garden Remodeling
                           </h3>
                         </div>
                         <div className="space-y-1 ">
@@ -405,7 +405,7 @@ const Home = () => {
                       <div className="md:mt-4">
                         <div>
                           <h3 className="font-almarai my-2 sm:my-6 md:my-4">
-                            Remodeling Bathroom
+                            Kitchen Remodel
                           </h3>
                         </div>
                         <div className="space-y-1">
@@ -453,7 +453,7 @@ const Home = () => {
                       <div className="md:mt-4">
                         <div>
                           <h3 className="font-almarai my-2 sm:my-6 md:my-4">
-                            Remodeling Bathroom
+                            Bathroom Remodelation
                           </h3>
                         </div>
                         <div className="space-y-1 ">
@@ -497,7 +497,7 @@ const Home = () => {
                       <div className="md:mt-4">
                         <div>
                           <h3 className="font-almarai my-2 sm:my-6 md:my-4">
-                            Remodeling Bathroom
+                            Kitchen Remodel
                           </h3>
                         </div>
                         <div className="space-y-1">

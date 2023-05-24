@@ -49,7 +49,7 @@ const Navbar = () => {
             className="flex items-center"
           >
             <a href="/" className="text-white font-almarai">
-              LOGOTIPE
+              LOGO
             </a>
           </motion.div>
           {/*navlinks*/}
