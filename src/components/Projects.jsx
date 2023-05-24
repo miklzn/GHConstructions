@@ -119,11 +119,13 @@ const Projects = () => {
             href="/project-1"
           >
             <div className="shadow-card p-2 text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 md:p-2 md:shadow-card lg:text-[1.375rem]">
-              <img
-                className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[45vh] md:min-h-[270px] md:w-2/3"
-                src={project_1_1}
-                alt=""
-              />
+              <div className="h-[60vw] w-full overflow-hidden sm:h-[25.313rem] md:h-[45vh] md:min-h-[270px] md:w-2/3">
+                <img
+                  className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[45vh] md:min-h-[270px] hover:scale-110 transition duration-300"
+                  src={project_1_1}
+                  alt=""
+                />
+              </div>
               <div className="md:pl-4 md:flex-col">
                 <div className="">
                   <h3 className="font-almarai my-2 sm:my-6 md:my-0 md:mb-3">
@@ -239,11 +241,13 @@ const Projects = () => {
             href="project-2"
           >
             <div className="shadow-card p-2 text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 md:p-2 md:shadow-card lg:text-[1.375rem]">
-              <img
-                className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[45vh] md:min-h-[270px] md:w-2/3"
-                src={project_2_1}
-                alt=""
-              />
+              <div className="h-[60vw] w-full overflow-hidden sm:h-[25.313rem] md:h-[45vh] md:min-h-[270px] md:w-2/3">
+                <img
+                  className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[45vh] md:min-h-[270px] hover:scale-110 transition duration-300"
+                  src={project_2_1}
+                  alt=""
+                />
+              </div>
               <div className="md:pl-4 md:flex-col">
                 <div className="">
                   <h3 className="font-almarai my-2 sm:my-6 md:my-0 md:mb-3">
@@ -359,11 +363,13 @@ const Projects = () => {
             href="project-3"
           >
             <div className="shadow-card p-2 text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 md:p-2 md:shadow-card lg:text-[1.375rem]">
-              <img
-                className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[45vh] md:min-h-[270px] md:w-2/3"
-                src={project_3_1}
-                alt=""
-              />
+              <div className="h-[60vw] w-full overflow-hidden sm:h-[25.313rem] md:h-[45vh] md:min-h-[270px] md:w-2/3">
+                <img
+                  className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[45vh] md:min-h-[270px] hover:scale-110 transition duration-300"
+                  src={project_3_1}
+                  alt=""
+                />
+              </div>
               <div className="md:pl-4 md:flex-col">
                 <div className="">
                   <h3 className="font-almarai my-2 sm:my-6 md:my-0 md:mb-3">
@@ -479,11 +485,13 @@ const Projects = () => {
             href="project-4"
           >
             <div className="shadow-card p-2 text-[0.875rem] min-[480px]:text-[0.9375rem] sm:text-[1rem] sm:mb-5 md:text-[1.25rem] md:flex md:items-center md:mb-0 md:p-2 md:shadow-card lg:text-[1.375rem]">
-              <img
-                className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[45vh] md:min-h-[270px] md:w-2/3"
-                src={project_4_1}
-                alt=""
-              />
+              <div className="h-[60vw] w-full overflow-hidden sm:h-[25.313rem] md:h-[45vh] md:min-h-[270px] md:w-2/3">
+                <img
+                  className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[45vh] md:min-h-[270px] hover:scale-110 transition duration-300"
+                  src={project_4_1}
+                  alt=""
+                />
+              </div>
               <div className="md:pl-4 md:flex-col">
                 <div className="">
                   <h3 className="font-almarai my-2 sm:my-6 md:my-0 md:mb-3">
