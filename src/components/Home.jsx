@@ -33,7 +33,71 @@ const Home = () => {
 
   return (
     <>
-      <section className="h-full">
+      <section class="relative overflow-hidden h-[160vh] sm:h-[320vh] md:h-[140vh] md:min-h-[708px] lg:h-[150vh]">
+        <div class="absolute inset-0 z-0">
+          <img
+            src="https://i.pinimg.com/originals/07/ef/41/07ef4167a4e11abe607842d88ff29ed3.gif"
+            alt="Imagen de fondo"
+            class="absolute inset-0 w-full h-full object-cover"
+          />
+        </div>
+
+        <div class="relative z-10">
+          <div className="flex flex-col justify-center font-almarai text-white w-full h-auto text-[10vw] bg-emerald-900 px-[5vw] py-10 text-center sm:px-[5vw] md:static md:text-[5.3vw] md:px-[4.8vw] lg:py-[4.8vw] lg:px-[5vw] lg:text-[5vw] lg:leading-tight xl:text-[4vw] xl:px-[11.5vw] xl:py-[4.5vw]">
+            <motion.div
+              initial={{
+                opacity: 0,
+                transform: "translateY(10px)",
+              }}
+              whileInView={{
+                opacity: 1,
+                transform: "translateY(0px)",
+              }}
+              transition={{ delay: 0.4, duration: 1 }}
+              viewport={{ once: true }}
+              className="w-full"
+            >
+              <h1 className="md:text-start">
+                <span className="text-teal-700">WE BUILD, </span>
+                RENOVATE AND
+              </h1>
+            </motion.div>
+            <motion.div
+              initial={{
+                opacity: 0,
+                transform: "translateY(10px)",
+              }}
+              whileInView={{
+                opacity: 1,
+                transform: "translateY(0px)",
+              }}
+              transition={{ delay: 0.6, duration: 1 }}
+              viewport={{ once: true }}
+              className="md:text-end"
+            >
+              <h1 className="">BEAUTIFY YOUR SPACES WITH</h1>
+            </motion.div>
+            <motion.div
+              initial={{
+                opacity: 0,
+                transform: "translateY(10px)",
+              }}
+              whileInView={{
+                opacity: 1,
+                transform: "translateY(0px)",
+              }}
+              transition={{ delay: 0.8, duration: 1 }}
+              viewport={{ once: true }}
+            >
+              <h1 className="">
+                EXELLENCE AND
+                <span className="text-teal-700"> PASSION.</span>
+              </h1>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+      {/* <section className="h-full">
         <div
           className="h-[160vh] w-screen bg-cover bg-center bg-fixed sm:h-[320vh] md:h-[140vh] md:min-h-[708px] lg:h-[150vh]"
           style={{
@@ -93,7 +157,7 @@ const Home = () => {
             </motion.div>
           </div>
         </div>
-      </section>
+      </section> */}
       <section className="h-full lg:px-[7vw] xl:px-[10.8vw]">
         <div className="mx-[5vw] mb-16 -mt-16 grid grid-cols-1 gap-6 font-catamaran md:grid-cols-3 md:mb-24">
           <motion.div
