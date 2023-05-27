@@ -232,17 +232,39 @@ const Contact = () => {
                   </label>
                 </div>
                 <div class="relative z-0 w-full mb-6 group">
-                  <input
+                  <select
                     type="text"
                     name="service"
                     id="service"
-                    class="block py-2.5 px-0 w-full text-sm text-gray-200 bg-transparent border-0 border-b-2 border-white appearance-none  focus:outline-none focus:ring-0 focus:border-emerald-500 peer"
+                    class="block py-2.5 px-0 w-full text-sm text-gray-200 bg-transparent border-0 border-b-2 border-white appearance-none focus:outline-none focus:ring-0 focus:border-emerald-500 peer"
                     placeholder=" "
                     required
-                  />
+                  >
+                    <option
+                      className="bg-emerald-900 focus:bg-emerald-500"
+                      value="Construction"
+                    >
+                      Construction
+                    </option>
+                    <option className="bg-emerald-900" value="Remodeling">
+                      Remodeling
+                    </option>
+                    <option className="bg-emerald-900" value="Claning service">
+                      Claning service
+                    </option>
+                    <option className="bg-emerald-900" value="Painting service">
+                      Painting service
+                    </option>
+                    <option className="bg-emerald-900" value="Repair Service">
+                      Repair service
+                    </option>
+                    <option className="bg-emerald-900" value="Other">
+                      Other
+                    </option>
+                  </select>
                   <label
                     for="floating_first_name"
-                    class="peer-focus:font-medium absolute text-sm text-gray-300 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-gray-400 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                    class="peer-focus:font-medium absolute text-sm text-gray-300 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-gray-400 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                   >
                     Service
                   </label>

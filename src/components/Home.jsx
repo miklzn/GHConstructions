@@ -463,7 +463,7 @@ const Home = () => {
                         <img
                           className="h-[60vw] w-full object-cover sm:h-[25.313rem] md:h-[29vw] lg:h-[25vw] hover:scale-110 transition duration-300"
                           src={project_2_1}
-                          alt=""
+                          alt="Soffit kitchen"
                         />
                       </div>
                       <div className="md:mt-4">
