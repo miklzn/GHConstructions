@@ -384,7 +384,7 @@ const ProjectOne = () => {
             />
           </button>
           <img
-            className="relative w-full max-w-sm h-auto p-3 sm:max-w-md md:max-w-lg md:p-6"
+            className="relative w-auto h-auto p-3 sm:max-w-md md:max-w-lg md:p-6"
             src={dataImg.img}
             alt=""
           />

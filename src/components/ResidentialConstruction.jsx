@@ -171,7 +171,7 @@ const ResidentialConstruction = () => {
               viewport={{ once: true }}
               type="submit"
               className="w-full justify-center bg-emerald-500 py-4 text-[1rem] font-almarai font-semibold my-5
-            sm:justify-between sm:py-4 sm:w-auto sm:px-8 md:py-[0.75rem] md:text-[1rem] lg:text-[1.125rem] lg:py-[1rem]"
+            sm:justify-between sm:py-4 sm:w-auto sm:px-8 md:py-[0.75rem] md:text-[1rem] lg:text-[1.125rem] lg:py-[1rem] hover:bg-emerald-600"
             >
               All services
             </motion.button>
@@ -209,7 +209,7 @@ const ResidentialConstruction = () => {
             </div>
             <div className="md:flex md:h-full md:items-end">
               <a href="/commercial-construction">
-                <div className="flex items-center font-almarai md:text-[1.125rem]">
+                <div className="flex items-center font-almarai md:text-[1.125rem] hover:text-emerald-500">
                   <img
                     className="h-[30px] mr-2 bg-emerald-500"
                     src={diagonalArrow}
@@ -251,7 +251,7 @@ const ResidentialConstruction = () => {
             </div>
             <div className="md:flex md:h-full md:items-end">
               <a href="/cleaning-service">
-                <div className="flex text-white items-center font-almarai md:text-[1.125rem]">
+                <div className="flex text-white items-center font-almarai md:text-[1.125rem] hover:text-emerald-500">
                   <img
                     className="h-[30px] mr-2 bg-emerald-500"
                     src={diagonalArrow}
@@ -292,7 +292,7 @@ const ResidentialConstruction = () => {
             </div>
             <div className="md:flex md:h-full md:items-end">
               <a href="/painting-service">
-                <div className="flex items-center font-almarai md:text-[1.125rem]">
+                <div className="flex items-center font-almarai md:text-[1.125rem] hover:text-emerald-500">
                   <img
                     className="h-[30px] mr-2 bg-emerald-500"
                     src={diagonalArrow}

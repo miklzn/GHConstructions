@@ -169,7 +169,7 @@ const CleaningService = () => {
               transition={{ delay: 0.6, duration: 1 }}
               viewport={{ once: true }}
               type="submit"
-              className="w-full justify-center bg-emerald-500 py-4 text-[1rem] font-almarai font-semibold my-5 sm:justify-between sm:py-4 sm:w-auto sm:px-8 md:py-[0.75rem] md:text-[1rem] lg:text-[1.125rem] lg:py-[1rem]"
+              className="w-full justify-center bg-emerald-500 py-4 text-[1rem] font-almarai font-semibold my-5 sm:justify-between sm:py-4 sm:w-auto sm:px-8 md:py-[0.75rem] md:text-[1rem] lg:text-[1.125rem] lg:py-[1rem] hover:bg-emerald-600"
             >
               All services
             </motion.button>
@@ -206,7 +206,7 @@ const CleaningService = () => {
             </div>
             <div className="md:flex md:h-full md:items-end">
               <a href="/painting-service">
-                <div className="flex items-center font-almarai md:text-[1.125rem]">
+                <div className="flex items-center font-almarai md:text-[1.125rem] hover:text-emerald-500">
                   <img
                     className="h-[30px] mr-2 bg-emerald-500"
                     src={diagonalArrow}
@@ -247,7 +247,7 @@ const CleaningService = () => {
             </div>
             <div className="md:flex md:h-full md:items-end">
               <a href="/space-remodeling">
-                <div className="flex items-center font-almarai md:text-[1.125rem]">
+                <div className="flex items-center font-almarai md:text-[1.125rem] hover:text-emerald-500">
                   <img
                     className="h-[30px] mr-2 bg-emerald-500"
                     src={diagonalArrow}
@@ -289,7 +289,7 @@ const CleaningService = () => {
             </div>
             <div className="md:flex md:h-full md:items-end">
               <a href="/repair-services">
-                <div className="flex items-center font-almarai md:text-[1.125rem]">
+                <div className="flex items-center font-almarai md:text-[1.125rem] hover:text-emerald-500">
                   <img
                     className="h-[30px] mr-2 bg-emerald-500"
                     src={diagonalArrow}

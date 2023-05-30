@@ -149,7 +149,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="md:flex md:w-2/4">
-            <div className="flex justify-center text-center md:w-1/2">
+            <div className="flex justify-center text-center md:w-1/2 md:text-start">
               <div className="font-catamaran my-8 text-white">
                 <motion.h2
                   initial={{
@@ -164,7 +164,7 @@ const Footer = () => {
                   viewport={{ once: true }}
                   className="font-semibold font-almarai mb-4 text-[1rem] min-[480px]:text-[1.125rem] md:text-[1.694vw] lg:text-[1.125rem] xl:text-[1.25rem]"
                 >
-                  Quick Links
+                  Company
                 </motion.h2>
                 <motion.ul
                   initial={{
@@ -180,29 +180,34 @@ const Footer = () => {
                   class="flex flex-col text-[0.875rem] space-y-2 min-[480px]:text-[0.9375rem] sm:mb-0 md:text-[0.875rem] lg:text-[0.9375rem] xl:text-[1rem]"
                 >
                   <li>
-                    <a href="/" class="">
+                    <a href="/" className="hover:text-emerald-500">
                       Home
                     </a>
                   </li>
                   <li>
-                    <a href="/about" class="">
+                    <a href="/about" className="hover:text-emerald-500">
                       About
                     </a>
                   </li>
                   <li>
-                    <a href="/services" class="">
+                    <a href="/services" className="hover:text-emerald-500">
                       Services
                     </a>
                   </li>
                   <li>
-                    <a href="contact" class="">
+                    <a href="/projects" className="hover:text-emerald-500">
+                      Projects
+                    </a>
+                  </li>
+                  <li>
+                    <a href="contact" className="hover:text-emerald-500">
                       Contact
                     </a>
                   </li>
                 </motion.ul>
               </div>
             </div>
-            <div className="flex justify-center text-center md:w-1/2">
+            <div className="flex justify-center text-center md:w-1/2 md:text-start">
               <div className="font-catamaran my-8 text-white">
                 <motion.h2
                   initial={{
@@ -217,7 +222,7 @@ const Footer = () => {
                   viewport={{ once: true }}
                   className="font-semibold font-almarai mb-4 text-[1rem] min-[480px]:text-[1.125rem] md:text-[1.694vw] lg:text-[1.125rem] xl:text-[1.25rem]"
                 >
-                  Contact Us
+                  Services
                 </motion.h2>
                 <motion.ul
                   initial={{
@@ -233,23 +238,51 @@ const Footer = () => {
                   class="flex flex-col text-[0.875rem] space-y-2 min-[480px]:text-[0.9375rem] sm:mb-0 md:text-[0.875rem] lg:text-[0.9375rem] xl:text-[1rem]"
                 >
                   <li>
-                    <a href="#" class="">
-                      Phone
+                    <a
+                      href="/residential-construction"
+                      className="hover:text-emerald-500"
+                    >
+                      Residential Construction
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="">
-                      Email
+                    <a
+                      href="/commercial-construction"
+                      className="hover:text-emerald-500"
+                    >
+                      Commercial Construction
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="">
-                      Time
+                    <a
+                      href="/cleaning-service"
+                      className="hover:text-emerald-500"
+                    >
+                      Cleaning Service
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="">
-                      Direction
+                    <a
+                      href="/painting-service"
+                      className="hover:text-emerald-500"
+                    >
+                      Painting Service
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/space-remodeling"
+                      className="hover:text-emerald-500"
+                    >
+                      Space Remodeling
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="repair-services"
+                      className="hover:text-emerald-500"
+                    >
+                      Repair Services
                     </a>
                   </li>
                 </motion.ul>

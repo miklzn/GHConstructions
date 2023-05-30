@@ -149,7 +149,7 @@ const Services = () => {
               </div>
               <div className="md:flex md:h-full md:items-end">
                 <a href="/residential-construction">
-                  <div className="flex items-center font-almarai md:text-[1.125rem]">
+                  <div className="flex items-center font-almarai md:text-[1.125rem] hover:text-emerald-500">
                     <img
                       className="h-[30px] mr-2 bg-emerald-500"
                       src={diagonalArrow}
@@ -191,7 +191,7 @@ const Services = () => {
               </div>
               <div className="md:flex md:h-full md:items-end">
                 <a href="/commercial-construction">
-                  <div className="flex items-center font-almarai md:text-[1.125rem]">
+                  <div className="flex items-center font-almarai md:text-[1.125rem] hover:text-emerald-500">
                     <img
                       className="h-[30px] mr-2 bg-emerald-500"
                       src={diagonalArrow}
@@ -233,7 +233,7 @@ const Services = () => {
               </div>
               <div className="md:flex md:h-full md:items-end">
                 <a href="/cleaning-service">
-                  <div className="flex text-white items-center font-almarai md:text-[1.125rem]">
+                  <div className="flex text-white items-center font-almarai md:text-[1.125rem] hover:text-emerald-500">
                     <img
                       className="h-[30px] mr-2 bg-emerald-500"
                       src={diagonalArrow}
@@ -274,7 +274,7 @@ const Services = () => {
               </div>
               <div className="md:flex md:h-full md:items-end">
                 <a href="/painting-service">
-                  <div className="flex items-center font-almarai md:text-[1.125rem]">
+                  <div className="flex items-center font-almarai md:text-[1.125rem] hover:text-emerald-500">
                     <img
                       className="h-[30px] mr-2 bg-emerald-500"
                       src={diagonalArrow}
@@ -315,7 +315,7 @@ const Services = () => {
               </div>
               <div className="md:flex md:h-full md:items-end">
                 <a href="/space-remodeling">
-                  <div className="flex items-center font-almarai md:text-[1.125rem]">
+                  <div className="flex items-center font-almarai md:text-[1.125rem] hover:text-emerald-500">
                     <img
                       className="h-[30px] mr-2 bg-emerald-500"
                       src={diagonalArrow}
@@ -357,7 +357,7 @@ const Services = () => {
               </div>
               <div className="md:flex md:h-full md:items-end">
                 <a href="/repair-services">
-                  <div className="flex items-center font-almarai md:text-[1.125rem]">
+                  <div className="flex items-center font-almarai md:text-[1.125rem] hover:text-emerald-500">
                     <img
                       className="h-[30px] mr-2 bg-emerald-500"
                       src={diagonalArrow}
