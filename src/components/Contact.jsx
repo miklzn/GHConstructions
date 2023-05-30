@@ -423,7 +423,7 @@ const Contact = () => {
                   Location
                 </h2>
                 <p className="text-white text-[1.25rem] font-semibold relative z-10">
-                  Miami, FL
+                  Tampa, FL
                 </p>
 
                 <img
