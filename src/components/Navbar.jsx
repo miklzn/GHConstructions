@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+import logo from "../utils/images/logo2.png";
 
 const navlinks = [
   {
