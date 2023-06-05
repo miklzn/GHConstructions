@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import logo from "../utils/images/logo2.png";
+import logo from "../utils/icons/Logo1.svg";
 
 const navlinks = [
   {
@@ -50,7 +50,7 @@ const Navbar = () => {
             className="flex items-center"
           >
             <a href="/" className="text-white font-almarai">
-              LOGOTYPE
+              <img className="h-10 " src={logo} alt="" />
             </a>
           </motion.div>
           {/*navlinks*/}
